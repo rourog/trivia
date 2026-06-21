@@ -1,1 +1,218 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MITOTRIVIA</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css">
 
+</head>
+<body>
+
+    <div id="app">
+        <section id="home-screen" class="screen active">
+            <button id="btn-open-config" class="btn-icon config-btn" type="button" data-open-config aria-label="Abrir ajustes">
+                <span class="material-symbols-outlined">settings</span>
+            </button>
+            <main>
+                <h1 class="title brand-wordmark" aria-label="MITOTRIVIA">
+                    <span>MIT</span><span class="material-symbols-outlined brand-brain" aria-hidden="true">network_intelligence</span><span>TRIVIA</span>
+                </h1>
+                <p id="home-subtitle" class="subtitle">Mitos, mitotes y datos inútiles</p>
+                <div class="home-actions">
+                    <button id="btn-start" class="btn mode-btn btn-play" type="button">
+                        <span class="material-symbols-outlined">play_arrow</span>
+                        JUGAR
+                    </button>
+                    <button id="btn-time-attack" class="btn mode-btn btn-time-attack" type="button">
+                        <span class="material-symbols-outlined">timer</span>
+                        CONTRARRELOJ
+                    </button>
+                    <button id="btn-learning" class="btn mode-btn btn-learning" type="button">
+                        <span class="material-symbols-outlined">school</span>
+                        JUEGA Y APRENDE
+                    </button>
+                    <button id="btn-open-multiplayer" class="btn mode-btn btn-multiplayer" type="button">
+                        <span class="material-symbols-outlined">groups</span>
+                        MULTIJUGADOR
+                    </button>
+                </div>
+            </main>
+            <button id="btn-open-about" class="home-footer" type="button" aria-label="Acerca de MITOTRIVIA">
+                <span>by ROUROG</span>
+                <span>2026</span>
+                <span>v. 0.1.0</span>
+            </button>
+        </section>
+
+        <section id="multiplayer-setup-screen" class="screen">
+            <header class="setup-header">
+                <button id="btn-back-home" class="btn-icon" type="button" aria-label="Volver al inicio">
+                    <span class="material-symbols-outlined">arrow_back</span>
+                </button>
+                <div class="app-brand">MULTIJUGADOR</div>
+            </header>
+            <main class="setup-main">
+                <div class="setup-field">
+                    <label for="player-count">Jugadores</label>
+                    <select id="player-count" class="player-count-select">
+                        <option value="2">2 jugadores</option>
+                        <option value="3">3 jugadores</option>
+                        <option value="4">4 jugadores</option>
+                        <option value="5">5 jugadores</option>
+                        <option value="6">6 jugadores</option>
+                        <option value="7">7 jugadores</option>
+                        <option value="8">8 jugadores</option>
+                        <option value="9">9 jugadores</option>
+                        <option value="10">10 jugadores</option>
+                    </select>
+                </div>
+                <div id="players-form" class="players-form"></div>
+            </main>
+            <div class="setup-footer">
+                <button id="btn-start-multiplayer" class="btn mode-btn" type="button">
+                    <span class="material-symbols-outlined">play_arrow</span>
+                    CONTINUAR
+                </button>
+            </div>
+        </section>
+
+        <section id="game-screen" class="screen">
+            <header class="game-header">
+                <div class="header-left">
+                    <button id="btn-exit-game" class="btn-icon" type="button" aria-label="Salir">
+                        <span class="material-symbols-outlined">logout</span>
+                    </button>
+                    <div class="app-brand brand-wordmark brand-wordmark-small" aria-label="MITOTRIVIA">
+                        <span>MIT</span><span class="material-symbols-outlined brand-brain" aria-hidden="true">network_intelligence</span><span>TRIVIA</span>
+                    </div>
+                </div>
+                <div class="header-status">
+                    <div id="timer-text" class="timer-counter hidden" aria-live="polite">
+                        <span class="material-symbols-outlined">timer</span>
+                        <span id="timer-value">02:00</span>
+                    </div>
+                    <div id="strike-board" class="strike-board hidden" aria-label="Strikes" aria-live="polite">
+                        <span class="strike-slot"></span>
+                        <span class="strike-slot"></span>
+                        <span class="strike-slot"></span>
+                    </div>
+                    <div id="counter-text" class="question-counter" aria-live="polite">1/43</div>
+                </div>
+                <button class="btn-icon header-config-btn" type="button" data-open-config aria-label="Abrir ajustes">
+                    <span class="material-symbols-outlined">settings</span>
+                </button>
+            </header>
+            <div class="progress-track" aria-hidden="true">
+                <div id="progress-bar" class="progress-bar"></div>
+            </div>
+            <div id="current-player" class="current-player-banner hidden" aria-live="polite">
+                <span>Turno de</span>
+                <strong id="current-player-name">Jugador</strong>
+            </div>
+
+            <div class="question-section">
+                <div id="question-panel" class="question-panel">
+                    <div id="category-label" class="category-label">Categoría</div>
+                    <h2 id="question-text" class="question-text" aria-live="polite">Cargando...</h2>
+                    <p id="learning-explanation" class="learning-explanation hidden" aria-live="polite"></p>
+                </div>
+            </div>
+            
+            <div id="options-container" class="options-section"></div>
+        </section>
+
+        <section id="result-screen" class="screen">
+            <div id="confetti-layer" class="confetti-layer hidden" aria-hidden="true"></div>
+            <main>
+                <div class="score-box">
+                    <div id="score-title" class="score-title">Puntuación Final</div>
+                    <div id="final-score" class="score-number">0/43</div>
+                    <div id="multiplayer-scoreboard" class="multiplayer-scoreboard hidden"></div>
+                </div>
+                <div class="result-actions">
+                    <button id="btn-play-again" class="btn btn-primary" type="button">
+                        <span class="material-symbols-outlined">replay</span> Volver a Jugar
+                    </button>
+                    <button id="btn-go-home" class="btn" type="button">
+                        <span class="material-symbols-outlined">home</span> Inicio
+                    </button>
+                </div>
+            </main>
+        </section>
+    </div>
+
+    <div id="exit-modal" class="modal-overlay">
+        <div class="modal-content">
+            <div class="modal-header">¿Seguro que deseas salir?</div>
+            <p style="color: var(--text-muted); font-size: 0.95rem; margin-bottom: 10px;">Perderás tu progreso.</p>
+            <div class="modal-actions">
+                <button id="btn-cancel-exit" class="btn" type="button" style="flex: 1;">Cancelar</button>
+                <button id="btn-confirm-exit" class="btn" type="button" style="flex: 1; color: var(--color-wrong);">Salir</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="config-modal" class="modal-overlay">
+        <div class="modal-content">
+            <div class="modal-header" style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 30px;">
+                <h3 style="margin: 0;">Ajustes</h3>
+                <button id="btn-close-config" class="btn-icon" type="button" aria-label="Cerrar ajustes">
+                    <span class="material-symbols-outlined">close</span>
+                </button>
+            </div>
+            
+            <div style="display: flex; flex-direction: column; gap: 15px;">
+                <button id="btn-toggle-sound" class="btn btn-primary" type="button" style="width: 100%;" aria-pressed="true">
+                    <span id="sound-icon" class="material-symbols-outlined">volume_up</span>
+                    <span id="sound-label">Sonido Activado</span>
+                </button>
+
+                <div class="font-size-control" role="group" aria-label="Tamaño de fuente">
+                    <button id="btn-font-decrease" class="font-size-step" type="button" aria-label="Reducir tamaño de fuente">
+                        <span class="material-symbols-outlined">remove</span>
+                    </button>
+                    <span id="font-size-label" class="font-size-label" aria-live="polite">Fuente 100%</span>
+                    <button id="btn-font-increase" class="font-size-step" type="button" aria-label="Aumentar tamaño de fuente">
+                        <span class="material-symbols-outlined">add</span>
+                    </button>
+                </div>
+
+                <button id="btn-toggle-theme" class="btn" type="button" style="width: 100%;" aria-pressed="false">
+                    <span class="material-symbols-outlined">palette</span> Cambiar Tema
+                </button>
+            </div>
+        </div>
+    </div>
+    <div id="color-modal" class="modal-overlay">
+        <div class="color-modal-content">
+            <div id="color-modal-palette" class="color-modal-palette" role="radiogroup" aria-label="Seleccionar color"></div>
+            <div id="emoji-modal-palette" class="emoji-modal-palette" role="radiogroup" aria-label="Seleccionar emoji"></div>
+            <button id="btn-accept-avatar" class="btn avatar-accept-btn" type="button">Aceptar</button>
+        </div>
+    </div>
+    <div id="theme-modal" class="modal-overlay">
+        <div class="theme-modal-content">
+            <div class="modal-header">Tema</div>
+            <div id="theme-options" class="theme-options" role="radiogroup" aria-label="Seleccionar tema"></div>
+        </div>
+    </div>
+    <div id="about-modal" class="modal-overlay">
+        <div class="modal-content about-modal-content">
+            <div class="modal-header about-modal-header">
+                <h3>Acerca de</h3>
+                <button id="btn-close-about" class="btn-icon" type="button" aria-label="Cerrar acerca de">
+                    <span class="material-symbols-outlined">close</span>
+                </button>
+            </div>
+            <p class="about-copy">MITOTRIVIA es un juego sencillo de preguntas para pasarla bien, ya sea con amigos o en solitario. Algunas respuestas pueden ser ambiguas, discutibles o estar planteadas con demasiada confianza para su propio bien. No te claves demasiado: ríete, déjalo fluir y disfruta el mitote.</p>
+            <p class="about-copy">Espero que lo disfrutes.</p>
+        </div>
+    </div>
+    <script src="questions.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

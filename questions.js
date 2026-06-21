@@ -1,0 +1,817 @@
+(function () {
+    "use strict";
+
+    const QUESTION_CATEGORIES = [
+    {
+        "id": "teorias-leyendas-urbanas",
+        "nombre": "Teorías y leyendas urbanas",
+        "descripcion": "Conspiraciones, rumores virales, mitos urbanos, creepypastas y leyendas populares.",
+        "preguntas": [
+            {
+                "pregunta": "Durante décadas se ha rumoreado que Walt Disney fue criogenizado justo antes de morir. ¿Dónde dice el mito urbano que está oculto su cuerpo?",
+                "correcta": "Bajo la atracción de Piratas del Caribe.",
+                "erroneas": [
+                    "Dentro del castillo de Cenicienta.",
+                    "En una bóveda secreta en París.",
+                    "En los cimientos de los estudios Pixar."
+                ],
+                "dato": "Walt Disney fue incinerado en 1966. El rumor se volvió popular porque la criogenia estaba de moda en la cultura pop de la época y Disney era visto como un símbolo de futuro e imaginación tecnológica."
+            },
+            {
+                "pregunta": "Una famosa teoría conspirativa afirma que la llegada del hombre a la Luna en 1969 fue un fraude filmado en Hollywood. ¿A qué legendario director de cine acusan de haberlo dirigido?",
+                "correcta": "Stanley Kubrick.",
+                "erroneas": [
+                    "Steven Spielberg.",
+                    "Alfred Hitchcock.",
+                    "George Lucas."
+                ],
+                "dato": "La teoría mezcla la precisión visual de '2001: Odisea del Espacio' con lecturas forzadas de 'El Resplandor'. En realidad, no existe evidencia sólida de que Kubrick haya participado en una supuesta falsificación lunar."
+            },
+            {
+                "pregunta": "En el mundo de los videojuegos existe la leyenda de 'Polybius', una supuesta máquina arcade de los años 80 que causaba pesadillas y amnesia. ¿Quiénes se suponía que la operaban secretamente?",
+                "correcta": "Agentes del gobierno de EE.UU.",
+                "erroneas": [
+                    "Científicos de una secta tecnológica.",
+                    "Empleados de una multinacional japonesa.",
+                    "Hackers de la Unión Soviética."
+                ],
+                "dato": "El mito dice que hombres de negro recolectaban datos de las máquinas. Probablemente nació mezclando fallos reales de arcades, ansiedad tecnológica y el gusto de internet por los misterios imposibles de comprobar."
+            },
+            {
+                "pregunta": "Una famosa leyenda afirma que Paul McCartney murió en 1966 y fue reemplazado. ¿Qué supuesta pista dejaron Los Beatles en la portada de 'Abbey Road'?",
+                "correcta": "Paul camina descalzo y descoordinado.",
+                "erroneas": [
+                    "Paul viste un traje funerario.",
+                    "Paul sostiene un cigarrillo invertido.",
+                    "Paul mira fijamente a la cámara."
+                ],
+                "dato": "Los fans del mito interpretaron la portada como una procesión fúnebre: John de blanco, Ringo de negro, George con mezclilla y Paul descalzo. La lectura es famosa, aunque la banda siempre la trató como coincidencia y juego de fans."
+            },
+            {
+                "pregunta": "A mediados de los años 90, el mito del Chupacabras causó pánico masivo en México y Puerto Rico. Biológicamente, ¿qué eran muchos de los supuestos especímenes capturados?",
+                "correcta": "Coyotes con sarna severa.",
+                "erroneas": [
+                    "Linces con rabia avanzada.",
+                    "Perros salvajes con desnutrición.",
+                    "Murciélagos con mutaciones genéticas."
+                ],
+                "dato": "La sarna puede hacer que algunos mamíferos pierdan pelo y desarrollen una piel gruesa y extraña. Eso, sumado al miedo colectivo, convirtió animales enfermos en criaturas de leyenda."
+            },
+            {
+                "pregunta": "El Aeropuerto Internacional de Denver es famoso por albergar extrañas teorías conspirativas. ¿Qué terrorífico monumento da la bienvenida a los pasajeros en su entrada?",
+                "correcta": "Una escultura gigante de un caballo azul con ojos rojos brillantes.",
+                "erroneas": [
+                    "Un mural medieval que muestra el fin del mundo.",
+                    "Una estatua de gárgola que habla dentro de una maleta.",
+                    "Un obelisco negro con extraños jeroglíficos masónicos."
+                ],
+                "dato": "La escultura se llama 'Blue Mustang', aunque muchos la apodan 'Blucifer'. Su fama creció porque una pieza cayó durante su construcción y provocó la muerte de su escultor, Luis Jiménez."
+            },
+            {
+                "pregunta": "Existe una teoría de internet que afirma que Stevie Wonder no es realmente ciego. ¿Qué supuesta prueba viral alimentó el mito?",
+                "correcta": "Atrapó un micrófono que caía en un escenario.",
+                "erroneas": [
+                    "Fue visto manejando un auto deportivo.",
+                    "Miró fijamente su reloj durante una premiación.",
+                    "Fue fotografiado leyendo un menú en un restaurante."
+                ],
+                "dato": "El video muestra a Stevie Wonder reaccionando con gran rapidez ante un micrófono que cae. La explicación más razonable es que percibió el movimiento por sonido, posición y reflejos escénicos."
+            },
+            {
+                "pregunta": "La teoría satírica 'Birds Aren't Real' afirma que las aves fueron reemplazadas por drones del gobierno. Según el mito, ¿por qué se paran en cables eléctricos?",
+                "correcta": "Para recargar sus baterías.",
+                "erroneas": [
+                    "Para actualizar su software.",
+                    "Para enviar datos por fibra óptica.",
+                    "Para sincronizarse con satélites."
+                ],
+                "dato": "El movimiento nació como parodia de las teorías conspirativas extremas. Su gracia está en sonar completamente serio mientras defiende una idea deliberadamente absurda."
+            },
+            {
+                "pregunta": "Una teoría absurda de internet afirma que Finlandia no existe. ¿Para qué habría sido inventada supuestamente?",
+                "correcta": "Para permitir que Japón pescara libremente en el mar Báltico.",
+                "erroneas": [
+                    "Para esconder una base alienígena bajo la nieve.",
+                    "Para fabricar teléfonos Nokia sin impuestos.",
+                    "Para ocultar una entrada a la Tierra hueca."
+                ],
+                "dato": "La teoría dice que el territorio finlandés sería en realidad mar abierto y que la ficción permitiría transportar pescado hacia Japón. Es una de esas bromas que se volvió leyenda por lo específica que suena."
+            },
+            {
+                "pregunta": "John Titor fue un supuesto viajero del tiempo que apareció en foros a inicios de los 2000. ¿Qué computadora decía necesitar del pasado?",
+                "correcta": "IBM 5100.",
+                "erroneas": [
+                    "Apple Lisa.",
+                    "Commodore 64.",
+                    "ENIAC."
+                ],
+                "dato": "Titor afirmaba venir de 2036 para recuperar una IBM 5100 por una función técnica poco conocida. Ese detalle hizo que el relato pareciera más convincente para muchos usuarios."
+            },
+            {
+                "pregunta": "Cicada 3301 fue uno de los grandes misterios de internet. ¿Qué decía buscar el primer mensaje publicado en 2012?",
+                "correcta": "Individuos altamente inteligentes.",
+                "erroneas": [
+                    "Testigos de ovnis.",
+                    "Programadores para una secta lunar.",
+                    "Jugadores expertos de ajedrez 4D."
+                ],
+                "dato": "Cicada 3301 mezcló criptografía, esteganografía, literatura y pistas físicas en distintos países. Todavía no hay consenso sobre si fue reclutamiento, arte colectivo o un juego extremadamente elaborado."
+            },
+            {
+                "pregunta": "En 2019, el evento viral 'Storm Area 51' proponía entrar a la base militar para 'ver aliens'. ¿Qué técnica absurda se popularizó para esquivar las balas?",
+                "correcta": "Correr estilo Naruto.",
+                "erroneas": [
+                    "Caminar como cangrejo.",
+                    "Rodar como Sonic.",
+                    "Saltar en formación triangular."
+                ],
+                "dato": "El evento empezó como meme y millones marcaron asistencia en Facebook. Al final, la reunión real fue pequeña y se convirtió más en festival extraño que en invasión extraterrestre."
+            },
+            {
+                "pregunta": "En la cultura pop, las teorías Illuminati suelen obsesionarse con un gesto de manos usado por artistas como Jay-Z. ¿Qué forma ven los conspiranoicos?",
+                "correcta": "Un triángulo.",
+                "erroneas": [
+                    "Una espiral.",
+                    "Una cruz invertida.",
+                    "Un hexágono."
+                ],
+                "dato": "Jay-Z popularizó el gesto como símbolo de Roc-A-Fella Records. Internet lo reinterpretó como señal del Ojo de la Providencia y lo volvió combustible perfecto para videos conspirativos."
+            },
+            {
+                "pregunta": "En los años 90, una teoría mexicana decía que el Chupacabras fue usado como cortina de humo política. ¿A qué presidente solían asociar esa teoría?",
+                "correcta": "Carlos Salinas de Gortari.",
+                "erroneas": [
+                    "Vicente Fox.",
+                    "Ernesto Zedillo.",
+                    "Miguel de la Madrid."
+                ],
+                "dato": "El mito creció en un momento de crisis económica y tensión política. Para muchos, el monstruo servía como explicación exagerada de por qué las noticias hablaban tanto de ataques al ganado."
+            },
+            {
+                "pregunta": "En 2023, Jaime Maussan presentó en el Congreso mexicano supuestos cuerpos 'no humanos'. ¿De dónde provenían esos cuerpos, según el caso viral?",
+                "correcta": "Nazca, Perú.",
+                "erroneas": [
+                    "Roswell, Estados Unidos.",
+                    "Tula, Hidalgo.",
+                    "El Popocatépetl."
+                ],
+                "dato": "El caso de las llamadas momias de Nazca se volvió viral en todo el mundo. Numerosos especialistas han cuestionado su autenticidad y señalado inconsistencias anatómicas."
+            },
+            {
+                "pregunta": "El Popocatépetl aparece constantemente en teorías ovni mexicanas. ¿Qué dicen algunos conspiranoicos que hay dentro o debajo del volcán?",
+                "correcta": "Una base extraterrestre o portal dimensional.",
+                "erroneas": [
+                    "Una ciudad azteca intacta.",
+                    "Un laboratorio de clonación de ajolotes.",
+                    "Una estación secreta del Metro."
+                ],
+                "dato": "Las cámaras que monitorean el volcán a veces captan luces o trazos extraños. Muchas suelen explicarse como meteoros, aviones, insectos frente a la lente o basura espacial."
+            },
+            {
+                "pregunta": "En el Metro de la CDMX existe una leyenda sobre estaciones secretas o fantasma. ¿Cuál sería la supuesta estación oculta después de Cuatro Caminos?",
+                "correcta": "Transmisiones Militares.",
+                "erroneas": [
+                    "Ejército Nacional.",
+                    "Campo Uno.",
+                    "Línea Cero."
+                ],
+                "dato": "El mito dice que habría una parada clandestina para movilizar tropas. La realidad es menos cinematográfica: hay zonas técnicas, andenes de maniobra y espacios de servicio que alimentan la imaginación urbana."
+            },
+            {
+                "pregunta": "En Chihuahua, La Pascualita es una leyenda urbana sobre un maniquí extremadamente realista. ¿Qué dice el rumor que es en realidad?",
+                "correcta": "El cuerpo embalsamado de una novia.",
+                "erroneas": [
+                    "Una muñeca alemana maldita.",
+                    "Una escultura hecha con cera funeraria.",
+                    "Una santa no reconocida por la Iglesia."
+                ],
+                "dato": "La Pascualita apareció en un aparador de vestidos de novia en 1930. Sus manos, ojos y facciones tan detalladas hicieron que la gente empezara a decir que no era un maniquí común."
+            },
+            {
+                "pregunta": "Hay una leyenda urbana que afirma que jugar al cartucho original de 'Pokémon Rojo y Verde' en Japón provocó bajas en niños debido al tono de una canción. ¿Qué mapa la causaba?",
+                "correcta": "La música de Pueblo Lavanda.",
+                "erroneas": [
+                    "El tema de la Cueva Celeste.",
+                    "El sonido de la Torre Pokémon.",
+                    "La melodía de la Isla Canela."
+                ],
+                "dato": "El 'Síndrome de Pueblo Lavanda' es un creepypasta clásico. Aprovecha la atmósfera lúgubre de la zona y la música aguda del Game Boy para construir una historia inquietante."
+            },
+            {
+                "pregunta": "Según la leyenda de La Pascualita, ¿cómo habría muerto la supuesta novia original?",
+                "correcta": "Por la picadura de un alacrán el día de su boda.",
+                "erroneas": [
+                    "Ahogada en una presa.",
+                    "Envenenada con pastel de boda.",
+                    "Por una maldición de su prometido."
+                ],
+                "dato": "El relato trágico dice que la joven murió justo antes de casarse y que su madre la conservó vestida de novia. La historia cambia según quién la cuente, como buena leyenda urbana."
+            },
+            {
+                "pregunta": "La 'estación secreta' real del Metro CDMX existe, pero no es una base clandestina. ¿Para qué se usa Expometro?",
+                "correcta": "Para capacitar personal del Metro.",
+                "erroneas": [
+                    "Para guardar trenes embrujados.",
+                    "Para filmar propaganda gubernamental.",
+                    "Para esconder piezas arqueológicas."
+                ],
+                "dato": "Expometro funciona como una estación de entrenamiento con elementos reales del sistema. Sirve para practicar procedimientos sin interrumpir el servicio público."
+            },
+            {
+                "pregunta": "Una conocida teoría psicológica afirma que los personajes de Winnie Pooh representan trastornos mentales. ¿Qué condición se le asigna al burro Ígor?",
+                "correcta": "Depresión clínica y distimia.",
+                "erroneas": [
+                    "Trastorno obsesivo-compulsivo.",
+                    "Ansiedad generalizada crónica.",
+                    "Déficit de atención e hiperactividad."
+                ],
+                "dato": "La teoría asigna rasgos clínicos a cada personaje, pero funciona más como lectura popular que como diagnóstico serio. Aun así, se volvió muy compartida porque parece encajar demasiado bien."
+            },
+            {
+                "pregunta": "Durante años existió el mito urbano de que Michael Jackson compuso en secreto la música de un famoso videojuego de los 90. ¿De qué título se trataba?",
+                "correcta": "Sonic the Hedgehog 3.",
+                "erroneas": [
+                    "Super Mario World.",
+                    "Street Fighter II.",
+                    "Donkey Kong Country."
+                ],
+                "dato": "La participación de Michael Jackson en la música de Sonic 3 fue durante años una mezcla de rumor y misterio. Con el tiempo, declaraciones de personas involucradas reforzaron que sí hubo colaboración no acreditada."
+            },
+            {
+                "pregunta": "En Pokémon Rojo y Azul, una leyenda decía que Mew estaba escondido bajo un objeto específico. ¿Cuál?",
+                "correcta": "El camión junto al S.S. Anne.",
+                "erroneas": [
+                    "Una estatua del gimnasio de Ciudad Plateada.",
+                    "La cama del protagonista.",
+                    "La fuente de Ciudad Celeste."
+                ],
+                "dato": "El camión era un objeto extraño en una zona poco accesible, así que se volvió perfecto para rumores. Mew sí podía obtenerse por glitches, pero no empujando ese camión."
+            }
+        ]
+    },
+    {
+        "id": "historia-rara",
+        "nombre": "Historia rara",
+        "descripcion": "Hechos reales, datos curiosos, sucesos insólitos y rarezas documentadas.",
+        "preguntas": [
+            {
+                "pregunta": "En 1932, el ejército de Australia declaró oficialmente la guerra a una población de emúes que destruía cultivos. ¿Cómo terminó este conflicto armado?",
+                "correcta": "Los emúes ganaron y el ejército se retiró.",
+                "erroneas": [
+                    "Los emúes fueron erradicados por completo.",
+                    "Se firmó un tratado de paz con los granjeros locales.",
+                    "El ejército utilizó tanques para cercarlos."
+                ],
+                "dato": "La llamada Guerra del Emú fue un desastre logístico. Las aves se dispersaban con rapidez, resistían los disparos y obligaron a los soldados a abandonar la operación con más vergüenza que gloria."
+            },
+            {
+                "pregunta": "Fredric Baur fue el químico e ingeniero que diseñó la famosa lata cilíndrica de Pringles. ¿Qué pidió en su testamento antes de morir?",
+                "correcta": "Ser cremado y sepultado dentro de una lata de Pringles.",
+                "erroneas": [
+                    "Que la receta original fuera enterrada con él.",
+                    "Donar su fortuna al primer cliente con una lata vacía.",
+                    "Que el logo de la marca cambiara a su rostro."
+                ],
+                "dato": "Su familia cumplió el deseo en 2008. Compraron una lata de Pringles sabor Original y colocaron parte de sus cenizas dentro del envase que él ayudó a volver icónico."
+            },
+            {
+                "pregunta": "Aunque hoy asociamos la palabra 'meme' con imágenes graciosas en internet, el término fue popularizado en 1976 por un científico. ¿En qué campo nació originalmente?",
+                "correcta": "En la biología evolutiva y la genética.",
+                "erroneas": [
+                    "En la psicología infantil.",
+                    "En la informática temprana.",
+                    "En la sociología de masas."
+                ],
+                "dato": "Richard Dawkins usó la palabra 'meme' para hablar de ideas que se replican culturalmente. Internet le dio una segunda vida, bastante menos académica y bastante más caótica."
+            },
+            {
+                "pregunta": "En Xochimilco existe una leyenda viral sobre una chinampa llena de muñecas colgadas. ¿Cómo se conoce ese lugar?",
+                "correcta": "La Isla de las Muñecas.",
+                "erroneas": [
+                    "El Jardín de las Niñas Rotas.",
+                    "La Chinampa Maldita.",
+                    "El Canal de los Ojos."
+                ],
+                "dato": "El lugar se volvió famoso por sus muñecas deterioradas colgadas entre árboles y canales. La historia mezcla duelo, superstición y turismo oscuro con una imagen imposible de olvidar."
+            },
+            {
+                "pregunta": "En Coahuila se volvió viral un caso que parecía broma: policías detuvieron a un hombre y también esposaron a su muñeco. ¿Qué muñeco era?",
+                "correcta": "Chucky.",
+                "erroneas": [
+                    "Annabelle.",
+                    "El muñeco de ventrílocuo de Saw.",
+                    "Pinocho."
+                ],
+                "dato": "El hombre usaba el muñeco con un cuchillo real para intimidar personas. La imagen de Chucky esposado hizo el resto y convirtió el arresto en noticia viral."
+            }
+        ]
+    },
+    {
+        "id": "cine-tv",
+        "nombre": "Cine, TV y cultura pop",
+        "descripcion": "Películas, televisión, videojuegos, celebridades, música y cultura pop.",
+        "preguntas": [
+            {
+                "pregunta": "El icónico código digital verde que cae al inicio de las películas de 'The Matrix' parece alta tecnología, pero ¿de dónde se extrajeron realmente esos caracteres?",
+                "correcta": "Un libro de recetas de sushi.",
+                "erroneas": [
+                    "Un manual de criptografía ruso.",
+                    "Una enciclopedia de símbolos alquímicos.",
+                    "Un registro de fallas informáticas."
+                ],
+                "dato": "El diseñador Simon Whiteley ha contado que el código se basó en caracteres japoneses tomados de libros de cocina de su esposa. Así que la Matrix tiene más sushi del que parece."
+            },
+            {
+                "pregunta": "Nicolas Cage es conocido por sus excéntricas compras millonarias. ¿Qué estructura compró en un cementerio de Nueva Orleans para su futuro descanso?",
+                "correcta": "Una tumba gigante en forma de pirámide blanca.",
+                "erroneas": [
+                    "Un mausoleo gótico con gárgolas reales.",
+                    "Una réplica del castillo de Drácula bajo tierra.",
+                    "Un sarcófago romano importado."
+                ],
+                "dato": "La pirámide está en el cementerio de St. Louis No. 1 y lleva la frase latina 'Omnia Ab Uno'. Es exactamente el tipo de compra que suena inventada hasta que recuerdas que hablamos de Nicolas Cage."
+            },
+            {
+                "pregunta": "Slender Man se volvió una de las leyendas más famosas de internet. ¿Dónde nació originalmente?",
+                "correcta": "En un concurso de Photoshop del foro Something Awful.",
+                "erroneas": [
+                    "En un servidor abandonado de Minecraft.",
+                    "En una cadena de correos de Hotmail.",
+                    "En un archivo filtrado del FBI."
+                ],
+                "dato": "Eric Knudsen creó al personaje en 2009 editando fotografías antiguas con una figura alta y sin rostro. El diseño era tan simple que dejó espacio perfecto para que internet lo agrandara."
+            },
+            {
+                "pregunta": "En la mitología de internet, 'The Backrooms' son espacios amarillos infinitos y vacíos. ¿Cómo se entra supuestamente a ellos?",
+                "correcta": "Haciendo 'no-clip' fuera de la realidad.",
+                "erroneas": [
+                    "Durmiendo frente a un router viejo.",
+                    "Usando un ascensor entre pisos inexistentes.",
+                    "Siguiendo una luz fluorescente azul."
+                ],
+                "dato": "El concepto toma prestada la idea de videojuegos donde un error te permite atravesar paredes. Convertir ese bug en terror existencial fue una jugada muy internet."
+            },
+            {
+                "pregunta": "La leyenda de Minecraft 'Herobrine' describe a una figura misteriosa parecida a Steve. ¿Qué rasgo lo vuelve reconocible?",
+                "correcta": "Tiene los ojos completamente blancos.",
+                "erroneas": [
+                    "No tiene sombra.",
+                    "Camina hacia atrás.",
+                    "Solo aparece en mundos con lava."
+                ],
+                "dato": "Herobrine nació como creepypasta y se volvió parte del folclor de Minecraft. Mojang incluso bromeó durante años con notas de actualización que decían que lo habían eliminado."
+            },
+            {
+                "pregunta": "En el Efecto Mandela, mucha gente recuerda incorrectamente que Mr. Monopoly usa un accesorio clásico. ¿Cuál?",
+                "correcta": "Un monóculo.",
+                "erroneas": [
+                    "Un bastón de oro.",
+                    "Un reloj de bolsillo.",
+                    "Una pipa."
+                ],
+                "dato": "Mr. Monopoly nunca ha llevado monóculo. La confusión suele atribuirse a una mezcla mental con personajes ricos de caricatura y con Mr. Peanut, que sí usaba uno."
+            },
+            {
+                "pregunta": "Una leyenda urbana mexicana afirma que Pedro Infante no murió en el accidente aéreo de 1957, sino que vivió bajo otra identidad en Chihuahua. ¿En qué ciudad lo ubicaba el mito?",
+                "correcta": "Delicias.",
+                "erroneas": [
+                    "Parral.",
+                    "Ciudad Juárez.",
+                    "Cuauhtémoc."
+                ],
+                "dato": "El mito decía que el cantante habría quedado desfigurado y se escondió para vivir tranquilo. Como muchas leyendas de ídolos, se alimenta de la dificultad de aceptar una muerte repentina."
+            },
+            {
+                "pregunta": "Según la teoría conspirativa sobre Pedro Infante en Chihuahua, ¿qué identidad habría usado después de 'sobrevivir'?",
+                "correcta": "Antonio Pedro.",
+                "erroneas": [
+                    "José Ángel Negrete.",
+                    "Luis Mendoza.",
+                    "Ramón Valdés."
+                ],
+                "dato": "Antonio Pedro fue señalado por algunos fans por su parecido físico, su voz y sus gestos. La historia se volvió parte del mitote alrededor del Cine de Oro mexicano."
+            },
+            {
+                "pregunta": "En la teoría de que Juan Gabriel seguía vivo, ¿en qué ciudad europea se le ha ubicado en versiones recientes del mito?",
+                "correcta": "París.",
+                "erroneas": [
+                    "Madrid.",
+                    "Roma.",
+                    "Viena."
+                ],
+                "dato": "El rumor creció por declaraciones de personas cercanas y supuestos avistamientos. Como buen mito de celebridad, siempre aparece alguien que jura haberlo visto de lejos."
+            },
+            {
+                "pregunta": "Una teoría mexicana afirma que Luis Miguel murió joven y fue reemplazado por un doble. ¿Qué accidente aparece en una de las versiones del rumor?",
+                "correcta": "Un accidente esquiando.",
+                "erroneas": [
+                    "Una caída de caballo.",
+                    "Un choque en yate.",
+                    "Una explosión en un estudio."
+                ],
+                "dato": "La versión dice que la disquera habría reemplazado al cantante para proteger un negocio enorme. Es una teoría sin pruebas, pero muy persistente por los cambios de imagen del artista."
+            },
+            {
+                "pregunta": "En la leyenda urbana de Canal 5, Selene Delgado se volvió inquietante por aparecer en un segmento de personas desaparecidas. ¿Cómo se llamaba ese segmento?",
+                "correcta": "Al servicio de la comunidad.",
+                "erroneas": [
+                    "Casos sin resolver.",
+                    "México busca.",
+                    "Archivo nocturno."
+                ],
+                "dato": "La combinación de transmisión nocturna, música seria y una foto repetida durante años convirtió el segmento en material perfecto para teorías y creepypastas."
+            },
+            {
+                "pregunta": "El Ayuwoki fue un meme y creepypasta muy popular en México y Latinoamérica. ¿De qué artista era una versión terrorífica?",
+                "correcta": "Michael Jackson.",
+                "erroneas": [
+                    "Luis Miguel.",
+                    "Juan Gabriel.",
+                    "Freddie Mercury."
+                ],
+                "dato": "El nombre viene de una deformación de 'Annie, are you ok?' de 'Smooth Criminal'. Un animatrónico inquietante hizo el resto y el meme se fue directo a la cultura popular."
+            },
+            {
+                "pregunta": "Según el creepypasta del Ayuwoki, ¿qué sonido anunciaba que estaba cerca?",
+                "correcta": "'Hee hee'.",
+                "erroneas": [
+                    "'Eoo'.",
+                    "'Shamone'.",
+                    "'Au'."
+                ],
+                "dato": "El mito decía que podía aparecer de madrugada si escuchabas su característico grito. Era terror, parodia y chiste musical al mismo tiempo."
+            },
+            {
+                "pregunta": "La Mano Peluda tuvo uno de los relatos paranormales más famosos de la radio mexicana: el caso Josué. ¿Qué decía Josué que había hecho?",
+                "correcta": "Un pacto con el diablo.",
+                "erroneas": [
+                    "Un viaje astral al Metro.",
+                    "Una invocación en el Popocatépetl.",
+                    "Un exorcismo en un Oxxo."
+                ],
+                "dato": "La llamada se volvió legendaria por la tensión en vivo, las interferencias y la reacción del conductor. Para muchos oyentes fue radio de terror en su forma más efectiva."
+            }
+        ]
+    },
+    {
+        "id": "ciencia-rara",
+        "nombre": "Ciencia rara",
+        "descripcion": "Rarezas científicas, datos sorprendentes y curiosidades naturales.",
+        "preguntas": [
+            {
+                "pregunta": "Si lograras viajar exactamente a la velocidad de la luz, ¿cuánto tiempo tardarías en llegar de la Tierra al Sol?",
+                "correcta": "8 minutos y 20 segundos.",
+                "erroneas": [
+                    "80 minutos y 2 segundos.",
+                    "8 segundos.",
+                    "8 horas y 20 minutos."
+                ],
+                "dato": "La luz del Sol tarda poco más de ocho minutos en llegar a la Tierra, pero la energía creada en el núcleo solar puede tardar miles de años en escapar hasta la superficie."
+            },
+            {
+                "pregunta": "¿Qué criatura microscópica es famosa por su extrema resistencia, al grado de poder sobrevivir en el vacío del espacio?",
+                "correcta": "El tardígrado.",
+                "erroneas": [
+                    "La ameba.",
+                    "El ácaro de polvo.",
+                    "La bacteria extremófila."
+                ],
+                "dato": "Los tardígrados pueden entrar en criptobiosis, un estado donde reducen su metabolismo casi por completo. Así resisten desecación, frío extremo, radiación y condiciones muy agresivas."
+            },
+            {
+                "pregunta": "Si desenredaras todo el ADN contenido en una sola célula humana y lo estiraras en línea recta, ¿cuánto mediría aproximadamente?",
+                "correcta": "2 metros.",
+                "erroneas": [
+                    "20 metros.",
+                    "200 centímetros.",
+                    "2 milímetros."
+                ],
+                "dato": "Cada célula guarda una cantidad sorprendente de información en un espacio diminuto. La clave está en cómo el ADN se enrolla, compacta y organiza dentro del núcleo."
+            },
+            {
+                "pregunta": "¿A qué temperatura exacta coinciden las escalas de grados Celsius y Fahrenheit, marcando exactamente el mismo número?",
+                "correcta": "-40 grados.",
+                "erroneas": [
+                    "-4 grados.",
+                    "-400 grados.",
+                    "40 grados."
+                ],
+                "dato": "A -40, Celsius y Fahrenheit se cruzan. Es un punto matemáticamente elegante y climáticamente horrible."
+            },
+            {
+                "pregunta": "Si intentaras cultivar papas en la superficie de Marte al aire libre, ¿qué químico tóxico natural en la tierra marciana arruinaría tu cosecha?",
+                "correcta": "Percloratos.",
+                "erroneas": [
+                    "Cianuro.",
+                    "Ácido sulfúrico.",
+                    "Amoníaco."
+                ],
+                "dato": "El suelo marciano contiene percloratos, compuestos que pueden ser tóxicos para humanos y plantas. Cultivar comida en Marte requeriría limpiar o aislar muy bien el sustrato."
+            },
+            {
+                "pregunta": "¿Cuántos huesos en total conforman el esqueleto de un cuerpo humano adulto sano en promedio?",
+                "correcta": "206 huesos.",
+                "erroneas": [
+                    "260 huesos.",
+                    "26 huesos.",
+                    "2006 huesos."
+                ],
+                "dato": "Los bebés nacen con alrededor de 300 huesos, pero muchos se fusionan durante el crecimiento. Por eso el conteo adulto promedio baja a 206."
+            },
+            {
+                "pregunta": "El agua presenta una rareza física al momento de congelarse. ¿Cuál es?",
+                "correcta": "Se expande y pierde densidad.",
+                "erroneas": [
+                    "Se contrae y aumenta su densidad.",
+                    "Pierde por completo su conductividad eléctrica.",
+                    "Se vuelve magnética al llegar a cero grados."
+                ],
+                "dato": "Gracias a esta rareza el hielo flota. Si el hielo se hundiera, muchos cuerpos de agua se congelarían desde abajo y la vida acuática lo tendría muchísimo más difícil."
+            },
+            {
+                "pregunta": "¿Cuál es el único planeta de nuestro sistema solar que gira prácticamente 'acostado' de lado, rodando como un barril en su órbita?",
+                "correcta": "Urano.",
+                "erroneas": [
+                    "Júpiter.",
+                    "Saturno.",
+                    "Neptuno."
+                ],
+                "dato": "Urano tiene una inclinación axial extrema. Una hipótesis popular es que un impacto enorme lo dejó inclinado en los primeros tiempos del sistema solar."
+            },
+            {
+                "pregunta": "¿Qué porcentaje del universo observable se calcula que está compuesto por materia oscura y energía oscura que no podemos detectar directamente?",
+                "correcta": "Aproximadamente el 95%.",
+                "erroneas": [
+                    "Aproximadamente el 9.5%.",
+                    "Aproximadamente el 50%.",
+                    "Aproximadamente el 5%."
+                ],
+                "dato": "La materia ordinaria, todo lo que vemos y tocamos, representa una fracción pequeña del universo. El resto se infiere por sus efectos gravitacionales y por la expansión cósmica."
+            },
+            {
+                "pregunta": "¿Qué fruta de consumo diario comparte cerca del 60% de sus genes con los seres humanos?",
+                "correcta": "El plátano.",
+                "erroneas": [
+                    "La manzana.",
+                    "La fresa.",
+                    "El tomate."
+                ],
+                "dato": "No significa que seas mitad plátano. Muchos seres vivos comparten genes básicos relacionados con funciones celulares fundamentales."
+            },
+            {
+                "pregunta": "¿Qué animal marino tiene la capacidad biológica de revertir su ciclo de vida y volver a su etapa de pólipo, siendo teóricamente 'inmortal'?",
+                "correcta": "La medusa.",
+                "erroneas": [
+                    "La estrella de mar.",
+                    "El pepino de mar.",
+                    "La anémona."
+                ],
+                "dato": "La especie Turritopsis dohrnii puede regresar a una fase juvenil bajo ciertas condiciones. No es invencible, pero su ciclo de vida parece truco desbloqueado."
+            },
+            {
+                "pregunta": "Según la física cuántica, ¿qué partícula subatómica es famosa por comportarse como onda y partícula al mismo tiempo hasta que alguien la observa?",
+                "correcta": "El fotón.",
+                "erroneas": [
+                    "El protón.",
+                    "El neutrón.",
+                    "El gravitón."
+                ],
+                "dato": "El experimento de la doble rendija mostró que la luz puede comportarse como onda o partícula dependiendo de cómo se mida. La realidad microscópica es muy poco intuitiva."
+            },
+            {
+                "pregunta": "Biológicamente hablando, ¿cuántos estómagos tiene realmente una vaca para poder digerir la celulosa del pasto?",
+                "correcta": "Un estómago con cuatro compartimentos.",
+                "erroneas": [
+                    "Cuatro estómagos totalmente separados.",
+                    "Dos estómagos de gran tamaño.",
+                    "Ocho estómagos pequeños."
+                ],
+                "dato": "Las vacas tienen rumen, retículo, omaso y abomaso. Es una arquitectura digestiva ideal para que microbios especializados ayuden a procesar plantas difíciles."
+            },
+            {
+                "pregunta": "¿A qué velocidad aproximada pueden viajar algunos impulsos nerviosos desde tu cerebro hasta el resto de tu cuerpo?",
+                "correcta": "400 kilómetros por hora.",
+                "erroneas": [
+                    "40 kilómetros por hora.",
+                    "4,000 kilómetros por hora.",
+                    "4 kilómetros por hora."
+                ],
+                "dato": "La velocidad depende del tipo de neurona y de si está mielinizada. Las señales más rápidas pueden alcanzar velocidades comparables a un auto de carreras."
+            },
+            {
+                "pregunta": "¿Cómo se compara la computadora que llevó al hombre a la Luna con la tecnología que usamos hoy todos los días?",
+                "correcta": "Tenía mucha menos memoria que dispositivos modernos muy simples.",
+                "erroneas": [
+                    "Era más potente que una consola PlayStation 5.",
+                    "Usaba un procesador cuántico primitivo.",
+                    "Funcionaba solo con tarjetas perforadas de cartón."
+                ],
+                "dato": "El Apollo Guidance Computer tenía recursos muy limitados, pero estaba diseñado con enorme confiabilidad. La hazaña fue más ingeniería brillante que fuerza bruta computacional."
+            },
+            {
+                "pregunta": "¿Por qué es físicamente peligroso intentar eructar en el espacio sin gravedad?",
+                "correcta": "Porque el gas y la comida no se separan igual en tu estómago.",
+                "erroneas": [
+                    "Porque el vacío del espacio te sacaría los pulmones.",
+                    "Porque el aire se congela en tu garganta.",
+                    "Porque los trajes espaciales presurizan tu esófago."
+                ],
+                "dato": "En la Tierra, la gravedad ayuda a separar gas y líquido. En microgravedad, todo puede mezclarse, así que un simple eructo puede terminar bastante menos elegante."
+            },
+            {
+                "pregunta": "Según algunas hipótesis astrofísicas, debido a tormentas de metano y presiones extremas, ¿qué podría caer del cielo en planetas como Júpiter y Saturno?",
+                "correcta": "Diamantes.",
+                "erroneas": [
+                    "Ácido sulfúrico.",
+                    "Cristales de sal pura.",
+                    "Oro en estado líquido."
+                ],
+                "dato": "La idea es que el carbono del metano podría transformarse bajo presiones enormes. Aun si el detalle se debate, la imagen de lluvia de diamantes ya ganó su lugar en la ciencia popular."
+            },
+            {
+                "pregunta": "Si metes dos vasos exactos al congelador, uno con agua fría y otro con agua hirviendo, ¿cuál podría congelarse primero bajo ciertas condiciones?",
+                "correcta": "El vaso con agua hirviendo.",
+                "erroneas": [
+                    "El vaso con agua fría.",
+                    "Se congelan exactamente al mismo tiempo.",
+                    "El agua hirviendo explota el vaso por el choque térmico."
+                ],
+                "dato": "Se conoce como efecto Mpemba. No ocurre siempre, pero bajo ciertas condiciones el agua caliente puede congelarse antes por evaporación, convección y otros factores."
+            },
+            {
+                "pregunta": "¿Para qué inventaron unos científicos de la Universidad de Cambridge la primera cámara web de la historia en 1991?",
+                "correcta": "Para vigilar si había café en la cafetera de otro cuarto.",
+                "erroneas": [
+                    "Para comunicarse en secreto con la NASA.",
+                    "Para observar células bajo un microscopio.",
+                    "Para grabar el tráfico de la calle."
+                ],
+                "dato": "La cámara apuntaba a la cafetera del laboratorio para evitar viajes inútiles. Una de las primeras webcams nació por una necesidad profundamente humana: no caminar por café inexistente."
+            },
+            {
+                "pregunta": "El ornitorrinco pone huevos, tiene pico de pato y es venenoso. Pero, ¿cómo alimentan las hembras a sus crías?",
+                "correcta": "Sudando leche por la piel del abdomen.",
+                "erroneas": [
+                    "Vomitando comida parcialmente digerida.",
+                    "Con glándulas mamarias ocultas en el pico.",
+                    "Con algas ricas en calcio."
+                ],
+                "dato": "Los ornitorrincos no tienen pezones. La leche sale por glándulas en la piel y las crías la lamen del pelaje de la madre."
+            },
+            {
+                "pregunta": "El camarón mantis es uno de los animales más impresionantes del mar. ¿Qué sucede cuando lanza un puñetazo?",
+                "correcta": "Golpea tan rápido que genera cavitación en el agua.",
+                "erroneas": [
+                    "Se rompe su propia tenaza por la fuerza.",
+                    "Inyecta un veneno mortal para humanos.",
+                    "Genera un campo magnético."
+                ],
+                "dato": "Su golpe crea burbujas de vapor que colapsan con energía enorme. El impacto principal y la cavitación hacen de este pequeño boxeador marino una máquina absurda."
+            },
+            {
+                "pregunta": "Marie Curie descubrió el radio y el polonio. Más de 100 años después de su muerte, ¿qué pasa con sus libretas personales?",
+                "correcta": "Siguen siendo radiactivas y se conservan con precauciones especiales.",
+                "erroneas": [
+                    "Explotan al contacto con oxígeno.",
+                    "Brillan con una luz verde intensa.",
+                    "Fueron lanzadas al espacio."
+                ],
+                "dato": "Curie trabajó con materiales radiactivos antes de que se entendieran bien sus riesgos. Sus objetos personales se guardan en contenedores protegidos."
+            },
+            {
+                "pregunta": "A diferencia de los humanos, ¿cómo hacen los delfines para dormir sin ahogarse?",
+                "correcta": "Duermen con la mitad del cerebro apagada y un ojo abierto.",
+                "erroneas": [
+                    "Duermen flotando de cabeza.",
+                    "Activan branquias secretas.",
+                    "Se recargan en la arena."
+                ],
+                "dato": "Se llama sueño unihemisférico. Una mitad del cerebro descansa mientras la otra mantiene al animal respirando y atento al entorno."
+            },
+            {
+                "pregunta": "Científicamente hablando, ¿los seres humanos brillan en la oscuridad?",
+                "correcta": "Sí, pero la luz es demasiado débil para nuestros ojos.",
+                "erroneas": [
+                    "No, eso solo pasa en películas.",
+                    "Solo bajo luces de neón.",
+                    "Solo con fiebre extrema."
+                ],
+                "dato": "El cuerpo humano emite una luz visible extremadamente tenue por reacciones químicas celulares. Cámaras sensibles pueden detectarla, pero nuestros ojos no."
+            },
+            {
+                "pregunta": "Tu estómago produce ácido clorhídrico para digerir alimentos. ¿Qué tan potente puede ser ese ácido en condiciones controladas?",
+                "correcta": "Puede corroer metales delgados con el tiempo.",
+                "erroneas": [
+                    "Puede derretir vidrio instantáneamente.",
+                    "Puede disolver diamantes en segundos.",
+                    "Puede convertir plástico en azúcar."
+                ],
+                "dato": "El ácido gástrico tiene un pH muy bajo, normalmente entre 1.5 y 3.5. Tu propio estómago no se destruye porque está protegido por una capa de moco que se renueva constantemente."
+            },
+            {
+                "pregunta": "¿Cómo se llama el olor característico que aparece cuando empieza a llover después de un periodo seco?",
+                "correcta": "Petricor.",
+                "erroneas": [
+                    "Ozono dulce.",
+                    "Geosombra.",
+                    "Lluviamina."
+                ],
+                "dato": "El petricor viene de aceites liberados por plantas y compuestos producidos por bacterias del suelo. Cuando caen las primeras gotas, pequeñas burbujas lanzan esas moléculas aromáticas al aire."
+            },
+            {
+                "pregunta": "La botánica puede ser un dolor de cabeza. ¿Cuál de estas frutas es técnicamente una baya verdadera, mientras que la fresa no lo es?",
+                "correcta": "El plátano.",
+                "erroneas": [
+                    "La zarzamora.",
+                    "La frambuesa.",
+                    "La cereza."
+                ],
+                "dato": "Botánicamente, una baya se desarrolla de una flor con un ovario y contiene semillas dentro. Las fresas son frutas accesorias, aunque en la vida diaria nadie quiere discutir eso en el súper."
+            },
+            {
+                "pregunta": "Si comparamos la temperatura del núcleo de la Tierra con la superficie del Sol, ¿cuál es el resultado aproximado?",
+                "correcta": "Están casi a la misma temperatura.",
+                "erroneas": [
+                    "La superficie del Sol es un millón de veces más caliente.",
+                    "El centro de la Tierra está súper enfriado.",
+                    "El núcleo de la Tierra es el doble de caliente."
+                ],
+                "dato": "El núcleo interno terrestre ronda temperaturas cercanas a las de la superficie solar. La diferencia es que uno está bajo tus pies y el otro arruina cualquier picnic a 150 millones de kilómetros."
+            },
+            {
+                "pregunta": "Los biólogos marinos descubrieron que, cuando los pulpos salen a cazar formando equipo con peces, a veces hacen algo impulsivo. ¿Qué es?",
+                "correcta": "Golpean a los peces en la cabeza sin razón aparente.",
+                "erroneas": [
+                    "Les roban comida y los entierran.",
+                    "Les quitan escamas para usarlas como escudo.",
+                    "Les escupen tinta directo a los ojos."
+                ],
+                "dato": "Se ha observado a pulpos golpeando peces durante cacerías cooperativas. A veces parece regular el equipo; otras veces parece una decisión muy personal y cero diplomática."
+            },
+            {
+                "pregunta": "En la escala del tiempo de nuestro planeta, ¿qué dinosaurio vivió cronológicamente más cerca del ser humano y del iPhone?",
+                "correcta": "El Tyrannosaurus rex.",
+                "erroneas": [
+                    "El Estegosaurio.",
+                    "El Diplodocus.",
+                    "El Brontosaurio."
+                ],
+                "dato": "El T. rex vivió hace unos 66 millones de años, mientras que el Estegosaurio vivió hace cerca de 150 millones. Hay menos tiempo entre nosotros y el T. rex que entre el T. rex y el Estegosaurio."
+            }
+        ]
+    }
+];
+
+    const categoriasNormalizadas = Object.freeze(QUESTION_CATEGORIES.map(categoria => {
+        const preguntas = Object.freeze(categoria.preguntas.map(pregunta => {
+            const opcionesIncorrectas = [
+                pregunta.erroneas && pregunta.erroneas[0] ? pregunta.erroneas[0] : "",
+                pregunta.erroneas && pregunta.erroneas[1] ? pregunta.erroneas[1] : "",
+                pregunta.erroneas && pregunta.erroneas[2] ? pregunta.erroneas[2] : ""
+            ];
+
+            return Object.freeze({
+                pregunta: String(pregunta.pregunta || "").trim(),
+                opciones: Object.freeze([...opcionesIncorrectas, String(pregunta.correcta || "").trim()]),
+                correcta: String(pregunta.correcta || "").trim(),
+                erroneas: Object.freeze(opcionesIncorrectas.map(opcion => String(opcion).trim())),
+                datoCurioso: pregunta.dato ? String(pregunta.dato).trim() : null,
+                categoria: categoria.nombre,
+                categoriaId: categoria.id
+            });
+        }));
+
+        return Object.freeze({
+            id: categoria.id,
+            nombre: categoria.nombre,
+            descripcion: categoria.descripcion,
+            preguntas
+        });
+    }));
+
+    function obtenerCategoriasPreguntas() {
+        return categoriasNormalizadas.map(({ id, nombre, descripcion, preguntas }) => ({
+            id,
+            nombre,
+            descripcion,
+            total: preguntas.length
+        }));
+    }
+
+    function obtenerIdsCategorias() {
+        return categoriasNormalizadas.map(categoria => categoria.id);
+    }
+
+    function obtenerPreguntasPorCategorias(categoriasActivas = obtenerIdsCategorias()) {
+        const categoriasPermitidas = new Set(categoriasActivas);
+        return categoriasNormalizadas
+            .filter(categoria => categoriasPermitidas.has(categoria.id))
+            .flatMap(categoria => categoria.preguntas);
+    }
+
+    window.TriviaQuestionBank = Object.freeze({
+        obtenerCategorias: obtenerCategoriasPreguntas,
+        obtenerIdsCategorias,
+        obtenerPreguntas: obtenerPreguntasPorCategorias
+    });
+})();
