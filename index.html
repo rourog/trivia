@@ -3,10 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-    <title>MITOTRIVIA</title>
+    <meta name="theme-color" content="#112840">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-title" content="MitOtrivia">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <title>MitOtrivia</title>
     
+    <link rel="manifest" href="manifest.webmanifest">
+    <link rel="icon" href="icons/icon-192.png">
+    <link rel="apple-touch-icon" href="icons/icon-192.png">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,500,0,0" rel="stylesheet" />
     <link rel="stylesheet" href="styles.css">
 
 </head>
@@ -18,8 +27,8 @@
                 <span class="material-symbols-outlined">settings</span>
             </button>
             <main>
-                <h1 class="title brand-wordmark" aria-label="MITOTRIVIA">
-                    <span>MIT</span><span class="material-symbols-outlined brand-brain" aria-hidden="true">network_intelligence</span><span>TRIVIA</span>
+                <h1 class="title brand-wordmark" aria-label="MitOtrivia">
+                    <span>MIT</span><span class="material-symbols-rounded brand-brain brand-brain-icon" aria-hidden="true">network_intelligence</span><span>TRIVIA</span>
                 </h1>
                 <p id="home-subtitle" class="subtitle">Mitos, mitotes y datos inútiles</p>
                 <div class="home-actions">
@@ -41,7 +50,7 @@
                     </button>
                 </div>
             </main>
-            <button id="btn-open-about" class="home-footer" type="button" aria-label="Acerca de MITOTRIVIA">
+            <button id="btn-open-about" class="home-footer" type="button" aria-label="Acerca de MitOtrivia">
                 <span>by ROUROG</span>
                 <span>2026</span>
                 <span>v. 0.1.0</span>
@@ -86,8 +95,8 @@
                     <button id="btn-exit-game" class="btn-icon" type="button" aria-label="Salir">
                         <span class="material-symbols-outlined">logout</span>
                     </button>
-                    <div class="app-brand brand-wordmark brand-wordmark-small" aria-label="MITOTRIVIA">
-                        <span>MIT</span><span class="material-symbols-outlined brand-brain" aria-hidden="true">network_intelligence</span><span>TRIVIA</span>
+                    <div class="app-brand brand-wordmark brand-wordmark-small" aria-label="MitOtrivia">
+                        <span>MIT</span><span class="material-symbols-rounded brand-brain brand-brain-icon" aria-hidden="true">network_intelligence</span><span>TRIVIA</span>
                     </div>
                 </div>
                 <div class="header-status">
@@ -171,6 +180,10 @@
                     <span id="sound-label">Sonido Activado</span>
                 </button>
 
+                <button id="btn-test-sound" class="btn" type="button" style="width: 100%;">
+                    <span class="material-symbols-outlined">graphic_eq</span> Probar Sonido
+                </button>
+
                 <div class="font-size-control" role="group" aria-label="Tamaño de fuente">
                     <button id="btn-font-decrease" class="font-size-step" type="button" aria-label="Reducir tamaño de fuente">
                         <span class="material-symbols-outlined">remove</span>
@@ -208,7 +221,7 @@
                     <span class="material-symbols-outlined">close</span>
                 </button>
             </div>
-            <p class="about-copy">MITOTRIVIA es un juego sencillo de preguntas para pasarla bien, ya sea con amigos o en solitario. Algunas respuestas pueden ser ambiguas, discutibles o estar planteadas con demasiada confianza para su propio bien. No te claves demasiado: ríete, déjalo fluir y disfruta el mitote.</p>
+            <p class="about-copy">MitOtrivia es un juego sencillo de preguntas para pasarla bien, ya sea con amigos o en solitario. Algunas respuestas pueden ser ambiguas, discutibles o estar planteadas con demasiada confianza para su propio bien. No te claves demasiado: ríete, déjalo fluir y disfruta el mitote.</p>
             <p class="about-copy">Espero que lo disfrutes.</p>
         </div>
     </div>

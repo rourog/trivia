@@ -25,11 +25,7 @@
             max: 1.25,
             step: 0.05
         }),
-        sounds: Object.freeze({
-            pop: "https://actions.google.com/sounds/v1/cartoon/pop.ogg",
-            start: "https://actions.google.com/sounds/v1/cartoon/magic_chime.ogg",
-            wrong: "https://actions.google.com/sounds/v1/cartoon/cartoon_boing.ogg"
-        })
+        soundVolume: 0.62
     });
 
     const SELECTORS = Object.freeze({
@@ -82,6 +78,7 @@
             cancelExit: "btn-cancel-exit",
             confirmExit: "btn-confirm-exit",
             toggleSound: "btn-toggle-sound",
+            testSound: "btn-test-sound",
             toggleTheme: "btn-toggle-theme",
             fontDecrease: "btn-font-decrease",
             fontIncrease: "btn-font-increase",
@@ -121,8 +118,7 @@
     const AudioEngine = (() => {
         let context = null;
         let enabled = STORAGE.get(CONFIG.storageKeys.sound, "true") !== "false";
-        const buffers = new Map();
-        const loading = new Map();
+        let unlocked = false;
 
         function getContext() {
             if (!context) {
@@ -131,64 +127,148 @@
                 context = new AudioContextClass();
             }
 
-            if (context.state === "suspended") {
-                context.resume();
-            }
-
             return context;
         }
 
-        async function loadSound(name) {
-            if (buffers.has(name)) return buffers.get(name);
-            if (loading.has(name)) return loading.get(name);
+        async function unlock() {
+            const audioContext = getContext();
+            if (!audioContext) return null;
 
-            const soundUrl = CONFIG.sounds[name];
-            if (!soundUrl) return null;
+            if (audioContext.state === "suspended") {
+                try {
+                    await audioContext.resume();
+                } catch {
+                    return audioContext;
+                }
+            }
 
-            const promise = fetch(soundUrl)
-                .then(response => {
-                    if (!response.ok) throw new Error(`No se pudo cargar el sonido ${name}.`);
-                    return response.arrayBuffer();
-                })
-                .then(arrayBuffer => getContext()?.decodeAudioData(arrayBuffer))
-                .then(audioBuffer => {
-                    if (audioBuffer) buffers.set(name, audioBuffer);
-                    loading.delete(name);
-                    return audioBuffer;
-                })
-                .catch(error => {
-                    loading.delete(name);
-                    console.warn(error);
-                    return null;
-                });
+            if (!unlocked && audioContext.state === "running") {
+                const oscillator = audioContext.createOscillator();
+                const gainNode = audioContext.createGain();
+                const startTime = audioContext.currentTime;
 
-            loading.set(name, promise);
-            return promise;
+                gainNode.gain.setValueAtTime(0.0001, startTime);
+                oscillator.frequency.setValueAtTime(60, startTime);
+                oscillator.connect(gainNode);
+                gainNode.connect(audioContext.destination);
+                oscillator.start(startTime);
+                oscillator.stop(startTime + 0.018);
+                unlocked = true;
+            }
+
+            return audioContext;
         }
 
         function preload() {
-            Object.keys(CONFIG.sounds).forEach(loadSound);
+            unlock();
+        }
+
+        function createGain(audioContext, startTime, duration, volume = 1) {
+            const gainNode = audioContext.createGain();
+            const peak = CONFIG.soundVolume * volume;
+
+            gainNode.gain.setValueAtTime(0.0001, startTime);
+            gainNode.gain.exponentialRampToValueAtTime(Math.max(0.0001, peak), startTime + 0.012);
+            gainNode.gain.exponentialRampToValueAtTime(0.0001, startTime + duration);
+            gainNode.connect(audioContext.destination);
+            return gainNode;
+        }
+
+        function tone(audioContext, {
+            frequency,
+            start = 0,
+            duration = 0.12,
+            type = "sine",
+            volume = 1,
+            slideTo = null
+        }) {
+            const startTime = audioContext.currentTime + start;
+            const oscillator = audioContext.createOscillator();
+            const gainNode = createGain(audioContext, startTime, duration, volume);
+
+            oscillator.type = type;
+            oscillator.frequency.setValueAtTime(frequency, startTime);
+            if (slideTo) {
+                oscillator.frequency.exponentialRampToValueAtTime(slideTo, startTime + duration);
+            }
+
+            oscillator.connect(gainNode);
+            oscillator.start(startTime);
+            oscillator.stop(startTime + duration + 0.018);
+        }
+
+        function noise(audioContext, {
+            start = 0,
+            duration = 0.08,
+            volume = 0.35,
+            filterFrequency = 900
+        } = {}) {
+            const startTime = audioContext.currentTime + start;
+            const sampleRate = audioContext.sampleRate;
+            const buffer = audioContext.createBuffer(1, Math.floor(sampleRate * duration), sampleRate);
+            const data = buffer.getChannelData(0);
+
+            for (let index = 0; index < data.length; index++) {
+                data[index] = (Math.random() * 2 - 1) * (1 - index / data.length);
+            }
+
+            const source = audioContext.createBufferSource();
+            const filter = audioContext.createBiquadFilter();
+            const gainNode = createGain(audioContext, startTime, duration, volume);
+
+            filter.type = "lowpass";
+            filter.frequency.setValueAtTime(filterFrequency, startTime);
+            source.buffer = buffer;
+            source.connect(filter);
+            filter.connect(gainNode);
+            source.start(startTime);
         }
 
         async function play(name, rate = 1) {
             if (!enabled) return;
 
-            const audioContext = getContext();
+            const audioContext = await unlock();
             if (!audioContext) return;
+            if (audioContext.state !== "running") return;
 
-            const audioBuffer = await loadSound(name);
-            if (!audioBuffer) return;
+            const pitch = Math.max(0.75, Math.min(1.8, rate));
 
-            const source = audioContext.createBufferSource();
-            const gainNode = audioContext.createGain();
-
-            source.buffer = audioBuffer;
-            source.playbackRate.value = rate;
-            gainNode.gain.value = 0.5;
-
-            source.connect(gainNode);
-            gainNode.connect(audioContext.destination);
-            source.start(0);
+            switch (name) {
+                case "tap":
+                case "pop":
+                    tone(audioContext, { frequency: 420 * pitch, duration: 0.055, type: "triangle", volume: 0.28, slideTo: 760 * pitch });
+                    tone(audioContext, { frequency: 960 * pitch, start: 0.018, duration: 0.045, type: "sine", volume: 0.14 });
+                    break;
+                case "correct":
+                    tone(audioContext, { frequency: 523.25, duration: 0.09, type: "sine", volume: 0.42 });
+                    tone(audioContext, { frequency: 659.25, start: 0.055, duration: 0.1, type: "sine", volume: 0.46 });
+                    tone(audioContext, { frequency: 987.77, start: 0.12, duration: 0.16, type: "triangle", volume: 0.38 });
+                    noise(audioContext, { start: 0.03, duration: 0.11, volume: 0.12, filterFrequency: 4200 });
+                    break;
+                case "wrong":
+                    tone(audioContext, { frequency: 220, duration: 0.12, type: "sawtooth", volume: 0.22, slideTo: 150 });
+                    tone(audioContext, { frequency: 164.81, start: 0.04, duration: 0.14, type: "triangle", volume: 0.22, slideTo: 130.81 });
+                    noise(audioContext, { start: 0, duration: 0.08, volume: 0.12, filterFrequency: 700 });
+                    break;
+                case "strike":
+                    tone(audioContext, { frequency: 150, duration: 0.09, type: "square", volume: 0.24, slideTo: 95 });
+                    tone(audioContext, { frequency: 110, start: 0.08, duration: 0.12, type: "sawtooth", volume: 0.18, slideTo: 80 });
+                    break;
+                case "start":
+                    tone(audioContext, { frequency: 392, duration: 0.1, type: "triangle", volume: 0.3 });
+                    tone(audioContext, { frequency: 523.25, start: 0.07, duration: 0.12, type: "triangle", volume: 0.34 });
+                    tone(audioContext, { frequency: 783.99, start: 0.16, duration: 0.18, type: "sine", volume: 0.38 });
+                    break;
+                case "win":
+                    tone(audioContext, { frequency: 523.25, duration: 0.11, type: "triangle", volume: 0.32 });
+                    tone(audioContext, { frequency: 659.25, start: 0.08, duration: 0.12, type: "triangle", volume: 0.34 });
+                    tone(audioContext, { frequency: 783.99, start: 0.16, duration: 0.14, type: "triangle", volume: 0.36 });
+                    tone(audioContext, { frequency: 1046.5, start: 0.26, duration: 0.24, type: "sine", volume: 0.38 });
+                    noise(audioContext, { start: 0.2, duration: 0.18, volume: 0.1, filterFrequency: 5200 });
+                    break;
+                default:
+                    tone(audioContext, { frequency: 440 * pitch, duration: 0.08, type: "triangle", volume: 0.2 });
+            }
         }
 
         function setEnabled(nextEnabled) {
@@ -202,6 +282,7 @@
 
         return Object.freeze({
             preload,
+            unlock,
             play,
             setEnabled,
             isEnabled
@@ -355,6 +436,7 @@
                 cancelExit: byId(SELECTORS.buttons.cancelExit),
                 confirmExit: byId(SELECTORS.buttons.confirmExit),
                 toggleSound: byId(SELECTORS.buttons.toggleSound),
+                testSound: byId(SELECTORS.buttons.testSound),
                 toggleTheme: byId(SELECTORS.buttons.toggleTheme),
                 fontDecrease: byId(SELECTORS.buttons.fontDecrease),
                 fontIncrease: byId(SELECTORS.buttons.fontIncrease),
@@ -415,18 +497,29 @@
 
     function bindPressFeedback() {
         const pressableSelector = ".btn, .btn-icon, .option-btn, .font-size-step, .theme-option, .player-color-trigger, .player-color-choice, .player-emoji-choice, .player-reset-btn, .home-footer";
+        let activePressTarget = null;
+
+        function clearPressedState() {
+            if (!activePressTarget) return;
+            activePressTarget.classList.remove("is-pressed");
+            activePressTarget = null;
+        }
 
         document.addEventListener("pointerdown", event => {
             const button = event.target.closest(pressableSelector);
             if (!button || button.disabled) return;
 
-            button.classList.remove("press-feedback");
-            void button.offsetWidth;
-            button.classList.add("press-feedback");
+            clearPressedState();
+            activePressTarget = button;
+            button.classList.add("is-pressed");
+        });
 
-            window.setTimeout(() => {
-                button.classList.remove("press-feedback");
-            }, 240);
+        document.addEventListener("pointerup", clearPressedState);
+        document.addEventListener("pointercancel", clearPressedState);
+        document.addEventListener("pointerleave", event => {
+            if (event.target === document) {
+                clearPressedState();
+            }
         });
     }
 
@@ -608,7 +701,7 @@
         colorTrigger.dataset.selectedEmoji = fallbackPlayer.emoji;
         colorTrigger.style.backgroundColor = fallbackPlayer.color;
         rememberPlayersFromForm();
-        AudioEngine.play("pop");
+        AudioEngine.play("tap");
     }
 
     function openColorModal(colorTrigger) {
@@ -670,7 +763,7 @@
         activeColorTrigger.style.backgroundColor = colorButton.dataset.color;
         renderColorModalPalette(colorButton.dataset.color);
         rememberPlayersFromForm();
-        AudioEngine.play("pop");
+        AudioEngine.play("tap");
     }
 
     function selectPlayerEmoji(emojiButton) {
@@ -680,7 +773,7 @@
         activeColorTrigger.querySelector(".player-avatar-emoji").textContent = emojiButton.dataset.emoji;
         renderEmojiModalPalette(emojiButton.dataset.emoji);
         rememberPlayersFromForm();
-        AudioEngine.play("pop");
+        AudioEngine.play("tap");
     }
 
     function openMultiplayerSetup() {
@@ -895,14 +988,16 @@
             if (currentPlayer) {
                 currentPlayer.score++;
             }
-            AudioEngine.play("pop", 1.6);
+            AudioEngine.play("correct");
         } else {
             selectedButton.classList.add("wrong", "shake");
             setFeedbackIcon(selectedButton, "cancel");
-            AudioEngine.play("wrong");
             if (isTimeAttackMode()) {
+                AudioEngine.play("strike");
                 state.strikes = Math.min(CONFIG.maxStrikes, state.strikes + 1);
                 updateStrikeBoard();
+            } else {
+                AudioEngine.play("wrong");
             }
 
             optionButtons.forEach(button => {
@@ -958,7 +1053,7 @@
         if (!state.isLearningAwaitingAdvance || !isLearningMode()) return;
         if (event.target.closest(".btn-icon, .modal-overlay")) return;
 
-        AudioEngine.play("pop", 1.2);
+        AudioEngine.play("tap", 1.2);
         goToNextQuestion();
     }
 
@@ -1029,6 +1124,9 @@
             DOM.result.confettiLayer.classList.add("hidden");
         }
 
+        if (reason !== "strikes") {
+            AudioEngine.play("win");
+        }
         setScreen(DOM.screens.result);
     }
 
@@ -1149,8 +1247,21 @@
         updateSoundButton();
 
         if (nextValue) {
-            AudioEngine.play("pop");
+            AudioEngine.play("tap");
         }
+    }
+
+    function testSoundPack() {
+        if (!AudioEngine.isEnabled()) {
+            AudioEngine.setEnabled(true);
+            updateSoundButton();
+        }
+
+        AudioEngine.play("tap");
+        window.setTimeout(() => AudioEngine.play("start"), 120);
+        window.setTimeout(() => AudioEngine.play("correct"), 520);
+        window.setTimeout(() => AudioEngine.play("strike"), 980);
+        window.setTimeout(() => AudioEngine.play("win"), 1320);
     }
 
     function clampFontScale(scale) {
@@ -1186,7 +1297,7 @@
         const currentScale = getSavedFontScale();
         const nextScale = normalizeFontScale(currentScale + (CONFIG.fontScale.step * direction));
         applyFontScale(nextScale);
-        AudioEngine.play("pop");
+        AudioEngine.play("tap");
     }
 
     function applySavedFontScale() {
@@ -1204,6 +1315,18 @@
 
     function applySavedTheme() {
         applyTheme(STORAGE.get(CONFIG.storageKeys.theme, "blue-gold"));
+    }
+
+    function registerServiceWorker() {
+        if (!("serviceWorker" in navigator)) return;
+
+        window.addEventListener("load", () => {
+            navigator.serviceWorker.register("./sw.js")
+                .then(registration => registration.update())
+                .catch(error => {
+                    console.warn("No se pudo registrar el service worker.", error);
+                });
+        });
     }
 
     function renderThemeOptions() {
@@ -1238,12 +1361,13 @@
     }
 
     function openThemeModal() {
-        AudioEngine.play("pop");
+        AudioEngine.play("tap");
         setModal(DOM.modals.theme, true);
     }
 
     function bindEvents() {
-        document.body.addEventListener("pointerdown", AudioEngine.preload, { once: true });
+        document.body.addEventListener("pointerdown", AudioEngine.preload, { once: true, capture: true });
+        document.body.addEventListener("keydown", AudioEngine.preload, { once: true, capture: true });
         bindPressFeedback();
         DOM.game.optionsContainer.addEventListener("click", handleAnswerClick);
 
@@ -1299,13 +1423,13 @@
             }
         });
         DOM.buttons.acceptAvatar.addEventListener("click", () => {
-            AudioEngine.play("pop");
+            AudioEngine.play("tap");
             activeColorTrigger = null;
             setModal(DOM.modals.color, false);
         });
         DOM.buttons.playAgain.addEventListener("click", startGame);
         DOM.buttons.goHome.addEventListener("click", () => {
-            AudioEngine.play("pop");
+            AudioEngine.play("tap");
             clearAdvanceTimer();
             clearCountdownTimer();
             state.isLearningAwaitingAdvance = false;
@@ -1322,35 +1446,36 @@
         });
 
         DOM.buttons.exitGame.addEventListener("click", () => {
-            AudioEngine.play("pop");
+            AudioEngine.play("tap");
             setModal(DOM.modals.exit, true);
         });
         DOM.buttons.cancelExit.addEventListener("click", () => {
-            AudioEngine.play("pop");
+            AudioEngine.play("tap");
             setModal(DOM.modals.exit, false);
         });
         DOM.buttons.confirmExit.addEventListener("click", () => {
-            AudioEngine.play("pop");
+            AudioEngine.play("tap");
             exitGame();
         });
 
         DOM.buttons.openConfig.forEach(button => button.addEventListener("click", () => {
-            AudioEngine.play("pop");
+            AudioEngine.play("tap");
             setModal(DOM.modals.config, true);
         }));
         DOM.buttons.closeConfig.addEventListener("click", () => {
-            AudioEngine.play("pop");
+            AudioEngine.play("tap");
             setModal(DOM.modals.config, false);
         });
         DOM.buttons.toggleTheme.addEventListener("click", openThemeModal);
         DOM.buttons.toggleSound.addEventListener("click", toggleSound);
+        DOM.buttons.testSound?.addEventListener("click", testSoundPack);
         DOM.buttons.fontDecrease.addEventListener("click", () => adjustFontScale(-1));
         DOM.buttons.fontIncrease.addEventListener("click", () => adjustFontScale(1));
         DOM.multiplayer.themeOptions.addEventListener("click", event => {
             const themeButton = event.target.closest(".theme-option");
             if (!themeButton) return;
 
-            AudioEngine.play("pop");
+            AudioEngine.play("tap");
             applyTheme(themeButton.dataset.themeId);
             setModal(DOM.modals.theme, false);
         });
@@ -1360,11 +1485,11 @@
             }
         });
         DOM.buttons.openAbout.addEventListener("click", () => {
-            AudioEngine.play("pop");
+            AudioEngine.play("tap");
             setModal(DOM.modals.about, true);
         });
         DOM.buttons.closeAbout.addEventListener("click", () => {
-            AudioEngine.play("pop");
+            AudioEngine.play("tap");
             setModal(DOM.modals.about, false);
         });
         DOM.modals.about.addEventListener("click", event => {
@@ -1402,6 +1527,7 @@
         applySavedTheme();
         rotateHomeTagline();
         bindEvents();
+        registerServiceWorker();
     }
 
     init();

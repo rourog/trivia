@@ -4,6 +4,8 @@ from tkinter import messagebox, ttk
 import re
 import os
 import winsound
+import traceback
+import ctypes
 from datetime import datetime
 
 # --- RUTAS DE ARCHIVOS ---
@@ -42,14 +44,20 @@ CATEGORY_DEFAULTS = {
     )
 }
 
-SMART_QUOTES = str.maketrans({
-    "“": '"',
-    "”": '"',
-    "‘": "'",
-    "’": "'",
-    "«": '"',
-    "»": '"'
-})
+SMART_QUOTES = (
+    ("\u201c", '"'),
+    ("\u201d", '"'),
+    ("\u2018", "'"),
+    ("\u2019", "'"),
+    ("\u00ab", '"'),
+    ("\u00bb", '"'),
+    ("\u00e2\u20ac\u0153", '"'),
+    ("\u00e2\u20ac\u009d", '"'),
+    ("\u00e2\u20ac\u02dc", "'"),
+    ("\u00e2\u20ac\u2122", "'"),
+    ("\u00c2\u00ab", '"'),
+    ("\u00c2\u00bb", '"')
+)
 
 # --- PLANTILLA DEL JS ---
 JS_TEMPLATE = """(function () {
@@ -111,7 +119,7 @@ JS_TEMPLATE = """(function () {
 class MitotriviaEditor:
     def __init__(self, root):
         self.root = root
-        self.root.title("🧠 MITOTRIVIA - Panel de Control del Banco de Preguntas (Auto-Reparable)")
+        self.root.title("🧠 MitOtrivia - Panel de Control del Banco de Preguntas (Auto-Reparable)")
         self.root.geometry("1200x820")
         self.root.configure(bg="#112840")
         
@@ -134,6 +142,8 @@ class MitotriviaEditor:
         self.COLOR_PALETTE = ["#6db3cd", "#cd96b1", "#c9af6e", "#99c278", "#cd7d6a", "#6ec9a6", "#aa84cd"]
         self.categoria_colores = {}
         self.pregunta_mapa = []
+        self.categoria_en_edicion = None
+        self.pregunta_en_edicion = None
 
         self.datos = []
 
@@ -170,6 +180,9 @@ class MitotriviaEditor:
             bg="#234a75", fg=self.COLOR_TEXT, bd=0, cursor="hand2", padx=10, pady=4, command=self.forzar_recarga_manual
         )
         btn_reload.pack(side=tk.RIGHT)
+
+        self.contador_preguntas_frame = tk.Frame(list_panel, bg=self.COLOR_PANEL)
+        self.contador_preguntas_frame.pack(fill=tk.X, padx=15, pady=(0, 8))
         
         list_frame = tk.Frame(list_panel, bg=self.COLOR_PANEL)
         list_frame.pack(fill=tk.BOTH, expand=True, padx=15, pady=(0, 12))
@@ -186,6 +199,10 @@ class MitotriviaEditor:
         self.listbox.pack(side=tk.LEFT, fill=tk.BOTH, expand=True)
         self.listbox.bind('<<ListboxSelect>>', self.cargar_seleccion)
         self.listbox.bind('<Delete>', self.eliminar_pregunta_event)
+        self.listbox.bind('<Up>', self.navegar_lista_con_flechas)
+        self.listbox.bind('<Down>', self.navegar_lista_con_flechas)
+        self.listbox.bind('<Left>', lambda event: "break")
+        self.listbox.bind('<Right>', lambda event: "break")
         
         bulk_panel = tk.Frame(left_panel, bg=self.COLOR_PANEL)
         bulk_panel.pack(fill=tk.X, side=tk.BOTTOM)
@@ -219,8 +236,16 @@ class MitotriviaEditor:
         # ================= PANEL DERECHO: FORMULARIO INDIVIDUAL =================
         right_panel = tk.Frame(self.splitter, bg=self.COLOR_PANEL)
         
-        lbl_form = tk.Label(right_panel, text="📝 EDITOR DE CONTENIDO INDIVIDUAL", font=self.FONT_TITLE, bg=self.COLOR_PANEL, fg=self.COLOR_GOLD)
+        lbl_form = tk.Label(right_panel, text="\U0001f4dd EDITOR DE CONTENIDO INDIVIDUAL", font=self.FONT_TITLE, bg=self.COLOR_PANEL, fg=self.COLOR_GOLD)
         lbl_form.pack(anchor="w", padx=15, pady=(12, 5))
+        self.lbl_editor_estado = tk.Label(
+            right_panel,
+            text="Modo: nueva pregunta",
+            font=("Segoe UI", 9, "bold"),
+            bg=self.COLOR_PANEL,
+            fg=self.COLOR_CYAN
+        )
+        self.lbl_editor_estado.pack(anchor="w", padx=15, pady=(0, 5))
         
         form_inner = tk.Frame(right_panel, bg=self.COLOR_PANEL)
         form_inner.pack(fill=tk.BOTH, expand=True, padx=15)
@@ -237,9 +262,9 @@ class MitotriviaEditor:
         campos_restantes = [
             ("Pregunta del Mitote", "pregunta", True), 
             ("Respuesta Correcta ✨", "correcta", False),
-            ("Opción Errónea 1 ❌", "err1", False),
-            ("Opción Errónea 2 ❌", "err2", False),
-            ("Opción Errónea 3 ❌", "err3", False),
+            ("Opci\u00f3n Err\u00f3nea 1 \u274c", "err1", False),
+            ("Opci\u00f3n Err\u00f3nea 2 \u274c", "err2", False),
+            ("Opci\u00f3n Err\u00f3nea 3 \u274c", "err3", False),
             ("Dato Curioso / Explicación de la pausa 🧠", "dato", True)
         ]
         
@@ -280,7 +305,25 @@ class MitotriviaEditor:
         winsound.PlaySound("SystemMenu", winsound.SND_ALIAS | winsound.SND_ASYNC)
 
     def sanear_texto(self, valor):
-        return str(valor or "").translate(SMART_QUOTES).strip()
+        texto = str(valor or "")
+        for origen, destino in SMART_QUOTES:
+            texto = texto.replace(origen, destino)
+        return texto.strip()
+
+    def capitalizar_frase(self, valor):
+        texto = re.sub(r'\s+', ' ', self.sanear_texto(valor))
+        for indice, caracter in enumerate(texto):
+            if caracter.isalpha():
+                return texto[:indice] + caracter.upper() + texto[indice + 1:]
+        return texto
+
+    def asegurar_punto_respuesta(self, valor):
+        texto = self.capitalizar_frase(valor).rstrip()
+        if not texto:
+            return texto
+        if texto.endswith((".", "?", "!", "…", "。", "؟", "¡", "¿")):
+            return texto
+        return f"{texto}."
 
     def crear_categoria(self, cat_id):
         nombre, descripcion = CATEGORY_DEFAULTS.get(
@@ -298,14 +341,14 @@ class MitotriviaEditor:
         erroneas = pregunta.get("erroneas", [])
         if not isinstance(erroneas, list):
             erroneas = []
-        erroneas = [self.sanear_texto(opcion) for opcion in erroneas[:3]]
+        erroneas = [self.asegurar_punto_respuesta(opcion) for opcion in erroneas[:3]]
         while len(erroneas) < 3:
             erroneas.append("")
 
         dato = pregunta.get("dato", pregunta.get("datoCurioso", ""))
         return {
-            "pregunta": self.sanear_texto(pregunta.get("pregunta", "")),
-            "correcta": self.sanear_texto(pregunta.get("correcta", "")),
+            "pregunta": self.capitalizar_frase(pregunta.get("pregunta", "")),
+            "correcta": self.asegurar_punto_respuesta(pregunta.get("correcta", "")),
             "erroneas": erroneas,
             "dato": self.sanear_texto(dato)
         }
@@ -400,7 +443,7 @@ class MitotriviaEditor:
         raise ValueError("Sintaxis rota: los corchetes del array no se cierran.")
 
     def convertir_js_array_a_json(self, js_array):
-        json_like = js_array.translate(SMART_QUOTES)
+        json_like = self.sanear_texto(js_array)
         key_pattern = r'([{\[,]\s*)(' + "|".join(QUESTION_KEYS) + r')\s*:'
         json_like = re.sub(key_pattern, r'\1"\2":', json_like)
         json_like = re.sub(r',\s*([\]}])', r'\1', json_like)
@@ -426,7 +469,7 @@ class MitotriviaEditor:
             self.actualizar_lista()
             self.actualizar_combobox_categorias()
             total_p = sum(len(cat.get("preguntas", [])) for cat in self.datos)
-            messagebox.showinfo("Auto-Reparación Exitosa", f"¡Archivo 'questions.js' saneado y cargado correctamente!\n\nSe procesaron {total_p} preguntas distribuidas en {len(self.datos)} categorías de forma segura.")
+            messagebox.showinfo("Auto-Reparaci\u00f3n Exitosa", f"\u00a1Archivo 'questions.js' saneado y cargado correctamente!\n\nSe procesaron {total_p} preguntas distribuidas en {len(self.datos)} categor\u00edas de forma segura.")
         else:
             winsound.MessageBeep(winsound.MB_ICONHAND)
             messagebox.showerror(
@@ -447,23 +490,93 @@ class MitotriviaEditor:
     def actualizar_lista(self):
         self.listbox.delete(0, tk.END)
         self.pregunta_mapa = []
+        self.actualizar_contador_preguntas()
         for cat in self.datos:
             color_circulo = self.categoria_colores.get(cat["id"], self.COLOR_TEXT)
             for p in cat["preguntas"]:
-                self.listbox.insert(tk.END, f"  ●   {p.get('pregunta', 'Sin texto')}")
+                self.listbox.insert(tk.END, f"  \u25cf   {p.get('pregunta', 'Sin texto')}")
                 self.listbox.itemconfig(tk.END, fg=color_circulo, selectforeground=self.COLOR_INPUT_BG)
                 self.pregunta_mapa.append((cat["id"], color_circulo))
+
+    def actualizar_contador_preguntas(self):
+        if not hasattr(self, "contador_preguntas_frame"):
+            return
+
+        for widget in self.contador_preguntas_frame.winfo_children():
+            widget.destroy()
+
+        total = 0
+        for cat in self.datos:
+            cantidad = len(cat.get("preguntas", []))
+            if cantidad == 0:
+                continue
+
+            total += cantidad
+            color = self.categoria_colores.get(cat["id"], self.COLOR_TEXT)
+            item = tk.Frame(self.contador_preguntas_frame, bg=self.COLOR_PANEL)
+            item.pack(side=tk.LEFT, padx=(0, 12))
+
+            tk.Label(
+                item,
+                text="\u25cf",
+                font=("Segoe UI", 10, "bold"),
+                bg=self.COLOR_PANEL,
+                fg=color
+            ).pack(side=tk.LEFT)
+            tk.Label(
+                item,
+                text=str(cantidad),
+                font=("Segoe UI", 10, "bold"),
+                bg=self.COLOR_PANEL,
+                fg=self.COLOR_MUTED
+            ).pack(side=tk.LEFT, padx=(4, 0))
+
+        tk.Label(
+            self.contador_preguntas_frame,
+            text=f"Total {total}",
+            font=("Segoe UI", 10, "bold"),
+            bg=self.COLOR_PANEL,
+            fg=self.COLOR_GOLD
+        ).pack(side=tk.RIGHT)
+
+    def actualizar_estado_editor(self):
+        if not hasattr(self, "lbl_editor_estado"):
+            return
+
+        if self.pregunta_en_edicion is None:
+            self.lbl_editor_estado.config(text="Modo: nueva pregunta", fg=self.COLOR_CYAN)
+        else:
+            self.lbl_editor_estado.config(text="Modo: editando pregunta existente", fg=self.COLOR_GOLD)
+
+    def navegar_lista_con_flechas(self, event):
+        total = self.listbox.size()
+        if total == 0:
+            return "break"
+
+        seleccion = self.listbox.curselection()
+        indice_actual = seleccion[0] if seleccion else 0
+        delta = -1 if event.keysym == "Up" else 1
+        nuevo_indice = max(0, min(total - 1, indice_actual + delta))
+
+        self.listbox.selection_clear(0, tk.END)
+        self.listbox.selection_set(nuevo_indice)
+        self.listbox.activate(nuevo_indice)
+        self.listbox.see(nuevo_indice)
+        self.cargar_seleccion(None)
+        return "break"
 
     def cargar_seleccion(self, event):
         seleccion = self.listbox.curselection()
         if not seleccion: return
-        self.reproducir_click()
         idx = seleccion[0]
         
         contador = 0
         for cat in self.datos:
             for p in cat["preguntas"]:
                 if contador == idx:
+                    self.categoria_en_edicion = cat
+                    self.pregunta_en_edicion = p
+                    self.actualizar_estado_editor()
                     self.limpiar_form_interno()
                     self.entradas["categoria_id"].set(cat["id"])
                     self.entradas["pregunta"].insert("1.0", p.get("pregunta", ""))
@@ -482,6 +595,9 @@ class MitotriviaEditor:
     def modo_nueva_pregunta(self):
         self.reproducir_click()
         cat_actual = self.entradas["categoria_id"].get().strip()
+        self.categoria_en_edicion = None
+        self.pregunta_en_edicion = None
+        self.actualizar_estado_editor()
         self.listbox.selection_clear(0, tk.END)
         self.limpiar_form_interno()
         if cat_actual:
@@ -490,6 +606,10 @@ class MitotriviaEditor:
 
     def limpiar_form(self):
         self.reproducir_click()
+        self.categoria_en_edicion = None
+        self.pregunta_en_edicion = None
+        self.actualizar_estado_editor()
+        self.listbox.selection_clear(0, tk.END)
         self.limpiar_form_interno()
 
     def limpiar_form_interno(self):
@@ -505,13 +625,43 @@ class MitotriviaEditor:
         self.reproducir_click()
         self.txt_bulk_json.delete("1.0", tk.END)
 
+    def encontrar_pregunta_en_edicion(self):
+        if self.pregunta_en_edicion is None:
+            return None, None
+
+        for categoria in self.datos:
+            for indice, pregunta in enumerate(categoria.get("preguntas", [])):
+                if pregunta is self.pregunta_en_edicion:
+                    return categoria, indice
+
+        return None, None
+
+    def obtener_indice_global_pregunta(self, pregunta_buscada):
+        contador = 0
+        for categoria in self.datos:
+            for pregunta in categoria.get("preguntas", []):
+                if pregunta is pregunta_buscada:
+                    return contador
+                contador += 1
+        return None
+
+    def seleccionar_pregunta_guardada(self, pregunta_guardada):
+        indice = self.obtener_indice_global_pregunta(pregunta_guardada)
+        if indice is None:
+            return
+
+        self.listbox.selection_clear(0, tk.END)
+        self.listbox.selection_set(indice)
+        self.listbox.activate(indice)
+        self.listbox.see(indice)
+
     def guardar_pregunta(self):
         self.reproducir_click()
         cat_id = self.entradas["categoria_id"].get().strip()
         pregunta_text = self.entradas["pregunta"].get("1.0", tk.END).strip()
-        
+
         if not cat_id or not pregunta_text:
-            messagebox.showwarning("Atención", "Selecciona/escribe un ID de Categoría y la pregunta.")
+            messagebox.showwarning("Atenci\u00f3n", "Selecciona/escribe un ID de categor\u00eda y la pregunta.")
             return
 
         nueva_pregunta = self.normalizar_pregunta({
@@ -532,42 +682,35 @@ class MitotriviaEditor:
                 "Completa estos campos antes de guardar:\n\n- " + "\n- ".join(faltantes)
             )
             return
-        
+
         categoria_encontrada = next((c for c in self.datos if c["id"] == cat_id), None)
         if not categoria_encontrada:
             categoria_encontrada = self.crear_categoria(cat_id)
             self.datos.append(categoria_encontrada)
             self.asignar_colores_categorias()
             self.actualizar_combobox_categorias()
-            
-        seleccion = self.listbox.curselection()
-        if seleccion:
-            idx = seleccion[0]
-            contador = 0
-            actualizado = False
-            for c in self.datos:
-                for i, p in enumerate(c["preguntas"]):
-                    if contador == idx:
-                        if c["id"] == cat_id:
-                            c["preguntas"][i] = nueva_pregunta
-                        else:
-                            del c["preguntas"][i]
-                            categoria_encontrada["preguntas"].append(nueva_pregunta)
-                        actualizado = True
-                        break
-                    contador += 1
-                if actualizado:
-                    break
+
+        categoria_original, indice_original = self.encontrar_pregunta_en_edicion()
+        if categoria_original is not None:
+            if categoria_original["id"] == cat_id:
+                categoria_original["preguntas"][indice_original] = nueva_pregunta
+            else:
+                del categoria_original["preguntas"][indice_original]
+                categoria_encontrada["preguntas"].append(nueva_pregunta)
         else:
             categoria_encontrada["preguntas"].append(nueva_pregunta)
-        
+
         self.datos = [cat for cat in self.datos if cat.get("preguntas")]
+        self.categoria_en_edicion = next((cat for cat in self.datos if nueva_pregunta in cat.get("preguntas", [])), None)
+        self.pregunta_en_edicion = nueva_pregunta
         self.guardar_json_local()
-            
+
         self.actualizar_lista()
         self.actualizar_combobox_categorias()
-        self.limpiar_form_interno()
-        messagebox.showinfo("Éxito", "Pregunta guardada.")
+        self.seleccionar_pregunta_guardada(nueva_pregunta)
+        self.cargar_seleccion(None)
+        self.actualizar_estado_editor()
+        messagebox.showinfo("\u00c9xito", "Pregunta guardada.")
 
     def eliminar_pregunta_event(self, event):
         seleccion = self.listbox.curselection()
@@ -592,7 +735,7 @@ class MitotriviaEditor:
             pregunta_corta = pregunta_a_borrar[:50] + "..." if len(pregunta_a_borrar) > 50 else pregunta_a_borrar
             winsound.MessageBeep(winsound.MB_ICONEXCLAMATION)
             confirmacion = messagebox.askyesno(
-                "⚠️ ¿Borrar Mitote?", 
+                "\u26a0\ufe0f \u00bfBorrar Mitote?", 
                 f"¿Estás seguro de que quieres eliminar esta pregunta para siempre?\n\n\"{pregunta_corta}\""
             )
             
@@ -607,6 +750,9 @@ class MitotriviaEditor:
                 with open(JSON_FILE, 'w', encoding='utf-8') as f:
                     json.dump(self.datos, f, indent=4, ensure_ascii=False)
                     
+                self.categoria_en_edicion = None
+                self.pregunta_en_edicion = None
+                self.actualizar_estado_editor()
                 self.actualizar_lista()
                 self.limpiar_form_interno()
                 messagebox.showinfo("Eliminado", "La pregunta ha sido borrada.")
@@ -626,7 +772,7 @@ class MitotriviaEditor:
             
         try:
             # --- SANEAMIENTO PREVENTIVO DEL TEXTO PEGADO EN LA CAJA MASIVA ---
-            contenido_saneado = contenido.replace("“", '"').replace("”", '"').replace("‘", "'").replace("’", "'")
+            contenido_saneado = self.sanear_texto(contenido)
             nuevas_preguntas = json.loads(contenido_saneado)
             
             if isinstance(nuevas_preguntas, dict):
@@ -718,8 +864,8 @@ class MitotriviaEditor:
         if total_preguntas == 0:
             winsound.MessageBeep(winsound.MB_ICONHAND)
             confirmar_borrado_total = messagebox.askyesno(
-                "🚨 ¡ALERTA CRÍTICA DE DESTRUCCIÓN!",
-                "Estás intentando sincronizar una base de datos COMPLETAMENTE VACÍA.\n\n"
+                "\U0001f6a8 \u00a1ALERTA CR\u00cdTICA DE DESTRUCCI\u00d3N!",
+                "Est\u00e1s intentando sincronizar una base de datos COMPLETAMENTE VAC\u00cdA.\n\n"
                 "Si continúas, vas a BORRAR todas las preguntas de 'questions.js' para siempre.\n\n"
                 "¿Deseas vaciar por completo el archivo de juego?"
             )
@@ -754,7 +900,24 @@ class MitotriviaEditor:
         except PermissionError:
             messagebox.showerror("Permiso Denegado", "Cierra 'questions.js' de cualquier otro programa o servidor e intenta de nuevo.")
 
+def mostrar_error_arranque(error):
+    detalle = traceback.format_exc()
+    with open("editor_error.log", "w", encoding="utf-8") as log:
+        log.write(detalle)
+
+    mensaje = (
+        "No se pudo abrir el editor de MitOtrivia.\n\n"
+        f"{error}\n\n"
+        "Se guardo el detalle tecnico en editor_error.log."
+    )
+    ctypes.windll.user32.MessageBoxW(None, mensaje, "Error al abrir editor", 0x10)
+
+
 if __name__ == "__main__":
-    root = tk.Tk()
-    app = MitotriviaEditor(root)
-    root.mainloop()
+    try:
+        root = tk.Tk()
+        app = MitotriviaEditor(root)
+        root.mainloop()
+    except Exception as error:
+        mostrar_error_arranque(error)
+

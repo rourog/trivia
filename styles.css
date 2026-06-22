@@ -453,15 +453,13 @@
         [data-open-config]:hover::after {
             animation: goldGleam 0.8s ease-out both;
         }
-        .btn:active:not(:disabled) {
+        .btn:active:not(:disabled),
+        .btn.is-pressed:not(:disabled) {
             box-shadow: var(--shadow-inset);
             transform: translateY(1px) scale(0.965);
             transition-duration: 0.04s;
         }
 
-        .btn.press-feedback:not(:disabled) {
-            animation: buttonPressPulse 0.22s ease-out both;
-        }
         .btn-primary { color: var(--accent-color); }
 
         /* =========================================
@@ -508,7 +506,10 @@
             z-index: 2;
         }
 
-        #home-screen .config-btn:active { transform: scale(0.95); }
+        #home-screen .config-btn:active,
+        #home-screen .config-btn.is-pressed {
+            transform: scale(0.95);
+        }
 
         [data-open-config] .material-symbols-outlined {
             position: relative;
@@ -546,7 +547,7 @@
             display: inline-flex;
             align-items: center;
             justify-content: center;
-            gap: 0.018em;
+            gap: 0;
             line-height: 1;
             white-space: nowrap;
         }
@@ -583,18 +584,32 @@
                 brightness(1.08);
         }
 
-        .brand-brain.material-symbols-outlined {
-            width: 1em;
-            height: 1em;
+        .brand-brain-icon {
+            width: 0.64em;
+            height: 1.12em;
+            margin-inline: 0.018em;
             position: relative;
             z-index: 1;
             display: inline-flex;
             align-items: center;
             justify-content: center;
+            flex: 0 0 auto;
             color: var(--brand-brain-color);
-            font-size: 0.98em;
+            font-family: "Material Symbols Rounded";
+            font-size: 1.16em;
+            font-weight: 500;
             line-height: 1;
-            filter: drop-shadow(2px 2px 4px var(--shadow-dark)) drop-shadow(0 0 8px color-mix(in srgb, var(--brand-brain-color) 34%, transparent));
+            -webkit-text-fill-color: var(--brand-brain-color);
+            font-variation-settings:
+                "FILL" 0,
+                "wght" 500,
+                "GRAD" 0,
+                "opsz" 24;
+            overflow: visible;
+            filter:
+                drop-shadow(2px 2px 4px var(--shadow-dark))
+                drop-shadow(0 0 12px color-mix(in srgb, var(--brand-brain-color) 52%, transparent))
+                drop-shadow(0 0 16px color-mix(in srgb, var(--accent-color) 36%, transparent));
         }
 
         #home-screen .brand-brain::before {
@@ -670,12 +685,8 @@
             outline: none;
         }
 
-        .home-footer:active {
-            box-shadow: var(--shadow-inset);
-            transform: translateX(-50%) translateY(1px) scale(0.98);
-        }
-
-        .home-footer.press-feedback {
+        .home-footer:active,
+        .home-footer.is-pressed {
             box-shadow: var(--shadow-inset);
             transform: translateX(-50%) translateY(1px) scale(0.98);
         }
@@ -865,7 +876,8 @@
             color: var(--color-wrong);
         }
 
-        .player-reset-btn:active {
+        .player-reset-btn:active,
+        .player-reset-btn.is-pressed {
             transform: scale(0.94);
             box-shadow: var(--shadow-inset);
         }
@@ -1028,13 +1040,10 @@
             overflow: hidden;
         }
 
-        .font-size-step:active:not(:disabled) {
+        .font-size-step:active:not(:disabled),
+        .font-size-step.is-pressed:not(:disabled) {
             background: rgba(255, 255, 255, 0.06);
             transform: translateY(1px) scale(0.96);
-        }
-
-        .font-size-step.press-feedback:not(:disabled) {
-            animation: iconButtonPressPulse 0.22s ease-out both;
         }
 
         .font-size-step:disabled {
@@ -1161,14 +1170,11 @@
                 transform 0.12s ease;
             overflow: hidden;
         }
-        .btn-icon:active {
+        .btn-icon:active,
+        .btn-icon.is-pressed {
             box-shadow: var(--shadow-inset);
             transform: translateY(1px) scale(0.94);
             transition-duration: 0.04s;
-        }
-
-        .btn-icon.press-feedback {
-            animation: iconButtonPressPulse 0.22s ease-out both;
         }
 
         #home-screen .config-btn {
@@ -1217,9 +1223,13 @@
             font-size: clamp(1rem, 3vw, 1.28rem);
         }
 
-        .brand-wordmark-small .brand-brain.material-symbols-outlined {
-            font-size: 0.96em;
-            filter: none;
+        .brand-wordmark-small .brand-brain-icon {
+            width: 0.6em;
+            height: 1.08em;
+            margin-inline: 0.014em;
+            font-size: 1.1em;
+            -webkit-text-fill-color: var(--brand-brain-color);
+            filter: drop-shadow(0 0 4px color-mix(in srgb, var(--accent-color) 28%, transparent));
         }
 
         .header-status {
@@ -1495,14 +1505,11 @@
             opacity: 0.9;
             box-shadow: none;
         }
-        .option-btn:active:not(:disabled) {
+        .option-btn:active:not(:disabled),
+        .option-btn.is-pressed:not(:disabled) {
             box-shadow: var(--shadow-inset);
             transform: translateY(1px) scale(0.965);
             transition-duration: 0.04s;
-        }
-
-        .option-btn.press-feedback:not(:disabled) {
-            animation: buttonPressPulse 0.22s ease-out both;
         }
         .option-btn.correct {
             background-color: var(--color-correct) !important;
