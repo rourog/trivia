@@ -1,4 +1,4 @@
-const CACHE_VERSION = "mitotrivia-v0.1.9";
+const CACHE_VERSION = "mitotrivia-v0.2.0";
 const APP_SHELL = [
     "./",
     "./index.html",

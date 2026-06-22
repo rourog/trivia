@@ -20,9 +20,15 @@ QUESTION_KEYS = (
     "preguntas",
     "pregunta",
     "correcta",
+    "respuesta",
+    "respuestaCorrecta",
     "erroneas",
+    "incorrectas",
+    "opciones",
     "dato",
-    "datoCurioso"
+    "datoCurioso",
+    "explicacion",
+    "explanation"
 )
 
 CATEGORY_DEFAULTS = {
@@ -41,6 +47,34 @@ CATEGORY_DEFAULTS = {
     "ciencia-rara": (
         "Ciencia rara",
         "Rarezas científicas, datos sorprendentes y curiosidades naturales."
+    ),
+    "musica": (
+        "Música",
+        "Canciones, artistas, discos, historias raras y datos musicales."
+    ),
+    "tecnologia": (
+        "Tecnología",
+        "Inventos, internet, software, cultura digital y rarezas tecnológicas."
+    ),
+    "crimen-real": (
+        "Crimen real",
+        "Casos documentados, investigaciones y sucesos policiales conocidos."
+    ),
+    "deportes": (
+        "Deportes",
+        "Hazañas, reglas, atletas, torneos y datos curiosos deportivos."
+    ),
+    "capitalismo-raro": (
+        "Capitalismo raro",
+        "Marcas, negocios, productos, dinero y decisiones comerciales extrañas."
+    ),
+    "planeta-absurdo": (
+        "Planeta absurdo",
+        "Animales, lugares, fenómenos y rarezas del mundo real."
+    ),
+    "arte": (
+        "Arte",
+        "Pintura, escultura, museos, artistas y cultura visual."
     )
 }
 
@@ -65,31 +99,55 @@ JS_TEMPLATE = """(function () {
 
     const QUESTION_CATEGORIES = %s;
 
+    function textoPregunta(valor) {
+        return String(valor || "").trim();
+    }
+
+    function obtenerCorrecta(pregunta) {
+        return textoPregunta(pregunta.correcta || pregunta.respuestaCorrecta || pregunta.respuesta);
+    }
+
+    function obtenerErroneas(pregunta, correcta) {
+        const fuente = Array.isArray(pregunta.erroneas)
+            ? pregunta.erroneas
+            : Array.isArray(pregunta.incorrectas)
+                ? pregunta.incorrectas
+                : Array.isArray(pregunta.opciones)
+                    ? pregunta.opciones.filter(opcion => textoPregunta(opcion).toLowerCase() !== correcta.toLowerCase())
+                    : [];
+
+        return [0, 1, 2].map(indice => textoPregunta(fuente[indice]));
+    }
+
+    function obtenerDato(pregunta) {
+        return textoPregunta(pregunta.dato || pregunta.datoCurioso || pregunta.explicacion || pregunta.explanation);
+    }
+
     const categoriasNormalizadas = Object.freeze(QUESTION_CATEGORIES.map(categoria => {
-        const preguntas = Object.freeze(categoria.preguntas.map(pregunta => {
-            const opcionesIncorrectas = [
-                pregunta.erroneas && pregunta.erroneas[0] ? pregunta.erroneas[0] : "",
-                pregunta.erroneas && pregunta.erroneas[1] ? pregunta.erroneas[1] : "",
-                pregunta.erroneas && pregunta.erroneas[2] ? pregunta.erroneas[2] : ""
-            ];
+        const preguntasFuente = Array.isArray(categoria.preguntas) ? categoria.preguntas : [];
+        const preguntas = Object.freeze(preguntasFuente.map(pregunta => {
+            const correcta = obtenerCorrecta(pregunta);
+            const opcionesIncorrectas = obtenerErroneas(pregunta, correcta);
+            const datoCurioso = obtenerDato(pregunta);
+
             return Object.freeze({
-                pregunta: String(pregunta.pregunta || "").trim(),
-                opciones: Object.freeze([...opcionesIncorrectas, String(pregunta.correcta || "").trim()]),
-                correcta: String(pregunta.correcta || "").trim(),
-                erroneas: Object.freeze(opcionesIncorrectas.map(opcion => String(opcion).trim())),
-                datoCurioso: pregunta.dato ? String(pregunta.dato).trim() : null,
-                categoria: categoria.nombre,
-                categoriaId: categoria.id
+                pregunta: textoPregunta(pregunta.pregunta),
+                opciones: Object.freeze([...opcionesIncorrectas, correcta]),
+                correcta,
+                erroneas: Object.freeze(opcionesIncorrectas),
+                datoCurioso: datoCurioso || null,
+                categoria: textoPregunta(categoria.nombre || categoria.id),
+                categoriaId: textoPregunta(categoria.id)
             });
-        }));
+        }).filter(pregunta => pregunta.pregunta && pregunta.correcta && pregunta.erroneas.every(Boolean)));
 
         return Object.freeze({
-            id: categoria.id,
-            nombre: categoria.nombre,
-            descripcion: categoria.descripcion,
+            id: textoPregunta(categoria.id),
+            nombre: textoPregunta(categoria.nombre || categoria.id),
+            descripcion: textoPregunta(categoria.descripcion),
             preguntas
         });
-    }));
+    }).filter(categoria => categoria.id && categoria.preguntas.length > 0));
 
     function obtenerCategoriasPreguntas() {
         return categoriasNormalizadas.map(({ id, nombre, descripcion, preguntas }) => ({
@@ -338,17 +396,28 @@ class MitotriviaEditor:
         }
 
     def normalizar_pregunta(self, pregunta):
-        erroneas = pregunta.get("erroneas", [])
+        correcta = pregunta.get("correcta", pregunta.get("respuestaCorrecta", pregunta.get("respuesta", "")))
+        erroneas = pregunta.get("erroneas", pregunta.get("incorrectas", []))
+        if not erroneas and isinstance(pregunta.get("opciones"), list):
+            correcta_normalizada = self.sanear_texto(correcta).strip().lower()
+            erroneas = [
+                opcion
+                for opcion in pregunta.get("opciones", [])
+                if self.sanear_texto(opcion).strip().lower() != correcta_normalizada
+            ]
         if not isinstance(erroneas, list):
             erroneas = []
         erroneas = [self.asegurar_punto_respuesta(opcion) for opcion in erroneas[:3]]
         while len(erroneas) < 3:
             erroneas.append("")
 
-        dato = pregunta.get("dato", pregunta.get("datoCurioso", ""))
+        dato = pregunta.get(
+            "dato",
+            pregunta.get("datoCurioso", pregunta.get("explicacion", pregunta.get("explanation", "")))
+        )
         return {
             "pregunta": self.capitalizar_frase(pregunta.get("pregunta", "")),
-            "correcta": self.asegurar_punto_respuesta(pregunta.get("correcta", "")),
+            "correcta": self.asegurar_punto_respuesta(correcta),
             "erroneas": erroneas,
             "dato": self.sanear_texto(dato)
         }

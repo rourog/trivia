@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  File "C:\Users\ruli2\Desktop\Trivia\editor.py", line 874, in <module>
+    app = MitotriviaEditor(root)
+  File "C:\Users\ruli2\Desktop\Trivia\editor.py", line 145, in __init__
+    self.categoria_en_edicion = next((cat for cat in self.datos if nueva_pregunta in cat.get("preguntas", [])), None)
+                                                     ^^^^^^^^^^
+AttributeError: 'MitotriviaEditor' object has no attribute 'datos'

@@ -246,6 +246,376 @@
                     "La fuente de Ciudad Celeste."
                 ],
                 "dato": "El camión era un objeto extraño en una zona poco accesible, así que se volvió perfecto para rumores. Mew sí podía obtenerse por glitches, pero no empujando ese camión."
+            },
+            {
+                "pregunta": "El Monstruo del Lago Ness tiene una foto famosísima de 1934 conocida como la 'foto del cirujano'. ¿Qué resultó ser esa imagen?",
+                "correcta": "Un engaño con una cabeza falsa sobre un submarino de juguete.",
+                "erroneas": [
+                    "Una foto real de una anguila gigante.",
+                    "Una sombra de un bote pesquero.",
+                    "Una estatua hundida de un museo escocés."
+                ],
+                "dato": "La foto ayudó a convertir a Nessie en celebridad mundial, pero en 1994 se reveló como hoax. Básicamente: un juguete con buen marketing venció a décadas de escepticismo."
+            },
+            {
+                "pregunta": "El Mothman es una criatura de leyenda asociada a Point Pleasant, Virginia Occidental. ¿Con qué tragedia suele relacionarse su mito?",
+                "correcta": "El colapso del Silver Bridge.",
+                "erroneas": [
+                    "La explosión de una mina de carbón.",
+                    "El incendio de una feria ambulante.",
+                    "La desaparición de un tren militar."
+                ],
+                "dato": "Los supuestos avistamientos de Mothman se volvieron famosos alrededor del colapso del Silver Bridge en 1967. Como buena leyenda urbana, tomó una tragedia real y le puso alas, ojos rojos y trauma colectivo."
+            },
+            {
+                "pregunta": "Las famosas 'hadas de Cottingley' fueron fotografías que convencieron incluso a Arthur Conan Doyle. ¿Qué eran realmente las hadas?",
+                "correcta": "Recortes de papel colocados frente a la cámara.",
+                "erroneas": [
+                    "Insectos ampliados con microscopio.",
+                    "Reflejos de cristales en el jardín.",
+                    "Muñecas mecánicas importadas de Francia."
+                ],
+                "dato": "Dos niñas tomaron las fotos en 1917 y el caso se volvió uno de los grandes engaños fotográficos del siglo XX. Sherlock Holmes resolvía misterios; su creador, no tanto."
+            },
+            {
+                "pregunta": "Los círculos de cultivo fueron interpretados por muchos como mensajes extraterrestres. ¿Qué explicación se demostró muchas veces?",
+                "correcta": "Eran hechos por personas con herramientas simples.",
+                "erroneas": [
+                    "Eran quemaduras causadas por meteoritos.",
+                    "Eran mapas secretos de satélites soviéticos.",
+                    "Eran patrones naturales del crecimiento del trigo."
+                ],
+                "dato": "Muchos círculos fueron creados por bromistas y artistas usando tablas, cuerdas y planificación. Los aliens viajaron años luz para descubrir que dos señores con una tabla ya les habían ganado."
+            },
+            {
+                "pregunta": "Los misteriosos Toynbee Tiles son placas incrustadas en calles de varias ciudades. ¿Qué planeta aparece en su mensaje más famoso?",
+                "correcta": "Júpiter.",
+                "erroneas": [
+                    "Marte.",
+                    "Saturno.",
+                    "Venus."
+                ],
+                "dato": "Las placas suelen mencionar una idea de Toynbee, la película '2001' y resucitar muertos en Júpiter. Es arte urbano, conspiración, poesía rota y esquizofrenia tipográfica en un solo paquete."
+            },
+            {
+                "pregunta": "En 1987, dos estaciones de TV de Chicago fueron interrumpidas por una transmisión pirata. ¿Qué máscara usaba el intruso?",
+                "correcta": "Una máscara de Max Headroom.",
+                "erroneas": [
+                    "Una máscara de Darth Vader.",
+                    "Una máscara de Ronald Reagan.",
+                    "Una máscara de Mickey Mouse."
+                ],
+                "dato": "El incidente Max Headroom sigue sin resolverse. Fue una transmisión rara, incómoda y técnicamente difícil para la época. Una especie de creepypasta real antes de que internet tuviera dónde presumirla."
+            },
+            {
+                "pregunta": "El incidente de Roswell es el santo patrono de las teorías ovni modernas. Según reportes oficiales posteriores, ¿qué proyecto explicaría parte del material recuperado?",
+                "correcta": "Project Mogul.",
+                "erroneas": [
+                    "Project Stargate.",
+                    "Project Blue Book Alpha.",
+                    "Project Moontrap."
+                ],
+                "dato": "La Fuerza Aérea de EE. UU. vinculó Roswell con globos de vigilancia del Project Mogul. Como el gobierno primero explicó mal y luego corrigió tarde, la conspiración recibió alimento premium."
+            },
+            {
+                "pregunta": "La teoría de los 'chemtrails' dice que las estelas de aviones son químicos secretos. ¿Qué explicación científica tienen normalmente esas líneas blancas?",
+                "correcta": "Estelas de condensación formadas por vapor de agua y cristales de hielo.",
+                "erroneas": [
+                    "Gas nervioso invisible activado por satélite.",
+                    "Polvo metálico para controlar pensamientos.",
+                    "Fertilizante aéreo para nubes artificiales."
+                ],
+                "dato": "Las contrails dependen de humedad, temperatura y condiciones atmosféricas. Pero claro, decir 'hielo en altura' vende menos que 'el gobierno nos fumiga con Excel'."
+            },
+            {
+                "pregunta": "La conspiración de Bielefeld afirma en broma que una ciudad alemana no existe. ¿Cuál es la pregunta típica que usa para sembrar duda?",
+                "correcta": "¿Conoces a alguien de Bielefeld?",
+                "erroneas": [
+                    "¿Has visto su aeropuerto secreto?",
+                    "¿Por qué no aparece en los billetes?",
+                    "¿Quién gobierna bajo sus alcantarillas?"
+                ],
+                "dato": "La Bielefeldverschwörung nació como una teoría satírica alemana en internet. Es básicamente el 'Tlaxcala no existe' pero con cerveza, precisión alemana y más consonantes."
+            },
+            {
+                "pregunta": "La 'Dead Internet Theory' afirma que gran parte de internet ya no está hecha por humanos. ¿Quiénes serían los supuestos protagonistas actuales?",
+                "correcta": "Bots y contenido automatizado.",
+                "erroneas": [
+                    "Delfines entrenados por Google.",
+                    "Bibliotecarios suizos anónimos.",
+                    "Niños jugando Minecraft en servidores rusos."
+                ],
+                "dato": "La teoría exagera una preocupación real: bots, granjas de contenido y ahora IA llenando la red. No todo internet está muerto, pero a veces revisar comentarios sí parece autopsia."
+            },
+            {
+                "pregunta": "El Triángulo de las Bermudas se volvió famoso por supuestas desapariciones misteriosas. ¿Qué dice NOAA sobre la frecuencia de esos eventos?",
+                "correcta": "No hay evidencia de que ocurran más que en otras zonas transitadas del océano.",
+                "erroneas": [
+                    "Que hay un portal magnético confirmado.",
+                    "Que los barcos viajan al pasado.",
+                    "Que existe una base atlante activa."
+                ],
+                "dato": "La zona tiene mal clima, tráfico marítimo, corrientes y errores humanos como cualquier parte peligrosa del mar. Pero 'mala navegación' no vende documentales a las 11 de la noche."
+            },
+            {
+                "pregunta": "La leyenda del Jersey Devil ubica a la criatura en una región de Nueva Jersey. ¿Cuál?",
+                "correcta": "Los Pine Barrens.",
+                "erroneas": [
+                    "Central Park.",
+                    "Las cataratas del Niágara.",
+                    "El desierto de Mojave."
+                ],
+                "dato": "El Jersey Devil mezcla folclor local, historias de Mother Leeds y pánico regional. La descripción cambia, pero casi siempre parece animal diseñado por comité: alas, pezuñas, cabeza rara y cero control de calidad."
+            },
+            {
+                "pregunta": "Según la leyenda del Jersey Devil, Mother Leeds habría maldecido a su hijo porque era ¿qué número de hijo?",
+                "correcta": "El decimotercero.",
+                "erroneas": [
+                    "El séptimo.",
+                    "El noveno.",
+                    "El vigésimo primero."
+                ],
+                "dato": "La versión clásica dice que, al enterarse de otro embarazo, Mother Leeds maldijo al bebé y nació una criatura demoníaca. Leyenda familiar: cuando el baby shower sale muy mal."
+            },
+            {
+                "pregunta": "Kuchisake-onna, la mujer de la boca cortada en leyendas urbanas japonesas, suele hacer una pregunta inquietante. ¿Cuál?",
+                "correcta": "¿Soy bonita?",
+                "erroneas": [
+                    "¿Dónde está la estación?",
+                    "¿Quieres jugar conmigo?",
+                    "¿Has visto mi paraguas?"
+                ],
+                "dato": "La leyenda se volvió muy popular en Japón a finales de los años 70. Es terror urbano eficiente: una pregunta simple, una mascarilla y una situación socialmente imposible de manejar."
+            },
+            {
+                "pregunta": "La leyenda de Bloody Mary dice que puede aparecer si haces algo frente a un espejo. ¿Qué?",
+                "correcta": "Repetir su nombre varias veces.",
+                "erroneas": [
+                    "Apagar y prender la luz siete veces.",
+                    "Dibujar una cruz con jabón.",
+                    "Dejar una vela dentro del lavabo."
+                ],
+                "dato": "Bloody Mary es una leyenda de baño, espejo y presión grupal. La mitad del miedo viene del mito; la otra mitad, de verte la cara a oscuras con once años y mala iluminación."
+            },
+            {
+                "pregunta": "En el mito de los 'hombres de negro', ¿qué suelen hacer estos personajes después de un avistamiento ovni?",
+                "correcta": "Visitar testigos para intimidarlos o silenciarlos.",
+                "erroneas": [
+                    "Regalar telescopios a los curiosos.",
+                    "Vender seguros contra abducciones.",
+                    "Pedir autógrafos a los extraterrestres."
+                ],
+                "dato": "Los hombres de negro son parte del folclor ovni: trajes oscuros, comportamiento raro y advertencias misteriosas. La burocracia extraterrestre, pero con peor servicio al cliente."
+            },
+            {
+                "pregunta": "El mito del 'Black Knight Satellite' afirma que hay un objeto extraterrestre orbitando la Tierra desde hace muchísimo tiempo. ¿Qué tipo de objeto sería según los creyentes?",
+                "correcta": "Un satélite alienígena antiguo.",
+                "erroneas": [
+                    "Una luna artificial de los romanos.",
+                    "Una nave maya escondida en la Luna.",
+                    "Un espejo gigante para controlar mareas."
+                ],
+                "dato": "La teoría mezcla fotos espaciales, señales de radio antiguas y malinterpretaciones de basura orbital. Básicamente: si algo flota y no lo entiendo, seguro es alien."
+            },
+            {
+                "pregunta": "La leyenda de Mel's Hole habla de un supuesto agujero en Estados Unidos con una propiedad imposible. ¿Cuál?",
+                "correcta": "No parecía tener fondo.",
+                "erroneas": [
+                    "Convertía piedras en oro.",
+                    "Hacía sonar música de mariachi.",
+                    "Lanzaba rayos cada viernes."
+                ],
+                "dato": "Mel's Hole se popularizó en programas de radio sobre fenómenos extraños. Es el tipo de historia perfecta: un agujero infinito, un testigo raro y cero evidencia sólida. Internet antes de internet."
+            },
+            {
+                "pregunta": "El creepypasta 'Russian Sleep Experiment' habla de un experimento soviético ficticio. ¿Qué buscaba hacer con los sujetos?",
+                "correcta": "Mantenerlos despiertos durante días.",
+                "erroneas": [
+                    "Hacerlos respirar bajo el agua.",
+                    "Enseñarles telepatía con ajedrez.",
+                    "Convertirlos en astronautas sin traje."
+                ],
+                "dato": "La historia es ficción de internet, pero funciona porque mezcla Guerra Fría, laboratorio secreto y pseudociencia. Tres ingredientes que hacen que cualquier tontería sepa a expediente clasificado."
+            },
+            {
+                "pregunta": "La creepypasta de 'Smile Dog' gira alrededor de una imagen supuestamente maldita. ¿Qué archivo suele mencionarse?",
+                "correcta": "Smile.jpg.",
+                "erroneas": [
+                    "Dog.exe.",
+                    "Happy.gif.",
+                    "Canino.pdf."
+                ],
+                "dato": "Smile Dog pertenece al folclor clásico de internet: imagen maldita, cadena de transmisión y trauma digital. Porque claro, nada dice terror moderno como un JPG con mala vibra."
+            },
+            {
+                "pregunta": "La leyenda de 'The Rake' describe a una criatura humanoide inquietante. ¿Qué rasgo suele tener?",
+                "correcta": "Es pálida, delgada y se mueve de forma extraña.",
+                "erroneas": [
+                    "Tiene cabeza de televisión.",
+                    "Está hecha de cables USB.",
+                    "Usa sombrero y monociclo."
+                ],
+                "dato": "The Rake nació en foros y creepypastas, con el formato clásico de 'testimonios' falsos. Internet descubrió que si escribes documentos inventados con tono serio, alguien va a dormir mal."
+            },
+            {
+                "pregunta": "Kisaragi Station es una leyenda japonesa de internet sobre una estación de tren imposible. ¿Qué la vuelve inquietante?",
+                "correcta": "La protagonista llega a una estación que no debería existir.",
+                "erroneas": [
+                    "Todos los trenes están hechos de madera.",
+                    "Solo venden boletos hacia la Luna.",
+                    "Los vagones están llenos de gatos policías."
+                ],
+                "dato": "Kisaragi Station nació como relato en foros japoneses. Es terror urbano moderno: transporte público, desorientación y esa sensación de que Google Maps ya se rindió."
+            },
+            {
+                "pregunta": "Aka Manto es una leyenda japonesa asociada a baños escolares. ¿Qué suele ofrecer la entidad?",
+                "correcta": "Papel rojo o papel azul.",
+                "erroneas": [
+                    "Una llave dorada o una llave negra.",
+                    "Un espejo roto o una vela.",
+                    "Un boleto de tren o una moneda."
+                ],
+                "dato": "Aka Manto convierte una decisión absurda en amenaza sobrenatural. Como si ir al baño en la escuela no tuviera ya suficiente peligro social."
+            },
+            {
+                "pregunta": "Hanako-san es una leyenda urbana japonesa sobre una niña fantasma que aparece en ¿qué lugar?",
+                "correcta": "El baño de una escuela.",
+                "erroneas": [
+                    "Un elevador de hospital.",
+                    "Una biblioteca abandonada.",
+                    "Un túnel de tren."
+                ],
+                "dato": "Hanako-san es una de las leyendas escolares japonesas más conocidas. Todo país tiene su forma de traumatizar niños; Japón eligió baños, cubículos y protocolos específicos."
+            },
+            {
+                "pregunta": "El mito de la 'maldición de Superman' dice que varios actores relacionados con el personaje sufrieron desgracias. ¿Qué alimenta esa creencia?",
+                "correcta": "Casos trágicos asociados a intérpretes famosos del personaje.",
+                "erroneas": [
+                    "Una inscripción oculta en el cómic original.",
+                    "Un contrato secreto de DC con magos.",
+                    "Una capa usada en rituales antiguos."
+                ],
+                "dato": "La supuesta maldición mezcla coincidencias, tragedias reales y selección de casos convenientes. La mente humana ama encontrar patrones, incluso cuando el patrón es puro Photoshop narrativo."
+            },
+            {
+                "pregunta": "La leyenda urbana de los caramelos de Halloween contaminados suele advertir sobre objetos peligrosos escondidos en dulces. ¿Qué objeto se menciona mucho?",
+                "correcta": "Navajas o agujas.",
+                "erroneas": [
+                    "Microchips alienígenas.",
+                    "Dientes de vampiro reales.",
+                    "Semillas de plantas carnívoras."
+                ],
+                "dato": "Es una de las leyendas urbanas más persistentes de Halloween. Funciona porque combina niños, dulces y paranoia parental: el triángulo sagrado del pánico comunitario."
+            },
+            {
+                "pregunta": "La leyenda del 'alligators in the sewers' dice que cierto animal vive bajo las calles de Nueva York. ¿Cuál?",
+                "correcta": "Caimanes o cocodrilos.",
+                "erroneas": [
+                    "Osos polares.",
+                    "Pandas rojos.",
+                    "Capibaras gigantes."
+                ],
+                "dato": "La historia dice que mascotas exóticas fueron arrojadas al drenaje y sobrevivieron. Muy improbable como ecosistema estable, pero excelente como excusa para mirar raro una alcantarilla."
+            },
+            {
+                "pregunta": "El mito de que comer semillas de sandía hará crecer una planta dentro de tu estómago es un clásico de infancia. ¿Qué tipo de leyenda es?",
+                "correcta": "Una advertencia absurda para asustar niños.",
+                "erroneas": [
+                    "Una técnica agrícola antigua.",
+                    "Un diagnóstico botánico real.",
+                    "Una dieta tradicional japonesa."
+                ],
+                "dato": "No te crecerá una sandía en el abdomen por tragar semillas. Pero el mito sobrevivió porque los adultos descubrieron que decir tonterías con voz seria es una forma barata de control social."
+            },
+            {
+                "pregunta": "El mito de los cocodrilos blancos de alcantarilla suele decir que se volvieron pálidos por vivir sin ¿qué?",
+                "correcta": "Luz solar.",
+                "erroneas": [
+                    "WiFi.",
+                    "Sal marina.",
+                    "Música clásica."
+                ],
+                "dato": "La versión moderna del mito agrega mutaciones, falta de sol y drenaje urbano. Es biología imaginaria con estética de película de bajo presupuesto."
+            },
+            {
+                "pregunta": "El rumor de 'satanic panic' de los años 80 acusaba a juegos como Dungeons & Dragons de provocar ¿qué?",
+                "correcta": "Rituales oscuros y conducta peligrosa.",
+                "erroneas": [
+                    "Habilidades reales de magia elemental.",
+                    "Transformación física en dragón.",
+                    "Pérdida inmediata de alfabetización."
+                ],
+                "dato": "El pánico satánico convirtió juegos, música y cultura juvenil en sospechosos de rituales imposibles. Adultos asustados descubriendo imaginación: un desastre predecible."
+            },
+            {
+                "pregunta": "La leyenda de que Elvis Presley fingió su muerte suele apoyarse en supuestos avistamientos. ¿Qué idea central sostiene?",
+                "correcta": "Que Elvis siguió vivo bajo otra identidad.",
+                "erroneas": [
+                    "Que Elvis era un holograma desde 1956.",
+                    "Que Elvis fue reemplazado por su gemelo robot.",
+                    "Que Elvis nunca salió de Las Vegas."
+                ],
+                "dato": "Como pasa con muchos ídolos, la muerte repentina alimenta la fantasía de que 'en realidad escapó'. Es duelo colectivo con lentes oscuros y mucho tabloide."
+            },
+            {
+                "pregunta": "La leyenda de que Avril Lavigne fue reemplazada por una doble dice que la sustituta se llama ¿cómo?",
+                "correcta": "Melissa.",
+                "erroneas": [
+                    "Vanessa.",
+                    "Ashley.",
+                    "Samantha."
+                ],
+                "dato": "La teoría nació en internet y se alimenta de cambios de estilo, fotos comparadas y ganas infinitas de perder el tiempo con zoom. Antropología digital, pero con delineador negro."
+            },
+            {
+                "pregunta": "La teoría del 'Efecto Mandela' sobre los Berenstain Bears dice que mucha gente recuerda mal el apellido como ¿qué?",
+                "correcta": "Berenstein.",
+                "erroneas": [
+                    "Bernstein.",
+                    "Bearstein.",
+                    "Berenstainz."
+                ],
+                "dato": "El caso Berenstain/Berenstein es uno de los ejemplos clásicos del Efecto Mandela. En vez de aceptar memoria imperfecta, internet propuso universos paralelos. Humildad cognitiva: cero."
+            },
+            {
+                "pregunta": "La leyenda urbana del 'elevador a otra dimensión' dice que puedes llegar a otro mundo siguiendo una secuencia específica. ¿Qué elemento es central en el ritual?",
+                "correcta": "Presionar pisos en cierto orden.",
+                "erroneas": [
+                    "Girar una moneda dentro del elevador.",
+                    "Cantar una canción al espejo.",
+                    "Dibujar una puerta con marcador rojo."
+                ],
+                "dato": "Este tipo de leyenda funciona porque toma algo cotidiano —un elevador— y le agrega instrucciones rituales. La burocracia del terror: presione 4, 2, 6 y abandone la realidad."
+            },
+            {
+                "pregunta": "La leyenda de 'La Llorona' suele girar alrededor de una mujer que busca ¿a quién?",
+                "correcta": "A sus hijos.",
+                "erroneas": [
+                    "A su caballo perdido.",
+                    "A un sacerdote sin sombra.",
+                    "A un músico que le debe dinero."
+                ],
+                "dato": "La Llorona tiene muchas versiones en México y Latinoamérica. Es tan flexible que cabe en río, callejón, rancho, ciudad y trauma familiar. Eficiencia narrativa pura."
+            },
+            {
+                "pregunta": "El Silbón, leyenda de Venezuela y Colombia, suele anunciarse con ¿qué sonido?",
+                "correcta": "Un silbido.",
+                "erroneas": [
+                    "Campanas pequeñas.",
+                    "Un tambor bajo tierra.",
+                    "Un radio mal sintonizado."
+                ],
+                "dato": "El Silbón carga un saco con huesos en muchas versiones del mito. Si el monstruo ya viene silbando, mínimo hay que reconocerle sentido del branding."
+            },
+            {
+                "pregunta": "La leyenda del Wendigo viene de tradiciones indígenas del norte de América. En versiones modernas, ¿con qué suele asociarse?",
+                "correcta": "Hambre extrema, canibalismo y transformación monstruosa.",
+                "erroneas": [
+                    "Robar zapatos en invierno.",
+                    "Cuidar tesoros bajo lagos.",
+                    "Convertir nieve en oro."
+                ],
+                "dato": "El Wendigo es una figura compleja que el terror moderno simplificó bastante. Aun así, conserva una idea potente: el hambre y la codicia pueden convertir a alguien en monstruo. Sutil como ladrillo."
             }
         ]
     },
@@ -316,13 +686,13 @@
             },
             {
                 "pregunta": "En Suiza, de acuerdo con sus estrictas leyes modernas de protección y derechos hacia los animales, ¿qué mascota es ilegal tener de forma solitaria en casa?",
-                "correcta": "Una cobaya (conejillo de Indias).",
+                "correcta": "Cobayas.",
                 "erroneas": [
-                    "Un loro huérfano.",
-                    "Un gato de departamento.",
-                    "Un pez dorado de pecera."
+                    "Loros.",
+                    "Gatos domestico.",
+                    "Peces dorados."
                 ],
-                "dato": "Las cobayas son consideradas animales sumamente sociales que necesitan compañía para no sufrir aislamiento. La ley es tan estricta que existen servicios locales de renta de cobayas por si una de tu pareja de mascotas fallece y no quieres comprar otra."
+                "dato": "Las cobayas ( Conejillos de indias) son consideradas animales sumamente sociales que necesitan compañía para no sufrir aislamiento. La ley es tan estricta que existen servicios locales de renta de cobayas por si una de tu pareja de mascotas fallece y no quieres comprar otra."
             },
             {
                 "pregunta": "¿Qué temida enfermedad, caracterizada por la falta extrema de vitamina C, se propagaba habitualmente entre los marineros en los barcos piratas de los siglos XVII y XVIII?",
@@ -603,6 +973,356 @@
                     "Stanley Kubrick."
                 ],
                 "dato": "A lo largo de su carrera cinematográfica, Walt Disney acumuló un total impresionante de 26 premios Óscar y recibió 59 nominaciones. Uno de los más curiosos fue un premio especial por 'Blancanieves' que consistía en una estatuilla normal y siete miniaturas."
+            },
+            {
+                "pregunta": "¿Qué guerra es famosa por haber durado menos de una hora, básicamente una junta incómoda con cañones?",
+                "correcta": "La guerra anglo-zanzibarí.",
+                "erroneas": [
+                    "La guerra de los Cien Años.",
+                    "La guerra de Crimea.",
+                    "La guerra de las Dos Rosas."
+                ],
+                "dato": "La guerra anglo-zanzibarí de 1896 duró menos de 40 minutos. Es considerada una de las guerras más cortas registradas. Ni tiempo dio de poner playlist bélica."
+            },
+            {
+                "pregunta": "En 1919, Boston sufrió una inundación industrial bastante pegajosa. ¿Qué líquido invadió sus calles?",
+                "correcta": "Melaza.",
+                "erroneas": [
+                    "Cerveza.",
+                    "Leche condensada.",
+                    "Jarabe de maple."
+                ],
+                "dato": "Un enorme tanque colapsó y liberó millones de litros de melaza, causando 21 muertes. Suena a caricatura hasta que recuerdas que una ola viscosa también puede matarte. Qué bonito el capitalismo industrial."
+            },
+            {
+                "pregunta": "En 1518, en Estrasburgo, ocurrió una extraña epidemia colectiva. ¿Qué hacía la gente sin poder detenerse?",
+                "correcta": "Bailar.",
+                "erroneas": [
+                    "Reír.",
+                    "Cantar himnos militares.",
+                    "Caminar en círculos."
+                ],
+                "dato": "La llamada plaga del baile afectó a decenas o cientos de personas. Las explicaciones modernas incluyen estrés extremo, histeria colectiva o enfermedad psicógena masiva. Un rave medieval, pero sin diversión."
+            },
+            {
+                "pregunta": "El 'Gran Hedor' de Londres de 1858 fue causado principalmente por el estado asqueroso de ¿qué lugar?",
+                "correcta": "El río Támesis.",
+                "erroneas": [
+                    "El Palacio de Buckingham.",
+                    "El metro subterráneo.",
+                    "El mercado de pescado de Billingsgate."
+                ],
+                "dato": "El calor intensificó el olor de aguas residuales acumuladas en el Támesis. La peste fue tan insoportable que ayudó a acelerar reformas sanitarias. A veces la civilización avanza porque ya no soporta su propio olor."
+            },
+            {
+                "pregunta": "La Guerra del Cerdo de 1859, entre Estados Unidos y Reino Unido, empezó porque alguien mató ¿qué animal?",
+                "correcta": "Un cerdo.",
+                "erroneas": [
+                    "Una vaca.",
+                    "Un caballo.",
+                    "Un pavo."
+                ],
+                "dato": "El conflicto ocurrió en las islas San Juan. El cerdo fue el único muerto del episodio, lo cual ya es más sensato que varias guerras humanas."
+            },
+            {
+                "pregunta": "La Defenestración de Praga de 1618 ayudó a detonar la Guerra de los Treinta Años. ¿Qué significa 'defenestración'?",
+                "correcta": "Lanzar a alguien por una ventana.",
+                "erroneas": [
+                    "Coronar a alguien sin permiso.",
+                    "Quemar documentos oficiales.",
+                    "Exiliar a un noble por carta."
+                ],
+                "dato": "Varios representantes imperiales fueron arrojados por una ventana del castillo de Praga. Europa vio eso y decidió que era buen momento para prenderse fuego durante décadas. Excelente manejo de conflicto."
+            },
+            {
+                "pregunta": "En la caótica maratón olímpica de 1904, un competidor cruzó la meta primero pero fue descalificado. ¿Qué había hecho?",
+                "correcta": "Había recorrido parte de la carrera en auto.",
+                "erroneas": [
+                    "Había usado patines escondidos.",
+                    "Había cambiado de gemelo a media carrera.",
+                    "Había tomado un tren hasta el estadio."
+                ],
+                "dato": "Fred Lorz abandonó, subió a un auto y luego volvió a entrar a la carrera. Dijo que era una broma. Sí, claro: el clásico chiste de ganar olímpicos en vehículo."
+            },
+            {
+                "pregunta": "En la misma maratón olímpica de 1904, al ganador Thomas Hicks le dieron pequeñas dosis de una sustancia hoy impensable para seguir corriendo. ¿Cuál?",
+                "correcta": "Estricnina.",
+                "erroneas": [
+                    "Morfina.",
+                    "Mercurio.",
+                    "Cianuro."
+                ],
+                "dato": "Hicks recibió estricnina mezclada con brandy durante la carrera. Era otra época: la medicina deportiva consistía en envenenarte con seguridad y actitud."
+            },
+            {
+                "pregunta": "Gregor MacGregor logró vender tierras e inversiones de un país ficticio en el siglo XIX. ¿Cómo se llamaba ese supuesto país?",
+                "correcta": "Poyais.",
+                "erroneas": [
+                    "Atlantia.",
+                    "Nueva Escocia Dorada.",
+                    "San Dorado."
+                ],
+                "dato": "MacGregor inventó Poyais, vendió bonos, tierras y promesas de prosperidad. Fue una estafa brutal: no vendió humo, vendió un país completo que no existía. Visionario, pero del infierno."
+            },
+            {
+                "pregunta": "En 1814, Londres sufrió una inundación absurda cuando explotó una enorme cuba de una cervecería. ¿Qué líquido inundó la zona?",
+                "correcta": "Cerveza tipo porter.",
+                "erroneas": [
+                    "Vino tinto.",
+                    "Whisky.",
+                    "Sidra caliente."
+                ],
+                "dato": "La inundación de cerveza de Londres mató a varias personas. La frase 'morir ahogado en cerveza' suena a chiste de borracho hasta que la historia te arruina el remate."
+            },
+            {
+                "pregunta": "La tulipomanía neerlandesa del siglo XVII fue una burbuja especulativa alrededor de ¿qué producto?",
+                "correcta": "Bulbos de tulipán.",
+                "erroneas": [
+                    "Sacos de café.",
+                    "Plumas de ganso.",
+                    "Espejos venecianos."
+                ],
+                "dato": "En la tulipomanía, algunos bulbos alcanzaron precios absurdos antes del colapso del mercado. Sí: humanos hipotecando tranquilidad por flores. Luego nos creemos más racionales por comprar criptomonedas."
+            },
+            {
+                "pregunta": "El 'año sin verano' de 1816 se relaciona principalmente con la erupción de ¿qué volcán?",
+                "correcta": "Tambora.",
+                "erroneas": [
+                    "Krakatoa.",
+                    "Vesubio.",
+                    "Etna."
+                ],
+                "dato": "La erupción del Tambora en 1815 alteró el clima global y 1816 tuvo frío, cosechas fallidas y cielos extraños. Un volcán en Indonesia arruinando el verano europeo: logística planetaria."
+            },
+            {
+                "pregunta": "Las 'Radium Girls' eran trabajadoras que enfermaban por pintar carátulas luminosas usando ¿qué sustancia?",
+                "correcta": "Radio.",
+                "erroneas": [
+                    "Plomo.",
+                    "Uranio empobrecido.",
+                    "Fósforo blanco."
+                ],
+                "dato": "Pintaban relojes con pintura luminosa con radio y afinaban los pinceles con los labios. El resultado fue terrible y ayudó a impulsar cambios en seguridad laboral. La industria, descubriendo que no matar empleados era buena idea."
+            },
+            {
+                "pregunta": "¿Qué país se enfrentó varias veces al Reino Unido en las llamadas 'Guerras del Bacalao'?",
+                "correcta": "Islandia.",
+                "erroneas": [
+                    "Noruega.",
+                    "Dinamarca.",
+                    "Canadá."
+                ],
+                "dato": "Las Guerras del Bacalao fueron disputas por derechos de pesca en el Atlántico Norte. Se llamaban guerras, pero eran más bien pleitos navales por pescado. Geopolítica con olor a lonja."
+            },
+            {
+                "pregunta": "Francia usó la guillotina oficialmente mucho más tarde de lo que mucha gente imagina. ¿En qué década ocurrió su última ejecución con guillotina?",
+                "correcta": "En los años 70.",
+                "erroneas": [
+                    "En los años 20.",
+                    "En los años 40.",
+                    "En los años 90."
+                ],
+                "dato": "La última ejecución por guillotina en Francia fue en 1977. O sea, Star Wars ya existía y Francia todavía tenía una máquina revolucionaria de cortar cabezas. Elegante y perturbador."
+            },
+            {
+                "pregunta": "¿Qué famosa reina francesa probablemente nunca dijo realmente 'que coman pastel'?",
+                "correcta": "María Antonieta.",
+                "erroneas": [
+                    "Catalina de Médici.",
+                    "Ana Bolena.",
+                    "Isabel I."
+                ],
+                "dato": "La frase se asoció a María Antonieta como símbolo de desconexión aristocrática, pero no hay buena evidencia de que ella la dijera. La historia también hace fake news, solo que con pelucas."
+            },
+            {
+                "pregunta": "En Roma antigua, un 'vomitorium' no era una sala para vomitar durante banquetes. ¿Qué era realmente?",
+                "correcta": "Un pasillo de salida en anfiteatros o estadios.",
+                "erroneas": [
+                    "Una clínica para gladiadores intoxicados.",
+                    "Una cocina especializada en banquetes.",
+                    "Un cuarto ritual para purificarse."
+                ],
+                "dato": "Los vomitoria permitían que multitudes entraran o salieran rápidamente de edificios públicos. El nombre viene de 'expulsar' gente, no comida. Roma era intensa, pero no tanto en ese punto."
+            },
+            {
+                "pregunta": "¿Qué líder francés suele aparecer como bajito en la cultura popular, aunque esa imagen está bastante exagerada?",
+                "correcta": "Napoleón Bonaparte.",
+                "erroneas": [
+                    "Luis XIV.",
+                    "Robespierre.",
+                    "Charles de Gaulle."
+                ],
+                "dato": "Napoleón no era tan diminuto como lo pintan; parte del mito viene de diferencias de medidas y propaganda británica. La guerra psicológica también hace memes."
+            },
+            {
+                "pregunta": "¿Qué civilización antigua usaba ostracismo para votar el exilio temporal de ciudadanos incómodos?",
+                "correcta": "Atenas.",
+                "erroneas": [
+                    "Esparta.",
+                    "Cartago.",
+                    "Babilonia."
+                ],
+                "dato": "Los atenienses escribían nombres en fragmentos de cerámica llamados ostraka. Democracia directa: votas, rompes una vasija y mandas lejos al intenso de turno."
+            },
+            {
+                "pregunta": "¿Qué emperador romano supuestamente nombró cónsul a su caballo, o al menos amenazó con hacerlo para humillar al Senado?",
+                "correcta": "Calígula.",
+                "erroneas": [
+                    "Nerón.",
+                    "Augusto.",
+                    "Trajano."
+                ],
+                "dato": "La historia del caballo Incitatus puede estar exagerada por fuentes hostiles, pero refleja la fama de Calígula como emperador provocador. Incluso si no ocurrió literal, el Senado entendió el insulto. El caballo probablemente también."
+            },
+            {
+                "pregunta": "¿Qué rey inglés murió en 1066 y desencadenó una crisis sucesoria que terminó con la conquista normanda?",
+                "correcta": "Eduardo el Confesor.",
+                "erroneas": [
+                    "Ricardo Corazón de León.",
+                    "Enrique VIII.",
+                    "Juan sin Tierra."
+                ],
+                "dato": "La muerte de Eduardo el Confesor abrió la puerta a disputas por el trono inglés. Resultado: invasión, batalla de Hastings y siglos de consecuencias. Todo por una sucesión mal cerrada. Clásico."
+            },
+            {
+                "pregunta": "¿Qué batalla de 1066 permitió a Guillermo de Normandía conquistar Inglaterra?",
+                "correcta": "La batalla de Hastings.",
+                "erroneas": [
+                    "La batalla de Agincourt.",
+                    "La batalla de Waterloo.",
+                    "La batalla de Bosworth."
+                ],
+                "dato": "Hastings cambió la historia inglesa: nobleza, idioma, leyes y arquitectura quedaron marcados por la conquista normanda. Una batalla y de pronto medio idioma inglés empezó a sonar francés."
+            },
+            {
+                "pregunta": "¿Qué famoso muro fue construido por los romanos en el norte de Britania?",
+                "correcta": "El muro de Adriano.",
+                "erroneas": [
+                    "El muro de Augusto.",
+                    "El muro de César.",
+                    "El muro de Trajano."
+                ],
+                "dato": "El muro de Adriano marcaba una frontera del Imperio romano en Britania. No era solo pared: tenía fuertes, puestos y control militar. Roma inventó el 'hasta aquí llegamos, ya estuvo'."
+            },
+            {
+                "pregunta": "¿Qué ciudad fue capital del Imperio bizantino durante siglos?",
+                "correcta": "Constantinopla.",
+                "erroneas": [
+                    "Atenas.",
+                    "Alejandría.",
+                    "Cartago."
+                ],
+                "dato": "Constantinopla fue una ciudad clave entre Europa y Asia. Su caída en 1453 ante los otomanos marcó un parteaguas histórico. Básicamente una ciudad con más capas que expediente mal foliado."
+            },
+            {
+                "pregunta": "¿Qué imperio construyó una enorme red de caminos en Sudamérica sin usar rueda para transporte cotidiano?",
+                "correcta": "El Imperio inca.",
+                "erroneas": [
+                    "El Imperio maya.",
+                    "El Imperio azteca.",
+                    "El Imperio persa."
+                ],
+                "dato": "Los incas desarrollaron una red vial impresionante para mensajeros, administración y control territorial. Sin caballos ni camiones, pero con logística mejor que muchas oficinas actuales."
+            },
+            {
+                "pregunta": "¿Qué civilización mesoamericana creó cabezas colosales de piedra con rasgos humanos monumentales?",
+                "correcta": "La olmeca.",
+                "erroneas": [
+                    "La tolteca.",
+                    "La tarasca.",
+                    "La zapoteca."
+                ],
+                "dato": "Las cabezas colosales olmecas son esculturas enormes talladas en piedra. No sabemos todo sobre ellas, pero sí sabemos que mover esos bloques sin maquinaria moderna fue una grosería física."
+            },
+            {
+                "pregunta": "¿Qué antigua biblioteca egipcia se volvió símbolo universal del conocimiento perdido?",
+                "correcta": "La Biblioteca de Alejandría.",
+                "erroneas": [
+                    "La Biblioteca de Giza.",
+                    "La Biblioteca de Tebas.",
+                    "La Biblioteca de Menfis."
+                ],
+                "dato": "La Biblioteca de Alejandría representa la pérdida del conocimiento antiguo, aunque su destrucción fue probablemente gradual y compleja. La historia rara vez se quema en una sola escena dramática, aunque Hollywood insista."
+            },
+            {
+                "pregunta": "¿Qué civilización antigua desarrolló escritura cuneiforme sobre tablillas de arcilla?",
+                "correcta": "Sumeria.",
+                "erroneas": [
+                    "Fenicia.",
+                    "China Han.",
+                    "Grecia micénica."
+                ],
+                "dato": "La escritura cuneiforme sumeria se usaba en tablillas de arcilla para registros, administración y textos. La burocracia nació casi al mismo tiempo que escribir. Qué sorpresa tan desagradable."
+            },
+            {
+                "pregunta": "¿Qué famoso rey persa es recordado por crear un enorme imperio y por permitir el retorno de pueblos deportados, como los judíos de Babilonia?",
+                "correcta": "Ciro el Grande.",
+                "erroneas": [
+                    "Darío III.",
+                    "Jerjes I.",
+                    "Artajerjes II."
+                ],
+                "dato": "Ciro el Grande fundó el Imperio aqueménida y es recordado por una política relativamente pragmática hacia pueblos conquistados. Imperio, sí; pero con un poco más de administración y menos berrinche."
+            },
+            {
+                "pregunta": "¿Qué ciudad fue destruida por los romanos al final de la Tercera Guerra Púnica?",
+                "correcta": "Cartago.",
+                "erroneas": [
+                    "Atenas.",
+                    "Tiro.",
+                    "Siracusa."
+                ],
+                "dato": "Cartago fue arrasada en 146 a.C. tras años de rivalidad con Roma. Roma no tenía botón de 'bloquear contacto', así que eligió demolición histórica."
+            },
+            {
+                "pregunta": "¿Qué pueblo antiguo es famoso por desarrollar un alfabeto que influyó en muchos sistemas de escritura posteriores?",
+                "correcta": "Los fenicios.",
+                "erroneas": [
+                    "Los hititas.",
+                    "Los hunos.",
+                    "Los etruscos."
+                ],
+                "dato": "El alfabeto fenicio fue clave para la evolución de sistemas de escritura mediterráneos. Mucho comercio, muchas letras, pocas ganas de dibujar un buey entero cada vez."
+            },
+            {
+                "pregunta": "¿Qué antiguo conquistador macedonio llegó hasta la India antes de que su ejército dijera, en esencia, 'ya estuvo, jefe'?",
+                "correcta": "Alejandro Magno.",
+                "erroneas": [
+                    "Filipo II.",
+                    "Pirro de Epiro.",
+                    "Pericles."
+                ],
+                "dato": "Alejandro expandió su imperio desde Grecia hasta Egipto, Persia y regiones cercanas a la India. Sus soldados eventualmente se negaron a seguir avanzando. Hasta la ambición necesita vacaciones."
+            },
+            {
+                "pregunta": "¿Qué objeto permitió descifrar jeroglíficos egipcios porque contenía el mismo texto en varios sistemas de escritura?",
+                "correcta": "La Piedra de Rosetta.",
+                "erroneas": [
+                    "El Disco de Festo.",
+                    "El Código de Hammurabi.",
+                    "La Máscara de Tutankamón."
+                ],
+                "dato": "La Piedra de Rosetta contenía inscripciones en griego, demótico y jeroglífico. Fue como encontrar el manual de instrucciones después de siglos viendo dibujos hermosos sin subtítulos."
+            },
+            {
+                "pregunta": "¿Qué faraón egipcio se volvió mundialmente famoso no por ser el más poderoso, sino porque su tumba apareció casi intacta?",
+                "correcta": "Tutankamón.",
+                "erroneas": [
+                    "Ramsés II.",
+                    "Akenatón.",
+                    "Keops."
+                ],
+                "dato": "La tumba de Tutankamón fue descubierta en 1922 por Howard Carter y conservaba una enorme cantidad de objetos funerarios. No fue el faraón más importante, pero tuvo mejor marketing post mortem."
+            },
+            {
+                "pregunta": "¿Qué imperio usó mensajeros llamados chasquis para transmitir información rápidamente por caminos andinos?",
+                "correcta": "El Imperio inca.",
+                "erroneas": [
+                    "El Imperio romano.",
+                    "El Imperio mongol.",
+                    "El Imperio otomano."
+                ],
+                "dato": "Los chasquis corrían por relevos a través de la red vial inca. Sin internet, sin GPS, sin grupo de WhatsApp: solo piernas, altura y disciplina. Horrible, pero eficiente."
             }
         ]
     },
@@ -1357,13 +2077,563 @@
                     "El Brontosaurio."
                 ],
                 "dato": "El T. rex vivió hace unos 66 millones de años, mientras que el Estegosaurio vivió hace cerca de 150 millones. Hay menos tiempo entre nosotros y el T. rex que entre el T. rex y el Estegosaurio."
+            },
+            {
+                "pregunta": "¿Qué medusa es famosa por poder volver a una etapa juvenil, ganándose el apodo exagerado de 'medusa inmortal'?",
+                "correcta": "Turritopsis dohrnii.",
+                "erroneas": [
+                    "Medusa luna.",
+                    "Carabela portuguesa.",
+                    "Medusa caja australiana."
+                ],
+                "dato": "Turritopsis dohrnii puede revertir parte de su ciclo vital bajo ciertas condiciones. No es inmortal como villano de anime, pero para una medusa microscópica ya es bastante arrogante."
+            },
+            {
+                "pregunta": "¿Qué animal hace popó en cubos, como si su intestino hubiera sido diseñado por Minecraft?",
+                "correcta": "El wombat.",
+                "erroneas": [
+                    "El koala.",
+                    "El ornitorrinco.",
+                    "El capibara."
+                ],
+                "dato": "Los wombats producen heces cúbicas por la mecánica de su intestino. La evolución vio una esfera y dijo: demasiado obvio."
+            },
+            {
+                "pregunta": "¿Por qué el océano se ve azul principalmente?",
+                "correcta": "Porque el agua absorbe más luz roja y deja dispersarse o verse más la azul.",
+                "erroneas": [
+                    "Porque refleja directamente el color de los peces.",
+                    "Porque contiene pigmento azul natural.",
+                    "Porque la sal marina tiñe el agua."
+                ],
+                "dato": "El agua absorbe mejor las longitudes de onda rojas; por eso en grandes volúmenes predomina el azul. No, no es solo 'porque refleja el cielo'. La realidad otra vez arruinando respuestas fáciles."
+            },
+            {
+                "pregunta": "El blanqueamiento de coral ocurre cuando el coral expulsa a unas algas microscópicas que viven en sus tejidos. ¿Cómo se llaman?",
+                "correcta": "Zooxantelas.",
+                "erroneas": [
+                    "Diatomeas carnívoras.",
+                    "Esporas calcáreas.",
+                    "Plancton óseo."
+                ],
+                "dato": "Las zooxantelas alimentan al coral mediante fotosíntesis y también le dan color. Cuando el coral se estresa por calor o contaminación, las pierde y queda blanco, débil y básicamente con cara de 'ya valió'."
+            },
+            {
+                "pregunta": "¿Qué rana puede congelarse parcialmente durante el invierno y luego descongelarse como si nada?",
+                "correcta": "La rana de bosque.",
+                "erroneas": [
+                    "La rana toro africana.",
+                    "La rana dardo venenosa.",
+                    "La rana arborícola de ojos rojos."
+                ],
+                "dato": "La rana de bosque puede sobrevivir a la congelación parcial gracias a sustancias crioprotectoras como glucosa y urea. Es como meter anfibio al congelador, pero con bioquímica en vez de negligencia."
+            },
+            {
+                "pregunta": "La bioluminiscencia es la capacidad de algunos organismos de producir luz. ¿Qué tipo de proceso la genera?",
+                "correcta": "Una reacción química.",
+                "erroneas": [
+                    "Una chispa eléctrica externa.",
+                    "Reflejo de la Luna.",
+                    "Pequeñas bacterias con focos."
+                ],
+                "dato": "La bioluminiscencia es luz producida por reacciones químicas dentro de organismos vivos. En tierra es rara; en el océano profundo es casi lenguaje visual. Naturaleza con modo neón."
+            },
+            {
+                "pregunta": "¿Qué planta acuática gigante puede tener hojas de hasta varios metros y soportar el peso de un niño pequeño?",
+                "correcta": "El nenúfar gigante amazónico.",
+                "erroneas": [
+                    "La flor de loto azul.",
+                    "La lechuga de agua común.",
+                    "El lirio de pantano europeo."
+                ],
+                "dato": "Victoria amazonica tiene hojas enormes con una estructura inferior reforzada. Parece plato decorativo para rana millonaria, pero es ingeniería vegetal seria."
+            },
+            {
+                "pregunta": "El ajolote mexicano es famoso porque puede regenerar partes del cuerpo. ¿Qué puede regenerar?",
+                "correcta": "Extremidades, cola, médula espinal y partes del cerebro.",
+                "erroneas": [
+                    "Alas funcionales.",
+                    "Un caparazón completo.",
+                    "Cuernos de calcio."
+                ],
+                "dato": "El ajolote puede regenerar tejidos complejos sin cicatrizar como nosotros. Mientras tú tardas tres días en superar una contractura, él anda reconstruyendo anatomía como impresora 3D biológica."
+            },
+            {
+                "pregunta": "¿Qué animal puede producir descargas eléctricas suficientemente fuertes para aturdir presas?",
+                "correcta": "La anguila eléctrica.",
+                "erroneas": [
+                    "El pez payaso.",
+                    "La mantarraya común.",
+                    "El tiburón ballena."
+                ],
+                "dato": "Las anguilas eléctricas producen descargas usando órganos especializados. No son anguilas verdaderas en sentido estricto; la biología también usa nombres engañosos, como si fuera marketing."
+            },
+            {
+                "pregunta": "El Anillo de Fuego del Pacífico es famoso por concentrar mucha actividad de ¿qué tipo?",
+                "correcta": "Volcanes y terremotos.",
+                "erroneas": [
+                    "Auroras boreales.",
+                    "Huracanes tropicales.",
+                    "Tormentas de arena."
+                ],
+                "dato": "El Anillo de Fuego rodea gran parte del Pacífico y concentra zonas de subducción, volcanes y sismos. Suena a hechizo, pero es tectónica de placas con pésimo sentido del humor."
+            },
+            {
+                "pregunta": "¿Qué tipo de límite tectónico suele formar cadenas de volcanes cuando una placa se hunde bajo otra?",
+                "correcta": "Zona de subducción.",
+                "erroneas": [
+                    "Zona de evaporación.",
+                    "Falla de reflexión.",
+                    "Borde de sedimentación."
+                ],
+                "dato": "En la subducción, una placa se mete debajo de otra y favorece la formación de magma. Es como si la corteza terrestre hiciera origami, pero con terremotos."
+            },
+            {
+                "pregunta": "¿Qué gas liberan principalmente las plantas durante la fotosíntesis?",
+                "correcta": "Oxígeno.",
+                "erroneas": [
+                    "Nitrógeno.",
+                    "Metano.",
+                    "Helio."
+                ],
+                "dato": "Durante la fotosíntesis, las plantas usan luz, agua y dióxido de carbono para producir azúcares y liberar oxígeno. Básicamente convierten Sol en comida. Groseramente eficiente."
+            },
+            {
+                "pregunta": "¿Qué pigmento vegetal permite capturar luz para la fotosíntesis y da color verde a muchas plantas?",
+                "correcta": "Clorofila.",
+                "erroneas": [
+                    "Melanina.",
+                    "Hemoglobina.",
+                    "Queratina."
+                ],
+                "dato": "La clorofila absorbe sobre todo luz roja y azul, reflejando parte de la verde. Por eso muchas plantas se ven verdes: no porque amen la estética, sino porque rechazan ese color."
+            },
+            {
+                "pregunta": "¿Qué estructura usan muchos cactus para reducir pérdida de agua y defenderse de animales imprudentes?",
+                "correcta": "Espinas.",
+                "erroneas": [
+                    "Plumas.",
+                    "Escamas húmedas.",
+                    "Raíces aéreas luminosas."
+                ],
+                "dato": "Las espinas de cactus son hojas modificadas. Sirven para defensa, sombra parcial y reducción de pérdida de agua. Minimalismo botánico: menos hoja, más amenaza."
+            },
+            {
+                "pregunta": "¿Qué árbol es famoso por tener corteza rojiza, vivir miles de años y alcanzar tamaños monumentales en California?",
+                "correcta": "La secuoya.",
+                "erroneas": [
+                    "El baobab.",
+                    "El ciprés común.",
+                    "El olivo europeo."
+                ],
+                "dato": "Las secuoyas gigantes y costeras están entre los árboles más impresionantes del planeta. Si los árboles tuvieran ego, ellas tendrían LinkedIn verificado."
+            },
+            {
+                "pregunta": "¿Qué animal tiene sangre azulada por usar hemocianina en lugar de hemoglobina para transportar oxígeno?",
+                "correcta": "El cangrejo herradura.",
+                "erroneas": [
+                    "El caballo de mar.",
+                    "La rana toro.",
+                    "La iguana verde."
+                ],
+                "dato": "La hemocianina contiene cobre, lo que da una tonalidad azulada al estar oxigenada. La naturaleza también tiene sangre azul, pero sin nobleza: solo química."
+            },
+            {
+                "pregunta": "¿Qué mamífero marino es famoso por dormir con solo medio cerebro activo a la vez?",
+                "correcta": "El delfín.",
+                "erroneas": [
+                    "La foca leopardo.",
+                    "El manatí.",
+                    "La nutria marina."
+                ],
+                "dato": "Algunos cetáceos duermen de forma unihemisférica: una parte del cerebro descansa mientras otra ayuda a respirar y vigilar. Dormir con medio cerebro: lo que muchos humanos hacen en juntas."
+            },
+            {
+                "pregunta": "¿Qué ave puede ver colores ultravioleta que los humanos no distinguimos?",
+                "correcta": "Muchas aves.",
+                "erroneas": [
+                    "Solo los pingüinos emperador.",
+                    "Ninguna ave puede hacerlo.",
+                    "Solo las gallinas albinas."
+                ],
+                "dato": "Muchas aves tienen visión ultravioleta, útil para alimento, plumaje y selección de pareja. Nosotros viendo 'pájaro café'; ellas viendo festival RGB biológico."
+            },
+            {
+                "pregunta": "¿Qué animal es famoso por cambiar de color, no solo por camuflaje, sino también por comunicación y temperatura?",
+                "correcta": "El camaleón.",
+                "erroneas": [
+                    "El armadillo.",
+                    "El ornitorrinco.",
+                    "El tucán."
+                ],
+                "dato": "Los camaleones cambian de color por células especializadas y no solo para esconderse. A veces es comunicación, estrés o regulación térmica. Básicamente mood ring con lengua balística."
+            },
+            {
+                "pregunta": "¿Qué cefalópodo puede cambiar textura y color de la piel con una precisión absurda?",
+                "correcta": "El pulpo.",
+                "erroneas": [
+                    "La medusa luna.",
+                    "El erizo de mar.",
+                    "La estrella de mar."
+                ],
+                "dato": "Los pulpos usan cromatóforos y cambios de textura para camuflarse o comunicarse. Son blandos, inteligentes y demasiado buenos escapando. El alien de bajo presupuesto ya vive en el mar."
+            },
+            {
+                "pregunta": "¿Qué animal marino tiene tres corazones?",
+                "correcta": "El pulpo.",
+                "erroneas": [
+                    "El tiburón blanco.",
+                    "El caballito de mar.",
+                    "La ballena azul."
+                ],
+                "dato": "Los pulpos tienen tres corazones: dos bombean sangre hacia las branquias y uno al resto del cuerpo. Tres corazones y aun así cero ganas de convivencia."
+            },
+            {
+                "pregunta": "¿Qué animal puede perder un brazo y regenerarlo, además de tener una anatomía que parece diseñada por alguien que odia las reglas?",
+                "correcta": "La estrella de mar.",
+                "erroneas": [
+                    "El pez globo.",
+                    "El cangrejo violinista.",
+                    "La tortuga marina."
+                ],
+                "dato": "Muchas estrellas de mar pueden regenerar brazos perdidos. Algunas incluso pueden formar un nuevo individuo si queda suficiente parte del disco central. La biología marina no tiene pudor."
+            },
+            {
+                "pregunta": "¿Qué animal es el mamífero más grande conocido que ha existido?",
+                "correcta": "La ballena azul.",
+                "erroneas": [
+                    "El mamut lanudo.",
+                    "El megalodón.",
+                    "El elefante africano."
+                ],
+                "dato": "La ballena azul supera en tamaño a cualquier mamífero conocido, vivo o extinto. Es literalmente un rascacielos con aletas y dieta de mini camarones. Ridículo, pero elegante."
+            },
+            {
+                "pregunta": "¿Qué animal terrestre tiene la presión arterial muy alta para poder llevar sangre hasta su cabeza?",
+                "correcta": "La jirafa.",
+                "erroneas": [
+                    "El rinoceronte.",
+                    "El canguro.",
+                    "El oso polar."
+                ],
+                "dato": "La jirafa necesita un sistema cardiovascular potente para bombear sangre por ese cuello absurdamente largo. Diseño hermoso, pero con decisiones hidráulicas intensas."
+            },
+            {
+                "pregunta": "¿Qué mamífero pone huevos?",
+                "correcta": "El equidna.",
+                "erroneas": [
+                    "El koala.",
+                    "El murciélago.",
+                    "El armadillo."
+                ],
+                "dato": "Los equidnas, como los ornitorrincos, son monotremas: mamíferos que ponen huevos. La evolución los dejó como nota al pie diciendo: 'sí, también se puede así'."
+            },
+            {
+                "pregunta": "¿Qué insecto comunica la ubicación de alimento mediante una especie de danza?",
+                "correcta": "La abeja.",
+                "erroneas": [
+                    "La hormiga bala.",
+                    "La libélula.",
+                    "El escarabajo rinoceronte."
+                ],
+                "dato": "Las abejas usan la danza del meneo para comunicar dirección y distancia de fuentes de alimento. Mientras nosotros mandamos ubicaciones mal puestas, ellas bailan geometría."
+            },
+            {
+                "pregunta": "¿Qué insecto puede levantar muchas veces su propio peso y por eso se volvió símbolo de fuerza desproporcionada?",
+                "correcta": "El escarabajo rinoceronte.",
+                "erroneas": [
+                    "La mariposa monarca.",
+                    "El mosquito común.",
+                    "La pulga de agua."
+                ],
+                "dato": "Algunos escarabajos pueden mover cargas enormes en proporción a su tamaño. Si fueran humanos, cargarían muebles, deudas y familiares sin quejarse. Bueno, quizá sí."
+            },
+            {
+                "pregunta": "¿Qué fenómeno natural produce luz en el cielo cerca de los polos por partículas solares interactuando con la atmósfera?",
+                "correcta": "Auroras.",
+                "erroneas": [
+                    "Mareas rojas.",
+                    "Nubes lenticulares.",
+                    "Rayos globulares."
+                ],
+                "dato": "Las auroras ocurren cuando partículas cargadas del Sol interactúan con gases atmosféricos cerca de los polos magnéticos. El cielo haciendo espectáculo porque el Sol aventó partículas."
+            },
+            {
+                "pregunta": "¿Qué nube con forma de lente suele formarse cerca de montañas y a veces la gente confunde con ovnis?",
+                "correcta": "Nube lenticular.",
+                "erroneas": [
+                    "Cumulonimbo.",
+                    "Nube mammatus.",
+                    "Cirro estriado."
+                ],
+                "dato": "Las nubes lenticulares se forman por ondas de aire sobre montañas. Parecen platillos voladores estacionados, lo cual explica muchos reportes ovni con meteorología de por medio."
+            },
+            {
+                "pregunta": "¿Qué tipo de nube suele asociarse con tormentas fuertes, granizo y rayos?",
+                "correcta": "Cumulonimbo.",
+                "erroneas": [
+                    "Cirro.",
+                    "Estrato bajo.",
+                    "Nube lenticular."
+                ],
+                "dato": "El cumulonimbo es una nube de tormenta vertical enorme. Es la arquitectura gótica de la atmósfera: imponente, oscura y probablemente mala noticia."
+            },
+            {
+                "pregunta": "¿Qué capa de la Tierra está formada principalmente por hierro y níquel y genera parte importante del campo magnético terrestre?",
+                "correcta": "El núcleo externo.",
+                "erroneas": [
+                    "La corteza oceánica.",
+                    "La estratósfera.",
+                    "El manto superior."
+                ],
+                "dato": "El núcleo externo líquido, rico en hierro y níquel, participa en el geodinamo que genera el campo magnético terrestre. O sea, la Tierra tiene motor interno y nosotros quejándonos del tráfico."
+            },
+            {
+                "pregunta": "¿Qué escala se usa comúnmente para medir la magnitud de los terremotos modernos?",
+                "correcta": "Magnitud de momento.",
+                "erroneas": [
+                    "Escala Celsius.",
+                    "Escala Beaufort.",
+                    "Escala Kelvin."
+                ],
+                "dato": "La magnitud de momento reemplazó en muchos contextos a la escala de Richter para terremotos grandes. Richter quedó famoso, pero la ciencia siguió trabajando. Grosero, pero necesario."
+            },
+            {
+                "pregunta": "¿Qué roca volcánica puede flotar en agua por estar llena de burbujas?",
+                "correcta": "Piedra pómez.",
+                "erroneas": [
+                    "Basalto compacto.",
+                    "Granito.",
+                    "Mármol."
+                ],
+                "dato": "La piedra pómez se forma con lava espumosa llena de vesículas de gas. Es una roca que flota, porque aparentemente la geología también hace bromas de densidad."
+            },
+            {
+                "pregunta": "¿Qué mineral es tan blando que se usa como referencia del valor 1 en la escala de Mohs?",
+                "correcta": "Talco.",
+                "erroneas": [
+                    "Cuarzo.",
+                    "Diamante.",
+                    "Topacio."
+                ],
+                "dato": "La escala de Mohs ordena minerales por dureza relativa. El talco está en 1 y el diamante en 10. Uno termina en polvo cosmético; el otro en anillos carísimos. Capitalismo mineral."
+            },
+            {
+                "pregunta": "¿Qué mineral ocupa el nivel 10 en la escala de Mohs?",
+                "correcta": "Diamante.",
+                "erroneas": [
+                    "Yeso.",
+                    "Calcita.",
+                    "Fluorita."
+                ],
+                "dato": "El diamante es el mineral natural más duro en la escala de Mohs. Duro no significa indestructible: también puede romperse. Como muchos egos."
+            },
+            {
+                "pregunta": "¿Qué fenómeno ocurre cuando la Luna bloquea la luz del Sol vista desde la Tierra?",
+                "correcta": "Eclipse solar.",
+                "erroneas": [
+                    "Eclipse lunar.",
+                    "Aurora boreal.",
+                    "Solsticio."
+                ],
+                "dato": "En un eclipse solar, la Luna se interpone entre la Tierra y el Sol. Es una alineación elegante que también sirve para que miles de personas intenten mirar al Sol sin leer instrucciones."
+            },
+            {
+                "pregunta": "¿Qué fenómeno ocurre cuando la Tierra se interpone entre el Sol y la Luna?",
+                "correcta": "Eclipse lunar.",
+                "erroneas": [
+                    "Eclipse solar.",
+                    "Equinoccio.",
+                    "Marea roja."
+                ],
+                "dato": "Durante un eclipse lunar, la sombra de la Tierra cae sobre la Luna. A veces toma tonos rojizos por la atmósfera terrestre. Dramático, pero sin vampiros obligatorios."
+            },
+            {
+                "pregunta": "¿Qué causa principalmente las mareas en la Tierra?",
+                "correcta": "La gravedad de la Luna y el Sol.",
+                "erroneas": [
+                    "El viento solar.",
+                    "La rotación de las nubes.",
+                    "La salinidad del océano."
+                ],
+                "dato": "Las mareas son causadas sobre todo por la atracción gravitatoria de la Luna, con aporte del Sol. La Luna no solo decora poemas: también mueve océanos. Bastante intrusiva."
+            },
+            {
+                "pregunta": "¿Qué nombre recibe la capa de ozono que ayuda a filtrar radiación ultravioleta en la atmósfera?",
+                "correcta": "Estratósfera.",
+                "erroneas": [
+                    "Troposfera baja.",
+                    "Núcleo externo.",
+                    "Hidrósfera."
+                ],
+                "dato": "La mayor concentración de ozono protector está en la estratósfera. No es una burbuja mágica; es química atmosférica haciendo seguridad pública."
+            },
+            {
+                "pregunta": "¿Qué proceso convierte roca sólida en magma al bajar la presión, como ocurre en dorsales oceánicas?",
+                "correcta": "Fusión por descompresión.",
+                "erroneas": [
+                    "Cristalización inversa.",
+                    "Evaporación tectónica.",
+                    "Sublimación mineral."
+                ],
+                "dato": "La fusión por descompresión ocurre cuando el material caliente asciende y baja la presión suficiente para fundirse parcialmente. La roca no se derrite por drama; se derrite por física."
+            },
+            {
+                "pregunta": "¿Qué estructura submarina produce nueva corteza oceánica donde las placas se separan?",
+                "correcta": "Dorsal oceánica.",
+                "erroneas": [
+                    "Fosa abisal.",
+                    "Arrecife de coral.",
+                    "Cañón fluvial."
+                ],
+                "dato": "Las dorsales oceánicas son zonas donde asciende magma y se forma nueva corteza. El fondo marino no es estático; es una banda transportadora geológica con pésima señalización."
+            },
+            {
+                "pregunta": "¿Qué animal tiene una lengua tan larga y pegajosa que puede capturar insectos con una precisión ofensiva?",
+                "correcta": "El camaleón.",
+                "erroneas": [
+                    "El pingüino.",
+                    "El castor.",
+                    "La nutria."
+                ],
+                "dato": "Los camaleones proyectan la lengua a gran velocidad para atrapar presas. Es básicamente un arpón húmedo con ojos independientes. Bonito no, eficiente sí."
+            },
+            {
+                "pregunta": "¿Qué animal puede cerrar las fosas nasales y orejas bajo el agua mientras construye presas?",
+                "correcta": "El castor.",
+                "erroneas": [
+                    "La ardilla.",
+                    "El koala.",
+                    "El zorro ártico."
+                ],
+                "dato": "Los castores están adaptados a la vida semiacuática y construyen presas que modifican ecosistemas. Son ingenieros civiles con dientes y cero permisos municipales."
+            },
+            {
+                "pregunta": "¿Qué ave no puede volar, vive en la Antártida y soporta frío extremo en colonias enormes?",
+                "correcta": "El pingüino emperador.",
+                "erroneas": [
+                    "El avestruz africano.",
+                    "El kiwi.",
+                    "El casuario."
+                ],
+                "dato": "El pingüino emperador cría en condiciones antárticas brutales. Si tu idea de mal clima es 'está fresco', este animal te miraría con desprecio."
+            },
+            {
+                "pregunta": "¿Qué animal produce seda y la usa para fabricar telarañas?",
+                "correcta": "La araña.",
+                "erroneas": [
+                    "La abeja.",
+                    "El grillo.",
+                    "La libélula."
+                ],
+                "dato": "Las arañas producen distintos tipos de seda para atrapar presas, proteger huevos o desplazarse. Si fueran humanas, tendrían demasiadas patentes."
+            },
+            {
+                "pregunta": "¿Qué mamífero volador usa ecolocalización para orientarse y cazar insectos en la oscuridad?",
+                "correcta": "El murciélago.",
+                "erroneas": [
+                    "La ardilla voladora.",
+                    "El colibrí.",
+                    "El búho."
+                ],
+                "dato": "Muchos murciélagos emiten sonidos y escuchan sus ecos para navegar. No son ratones con alas; son sensores acústicos con mala fama injustificada."
+            },
+            {
+                "pregunta": "¿Qué tipo de simbiosis ocurre cuando ambos organismos se benefician?",
+                "correcta": "Mutualismo.",
+                "erroneas": [
+                    "Parasitismo.",
+                    "Depredación.",
+                    "Comensalismo obligatorio."
+                ],
+                "dato": "El mutualismo ocurre cuando ambas especies obtienen beneficio, como coral y zooxantelas. Cooperación biológica: la versión natural de 'yo pongo casa, tú pones comida'."
+            },
+            {
+                "pregunta": "¿Qué tipo de relación ocurre cuando un organismo se beneficia y el otro resulta perjudicado?",
+                "correcta": "Parasitismo.",
+                "erroneas": [
+                    "Mutualismo.",
+                    "Neutralismo.",
+                    "Fotosíntesis."
+                ],
+                "dato": "En el parasitismo, uno gana y otro pierde. Como muchas reuniones, pero con nombre ecológico."
+            },
+            {
+                "pregunta": "¿Qué pigmento da el color rojo a la sangre humana al transportar oxígeno?",
+                "correcta": "Hemoglobina.",
+                "erroneas": [
+                    "Clorofila.",
+                    "Melanina.",
+                    "Luciferina."
+                ],
+                "dato": "La hemoglobina contiene hierro y transporta oxígeno en glóbulos rojos. La sangre no es roja por intensidad dramática; es química coordinando logística."
+            },
+            {
+                "pregunta": "¿Qué proteína estructural forma gran parte del pelo, uñas, plumas y cuernos?",
+                "correcta": "Queratina.",
+                "erroneas": [
+                    "Insulina.",
+                    "Colágeno líquido.",
+                    "Clorofila."
+                ],
+                "dato": "La queratina es una proteína resistente presente en muchas estructuras externas de animales. Básicamente el material de construcción de uñas, pelo y malas decisiones de estética."
+            },
+            {
+                "pregunta": "¿Qué sustancia da color oscuro a piel, pelo y ojos en muchos animales?",
+                "correcta": "Melanina.",
+                "erroneas": [
+                    "Hemoglobina.",
+                    "Quitina.",
+                    "Celulosa."
+                ],
+                "dato": "La melanina ayuda a proteger contra radiación ultravioleta y define tonos de piel, pelo y ojos. Pigmento con función, no solo decoración."
+            },
+            {
+                "pregunta": "¿Qué material forma el exoesqueleto de insectos y crustáceos?",
+                "correcta": "Quitina.",
+                "erroneas": [
+                    "Celulosa.",
+                    "Colágeno.",
+                    "Grafito."
+                ],
+                "dato": "La quitina es resistente y ligera, ideal para exoesqueletos. Los artrópodos básicamente llevan armadura incorporada. Ventajas de fábrica."
+            },
+            {
+                "pregunta": "¿Qué grupo animal incluye insectos, arañas, crustáceos y milpiés?",
+                "correcta": "Artrópodos.",
+                "erroneas": [
+                    "Moluscos.",
+                    "Anélidos.",
+                    "Cnidarios."
+                ],
+                "dato": "Los artrópodos tienen exoesqueleto, cuerpo segmentado y apéndices articulados. También son demasiados. Si desapareces cinco minutos, probablemente ya evolucionó otro."
+            },
+            {
+                "pregunta": "¿Qué grupo de animales incluye medusas, corales y anémonas?",
+                "correcta": "Cnidarios.",
+                "erroneas": [
+                    "Equinodermos.",
+                    "Artrópodos.",
+                    "Mamíferos marinos."
+                ],
+                "dato": "Los cnidarios tienen células urticantes llamadas cnidocitos. El mar decidió que hasta las flores gelatinosas necesitaban armas."
+            },
+            {
+                "pregunta": "¿Qué animales tienen simetría radial y un sistema vascular acuífero, como las estrellas de mar?",
+                "correcta": "Equinodermos.",
+                "erroneas": [
+                    "Reptiles.",
+                    "Moluscos.",
+                    "Anfibios."
+                ],
+                "dato": "Los equinodermos incluyen estrellas de mar, erizos y pepinos de mar. Parecen inventados por alguien que rechazó la simetría bilateral por aburrida."
             }
         ]
     },
     {
         "id": "musica",
-        "nombre": "Musica",
-        "descripcion": "Categoría musica",
+        "nombre": "Música",
+        "descripcion": "Canciones, artistas, discos, historias raras y datos musicales.",
         "preguntas": [
             {
                 "pregunta": "¿Qué superestrella del pop mundial rompió todos los récords de la industria en 2023 al convertirse en la primera artista en superar los 100 millones de oyentes mensuales en Spotify?",
@@ -1816,34 +3086,5060 @@
                 "dato": "El adictivo estribillo compuesto por los fonemas 'la-la-la' fue rechazado originalmente por bandas como S Club 7 y por la cantante Sophie Ellis-Bextor antes de llegar a manos de Kylie, quien lo grabó en solo unas horas en Londres."
             }
         ]
+    },
+    {
+        "id": "tecnologia",
+        "nombre": "Tecnología",
+        "descripcion": "Inventos, internet, software, cultura digital y rarezas tecnológicas.",
+        "preguntas": [
+            {
+                "pregunta": "El nombre Bluetooth no viene de dientes de robot ni de audífonos baratos. ¿De dónde salió realmente?",
+                "correcta": "De Harald 'Bluetooth', un rey vikingo.",
+                "erroneas": [
+                    "De una ballena azul usada como primer logotipo.",
+                    "De una enfermedad dental de los ingenieros.",
+                    "De un laboratorio llamado Blue Tooth Systems."
+                ],
+                "dato": "Bluetooth fue nombrado por Harald Bluetooth Gormsson, asociado con la unificación de regiones escandinavas. La idea era conectar dispositivos. Un vikingo terminó viviendo dentro de tus audífonos. Normal."
+            },
+            {
+                "pregunta": "¿Qué significa QR en 'código QR'?",
+                "correcta": "Quick Response.",
+                "erroneas": [
+                    "Quantum Reading.",
+                    "Quality Register.",
+                    "Quick Registry."
+                ],
+                "dato": "QR significa Quick Response. Fue pensado para leerse rápido y almacenar más información que un código de barras común. Luego lo usamos para abrir menús pegajosos. Progreso, dicen."
+            },
+            {
+                "pregunta": "El código QR nació originalmente para resolver problemas en ¿qué industria?",
+                "correcta": "La industria automotriz.",
+                "erroneas": [
+                    "La industria musical.",
+                    "Los hospitales japoneses.",
+                    "Los videojuegos arcade."
+                ],
+                "dato": "DENSO desarrolló el QR en 1994 para manejar información de producción y piezas de forma más eficiente. Nació para fábricas y terminó en la mesa del restaurante."
+            },
+            {
+                "pregunta": "La primera webcam famosa de internet no vigilaba una puerta secreta ni un laboratorio nuclear. ¿Qué vigilaba?",
+                "correcta": "Una cafetera.",
+                "erroneas": [
+                    "Una pecera.",
+                    "Una impresora.",
+                    "Un refrigerador."
+                ],
+                "dato": "La Trojan Room coffee pot de Cambridge permitía ver si aún había café antes de caminar hasta la máquina. La primera gran aplicación de videovigilancia fue evitar decepciones cafeinadas."
+            },
+            {
+                "pregunta": "En 1947, ingenieros encontraron un 'bug' real dentro de una computadora Mark II. ¿Qué era?",
+                "correcta": "Una polilla.",
+                "erroneas": [
+                    "Una cucaracha.",
+                    "Una araña.",
+                    "Un escarabajo."
+                ],
+                "dato": "La polilla quedó pegada en el registro técnico como un caso real de bug encontrado. El término ya existía, pero esta vez el error sí tenía alas. La informática empezó con drama entomológico."
+            },
+            {
+                "pregunta": "El lenguaje Python no se llama así por la serpiente. ¿De dónde tomó el nombre?",
+                "correcta": "De Monty Python.",
+                "erroneas": [
+                    "De una marca de computadoras británicas.",
+                    "De una base militar llamada Python.",
+                    "De una función matemática antigua."
+                ],
+                "dato": "Guido van Rossum eligió Python porque estaba leyendo guiones de Monty Python's Flying Circus. Por eso muchos ejemplos del lenguaje tienen humor raro: no es bug, es tradición."
+            },
+            {
+                "pregunta": "Antes de llamarse Google, el buscador de Larry Page y Sergey Brin tenía un nombre horrendo. ¿Cuál?",
+                "correcta": "BackRub.",
+                "erroneas": [
+                    "Searchy.",
+                    "PagePunch.",
+                    "WebNoodle."
+                ],
+                "dato": "BackRub hacía referencia al análisis de backlinks. Que Google casi se llamara 'masaje de espalda' debería recordarnos que incluso los genios necesitan editor."
+            },
+            {
+                "pregunta": "¿Dónde nació la World Wide Web?",
+                "correcta": "En el CERN.",
+                "erroneas": [
+                    "En la NASA.",
+                    "En Microsoft.",
+                    "En Bell Labs."
+                ],
+                "dato": "Tim Berners-Lee inventó la Web en 1989 mientras trabajaba en el CERN, para compartir información entre científicos. Internet ya existía; la Web fue la capa que lo volvió navegable para mortales."
+            },
+            {
+                "pregunta": "¿Qué mascota representa tradicionalmente a Linux?",
+                "correcta": "Un pingüino llamado Tux.",
+                "erroneas": [
+                    "Un zorro rojo llamado Kernel.",
+                    "Un búho llamado Bash.",
+                    "Un castor llamado Debian."
+                ],
+                "dato": "Tux se volvió el personaje asociado a Linux. Entre logos corporativos agresivos y minimalistas, Linux eligió un pingüino satisfecho. Decisión correcta."
+            },
+            {
+                "pregunta": "CAPTCHA parece una palabra inventada por alguien que se golpeó contra el teclado. ¿Para qué sirve?",
+                "correcta": "Para distinguir humanos de bots.",
+                "erroneas": [
+                    "Para comprimir imágenes.",
+                    "Para acelerar páginas web.",
+                    "Para cifrar contraseñas."
+                ],
+                "dato": "CAPTCHA es un acrónimo larguísimo para una prueba que intenta separar humanos de máquinas. Irónicamente, entrenamos máquinas resolviendo esos cuadritos de semáforos. La broma se cuenta sola."
+            },
+            {
+                "pregunta": "Antes de Mario, Zelda y Pokémon, ¿qué fabricaba Nintendo originalmente?",
+                "correcta": "Cartas japonesas hanafuda.",
+                "erroneas": [
+                    "Radios portátiles.",
+                    "Máquinas de escribir.",
+                    "Juguetes de cuerda para gatos."
+                ],
+                "dato": "Nintendo comenzó en 1889 fabricando cartas hanafuda. De naipes tradicionales a plomeros que pisan tortugas: evolución empresarial muy sobria, claramente."
+            },
+            {
+                "pregunta": "¿Qué significa CPU?",
+                "correcta": "Central Processing Unit.",
+                "erroneas": [
+                    "Computer Power Utility.",
+                    "Central Program Usage.",
+                    "Core Pixel Unit."
+                ],
+                "dato": "La CPU es la unidad central de procesamiento: ejecuta instrucciones y coordina operaciones. Básicamente el cerebro de la computadora, aunque también se sobrecalienta como jefe en guardia."
+            },
+            {
+                "pregunta": "¿Qué significa GPU?",
+                "correcta": "Graphics Processing Unit.",
+                "erroneas": [
+                    "General Power Unit.",
+                    "Global Pixel Utility.",
+                    "Graphical Program Upload."
+                ],
+                "dato": "La GPU está especializada en procesar gráficos y cálculos paralelos. Antes era para videojuegos; ahora también ayuda con inteligencia artificial. La tarjeta gamer terminó haciendo ciencia seria. Qué molesto."
+            },
+            {
+                "pregunta": "¿Qué significa RAM?",
+                "correcta": "Random Access Memory.",
+                "erroneas": [
+                    "Rapid Archive Module.",
+                    "Read Always Memory.",
+                    "Remote Access Machine."
+                ],
+                "dato": "La RAM guarda datos temporales que la computadora necesita rápido. Cuando se llena, todo se arrastra como Windows abriendo actualizaciones en el peor momento."
+            },
+            {
+                "pregunta": "¿Qué significa ROM?",
+                "correcta": "Read-Only Memory.",
+                "erroneas": [
+                    "Rapid Output Machine.",
+                    "Random Online Module.",
+                    "Registry Operation Memory."
+                ],
+                "dato": "La ROM almacena información que normalmente no se modifica durante el uso cotidiano. Es memoria más terca que un tío explicando conspiraciones en Navidad."
+            },
+            {
+                "pregunta": "¿Qué significa GHz?",
+                "correcta": "Gigahertz.",
+                "erroneas": [
+                    "Gigahotz.",
+                    "Gigahetz.",
+                    "Gigahatz."
+                ],
+                "dato": "GHz mide miles de millones de ciclos por segundo. En procesadores suena impresionante, aunque no todo se reduce a frecuencia. Sí, la vida otra vez arruinando las comparaciones simples."
+            },
+            {
+                "pregunta": "¿Qué significa URL?",
+                "correcta": "Uniform Resource Locator.",
+                "erroneas": [
+                    "Universal Routing Link.",
+                    "User Reference Line.",
+                    "Unified Registry Location."
+                ],
+                "dato": "La URL es la dirección de un recurso en la web. Es la versión formal de 'pásame el link', pero con corbata y ganas de complicarse."
+            },
+            {
+                "pregunta": "¿Qué significa HTTP?",
+                "correcta": "Hypertext Transfer Protocol.",
+                "erroneas": [
+                    "High Transfer Text Program.",
+                    "Hyperlink Tracking Technology Process.",
+                    "Host Terminal Transfer Package."
+                ],
+                "dato": "HTTP es el protocolo usado para transferir documentos en la web. Sin él, no habría navegación como la conocemos; solo computadoras mirándose incómodamente."
+            },
+            {
+                "pregunta": "¿Qué significa USB?",
+                "correcta": "Universal Serial Bus.",
+                "erroneas": [
+                    "United System Battery.",
+                    "Universal Storage Box.",
+                    "User Sync Bridge."
+                ],
+                "dato": "USB fue creado para estandarizar conexiones entre dispositivos. Aun así, todos hemos intentado meterlo al revés dos veces. La física también trolea."
+            },
+            {
+                "pregunta": "¿Qué significa HTML?",
+                "correcta": "HyperText Markup Language.",
+                "erroneas": [
+                    "HighText Machine Language.",
+                    "Hyperlink Tool Management Logic.",
+                    "Home Tabular Markup Library."
+                ],
+                "dato": "HTML no es un lenguaje de programación tradicional; es un lenguaje de marcado. Traducción: estructura la página, no piensa por ti. Lástima."
+            },
+            {
+                "pregunta": "¿Qué significa CSS?",
+                "correcta": "Cascading Style Sheets.",
+                "erroneas": [
+                    "Computer Style System.",
+                    "Creative Screen Syntax.",
+                    "Core Styling Software."
+                ],
+                "dato": "CSS controla la presentación visual de una página web. También controla tu paciencia cuando un botón decide moverse tres píxeles sin razón aparente."
+            },
+            {
+                "pregunta": "En HTML antiguo existía una etiqueta famosa por hacer que texto se moviera por la pantalla. ¿Cuál era?",
+                "correcta": "Marquee.",
+                "erroneas": [
+                    "Slider.",
+                    "Scrolltext.",
+                    "Wiggle."
+                ],
+                "dato": "La etiqueta marquee hacía texto desplazándose por la página. Era fea, molesta y profundamente noventera. Naturalmente, internet la amó."
+            },
+            {
+                "pregunta": "En CSS, ¿cuál de estos valores NO pertenece normalmente a la propiedad position?",
+                "correcta": "Center.",
+                "erroneas": [
+                    "Relative.",
+                    "Absolute.",
+                    "Fixed."
+                ],
+                "dato": "position acepta valores como static, relative, absolute, fixed y sticky. 'center' suena lógico, por eso CSS jamás lo permitiría así de fácil."
+            },
+            {
+                "pregunta": "En Python, ¿cuál instrucción imprime correctamente el texto Hello World?",
+                "correcta": "Print('Hello World').",
+                "erroneas": [
+                    "Echo('Hello World').",
+                    "Console.log('Hello World').",
+                    "System.out.println('Hello World')."
+                ],
+                "dato": "Python usa print para imprimir en pantalla. La pregunta es básica, sí, pero todos empezamos diciendo Hello World como si la computadora necesitara terapia de bienvenida."
+            },
+            {
+                "pregunta": "El lenguaje Swift de Apple fue creado principalmente para reemplazar o modernizar el uso de ¿qué lenguaje en sus plataformas?",
+                "correcta": "Objective-C.",
+                "erroneas": [
+                    "Pascal.",
+                    "Ruby.",
+                    "Visual Basic."
+                ],
+                "dato": "Swift apareció como una alternativa más moderna y segura para desarrollar en el ecosistema Apple. Objective-C no murió de inmediato; simplemente empezó a oler a museo."
+            },
+            {
+                "pregunta": "¿Qué lenguaje de programación fue creado originalmente en Netscape y hoy domina gran parte de la web interactiva?",
+                "correcta": "JavaScript.",
+                "erroneas": [
+                    "Java.",
+                    "Python.",
+                    "C#."
+                ],
+                "dato": "JavaScript nació en Netscape en los años 90. El nombre hizo que generaciones pensaran que Java y JavaScript eran casi lo mismo. Gracias, marketing."
+            },
+            {
+                "pregunta": "¿Cuál fue el primer nombre del lenguaje Java antes de adoptar su nombre definitivo?",
+                "correcta": "Oak.",
+                "erroneas": [
+                    "Bean.",
+                    "Cedar.",
+                    "MochaScript."
+                ],
+                "dato": "Java se llamó Oak durante su desarrollo inicial. Luego cambió a Java, porque aparentemente ponerle nombre de árbol a un lenguaje era demasiado biodegradable."
+            },
+            {
+                "pregunta": "¿Qué significa SQL?",
+                "correcta": "Structured Query Language.",
+                "erroneas": [
+                    "System Quality Logic.",
+                    "Sequential Quick Loader.",
+                    "Simple Query Library."
+                ],
+                "dato": "SQL se usa para consultar y manipular bases de datos relacionales. Es el idioma universal de 'dame estos datos, pero no rompas producción'."
+            },
+            {
+                "pregunta": "¿Qué significa IP en redes?",
+                "correcta": "Internet Protocol.",
+                "erroneas": [
+                    "Internal Port.",
+                    "Instant Packet.",
+                    "Integrated Path."
+                ],
+                "dato": "IP es el protocolo que permite direccionar y enrutar datos en redes. Sin IP, internet sería una sala llena de paquetes sin dirección, o sea paquetería en diciembre."
+            },
+            {
+                "pregunta": "¿Qué formato de imagen usa compresión con pérdida y es famoso para fotografías?",
+                "correcta": "JPEG.",
+                "erroneas": [
+                    "SVG.",
+                    "TXT.",
+                    "WAV."
+                ],
+                "dato": "JPEG reduce mucho el tamaño de las imágenes a costa de perder información. Por eso una foto puede pasar de retrato a pintura rupestre si la comprimes como salvaje."
+            },
+            {
+                "pregunta": "¿Qué formato de imagen es conocido por permitir transparencia y compresión sin pérdida?",
+                "correcta": "PNG.",
+                "erroneas": [
+                    "MP3.",
+                    "DOCX.",
+                    "EXE."
+                ],
+                "dato": "PNG es común para gráficos, capturas e imágenes con transparencia. Es el formato que dice: 'sí puedo tener fondo invisible sin convertirme en GIF de los noventa'."
+            },
+            {
+                "pregunta": "¿Qué tecnología permite conectar dispositivos cercanos sin cables usando radio de corto alcance?",
+                "correcta": "Bluetooth.",
+                "erroneas": [
+                    "HDMI.",
+                    "Ethernet.",
+                    "VGA."
+                ],
+                "dato": "Bluetooth sirve para conexiones inalámbricas de corto alcance: audífonos, bocinas, teclados y otros objetos que misteriosamente fallan justo cuando hay gente mirando."
+            },
+            {
+                "pregunta": "¿Cuál de estos NO es realmente un significado oficial de Wi-Fi?",
+                "correcta": "Wireless Fidelity.",
+                "erroneas": [
+                    "Una marca comercial.",
+                    "Un nombre de certificación.",
+                    "Un término asociado a redes inalámbricas."
+                ],
+                "dato": "Wi-Fi se volvió famoso como marca para tecnologías inalámbricas; 'Wireless Fidelity' fue más una explicación publicitaria posterior que un significado técnico real. O sea: nombre bonito primero, lógica después."
+            },
+            {
+                "pregunta": "¿Qué empresa creó Android antes de que Google la comprara?",
+                "correcta": "Android Inc.",
+                "erroneas": [
+                    "Nokia Labs.",
+                    "Palm Systems.",
+                    "Motorola Mobile."
+                ],
+                "dato": "Android Inc. fue adquirida por Google en 2005. Luego Android acabó viviendo en miles de millones de teléfonos, tablets, televisiones y refrigeradores que nadie pidió conectar a internet."
+            },
+            {
+                "pregunta": "¿Qué mensaje decía el primer SMS enviado en 1992?",
+                "correcta": "Merry Christmas.",
+                "erroneas": [
+                    "Hello World.",
+                    "Call me.",
+                    "Test message."
+                ],
+                "dato": "El primer SMS comercialmente famoso decía 'Merry Christmas'. La humanidad inauguró los mensajes de texto con espíritu navideño, antes de degradarlos a 'k'."
+            },
+            {
+                "pregunta": "¿Qué compañía registró Symbolics.com, considerado el primer dominio .com registrado?",
+                "correcta": "Symbolics.",
+                "erroneas": [
+                    "IBM.",
+                    "Apple.",
+                    "Microsoft."
+                ],
+                "dato": "Symbolics.com fue registrado en 1985 y suele citarse como el primer dominio .com. Una reliquia de cuando internet todavía no era un tianguis de anuncios y contraseñas filtradas."
+            },
+            {
+                "pregunta": "¿Qué famoso mouse fue mostrado por Douglas Engelbart en una demostración histórica de 1968?",
+                "correcta": "Un mouse de computadora.",
+                "erroneas": [
+                    "Un mouse óptico inalámbrico.",
+                    "Un control de videojuegos.",
+                    "Una tableta gráfica táctil."
+                ],
+                "dato": "Engelbart mostró varias ideas modernas de computación interactiva, incluido el mouse. En 1968 ya estaba enseñando el futuro mientras otros apenas peleaban con calculadoras."
+            },
+            {
+                "pregunta": "¿Qué empresa lanzó el Macintosh original en 1984?",
+                "correcta": "Apple.",
+                "erroneas": [
+                    "IBM.",
+                    "Commodore.",
+                    "Atari."
+                ],
+                "dato": "El Macintosh popularizó la interfaz gráfica para consumidores. No inventó todo, pero sí lo puso en una caja vendible con suficiente actitud para que Apple hiciera Apple."
+            },
+            {
+                "pregunta": "¿Qué consola portátil de Nintendo convirtió a Tetris en una adicción global de bolsillo?",
+                "correcta": "Game Boy.",
+                "erroneas": [
+                    "Nintendo DS.",
+                    "GameCube.",
+                    "Virtual Boy."
+                ],
+                "dato": "El Game Boy y Tetris fueron una combinación brutal: pantalla verde, bloques cayendo y millones de personas descubriendo que ordenar piezas podía destruir productividad."
+            },
+            {
+                "pregunta": "¿Qué red social popularizó el botón de 'Me gusta' con un pulgar arriba como gesto central?",
+                "correcta": "Facebook.",
+                "erroneas": [
+                    "MySpace.",
+                    "Reddit.",
+                    "LinkedIn."
+                ],
+                "dato": "El 'like' convirtió la aprobación social en un botón. Desde entonces, la humanidad mide autoestima, marketing y ansiedad con un pulgar digital. Diseño brillante y maldito."
+            },
+            {
+                "pregunta": "¿Qué plataforma hizo famoso el límite original de 140 caracteres por publicación?",
+                "correcta": "Twitter.",
+                "erroneas": [
+                    "Tumblr.",
+                    "Instagram.",
+                    "Reddit."
+                ],
+                "dato": "Twitter nació con mensajes cortos inspirados en las limitaciones de SMS. La restricción obligaba a sintetizar ideas; internet respondió sintetizando peleas."
+            },
+            {
+                "pregunta": "¿Qué tecnología se usa comúnmente para pagar acercando una tarjeta o teléfono a una terminal?",
+                "correcta": "NFC.",
+                "erroneas": [
+                    "VGA.",
+                    "SATA.",
+                    "BIOS."
+                ],
+                "dato": "NFC significa Near Field Communication y permite comunicación inalámbrica de muy corto alcance. Ideal para pagar rápido y fingir que no te asustó el monto."
+            },
+            {
+                "pregunta": "¿Qué significa PDF?",
+                "correcta": "Portable Document Format.",
+                "erroneas": [
+                    "Printable Data File.",
+                    "Public Document Folder.",
+                    "Programmed Digital Form."
+                ],
+                "dato": "PDF fue diseñado para conservar el formato de documentos entre sistemas. Es el santo patrón de 'en mi computadora sí se veía bien'."
+            },
+            {
+                "pregunta": "¿Qué significa BIOS?",
+                "correcta": "Basic Input/Output System.",
+                "erroneas": [
+                    "Binary Internet Operating Server.",
+                    "Basic Internal Online Storage.",
+                    "Boot Integrated Operating Script."
+                ],
+                "dato": "La BIOS inicializa hardware básico antes de cargar el sistema operativo. Es ese lugar azul/negro donde entras por accidente y sales con respeto religioso."
+            },
+            {
+                "pregunta": "Microsoft tuvo un asistente virtual famoso por aparecer sin que nadie lo pidiera, como residente de urgencias explicando obviedades. ¿Cómo se llamaba?",
+                "correcta": "Clippy.",
+                "erroneas": [
+                    "Blinky.",
+                    "HelperBot.",
+                    "PaperDude."
+                ],
+                "dato": "Clippy era el asistente de Office con forma de clip. Su intención era ayudar, pero terminó siendo recordado como una mezcla de invasión de privacidad, ansiedad y papelería con ojos."
+            },
+            {
+                "pregunta": "¿Qué consola de Nintendo prometía realidad virtual en los años 90, pero terminó causando más dolor de cabeza que futuro tecnológico?",
+                "correcta": "Virtual Boy.",
+                "erroneas": [
+                    "GameCube.",
+                    "Nintendo 64DD.",
+                    "Wii U."
+                ],
+                "dato": "El Virtual Boy mostraba gráficos rojos y negros en una especie de visor de mesa. Era incómodo, caro y visualmente agresivo. Nintendo quiso vender el futuro, pero entregó migraña."
+            },
+            {
+                "pregunta": "¿Qué reproductor musical de Microsoft intentó competir contra el iPod y se volvió sinónimo de 'llegamos tarde, jefe'?",
+                "correcta": "Zune.",
+                "erroneas": [
+                    "Kin.",
+                    "Surface Mini.",
+                    "GroovePad."
+                ],
+                "dato": "Zune no era necesariamente malo, pero compitió contra un iPod ya instalado en la cultura pop. A veces el problema no es llegar con producto: es llegar cuando la fiesta ya terminó."
+            },
+            {
+                "pregunta": "¿Qué producto de Google parecía el futuro de los lentes inteligentes, pero acabó más asociado con gente grabando incómodamente en público?",
+                "correcta": "Google Glass.",
+                "erroneas": [
+                    "Google Lens.",
+                    "Google Pixel Buds.",
+                    "Google Cardboard."
+                ],
+                "dato": "Google Glass fue técnicamente interesante, pero socialmente rarísimo. La tecnología preguntó '¿podemos hacerlo?' y olvidó preguntar '¿la gente va a odiar que lo usemos en su cara?'."
+            },
+            {
+                "pregunta": "¿Qué vehículo personal de dos ruedas fue presentado como revolucionario, pero terminó siendo más famoso por tours turísticos y policías de plaza?",
+                "correcta": "Segway.",
+                "erroneas": [
+                    "Hoverboard.",
+                    "Tesla Roadster.",
+                    "Razor Scooter."
+                ],
+                "dato": "El Segway prometía cambiar el transporte urbano. Al final sí cambió algo: la forma en que un grupo de turistas puede verse simultáneamente caro, lento y vulnerable."
+            },
+            {
+                "pregunta": "En Windows, ¿qué combinación clásica abre el Administrador de tareas o pantalla de seguridad?",
+                "correcta": "Ctrl + Alt + Supr.",
+                "erroneas": [
+                    "Alt + F4 + Enter.",
+                    "Shift + Esc + Tab.",
+                    "Ctrl + F5 + Espacio."
+                ],
+                "dato": "Ctrl + Alt + Supr se volvió el equivalente digital de 'respira profundo, algo se murió'. Es una oración técnica con tres dedos."
+            },
+            {
+                "pregunta": "¿Qué tecla tiene fama universal de cerrar programas o ventanas, normalmente justo cuando alguien no guardó su trabajo?",
+                "correcta": "Alt + F4.",
+                "erroneas": [
+                    "Ctrl + P.",
+                    "Shift + Tab.",
+                    "F2."
+                ],
+                "dato": "Alt + F4 cierra la ventana activa. También es una broma clásica para hacer que alguien cierre un juego. Humor primitivo, pero efectivo. Como piedra con WiFi."
+            },
+            {
+                "pregunta": "¿Qué navegador de Microsoft fue durante años el rey de internet y luego se volvió el chiste oficial de 'descargar otro navegador'?",
+                "correcta": "Internet Explorer.",
+                "erroneas": [
+                    "Netscape Navigator.",
+                    "Opera Mini.",
+                    "Mozilla Thunderbird."
+                ],
+                "dato": "Internet Explorer dominó durante años, pero terminó asociado con lentitud, compatibilidad rota y memes. Su arco narrativo fue pasar de emperador a herramienta para instalar Chrome."
+            },
+            {
+                "pregunta": "Antes de Chrome, Firefox y Safari, ¿qué navegador fue uno de los grandes protagonistas de la primera guerra de navegadores?",
+                "correcta": "Netscape Navigator.",
+                "erroneas": [
+                    "Winamp Browser.",
+                    "Lotus Explorer.",
+                    "Yahoo Navigator."
+                ],
+                "dato": "Netscape Navigator fue enorme en los años 90 y compitió contra Internet Explorer. Internet era joven, feo, ruidoso y lleno de botones animados. Una época terrible y preciosa."
+            },
+            {
+                "pregunta": "¿Qué programa era famoso por reproducir música en PC con la frase mental obligatoria: 'it really whips the llama's ass'?",
+                "correcta": "Winamp.",
+                "erroneas": [
+                    "RealPlayer.",
+                    "ITunes.",
+                    "Windows Media Encoder."
+                ],
+                "dato": "Winamp fue un reproductor musical legendario, personalizable con skins y actitud de internet viejo. Reproducía MP3 cuando tener una carpeta llamada 'musica_final_ahora_si' era cultura."
+            },
+            {
+                "pregunta": "¿Qué software de mensajería hacía sonar un 'tukutín' emocional cada vez que alguien se conectaba en los 2000?",
+                "correcta": "MSN Messenger.",
+                "erroneas": [
+                    "ICQ.",
+                    "Skype Empresarial.",
+                    "Google Wave."
+                ],
+                "dato": "MSN Messenger fue ritual adolescente: zumbidos, estados dramáticos, nicks con letras raras y frases de canciones. Era terapia grupal, pero con peor ortografía."
+            },
+            {
+                "pregunta": "¿Qué servicio de mensajería era famoso por asignar números de usuario en lugar de nombres bonitos?",
+                "correcta": "ICQ.",
+                "erroneas": [
+                    "WhatsApp.",
+                    "Telegram.",
+                    "Discord."
+                ],
+                "dato": "ICQ identificaba usuarios con números, como si internet hubiera sido diseñado por una oficina de trámites. Aun así, fue pionero en mensajería instantánea."
+            },
+            {
+                "pregunta": "¿Qué red social permitía personalizar perfiles con HTML, música automática y caos visual adolescente?",
+                "correcta": "MySpace.",
+                "erroneas": [
+                    "LinkedIn.",
+                    "Pinterest.",
+                    "Google Plus."
+                ],
+                "dato": "MySpace dejaba modificar perfiles con código, fondos, canciones y decisiones estéticas criminales. Fue una escuela informal de HTML y mal gusto. A veces ambas cosas son lo mismo."
+            },
+            {
+                "pregunta": "¿Qué red social de Google intentó competir con Facebook y terminó como otro fantasma en el cementerio de productos de Google?",
+                "correcta": "Google Plus.",
+                "erroneas": [
+                    "Google Buzzword.",
+                    "Google Friends.",
+                    "Google CircleNet."
+                ],
+                "dato": "Google Plus intentó organizar contactos en círculos y competir contra Facebook. Tenía ideas decentes, pero poca vida social real. Como muchas cuentas de LinkedIn."
+            },
+            {
+                "pregunta": "¿Qué servicio de Google fue un intento ambicioso de mezclar email, chat y colaboración, pero casi nadie entendió qué demonios era?",
+                "correcta": "Google Wave.",
+                "erroneas": [
+                    "Google Duo.",
+                    "Google Hangouts.",
+                    "Google Reader."
+                ],
+                "dato": "Google Wave era adelantado, complejo y confuso. Tenía ideas que luego aparecerían en otras herramientas, pero en su momento se sintió como leer instrucciones de IKEA escritas por un pulpo."
+            },
+            {
+                "pregunta": "¿Qué lector RSS de Google fue cerrado en 2013, provocando duelo real entre nerds de internet?",
+                "correcta": "Google Reader.",
+                "erroneas": [
+                    "Google Pages.",
+                    "Google Answers.",
+                    "Google Notebook."
+                ],
+                "dato": "Google Reader era querido por quienes seguían blogs y noticias por RSS. Su cierre dejó claro que Google puede matar productos útiles con la serenidad de un villano administrativo."
+            },
+            {
+                "pregunta": "¿Qué tecnología de Adobe fue esencial para juegos y animaciones web, pero murió cuando la web moderna la dejó atrás?",
+                "correcta": "Flash.",
+                "erroneas": [
+                    "Silverlight.",
+                    "QuickTime.",
+                    "ShockNote."
+                ],
+                "dato": "Flash movió gran parte del internet creativo: juegos, animaciones, banners horribles y páginas que gritaban. También tuvo problemas de seguridad y rendimiento. Fue glorioso y tóxico, como buen ex."
+            },
+            {
+                "pregunta": "¿Qué plataforma de videos de formato corto, comprada por Twitter, cerró antes de que TikTok demostrara que esa idea sí podía dominar el planeta?",
+                "correcta": "Vine.",
+                "erroneas": [
+                    "Periscope.",
+                    "Keek.",
+                    "Flickr."
+                ],
+                "dato": "Vine permitía videos de seis segundos y produjo una cultura de humor rapidísimo. Cerró antes de que el mundo aceptara que seis segundos eran suficientes para arruinar productividad global."
+            },
+            {
+                "pregunta": "¿Qué app de video en vivo, comprada por Twitter, fue famosa por transmitir en directo desde el celular antes de morir discretamente?",
+                "correcta": "Periscope.",
+                "erroneas": [
+                    "Vine.",
+                    "Meerkat Pro.",
+                    "Houseparty."
+                ],
+                "dato": "Periscope fue importante para el streaming móvil en vivo. Luego las funciones se integraron en otras plataformas y la app desapareció, como tantas ideas que sobreviven solo dentro de botones nuevos."
+            },
+            {
+                "pregunta": "¿Qué app social de videochats grupales se volvió popular y después fue cerrada por Epic Games?",
+                "correcta": "Houseparty.",
+                "erroneas": [
+                    "Club Penguin.",
+                    "Google Duo.",
+                    "Skype Lite."
+                ],
+                "dato": "Houseparty permitía videollamadas grupales casuales. Tuvo auge y luego cierre. Internet ama las salas sociales hasta que otra app aparece con el mismo concepto y más ansiedad."
+            },
+            {
+                "pregunta": "¿Qué juego online de Disney permitía vivir como pingüino, decorar iglús y aprender economía capitalista con puffles?",
+                "correcta": "Club Penguin.",
+                "erroneas": [
+                    "Habbo Hotel.",
+                    "Neopets.",
+                    "Toontown City."
+                ],
+                "dato": "Club Penguin fue una comunidad virtual infantil masiva. Permitía chatear, jugar, vestir pingüinos y descubrir que hasta un iglú necesita decoración aspiracional."
+            },
+            {
+                "pregunta": "¿Qué comunidad virtual mostraba personajes pixelados en un hotel y fue un clásico del internet social temprano?",
+                "correcta": "Habbo Hotel.",
+                "erroneas": [
+                    "Second Life.",
+                    "RuneScape.",
+                    "GeoCities."
+                ],
+                "dato": "Habbo Hotel mezclaba salas, avatares y economía virtual. Era como un lobby social con pixeles, moderación dudosa y adolescentes aprendiendo negociación de muebles falsos."
+            },
+            {
+                "pregunta": "¿Qué mundo virtual permitía comprar terrenos, crear avatares y vivir una segunda vida digital, literalmente?",
+                "correcta": "Second Life.",
+                "erroneas": [
+                    "MetaVille.",
+                    "The Sims Online 3D.",
+                    "CyberTown Plus."
+                ],
+                "dato": "Second Life fue un experimento enorme de identidad, economía y espacios virtuales. Básicamente el metaverso antes de que la palabra se pusiera traje y pidiera inversión."
+            },
+            {
+                "pregunta": "¿Qué servicio permitió a millones de usuarios crear páginas web horribles con fondos animados, gifs y texto chillando visualmente?",
+                "correcta": "GeoCities.",
+                "erroneas": [
+                    "Medium.",
+                    "Substack.",
+                    "Squarespace."
+                ],
+                "dato": "GeoCities fue una de las grandes ciudades del internet viejo: páginas personales, gifs, contadores de visitas y estética de accidente nuclear. Feo, sí. Más humano que muchas redes actuales, también."
+            },
+            {
+                "pregunta": "¿Qué archivo musical comprimido dominó internet en los 90 y 2000 porque permitía compartir canciones fácilmente?",
+                "correcta": "MP3.",
+                "erroneas": [
+                    "WAV.",
+                    "MIDI.",
+                    "FLAC."
+                ],
+                "dato": "El MP3 comprimía audio reduciendo tamaño con pérdida de calidad. Fue clave para música digital, reproductores portátiles y carpetas llenas de canciones llamadas 'track_final_final_real.mp3'."
+            },
+            {
+                "pregunta": "¿Qué programa de intercambio de archivos se volvió famoso por compartir música y provocar demandas históricas de la industria musical?",
+                "correcta": "Napster.",
+                "erroneas": [
+                    "WinZip.",
+                    "Kazaa Paint.",
+                    "QuickShare Pro."
+                ],
+                "dato": "Napster permitió compartir MP3 de forma masiva y puso nerviosa a la industria discográfica. Fue menos una app y más una patada digital a un modelo de negocio."
+            },
+            {
+                "pregunta": "¿Qué extensión de archivo suele asociarse a imágenes animadas cortas que internet usa para reaccionar a todo?",
+                "correcta": "GIF.",
+                "erroneas": [
+                    "DOC.",
+                    "ZIP.",
+                    "ISO."
+                ],
+                "dato": "Los GIFs animados son parte esencial del lenguaje visual de internet. La humanidad inventó satélites y aceleradores de partículas, pero comunica emociones con gatos en bucle."
+            },
+            {
+                "pregunta": "¿Qué plataforma de preguntas y respuestas suele aparecer cuando buscas algo muy específico y alguien ya sufrió ese error antes que tú?",
+                "correcta": "Stack Overflow.",
+                "erroneas": [
+                    "GitHub Pages.",
+                    "CodePen Radio.",
+                    "NerdTube."
+                ],
+                "dato": "Stack Overflow es el oráculo no oficial de programadores. La mitad del software moderno está construido sobre documentación, intuición y alguien llamado user18472 respondiendo en 2011."
+            },
+            {
+                "pregunta": "¿Qué plataforma se usa masivamente para alojar repositorios de código con control de versiones Git?",
+                "correcta": "GitHub.",
+                "erroneas": [
+                    "Dropbox Code.",
+                    "StackEdit.",
+                    "Pastebin Music."
+                ],
+                "dato": "GitHub aloja repositorios y facilita colaboración con Git. También es donde proyectos personales van a vivir, crecer o quedar abandonados con un README optimista."
+            },
+            {
+                "pregunta": "¿Qué comando de Git se usa comúnmente para copiar un repositorio remoto a tu computadora?",
+                "correcta": "Git clone.",
+                "erroneas": [
+                    "Git copy.",
+                    "Git download.",
+                    "Git absorb."
+                ],
+                "dato": "git clone crea una copia local de un repositorio remoto. El nombre suena a ciencia ficción, pero normalmente solo significa 'bájate este caos y suerte'."
+            },
+            {
+                "pregunta": "¿Qué archivo suele explicar qué es un proyecto de software y cómo usarlo?",
+                "correcta": "README.",
+                "erroneas": [
+                    "IGNOREME.",
+                    "BOOTME.",
+                    "FINAL.docx."
+                ],
+                "dato": "El README es la carta de presentación de un proyecto. Si está bien hecho, salva horas. Si está vacío, bienvenido al arqueología informática."
+            },
+            {
+                "pregunta": "¿Qué archivo se usa en Git para decir qué archivos NO deben subirse al repositorio?",
+                "correcta": ".Gitignore.",
+                "erroneas": [
+                    ".Dontupload.",
+                    ".Skipcode.",
+                    ".Hideme."
+                ],
+                "dato": ".gitignore evita subir basura como temporales, dependencias o secretos. Cuando alguien sube claves por error, no es drama: es temporada completa."
+            },
+            {
+                "pregunta": "¿Qué lenguaje fue creado para dar estilo visual a páginas web?",
+                "correcta": "CSS.",
+                "erroneas": [
+                    "SQL.",
+                    "Bash.",
+                    "YAML."
+                ],
+                "dato": "CSS controla colores, tamaños, posiciones y diseño. También controla tu presión arterial cuando un div decide medir 100% pero no ese 100%."
+            },
+            {
+                "pregunta": "¿Qué lenguaje estructura el contenido básico de una página web?",
+                "correcta": "HTML.",
+                "erroneas": [
+                    "Python.",
+                    "C++.",
+                    "MongoDB."
+                ],
+                "dato": "HTML define encabezados, párrafos, enlaces, imágenes y estructura. No programa lógica compleja; solo le dice a la página qué existe. Ya con eso a veces es demasiado."
+            },
+            {
+                "pregunta": "¿Qué lenguaje agrega interactividad a muchas páginas web modernas?",
+                "correcta": "JavaScript.",
+                "erroneas": [
+                    "Photoshop.",
+                    "PowerPoint.",
+                    "ExcelScript 95."
+                ],
+                "dato": "JavaScript permite manejar eventos, modificar páginas y crear aplicaciones web. También permite que una página pese 40 MB para mostrarte tres botones. Gran poder, gran irresponsabilidad."
+            },
+            {
+                "pregunta": "¿Qué sistema operativo móvil es desarrollado principalmente por Google?",
+                "correcta": "Android.",
+                "erroneas": [
+                    "IOS.",
+                    "Symbian.",
+                    "BlackBerry OS."
+                ],
+                "dato": "Android domina gran parte del mercado móvil global. Está en teléfonos, tablets, televisores, relojes y probablemente algún refrigerador que no pidió tener actualizaciones."
+            },
+            {
+                "pregunta": "¿Qué sistema operativo móvil usa el iPhone?",
+                "correcta": "IOS.",
+                "erroneas": [
+                    "Android.",
+                    "Windows Phone.",
+                    "PalmOS."
+                ],
+                "dato": "iOS es el sistema operativo del iPhone. Cerrado, pulido y con esa elegancia de decirte que no puedes hacer algo porque Apple sabe mejor que tú. A veces sí, a veces no."
+            },
+            {
+                "pregunta": "¿Qué sistema operativo móvil de Microsoft murió pese a tener una interfaz bastante distinta y algunas buenas ideas?",
+                "correcta": "Windows Phone.",
+                "erroneas": [
+                    "BlackBerry Messenger.",
+                    "Palm Reader.",
+                    "Nokia Wave."
+                ],
+                "dato": "Windows Phone tenía mosaicos dinámicos y una interfaz muy reconocible, pero no logró construir un ecosistema de apps suficiente. Buen diseño sin apps: museo bonito."
+            },
+            {
+                "pregunta": "¿Qué marca de teléfonos fue famosa por teclados físicos y por convertir el email móvil en adicción ejecutiva?",
+                "correcta": "BlackBerry.",
+                "erroneas": [
+                    "HTC Vive.",
+                    "Motorola Razr.",
+                    "PalmPilot."
+                ],
+                "dato": "BlackBerry dominó el mundo corporativo móvil antes del smartphone táctil moderno. Su teclado era tan adictivo que hubo gente escribiendo correos como si desactivara bombas."
+            },
+            {
+                "pregunta": "¿Qué dispositivo de Palm fue un símbolo de las agendas digitales antes de que el smartphone se comiera todo?",
+                "correcta": "PalmPilot.",
+                "erroneas": [
+                    "PalmCube.",
+                    "PalmStation.",
+                    "PalmBook Air."
+                ],
+                "dato": "PalmPilot fue una PDA popular para contactos, calendarios y notas. Era un teléfono inteligente antes de que el teléfono dijera: 'yo también hago eso, y además arruino tu sueño'."
+            },
+            {
+                "pregunta": "¿Qué teléfono de Motorola se volvió icónico por su diseño plegable ultradelgado en los 2000?",
+                "correcta": "Motorola Razr.",
+                "erroneas": [
+                    "Nokia N-Gage.",
+                    "Sony Walkman X.",
+                    "HTC Dream."
+                ],
+                "dato": "El Motorola Razr fue un ícono de diseño. Cerrarlo con golpe seco era la versión tecnológica de colgar con dignidad."
+            },
+            {
+                "pregunta": "¿Qué teléfono de Nokia es famoso por su resistencia casi mitológica?",
+                "correcta": "Nokia 3310.",
+                "erroneas": [
+                    "IPhone 4.",
+                    "Samsung Galaxy Note 7.",
+                    "BlackBerry Storm."
+                ],
+                "dato": "El Nokia 3310 se volvió meme por su durabilidad. No era indestructible, pero en internet alcanzó estatus de ladrillo sagrado con tonos monofónicos."
+            },
+            {
+                "pregunta": "¿Qué teléfono de Samsung fue retirado del mercado por problemas de batería que podían incendiarse?",
+                "correcta": "Galaxy Note 7.",
+                "erroneas": [
+                    "Galaxy S2.",
+                    "Galaxy Fold 1.",
+                    "Galaxy Mini."
+                ],
+                "dato": "El Galaxy Note 7 tuvo fallas graves de batería y fue retirado. Un teléfono que venía con stylus y, ocasionalmente, modo bengala. Mal combo."
+            },
+            {
+                "pregunta": "¿Qué consola de Sony ayudó a popularizar el DVD como formato doméstico porque también funcionaba como reproductor?",
+                "correcta": "PlayStation 2.",
+                "erroneas": [
+                    "PlayStation Portable.",
+                    "PlayStation Classic.",
+                    "PlayStation Vita."
+                ],
+                "dato": "La PlayStation 2 fue consola y reproductor DVD económico para muchas casas. Sony vendió videojuegos y, de paso, colonizó la sala."
+            },
+            {
+                "pregunta": "¿Qué consola de Microsoft lanzó la marca Xbox al mercado?",
+                "correcta": "Xbox original.",
+                "erroneas": [
+                    "Xbox 360.",
+                    "Xbox One.",
+                    "Xbox Series X."
+                ],
+                "dato": "La Xbox original llegó en 2001 y metió a Microsoft de lleno en consolas. Era grande, pesada y con control enorme. Sutil como refrigerador con Halo."
+            },
+            {
+                "pregunta": "¿Qué consola portátil de Nintendo tenía dos pantallas, una de ellas táctil?",
+                "correcta": "Nintendo DS.",
+                "erroneas": [
+                    "Game Boy Color.",
+                    "GameCube.",
+                    "Virtual Boy."
+                ],
+                "dato": "La Nintendo DS apostó por doble pantalla y controles táctiles. Parecía rara, vendió muchísimo y demostró que Nintendo puede ganar haciendo exactamente lo que nadie pidió."
+            },
+            {
+                "pregunta": "¿Qué consola de Nintendo usaba controles con movimiento y convirtió salas familiares en zonas de riesgo para televisores?",
+                "correcta": "Wii.",
+                "erroneas": [
+                    "Switch.",
+                    "GameCube.",
+                    "Nintendo 64."
+                ],
+                "dato": "La Wii popularizó los controles por movimiento. También popularizó la correa de seguridad porque, sorpresa, la gente sí lanza cosas cuando compite."
+            },
+            {
+                "pregunta": "¿Qué casco de realidad virtual de Meta antes se conocía bajo la marca Oculus?",
+                "correcta": "Quest.",
+                "erroneas": [
+                    "Kinect.",
+                    "VivePod.",
+                    "Hololens Phone."
+                ],
+                "dato": "Meta Quest viene de la línea Oculus Quest. La realidad virtual sigue prometiendo el futuro; a veces lo entrega, a veces solo te deja sudado y desorientado."
+            },
+            {
+                "pregunta": "¿Qué accesorio de Xbox detectaba movimiento corporal sin necesidad de control en la mano?",
+                "correcta": "Kinect.",
+                "erroneas": [
+                    "Move.",
+                    "EyeToy Mini.",
+                    "Joy-Con."
+                ],
+                "dato": "Kinect usaba cámaras y sensores para detectar movimiento. Fue impresionante, raro y luego terminó siendo más útil para experimentos, hacks y memes que para dominar el gaming."
+            },
+            {
+                "pregunta": "¿Qué asistente de voz de Amazon responde al nombre Alexa?",
+                "correcta": "Amazon Echo.",
+                "erroneas": [
+                    "Google Nest.",
+                    "Apple HomePod.",
+                    "Microsoft Zune."
+                ],
+                "dato": "Amazon Echo popularizó el altavoz inteligente con Alexa. La humanidad decidió meter micrófonos en casa para pedir temporizadores y poner música. Muy normal todo."
+            },
+            {
+                "pregunta": "¿Qué asistente de voz de Apple apareció primero en el iPhone 4S?",
+                "correcta": "Siri.",
+                "erroneas": [
+                    "Cortana.",
+                    "Alexa.",
+                    "Bixby."
+                ],
+                "dato": "Siri volvió común hablarle al teléfono en público. Al principio parecía magia; luego descubrimos que también podía fallar con absoluta confianza."
+            },
+            {
+                "pregunta": "¿Qué asistente de Microsoft compartía nombre con una inteligencia artificial de Halo?",
+                "correcta": "Cortana.",
+                "erroneas": [
+                    "Alexa.",
+                    "Siri.",
+                    "Jarvis."
+                ],
+                "dato": "Cortana tomó su nombre de Halo. El problema es que en el juego era brillante y en la vida real a veces solo quería abrir Bing. Expectativas crueles."
+            },
+            {
+                "pregunta": "¿Qué formato físico de almacenamiento flexible fue símbolo de guardar tareas antes de que una memoria USB lo humillara?",
+                "correcta": "Disquete.",
+                "erroneas": [
+                    "Blu-ray.",
+                    "Tarjeta SIM.",
+                    "Cable VGA."
+                ],
+                "dato": "El disquete guardaba cantidades ridículas de información comparadas con estándares actuales. Aun así, su icono sigue siendo símbolo de guardar. Un fósil haciendo UX."
+            },
+            {
+                "pregunta": "¿Qué soporte óptico reemplazó ampliamente al VHS para películas en casa?",
+                "correcta": "DVD.",
+                "erroneas": [
+                    "Cassette.",
+                    "MiniDisc.",
+                    "Disquete."
+                ],
+                "dato": "El DVD mejoró calidad, acceso por capítulos y tamaño frente al VHS. También nos dio menús animados que gritaban música mientras buscabas subtítulos."
+            },
+            {
+                "pregunta": "¿Qué formato de cinta dominó el video casero antes del DVD?",
+                "correcta": "VHS.",
+                "erroneas": [
+                    "Blu-ray.",
+                    "LaserDisc.",
+                    "Betamax 4K."
+                ],
+                "dato": "VHS fue el rey del video doméstico durante décadas. Rebobinar antes de devolver era etiqueta básica. No hacerlo era casi delito moral."
+            },
+            {
+                "pregunta": "¿Qué tecnología de almacenamiento óptico fue físicamente enorme, con discos del tamaño de una pizza elegante?",
+                "correcta": "LaserDisc.",
+                "erroneas": [
+                    "MiniDisc.",
+                    "UMD.",
+                    "MicroSD."
+                ],
+                "dato": "LaserDisc ofrecía buena calidad para su época, pero los discos eran grandes y poco prácticos. Tecnología premium con ergonomía de escudo medieval."
+            },
+            {
+                "pregunta": "¿Qué formato de Sony parecía futurista para música portátil, pero fue opacado por el MP3?",
+                "correcta": "MiniDisc.",
+                "erroneas": [
+                    "LaserDisc.",
+                    "HD DVD.",
+                    "ZipDrive."
+                ],
+                "dato": "MiniDisc era regrabable, compacto y bastante interesante. Luego el MP3 llegó sin pedir permiso y convirtió medio hardware elegante en decoración nostálgica."
+            },
+            {
+                "pregunta": "¿Qué servicio de Apple cambió la venta de música digital vendiendo canciones sueltas de forma legal?",
+                "correcta": "ITunes Store.",
+                "erroneas": [
+                    "Apple Music Radio.",
+                    "QuickTime Shop.",
+                    "MacTunes CD."
+                ],
+                "dato": "iTunes Store ayudó a normalizar comprar canciones individuales en línea. La industria pasó de vender álbumes completos a aceptar que la gente solo quería esa canción y ya."
+            },
+            {
+                "pregunta": "¿Qué sitio fundado en 2005 se volvió la plataforma dominante para subir y ver videos en internet?",
+                "correcta": "YouTube.",
+                "erroneas": [
+                    "Vimeo Mail.",
+                    "Dailymotion Plus.",
+                    "Google Video Chat."
+                ],
+                "dato": "YouTube transformó el video online. Empezó como plataforma de clips y terminó siendo escuela, televisión, archivo cultural, distracción y agujero negro con miniaturas horribles."
+            },
+            {
+                "pregunta": "¿Qué aplicación popularizó filtros efímeros y mensajes que desaparecen?",
+                "correcta": "Snapchat.",
+                "erroneas": [
+                    "Pinterest.",
+                    "LinkedIn.",
+                    "Flickr."
+                ],
+                "dato": "Snapchat popularizó mensajes temporales y filtros. Luego otras redes copiaron la idea con la elegancia de quien copia la tarea pero cambia el tipo de letra."
+            },
+            {
+                "pregunta": "¿Qué plataforma se hizo famosa por transmisiones en vivo de videojuegos?",
+                "correcta": "Twitch.",
+                "erroneas": [
+                    "Flickr.",
+                    "Tumblr.",
+                    "SoundCloud."
+                ],
+                "dato": "Twitch convirtió ver a otros jugar en industria. Antes tus papás te decían que jugar era perder el tiempo; ahora también puedes monetizar que otros te vean hacerlo."
+            },
+            {
+                "pregunta": "¿Qué sitio de foros y comunidades se autodenomina frecuentemente 'la portada de internet'?",
+                "correcta": "Reddit.",
+                "erroneas": [
+                    "Pinterest.",
+                    "Quora.",
+                    "Foursquare."
+                ],
+                "dato": "Reddit agrupa comunidades por temas llamados subreddits. Puede ser una mina de oro o un pozo radioactivo, dependiendo de dónde hagas clic. Como la vida."
+            },
+            {
+                "pregunta": "¿Qué plataforma de diseño colaborativo se volvió estándar para interfaces, prototipos y hacer que todos opinen del botón?",
+                "correcta": "Figma.",
+                "erroneas": [
+                    "Winamp.",
+                    "Notepad++.",
+                    "Paint 3D."
+                ],
+                "dato": "Figma permitió diseño colaborativo en navegador. Hizo más fácil trabajar en equipo y también más fácil que cinco personas discutan si el azul debe ser un 3% más triste."
+            },
+            {
+                "pregunta": "¿Qué programa de edición de imágenes de Adobe se volvió verbo cultural para manipular fotos?",
+                "correcta": "Photoshop.",
+                "erroneas": [
+                    "Premiere.",
+                    "Illustrator.",
+                    "Lightroom."
+                ],
+                "dato": "Photoshop es tan dominante que su nombre se usa como verbo. Eso es éxito de marca: cuando la gente ya no dice editar, dice photoshopear como si fuera diagnóstico."
+            },
+            {
+                "pregunta": "¿Qué software de hojas de cálculo de Microsoft es tan poderoso que mucha gente lo usa como base de datos, agenda, inventario y religión menor?",
+                "correcta": "Excel.",
+                "erroneas": [
+                    "PowerPoint.",
+                    "AccessPaint.",
+                    "WordPad."
+                ],
+                "dato": "Excel es una hoja de cálculo, pero en la práctica sostiene empresas enteras con fórmulas, macros y fe. El mundo moderno corre sobre archivos llamados 'final_v8_ahora_si.xlsx'."
+            },
+            {
+                "pregunta": "¿Qué programa de presentaciones de Microsoft ha causado más diapositivas saturadas que cualquier guerra corporativa?",
+                "correcta": "PowerPoint.",
+                "erroneas": [
+                    "Outlook.",
+                    "OneNote.",
+                    "Visual Studio."
+                ],
+                "dato": "PowerPoint sirve para presentar ideas, aunque también permite meter 19 bullets, 4 logos y una gráfica ilegible en una sola lámina. Herramienta neutra; usuario culpable."
+            },
+            {
+                "pregunta": "¿Qué editor simple de Windows es famoso por abrir texto plano sin ponerse creativo?",
+                "correcta": "Bloc de notas.",
+                "erroneas": [
+                    "PowerPoint.",
+                    "Paint 3D.",
+                    "Excel."
+                ],
+                "dato": "El Bloc de notas no presume, no decora y no intenta corregirte la vida. Abre texto. Fin. Una herramienta emocionalmente estable."
+            },
+            {
+                "pregunta": "¿Qué aplicación clásica de Windows permitió durante años hacer arte digital con herramientas básicas y mucha dignidad pixelada?",
+                "correcta": "Paint.",
+                "erroneas": [
+                    "Access.",
+                    "Publisher.",
+                    "Outlook."
+                ],
+                "dato": "Microsoft Paint fue escuela artística de millones. Con un pincel tosco y cubeta de pintura, la humanidad produjo tanto retrato feo como patrimonio cultural involuntario."
+            },
+            {
+                "pregunta": "¿Qué extensión suele tener un archivo ejecutable en Windows?",
+                "correcta": ".Exe.",
+                "erroneas": [
+                    ".Jpg.",
+                    ".Mp3.",
+                    ".Txt."
+                ],
+                "dato": ".exe indica un archivo ejecutable en Windows. También es la razón por la que 'foto_graciosa.exe' jamás debe abrirse, salvo que te guste vivir como advertencia."
+            },
+            {
+                "pregunta": "¿Qué tipo de archivo comprimido es famoso por reducir carpetas enteras en un solo paquete?",
+                "correcta": ".Zip.",
+                "erroneas": [
+                    ".Wav.",
+                    ".Png.",
+                    ".Html."
+                ],
+                "dato": "ZIP permite comprimir y agrupar archivos. Es la bolsa ziploc de la informática: metes todo, cierras y esperas que el destinatario sepa qué hacer."
+            },
+            {
+                "pregunta": "¿Qué formato de audio suele usarse para sonido sin comprimir en Windows?",
+                "correcta": "WAV.",
+                "erroneas": [
+                    "JPEG.",
+                    "EXE.",
+                    "CSS."
+                ],
+                "dato": "WAV puede guardar audio sin comprimir, con buena calidad y archivos pesados. Ideal si quieres que una canción ocupe lo que antes era medio disco duro."
+            },
+            {
+                "pregunta": "¿Qué formato se usa comúnmente para iconos en Windows?",
+                "correcta": "ICO.",
+                "erroneas": [
+                    "MP4.",
+                    "SQL.",
+                    "BAT."
+                ],
+                "dato": "ICO es un formato usado para iconos. Pequeño, específico y condenado a verse borroso si alguien lo exportó con flojera."
+            },
+            {
+                "pregunta": "¿Qué archivo por lotes de Windows suele usar la extensión .bat?",
+                "correcta": "Un archivo batch.",
+                "erroneas": [
+                    "Una imagen comprimida.",
+                    "Un video ejecutable.",
+                    "Una fuente tipográfica."
+                ],
+                "dato": "Los archivos .bat ejecutan comandos en secuencia. Son pequeños automatizadores que pueden ahorrar tiempo o destruir carpetas si alguien escribió como cavernícola."
+            }
+        ]
+    },
+    {
+        "id": "crimen-real",
+        "nombre": "Crimen real",
+        "descripcion": "Casos documentados, investigaciones y sucesos policiales conocidos.",
+        "preguntas": [
+            {
+                "pregunta": "D. B. Cooper secuestró un avión en 1971, cobró un rescate y luego hizo una salida bastante cinematográfica. ¿Qué hizo?",
+                "correcta": "Saltó en paracaídas desde el avión.",
+                "erroneas": [
+                    "Escapó disfrazado de piloto.",
+                    "Se escondió en el tren de aterrizaje.",
+                    "Bajó por una escalera en pleno aeropuerto."
+                ],
+                "dato": "D. B. Cooper recibió dinero y paracaídas antes de saltar desde el avión. Su identidad sigue sin resolverse. El hombre convirtió un crimen federal en leyenda de aeropuerto."
+            },
+            {
+                "pregunta": "En el robo al Isabella Stewart Gardner Museum de Boston en 1990, ¿cómo entraron los ladrones?",
+                "correcta": "Disfrazados de policías.",
+                "erroneas": [
+                    "Como restauradores de arte.",
+                    "Por un túnel bajo el museo.",
+                    "Ocultos dentro de cajas de exposición."
+                ],
+                "dato": "Dos hombres vestidos como policías dijeron responder a una emergencia y lograron entrar. Robaron 13 obras de arte. Los marcos vacíos siguen expuestos como recordatorio. Brutal decoración de 'nos robaron y no lo superamos'."
+            },
+            {
+                "pregunta": "En la fuga de Alcatraz de 1962, los presos engañaron a los guardias dejando algo en sus camas. ¿Qué era?",
+                "correcta": "Cabezas falsas hechas con yeso y cabello real.",
+                "erroneas": [
+                    "Muñecos inflables de tienda.",
+                    "Sacos de harina con sombreros.",
+                    "Fotografías pegadas en las almohadas."
+                ],
+                "dato": "Frank Morris y los hermanos Anglin dejaron cabezas falsas en sus camas para simular que dormían. La parte inquietante no es la fuga; es imaginar a alguien fabricando eso con paciencia de manualidades carcelarias."
+            },
+            {
+                "pregunta": "El Gran Robo del Tren de 1963 en Reino Unido tuvo como objetivo un tren que transportaba ¿qué?",
+                "correcta": "Correo y dinero.",
+                "erroneas": [
+                    "Joyas de la Corona.",
+                    "Lingotes de oro reales.",
+                    "Obras de arte del Parlamento."
+                ],
+                "dato": "Los ladrones atacaron el tren correo Glasgow-Londres y robaron millones de libras. No era Fast & Furious: era más bien logística postal con delincuencia bien organizada."
+            },
+            {
+                "pregunta": "Charles Ponzi hizo famosa una estafa financiera usando como pretexto ¿qué objeto aparentemente aburridísimo?",
+                "correcta": "Cupones postales internacionales.",
+                "erroneas": [
+                    "Sellos falsos de colección.",
+                    "Acciones de minas de plata.",
+                    "Bonos de ferrocarril inexistentes."
+                ],
+                "dato": "Ponzi prometía ganancias enormes con diferencias de precio en cupones postales internacionales. El plan terminó siendo pagar a inversionistas viejos con dinero de inversionistas nuevos. Matemáticas con perfume de cárcel."
+            },
+            {
+                "pregunta": "En un esquema Ponzi clásico, ¿de dónde salen realmente las ganancias que reciben los primeros inversionistas?",
+                "correcta": "Del dinero de nuevos inversionistas.",
+                "erroneas": [
+                    "De inversiones secretas muy rentables.",
+                    "De subsidios bancarios ocultos.",
+                    "De intereses garantizados por el gobierno."
+                ],
+                "dato": "El fraude funciona mientras entra gente nueva. Cuando deja de entrar dinero, la pirámide se cae. Es como Jenga financiero, pero con demandas."
+            },
+            {
+                "pregunta": "El Gran Robo Canadiense de Jarabe de Maple fue exactamente tan absurdo como suena. ¿Qué robaron?",
+                "correcta": "Toneladas de jarabe de maple.",
+                "erroneas": [
+                    "Barriles de whisky canadiense.",
+                    "Sacos de azúcar morena.",
+                    "Cajas de tocino ahumado."
+                ],
+                "dato": "Entre 2011 y 2012 robaron miles de toneladas de jarabe de una reserva estratégica en Quebec. Canadá tiene reserva estratégica de maple. Eso no es chiste: es geopolítica con hotcakes."
+            },
+            {
+                "pregunta": "¿Qué pintura robó Vincenzo Peruggia del Louvre en 1911?",
+                "correcta": "La Mona Lisa.",
+                "erroneas": [
+                    "La Venus de Milo.",
+                    "La joven de la perla.",
+                    "La libertad guiando al pueblo."
+                ],
+                "dato": "Peruggia había trabajado en el Louvre y robó la Mona Lisa en 1911. El robo ayudó a volverla todavía más famosa. Marketing criminal involuntario, pero efectivo."
+            },
+            {
+                "pregunta": "¿Dónde escondió Vincenzo Peruggia la Mona Lisa durante parte del tiempo después de robarla?",
+                "correcta": "En su departamento.",
+                "erroneas": [
+                    "En una iglesia abandonada.",
+                    "En una estación de tren.",
+                    "En una cripta familiar."
+                ],
+                "dato": "La pintura estuvo oculta durante más de dos años antes de ser recuperada en Italia. Robar una obra maestra y guardarla en casa es un nivel raro de 'yo controlo la situación'."
+            },
+            {
+                "pregunta": "El escándalo Watergate comenzó con un allanamiento en las oficinas de ¿qué organización?",
+                "correcta": "El Comité Nacional Demócrata.",
+                "erroneas": [
+                    "La CIA.",
+                    "El Banco Mundial.",
+                    "La Corte Suprema."
+                ],
+                "dato": "El allanamiento al complejo Watergate destapó una red de espionaje político y encubrimiento que terminó con la renuncia de Richard Nixon. Todo empezó como un robo torpe y escaló a manual de crisis institucional."
+            },
+            {
+                "pregunta": "El caso Golden State Killer fue resuelto décadas después usando una técnica moderna. ¿Cuál?",
+                "correcta": "Genealogía genética.",
+                "erroneas": [
+                    "Hipnosis forense.",
+                    "Reconocimiento facial por satélite.",
+                    "Lectura de huellas en fotografías antiguas."
+                ],
+                "dato": "Investigadores usaron ADN y árboles genealógicos para identificar al sospechoso. La ciencia forense básicamente dijo: 'no te encontramos a ti, encontramos a tus primos'."
+            },
+            {
+                "pregunta": "El asesino BTK fue identificado en parte gracias a un error tecnológico bastante básico. ¿Qué envió a la policía?",
+                "correcta": "Un disquete con metadatos rastreables.",
+                "erroneas": [
+                    "Un correo electrónico desde su cuenta personal.",
+                    "Un celular con GPS encendido.",
+                    "Una memoria USB con su foto de perfil."
+                ],
+                "dato": "El disquete contenía metadatos que apuntaban a una iglesia y a un usuario llamado Dennis. Moral técnica: si vas a burlarte de la policía, al menos entiende los metadatos. Mejor no te burles, de paso."
+            },
+            {
+                "pregunta": "El caso Tylenol de 1982 cambió para siempre los empaques de medicamentos. ¿Qué se volvió estándar después?",
+                "correcta": "Sellos y empaques evidentes contra manipulación.",
+                "erroneas": [
+                    "Frascos de vidrio obligatorio.",
+                    "Recetas para todo analgésico.",
+                    "Cápsulas transparentes numeradas."
+                ],
+                "dato": "Después del caso, la industria adoptó empaques que muestran si un producto fue abierto o alterado. Una tragedia convirtió el 'si el sello está roto, no lo uses' en sentido común."
+            },
+            {
+                "pregunta": "El robo al Banco Central de Fortaleza en Brasil en 2005 fue famoso porque los ladrones entraron por ¿qué medio?",
+                "correcta": "Un túnel subterráneo.",
+                "erroneas": [
+                    "Un helicóptero.",
+                    "Un camión blindado falso.",
+                    "Un elevador de servicio hackeado."
+                ],
+                "dato": "Los ladrones excavaron un túnel hasta la bóveda y se llevaron una enorme cantidad de dinero. Fue menos 'asalto improvisado' y más 'obra civil con intenciones pésimas'."
+            },
+            {
+                "pregunta": "¿Qué producto robado hizo famoso al atraco conocido como Antwerp Diamond Heist?",
+                "correcta": "Diamantes.",
+                "erroneas": [
+                    "Relojes suizos.",
+                    "Monedas romanas.",
+                    "Sellos postales raros."
+                ],
+                "dato": "El robo de Amberes fue uno de los grandes atracos de joyas modernos. La ciudad es un centro histórico del comercio de diamantes, porque aparentemente concentrar cosas carísimas en un solo lugar nunca tienta a nadie. Ajá."
+            },
+            {
+                "pregunta": "El robo de Hatton Garden en Londres fue llamativo porque varios ladrones tenían una característica poco esperada. ¿Cuál?",
+                "correcta": "Eran adultos mayores.",
+                "erroneas": [
+                    "Eran todos policías retirados.",
+                    "Eran monjes disfrazados.",
+                    "Eran atletas olímpicos."
+                ],
+                "dato": "El caso llamó la atención porque varios miembros del grupo eran hombres de edad avanzada. Una especie de 'Ocean's Eleven', pero con dolor lumbar y antecedentes penales."
+            },
+            {
+                "pregunta": "El robo de Lufthansa de 1978, asociado a la mafia neoyorquina, fue popularizado en el cine por ¿qué película?",
+                "correcta": "Goodfellas.",
+                "erroneas": [
+                    "The Godfather.",
+                    "Scarface.",
+                    "Heat."
+                ],
+                "dato": "El robo ocurrió en el aeropuerto JFK y fue llevado a la cultura pop por Goodfellas. El cine hizo lo que siempre hace: convertir un desastre criminal en escena memorable."
+            },
+            {
+                "pregunta": "Anna Sorokin se hizo famosa por estafar a la élite de Nueva York haciéndose pasar por una heredera alemana. ¿Qué nombre usaba?",
+                "correcta": "Anna Delvey.",
+                "erroneas": [
+                    "Anna Rothschild.",
+                    "Anna Von Berlin.",
+                    "Anna Kensington."
+                ],
+                "dato": "Anna Sorokin usó la identidad de Anna Delvey para entrar en círculos sociales de lujo. La estafa funcionó porque mucha gente rica confunde seguridad con acento, ropa cara y cara de fastidio."
+            },
+            {
+                "pregunta": "Elizabeth Holmes y Theranos prometían revolucionar los análisis médicos usando cantidades mínimas de ¿qué?",
+                "correcta": "Sangre.",
+                "erroneas": [
+                    "Saliva.",
+                    "Cabello.",
+                    "Sudor."
+                ],
+                "dato": "Theranos prometía hacer muchas pruebas con una pequeña muestra de sangre, pero la tecnología no cumplía lo anunciado. Startup lesson: si tu producto no funciona, quizá no lo arregla un cuello de tortuga negro."
+            },
+            {
+                "pregunta": "El Fyre Festival se vendió como un festival de lujo en una isla paradisíaca, pero se volvió famoso por ¿qué?",
+                "correcta": "Ser un desastre y un fraude.",
+                "erroneas": [
+                    "Ser cancelado por un volcán.",
+                    "Ser el primer festival en Marte.",
+                    "Ser invadido por animales salvajes."
+                ],
+                "dato": "El Fyre Festival prometió lujo, influencers y experiencia exclusiva; terminó con caos logístico, carpas y comida deprimente. Publicidad perfecta para demostrar que Instagram no es evidencia."
+            },
+            {
+                "pregunta": "Enron se volvió símbolo de fraude corporativo principalmente en ¿qué sector?",
+                "correcta": "Energía.",
+                "erroneas": [
+                    "Moda.",
+                    "Videojuegos.",
+                    "Cine."
+                ],
+                "dato": "Enron usó estructuras contables engañosas para ocultar problemas financieros. Fue una clase magistral de cómo hacer que hojas de cálculo, codicia y traje caro destruyan una empresa."
+            },
+            {
+                "pregunta": "El escándalo de emisiones de Volkswagen fue conocido popularmente como ¿qué?",
+                "correcta": "Dieselgate.",
+                "erroneas": [
+                    "CarWash.",
+                    "MotorLeaks.",
+                    "TurboFraud."
+                ],
+                "dato": "Volkswagen manipuló pruebas de emisiones en vehículos diésel. El coche no era más limpio; era más mentiroso. Gran diferencia, aunque al planeta le dio igual."
+            },
+            {
+                "pregunta": "Han van Meegeren fue un falsificador de arte famoso por imitar obras de ¿qué pintor?",
+                "correcta": "Vermeer.",
+                "erroneas": [
+                    "Picasso.",
+                    "Van Gogh.",
+                    "Monet."
+                ],
+                "dato": "Van Meegeren falsificó obras atribuidas a Vermeer y logró engañar a expertos. Después tuvo que demostrar que era falsificador para defenderse de una acusación peor. Raro caso donde decir 'sí, soy fraude' era estrategia legal."
+            },
+            {
+                "pregunta": "El falsificador Han van Meegeren tuvo que pintar una obra durante su juicio para probar algo muy específico. ¿Qué quería demostrar?",
+                "correcta": "Que él podía falsificar un Vermeer.",
+                "erroneas": [
+                    "Que Vermeer nunca existió.",
+                    "Que los museos le debían dinero.",
+                    "Que sus cuadros eran mejores que los originales."
+                ],
+                "dato": "Para probar que no había vendido una obra auténtica a los nazis, tuvo que demostrar que la había falsificado. Legalmente horrible, narrativamente impecable."
+            },
+            {
+                "pregunta": "Bonnie y Clyde fueron una pareja criminal de la era de la Gran Depresión famosa principalmente por ¿qué tipo de delitos?",
+                "correcta": "Robos y asaltos.",
+                "erroneas": [
+                    "Falsificación de arte.",
+                    "Espionaje internacional.",
+                    "Tráfico de reliquias egipcias."
+                ],
+                "dato": "Bonnie Parker y Clyde Barrow fueron romantizados por la prensa y el cine, pero su historia real fue violenta y terminó en una persecución enorme. La cultura pop tiene una peligrosa habilidad para ponerle filtro sepia a lo terrible."
+            },
+            {
+                "pregunta": "John Dillinger fue uno de los criminales estadounidenses más buscados de los años 30 por robar principalmente ¿qué?",
+                "correcta": "Bancos.",
+                "erroneas": [
+                    "Museos.",
+                    "Trenes de ganado.",
+                    "Laboratorios farmacéuticos."
+                ],
+                "dato": "Dillinger se volvió una figura mediática durante la Gran Depresión. Robar bancos lo convirtió en noticia; que el público lo romantizara dice bastante del ánimo económico de la época."
+            },
+            {
+                "pregunta": "El Unabomber fue identificado en parte después de que se publicara su manifiesto y alguien reconociera su estilo. ¿Quién lo reconoció?",
+                "correcta": "Su hermano.",
+                "erroneas": [
+                    "Su vecino.",
+                    "Su profesor de primaria.",
+                    "Un taxista."
+                ],
+                "dato": "David Kaczynski reconoció similitudes entre el texto publicado y escritos de su hermano Theodore. La lingüística forense y una denuncia familiar ayudaron a cerrar un caso larguísimo."
+            },
+            {
+                "pregunta": "El robo de arte del Gardner Museum sigue siendo famoso porque las obras robadas fueron reemplazadas visualmente por ¿qué?",
+                "correcta": "Marcos vacíos.",
+                "erroneas": [
+                    "Copias digitales.",
+                    "Cortinas negras.",
+                    "Fotos policiales de los sospechosos."
+                ],
+                "dato": "El museo conserva marcos vacíos donde estaban algunas piezas. Es una decisión elegante y brutal: convertir la ausencia en exposición permanente."
+            },
+            {
+                "pregunta": "¿Qué secuestrador aéreo pidió 200,000 dólares y paracaídas antes de desaparecer en una leyenda criminal estadounidense?",
+                "correcta": "D. B. Cooper.",
+                "erroneas": [
+                    "John Dillinger.",
+                    "Frank Morris.",
+                    "Charles Ponzi."
+                ],
+                "dato": "El caso D. B. Cooper sigue fascinando porque combina avión, rescate, paracaídas y desaparición. Es el tipo de crimen que internet mastica durante décadas porque le falta final."
+            },
+            {
+                "pregunta": "¿Qué prisión-isla estadounidense se volvió famosa por una fuga de 1962 cuyo desenlace sigue siendo debatido?",
+                "correcta": "Alcatraz.",
+                "erroneas": [
+                    "Sing Sing.",
+                    "Rikers Island.",
+                    "San Quentin."
+                ],
+                "dato": "Alcatraz era considerada extremadamente difícil de escapar por su ubicación en la bahía de San Francisco. En 1962, tres presos desaparecieron. Oficialmente no se confirmó que sobrevivieran, que es justo el tipo de grieta donde crece el mito."
+            },
+            {
+                "pregunta": "En el caso de las cartas del Zodiaco, ¿qué elemento volvió especialmente famosa la investigación además de los crímenes?",
+                "correcta": "Los mensajes cifrados enviados a la prensa.",
+                "erroneas": [
+                    "Los mapas del tesoro.",
+                    "Las llamadas desde satélite.",
+                    "Los videos en televisión nacional."
+                ],
+                "dato": "El caso del Zodiaco se volvió parte de la cultura popular por sus cartas y criptogramas. Es crimen real mezclado con puzzle oscuro, justo la clase de cosa que internet no sabe dejar en paz."
+            },
+            {
+                "pregunta": "El caso de la 'Dalia Negra' se asocia con una víctima llamada Elizabeth Short y con una investigación que quedó ¿cómo?",
+                "correcta": "Sin resolver.",
+                "erroneas": [
+                    "Resuelta en 24 horas.",
+                    "Archivada como accidente.",
+                    "Confesada por tres presidentes."
+                ],
+                "dato": "El caso de Elizabeth Short sigue siendo uno de los crímenes sin resolver más conocidos de Los Ángeles. Su fama también muestra cómo los medios pueden convertir una tragedia en mito, a veces con muy poco pudor."
+            },
+            {
+                "pregunta": "¿Qué famoso robo británico de 1963 fue conocido como 'el robo del siglo' en Reino Unido?",
+                "correcta": "El Gran Robo del Tren.",
+                "erroneas": [
+                    "El robo de Hatton Garden.",
+                    "El robo del Banco de Inglaterra.",
+                    "El asalto de Baker Street."
+                ],
+                "dato": "El Gran Robo del Tren tuvo planeación, logística y una persecución masiva posterior. Básicamente convirtió un tren correo en episodio de crimen histórico con acento británico."
+            },
+            {
+                "pregunta": "El robo de Baker Street de 1971 en Londres fue descubierto en parte porque alguien escuchó comunicaciones de los ladrones usando ¿qué?",
+                "correcta": "Una radio.",
+                "erroneas": [
+                    "Un telégrafo.",
+                    "Un satélite militar.",
+                    "Una cámara oculta."
+                ],
+                "dato": "El robo de Baker Street involucró túneles y comunicación por radio. Un radioaficionado escuchó conversaciones sospechosas y alertó a la policía. El villano de la historia: la falta de discreción."
+            },
+            {
+                "pregunta": "¿Qué atraco real inspiró parte de la fama criminal alrededor de la película Goodfellas?",
+                "correcta": "El robo de Lufthansa.",
+                "erroneas": [
+                    "El robo de la Mona Lisa.",
+                    "El robo de Alcatraz.",
+                    "El caso Watergate."
+                ],
+                "dato": "El robo de Lufthansa fue uno de los atracos más famosos asociados al crimen organizado en Nueva York. Goodfellas lo volvió cultura popular, porque Hollywood nunca deja pasar una bolsa llena de dinero narrativo."
+            },
+            {
+                "pregunta": "En muchos robos de arte famosos, ¿por qué las piezas son difíciles de vender intactas?",
+                "correcta": "Porque son demasiado reconocibles.",
+                "erroneas": [
+                    "Porque pierden color fuera del museo.",
+                    "Porque todos los cuadros tienen GPS.",
+                    "Porque legalmente se derriten."
+                ],
+                "dato": "Una obra famosa robada puede valer muchísimo, pero venderla es complicado porque todos saben que existe y cómo se ve. Es como robar un elefante: impresionante, pero difícil de sacar discretamente."
+            },
+            {
+                "pregunta": "El término 'lavado de dinero' se refiere a intentar hacer que dinero de origen ilegal parezca ¿qué?",
+                "correcta": "Legal.",
+                "erroneas": [
+                    "Falso.",
+                    "Antiguo.",
+                    "Coleccionable."
+                ],
+                "dato": "Lavar dinero implica ocultar o disfrazar el origen ilícito de fondos. No lo hace limpio; solo lo maquilla con facturas, empresas y cara de 'todo en orden, contador'."
+            },
+            {
+                "pregunta": "¿Qué tipo de crimen financiero consiste en usar información confidencial para comprar o vender acciones con ventaja injusta?",
+                "correcta": "Uso de información privilegiada.",
+                "erroneas": [
+                    "Falsificación de moneda.",
+                    "Piratería marítima.",
+                    "Robo hormiga."
+                ],
+                "dato": "El insider trading ocurre cuando alguien usa información no pública para operar en mercados financieros. Es como copiar en el examen, pero con traje, corbata y abogados caros."
+            }
+        ]
+    },
+    {
+        "id": "deportes",
+        "nombre": "Deportes",
+        "descripcion": "Hazañas, reglas, atletas, torneos y datos curiosos deportivos.",
+        "preguntas": [
+            {
+                "pregunta": "En Suiza, de acuerdo con sus estrictas leyes modernas de protección y derechos hacia los animales, ¿qué mascota es ilegal tener de forma solitaria en casa?",
+                "correcta": "Cobayas.",
+                "erroneas": [
+                    "Loros.",
+                    "Gatos domestico.",
+                    "Peces dorados."
+                ],
+                "dato": "Las cobayas ( Conejillos de indias) son consideradas animales sumamente sociales que necesitan compañía para no sufrir aislamiento. La ley es tan estricta que existen servicios locales de renta de cobayas por si una de tu pareja de mascotas fallece y no quieres comprar otra."
+            },
+            {
+                "pregunta": "¿Cada cuántos años se celebra normalmente la Copa Mundial masculina de la FIFA?",
+                "correcta": "Cada cuatro años.",
+                "erroneas": [
+                    "Cada dos años.",
+                    "Cada cinco años.",
+                    "Cada año."
+                ],
+                "dato": "La Copa Mundial masculina se juega normalmente cada cuatro años. Es suficiente tiempo para que un país reconstruya esperanzas, compre playeras y vuelva a sufrir igual."
+            },
+            {
+                "pregunta": "¿Qué país ganó la primera Copa Mundial masculina de fútbol en 1930?",
+                "correcta": "Uruguay.",
+                "erroneas": [
+                    "Brasil.",
+                    "Argentina.",
+                    "Italia."
+                ],
+                "dato": "Uruguay ganó el primer Mundial en 1930, jugando como local. Empezaron el torneo y de paso dijeron: 'también lo ganamos, gracias'."
+            },
+            {
+                "pregunta": "¿Qué selección mexicana fue derrotada por Brasil en la final de fútbol olímpico de Londres 2012?",
+                "correcta": "Ninguna; México le ganó a Brasil.",
+                "erroneas": [
+                    "La Sub-17.",
+                    "La selección femenil.",
+                    "La selección mayor."
+                ],
+                "dato": "México ganó el oro olímpico en fútbol varonil en Londres 2012 al vencer 2-1 a Brasil. Fue uno de esos días raros donde el guion nacional no terminó en tragedia."
+            },
+            {
+                "pregunta": "¿Quién anotó los dos goles de México en la final olímpica de fútbol de Londres 2012?",
+                "correcta": "Oribe Peralta.",
+                "erroneas": [
+                    "Javier Hernández.",
+                    "Giovani dos Santos.",
+                    "Cuauhtémoc Blanco."
+                ],
+                "dato": "Oribe Peralta anotó los dos goles contra Brasil. México ganó oro olímpico y por unas horas todos estuvimos de acuerdo en algo. Milagro deportivo."
+            },
+            {
+                "pregunta": "¿Qué estadio mexicano ha sido sede de partidos mundialistas en 1970, 1986 y 2026?",
+                "correcta": "Estadio Azteca.",
+                "erroneas": [
+                    "Estadio Jalisco.",
+                    "Estadio Olímpico Universitario.",
+                    "Estadio BBVA."
+                ],
+                "dato": "El Estadio Azteca, ahora Estadio Ciudad de México para fines comerciales del Mundial, es un monstruo histórico: Pelé, Maradona, México 70, México 86 y otra vez Mundial en 2026. El pasto debe tener más currículum que varios técnicos."
+            },
+            {
+                "pregunta": "¿Qué jugador mexicano es famoso por haber participado en cinco Copas del Mundo?",
+                "correcta": "Rafael Márquez.",
+                "erroneas": [
+                    "Hugo Sánchez.",
+                    "Jared Borgetti.",
+                    "Luis García."
+                ],
+                "dato": "Rafael Márquez jugó en cinco Mundiales y además fue capitán de México en varias ediciones. Un récord de longevidad deportiva y de aguantar eliminatorias sin perder la postura."
+            },
+            {
+                "pregunta": "¿Qué portero mexicano fue famoso por jugar con uniformes de colores imposibles y también como delantero ocasional?",
+                "correcta": "Jorge Campos.",
+                "erroneas": [
+                    "Guillermo Ochoa.",
+                    "Oswaldo Sánchez.",
+                    "Pablo Larios."
+                ],
+                "dato": "Jorge Campos era portero, delantero ocasional y diseñador de uniformes que parecían hechos por una impresora sin supervisión adulta. Imposible no verlo."
+            },
+            {
+                "pregunta": "¿Qué futbolista mexicano brilló en el Real Madrid y fue famoso por sus remates de chilena?",
+                "correcta": "Hugo Sánchez.",
+                "erroneas": [
+                    "Rafael Márquez.",
+                    "Cuauhtémoc Blanco.",
+                    "Carlos Vela."
+                ],
+                "dato": "Hugo Sánchez fue una figura enorme del Real Madrid y convirtió la chilena en firma personal. Pocos celebraban un gol con tanta elasticidad y ego bien ganado."
+            },
+            {
+                "pregunta": "¿Qué jugador mexicano popularizó la 'Cuauhtemiña', una jugada donde saltaba con el balón atrapado entre los pies?",
+                "correcta": "Cuauhtémoc Blanco.",
+                "erroneas": [
+                    "Luis Hernández.",
+                    "Hirving Lozano.",
+                    "Javier Aquino."
+                ],
+                "dato": "La Cuauhtemiña era tan rara como efectiva para molestar defensas. Técnica, descaro y barrio en una sola maniobra."
+            },
+            {
+                "pregunta": "¿Cuál es el apodo más conocido de Javier Hernández?",
+                "correcta": "Chicharito.",
+                "erroneas": [
+                    "Matador.",
+                    "Kikín.",
+                    "Cabrito."
+                ],
+                "dato": "Javier Hernández heredó el apodo por su padre, 'Chícharo' Hernández. El diminutivo terminó metiendo goles en Manchester United, Real Madrid y selección mexicana."
+            },
+            {
+                "pregunta": "¿Qué selección eliminó a México en octavos de final del Mundial 2014 con el famoso 'No era penal'?",
+                "correcta": "Países Bajos.",
+                "erroneas": [
+                    "Alemania.",
+                    "Argentina.",
+                    "Croacia."
+                ],
+                "dato": "El partido contra Países Bajos dejó una de las frases deportivas mexicanas más repetidas: 'No era penal'. Terapia colectiva en tres palabras."
+            },
+            {
+                "pregunta": "¿Qué país fue coanfitrión con México y Estados Unidos del Mundial masculino 2026?",
+                "correcta": "Canadá.",
+                "erroneas": [
+                    "Costa Rica.",
+                    "Brasil.",
+                    "Colombia."
+                ],
+                "dato": "El Mundial 2026 es organizado por México, Estados Unidos y Canadá, y además expandió el torneo a 48 selecciones. Más equipos, más partidos, más formas de decepcionarse."
+            },
+            {
+                "pregunta": "¿Qué país ganó el Mundial masculino de fútbol 1986, celebrado en México?",
+                "correcta": "Argentina.",
+                "erroneas": [
+                    "Alemania Federal.",
+                    "Brasil.",
+                    "Italia."
+                ],
+                "dato": "Argentina ganó México 86 con Diego Maradona como figura absoluta. Ese Mundial dejó goles, polémicas y material suficiente para discutir en mesas familiares hasta el año 3000."
+            },
+            {
+                "pregunta": "¿Qué jugador argentino hizo famosa la 'Mano de Dios' en el Mundial de México 1986?",
+                "correcta": "Diego Maradona.",
+                "erroneas": [
+                    "Lionel Messi.",
+                    "Mario Kempes.",
+                    "Gabriel Batistuta."
+                ],
+                "dato": "Maradona anotó con la mano contra Inglaterra y luego hizo uno de los mejores goles de la historia en el mismo partido. Trampa y genio, separados por minutos. El fútbol, siendo fútbol."
+            },
+            {
+                "pregunta": "¿Qué país ganó el Mundial masculino de fútbol 1970, celebrado en México?",
+                "correcta": "Brasil.",
+                "erroneas": [
+                    "Italia.",
+                    "Alemania Federal.",
+                    "Uruguay."
+                ],
+                "dato": "Brasil ganó México 70 con Pelé como gran figura. Muchos lo consideran uno de los equipos más brillantes de la historia. Una selección tan buena que hasta los resúmenes parecen editados."
+            },
+            {
+                "pregunta": "¿Qué boxeador mexicano llegó a tener una marca invicta de 89 victorias, 0 derrotas y 1 empate antes de perder por primera vez?",
+                "correcta": "Julio César Chávez.",
+                "erroneas": [
+                    "Saúl 'Canelo' Álvarez.",
+                    "Érik Morales.",
+                    "Juan Manuel Márquez."
+                ],
+                "dato": "Julio César Chávez acumuló una racha histórica antes de su primera derrota profesional. Era menos récord y más expediente clínico para sus rivales."
+            },
+            {
+                "pregunta": "¿Qué boxeador mexicano es conocido como 'Canelo'?",
+                "correcta": "Saúl Álvarez.",
+                "erroneas": [
+                    "Julio César Chávez.",
+                    "Marco Antonio Barrera.",
+                    "Ricardo López."
+                ],
+                "dato": "Saúl Álvarez es conocido como Canelo por su cabello rojizo. México vio un pelirrojo peleando y no perdió tiempo en poner apodo. Eficiencia cultural."
+            },
+            {
+                "pregunta": "¿Qué boxeador mexicano es famoso por haber noqueado a Manny Pacquiao en 2012?",
+                "correcta": "Juan Manuel Márquez.",
+                "erroneas": [
+                    "Érik Morales.",
+                    "Marco Antonio Barrera.",
+                    "Julio César Chávez Jr."
+                ],
+                "dato": "Juan Manuel Márquez noqueó a Manny Pacquiao en su cuarta pelea. Fue un golpe tan limpio que todavía aparece en debates, memes y traumas deportivos filipinos."
+            },
+            {
+                "pregunta": "¿Qué boxeador mexicano fue conocido como 'El Finito' y se retiró invicto?",
+                "correcta": "Ricardo López.",
+                "erroneas": [
+                    "Jorge Arce.",
+                    "Carlos Zárate.",
+                    "Rubén Olivares."
+                ],
+                "dato": "Ricardo 'Finito' López terminó invicto y es considerado uno de los boxeadores más técnicos de México. Su apodo no era decoración: era advertencia."
+            },
+            {
+                "pregunta": "¿Qué deporte hizo famoso mundialmente a Fernando Valenzuela con el fenómeno llamado 'Fernandomanía'?",
+                "correcta": "Béisbol.",
+                "erroneas": [
+                    "Boxeo.",
+                    "Fútbol americano.",
+                    "Golf."
+                ],
+                "dato": "Fernando Valenzuela desató la Fernandomanía con Los Angeles Dodgers en 1981. Un pitcher sonorense logró que medio estadio pareciera reunión familiar mexicana con hot dogs."
+            },
+            {
+                "pregunta": "¿Con qué equipo de Grandes Ligas se asocia principalmente la Fernandomanía de Fernando Valenzuela?",
+                "correcta": "Los Angeles Dodgers.",
+                "erroneas": [
+                    "New York Yankees.",
+                    "Boston Red Sox.",
+                    "Chicago Cubs."
+                ],
+                "dato": "Valenzuela se volvió ídolo con los Dodgers. Su impacto fue deportivo y cultural: béisbol, comunidad latina y bigote con autoridad."
+            },
+            {
+                "pregunta": "En béisbol, ¿cuántos outs necesita un equipo para terminar una entrada defensiva?",
+                "correcta": "Tres outs.",
+                "erroneas": [
+                    "Dos outs.",
+                    "Cuatro outs.",
+                    "Cinco outs."
+                ],
+                "dato": "Cada equipo necesita tres outs para cerrar su turno defensivo. El béisbol es simple hasta que alguien empieza a explicar balks, errores y estadísticas con tres decimales."
+            },
+            {
+                "pregunta": "En béisbol, ¿cómo se llama cuando un bateador manda la pelota fuera del campo en zona válida?",
+                "correcta": "Home run.",
+                "erroneas": [
+                    "Touchdown.",
+                    "Ace.",
+                    "Knockout."
+                ],
+                "dato": "Un home run permite recorrer todas las bases y anotar. Es el equivalente beisbolero de mandar el problema lo más lejos posible."
+            },
+            {
+                "pregunta": "¿Qué deporte se juega tradicionalmente en Wimbledon?",
+                "correcta": "Tenis.",
+                "erroneas": [
+                    "Golf.",
+                    "Críquet.",
+                    "Rugby."
+                ],
+                "dato": "Wimbledon es uno de los torneos más famosos del tenis y se juega en césped. Mucha tradición, ropa blanca y gente fingiendo entender todas las reglas del desempate."
+            },
+            {
+                "pregunta": "En tenis, ¿cómo se llama un saque que el rival no logra tocar?",
+                "correcta": "Ace.",
+                "erroneas": [
+                    "Strike.",
+                    "Eagle.",
+                    "Try."
+                ],
+                "dato": "Un ace es un saque directo ganador. Es elegante porque ni siquiera da tiempo de hacer el ridículo corriendo."
+            },
+            {
+                "pregunta": "¿Qué torneo de tenis se juega sobre arcilla roja en París?",
+                "correcta": "Roland Garros.",
+                "erroneas": [
+                    "Wimbledon.",
+                    "US Open.",
+                    "Australian Open."
+                ],
+                "dato": "Roland Garros es el Grand Slam de arcilla. El polvo rojo hace que el tenis se vea más dramático, más lento y más dispuesto a ensuciar calcetines caros."
+            },
+            {
+                "pregunta": "¿Qué tenista español es conocido como el 'Rey de la arcilla'?",
+                "correcta": "Rafael Nadal.",
+                "erroneas": [
+                    "Roger Federer.",
+                    "Novak Djokovic.",
+                    "Carlos Moyá."
+                ],
+                "dato": "Nadal dominó Roland Garros durante años. En arcilla no parecía jugar tenis: parecía tener un contrato privado con el suelo."
+            },
+            {
+                "pregunta": "En baloncesto, ¿cuántos puntos vale un tiro encestado desde detrás de la línea de triple?",
+                "correcta": "Tres puntos.",
+                "erroneas": [
+                    "Dos puntos.",
+                    "Cuatro puntos.",
+                    "Un punto."
+                ],
+                "dato": "El triple vale tres puntos y cambió la forma moderna de jugar baloncesto. Ahora todos quieren tirar de lejos, incluso el que no debería. Sobre todo ese."
+            },
+            {
+                "pregunta": "¿Qué jugador de baloncesto es famoso por el apodo 'Air Jordan'?",
+                "correcta": "Michael Jordan.",
+                "erroneas": [
+                    "LeBron James.",
+                    "Kobe Bryant.",
+                    "Magic Johnson."
+                ],
+                "dato": "Michael Jordan convirtió el salto, los tenis y la competitividad enfermiza en marca global. Básicamente hizo que medio mundo comprara zapatos para sentirse atlético caminando al Oxxo."
+            },
+            {
+                "pregunta": "¿Qué equipo de la NBA es conocido por jugar en el Madison Square Garden?",
+                "correcta": "New York Knicks.",
+                "erroneas": [
+                    "Los Angeles Lakers.",
+                    "Chicago Bulls.",
+                    "Boston Celtics."
+                ],
+                "dato": "Los Knicks juegan en el Madison Square Garden, una arena histórica. Que ganar sea otra conversación no le quita el glamour. Bueno, un poco."
+            },
+            {
+                "pregunta": "En fútbol americano, ¿cuántos puntos vale normalmente un touchdown?",
+                "correcta": "Seis puntos.",
+                "erroneas": [
+                    "Tres puntos.",
+                    "Siete puntos.",
+                    "Dos puntos."
+                ],
+                "dato": "Un touchdown vale seis puntos; luego puede venir el punto extra o la conversión de dos. El deporte decidió que anotar no era suficiente, también había que agregar trámites."
+            },
+            {
+                "pregunta": "¿Cómo se llama la final de la NFL?",
+                "correcta": "Super Bowl.",
+                "erroneas": [
+                    "World Bowl.",
+                    "Final Four.",
+                    "Mega Cup."
+                ],
+                "dato": "El Super Bowl es final deportiva, evento televisivo, concierto y ritual de botanas. A veces el partido hasta importa."
+            },
+            {
+                "pregunta": "¿Qué deporte tiene una competencia famosa llamada Tour de Francia?",
+                "correcta": "Ciclismo.",
+                "erroneas": [
+                    "Atletismo.",
+                    "Remo.",
+                    "Motociclismo."
+                ],
+                "dato": "El Tour de Francia es una de las pruebas más duras del ciclismo. Subidas infinitas, estrategia, sufrimiento y gente mirando bicicletas durante horas con absoluta seriedad."
+            },
+            {
+                "pregunta": "¿Qué color de camiseta usa el líder general del Tour de Francia?",
+                "correcta": "Amarilla.",
+                "erroneas": [
+                    "Roja.",
+                    "Verde.",
+                    "Azul."
+                ],
+                "dato": "El maillot amarillo distingue al líder general. En otros contextos vestir amarillo es decisión estética; aquí significa que estás destruyendo piernas ajenas con elegancia."
+            },
+            {
+                "pregunta": "En golf, ¿cómo se llama hacer un hoyo con un golpe menos que el par?",
+                "correcta": "Birdie.",
+                "erroneas": [
+                    "Bogey.",
+                    "Eagle.",
+                    "Ace."
+                ],
+                "dato": "Birdie significa terminar un hoyo uno bajo par. El golf tiene nombres de aves porque aparentemente decir 'me fue bien' era demasiado directo."
+            },
+            {
+                "pregunta": "¿Qué golfista mexicana fue número uno del mundo en la LPGA?",
+                "correcta": "Lorena Ochoa.",
+                "erroneas": [
+                    "Gaby López.",
+                    "Ana Guevara.",
+                    "Paola Espinosa."
+                ],
+                "dato": "Lorena Ochoa fue una de las grandes figuras globales del golf femenil y número uno del mundo. México no solo exporta delanteros y boxeadores; también gente que domina deportes con silencio y pasto caro."
+            },
+            {
+                "pregunta": "¿Qué piloto mexicano de Fórmula 1 es conocido como 'Checo'?",
+                "correcta": "Sergio Pérez.",
+                "erroneas": [
+                    "Pedro Rodríguez.",
+                    "Esteban Gutiérrez.",
+                    "Adrián Fernández."
+                ],
+                "dato": "Sergio 'Checo' Pérez llevó el automovilismo mexicano a primera línea de la Fórmula 1 moderna. También convirtió madrugar para ver carreras en conducta socialmente aceptable."
+            },
+            {
+                "pregunta": "¿Qué familia mexicana tiene un autódromo de la Ciudad de México nombrado en su honor?",
+                "correcta": "Los hermanos Rodríguez.",
+                "erroneas": [
+                    "Los hermanos Soler.",
+                    "Los hermanos Valdés.",
+                    "Los hermanos Márquez."
+                ],
+                "dato": "El Autódromo Hermanos Rodríguez honra a Pedro y Ricardo Rodríguez, figuras históricas del automovilismo mexicano. Si tu apellido queda en un autódromo, algo hiciste bien y rápido."
+            },
+            {
+                "pregunta": "En Fórmula 1, ¿cómo se llama el primer lugar de salida en la parrilla?",
+                "correcta": "Pole position.",
+                "erroneas": [
+                    "Pit stop.",
+                    "Safety car.",
+                    "Fast lap."
+                ],
+                "dato": "La pole position es salir primero. Suena elegante, pero significa que detrás tienes a veinte personas tratando de arruinarte el domingo."
+            },
+            {
+                "pregunta": "¿Qué bandera se muestra al final de una carrera automovilística?",
+                "correcta": "La bandera a cuadros.",
+                "erroneas": [
+                    "La bandera roja.",
+                    "La bandera azul.",
+                    "La bandera amarilla."
+                ],
+                "dato": "La bandera a cuadros marca el final de la carrera. Es el 'ya estuvo' más elegante del deporte motor."
+            },
+            {
+                "pregunta": "¿Qué atleta mexicana fue la primera mujer en encender el pebetero olímpico?",
+                "correcta": "Enriqueta Basilio.",
+                "erroneas": [
+                    "Ana Gabriela Guevara.",
+                    "Soraya Jiménez.",
+                    "María del Rosario Espinoza."
+                ],
+                "dato": "Enriqueta Basilio encendió el pebetero en México 1968. Una mexicana inauguró simbólicamente unos Juegos Olímpicos y de paso rompió una tradición dominada por hombres."
+            },
+            {
+                "pregunta": "¿Qué técnica de salto de altura se popularizó tras los Juegos Olímpicos de México 1968?",
+                "correcta": "El Fosbury Flop.",
+                "erroneas": [
+                    "El salto tijera.",
+                    "El salto mortal olímpico.",
+                    "El salto Azteca."
+                ],
+                "dato": "Dick Fosbury ganó oro en México 1968 saltando de espaldas, con una técnica que revolucionó el salto de altura. Básicamente llegó haciendo algo que parecía mal y resultó ser el futuro."
+            },
+            {
+                "pregunta": "¿Qué mexicana ganó oro olímpico en halterofilia en Sídney 2000?",
+                "correcta": "Soraya Jiménez.",
+                "erroneas": [
+                    "Paola Espinosa.",
+                    "Lupita González.",
+                    "Aída Román."
+                ],
+                "dato": "Soraya Jiménez ganó oro en levantamiento de pesas en Sídney 2000. Fue un momento enorme para el deporte mexicano y para recordar que la fuerza también tiene nombre propio."
+            },
+            {
+                "pregunta": "¿En qué deporte destacó la mexicana Ana Gabriela Guevara?",
+                "correcta": "Atletismo.",
+                "erroneas": [
+                    "Natación.",
+                    "Esgrima.",
+                    "Ciclismo."
+                ],
+                "dato": "Ana Gabriela Guevara fue figura mundial en los 400 metros. Corría una vuelta a la pista con esa mezcla de potencia y sufrimiento que hace que verla canse."
+            },
+            {
+                "pregunta": "¿Qué deporte olímpico ha dado varias medallas a México desde plataformas y trampolines?",
+                "correcta": "Clavados.",
+                "erroneas": [
+                    "Curling.",
+                    "Polo acuático.",
+                    "Bádminton."
+                ],
+                "dato": "México tiene una tradición fuerte en clavados. Es uno de esos deportes donde el país suele competir en serio, aunque la mayoría de nosotros nos lastimemos entrando a una alberca normal."
+            },
+            {
+                "pregunta": "¿Qué taekwondoín mexicana ganó oro olímpico en Beijing 2008?",
+                "correcta": "María del Rosario Espinoza.",
+                "erroneas": [
+                    "Paola Espinosa.",
+                    "Soraya Jiménez.",
+                    "Aída Román."
+                ],
+                "dato": "María del Rosario Espinoza ganó oro olímpico en taekwondo. Patear con precisión milimétrica: deporte, arte y argumento para no molestarla."
+            },
+            {
+                "pregunta": "¿Qué arquera mexicana ganó plata olímpica individual en Londres 2012?",
+                "correcta": "Aída Román.",
+                "erroneas": [
+                    "Alejandra Valencia.",
+                    "Mariana Avitia.",
+                    "Ana Guevara."
+                ],
+                "dato": "Aída Román ganó plata en tiro con arco en Londres 2012. Un deporte donde respirar mal ya cuenta como sabotaje."
+            },
+            {
+                "pregunta": "¿Qué deporte usa términos como ippon, tatami y judogi?",
+                "correcta": "Judo.",
+                "erroneas": [
+                    "Esgrima.",
+                    "Natación.",
+                    "Golf."
+                ],
+                "dato": "El judo usa conceptos japoneses como ippon y tatami. Es un deporte donde caer bien es tan importante como hacer caer al otro. Filosofía con impacto."
+            },
+            {
+                "pregunta": "¿Qué deporte usa sable, florete y espada como armas competitivas?",
+                "correcta": "Esgrima.",
+                "erroneas": [
+                    "Tiro con arco.",
+                    "Pentatlón moderno.",
+                    "Lucha grecorromana."
+                ],
+                "dato": "La esgrima tiene tres armas: sable, florete y espada. Es pelear con elegancia reglamentada; básicamente una discusión de familia rica con sensores."
+            },
+            {
+                "pregunta": "¿Qué deporte combina natación, ciclismo y carrera a pie?",
+                "correcta": "Triatlón.",
+                "erroneas": [
+                    "Pentatlón moderno.",
+                    "Decatlón.",
+                    "Heptatlón."
+                ],
+                "dato": "El triatlón mezcla tres disciplinas de resistencia. Porque aparentemente sufrir en una sola modalidad era demasiado poco ambicioso."
+            },
+            {
+                "pregunta": "¿Cuántos deportes combina el pentatlón moderno?",
+                "correcta": "Cinco.",
+                "erroneas": [
+                    "Tres.",
+                    "Siete.",
+                    "Diez."
+                ],
+                "dato": "El pentatlón moderno combina cinco pruebas. Es el deporte para quien vio una agenda saturada y pensó: todavía cabe sufrimiento."
+            },
+            {
+                "pregunta": "¿Qué deporte se juega con una escoba, piedras y hielo?",
+                "correcta": "Curling.",
+                "erroneas": [
+                    "Hockey sobre hielo.",
+                    "Bobsleigh.",
+                    "Patinaje artístico."
+                ],
+                "dato": "El curling parece limpieza doméstica con estrategia militar. Es mucho más técnico de lo que parece, lo cual no evita que se vea absurdamente hipnótico."
+            },
+            {
+                "pregunta": "¿Qué deporte olímpico consiste en deslizarse por una pista de hielo en un trineo pequeño, acostado boca abajo y de frente?",
+                "correcta": "Skeleton.",
+                "erroneas": [
+                    "Luge.",
+                    "Bobsleigh.",
+                    "Curling."
+                ],
+                "dato": "En skeleton el atleta baja de cabeza por una pista de hielo. El nombre ya advierte: esto no fue inventado por gente cobarde."
+            },
+            {
+                "pregunta": "¿Qué deporte usa el término 'knockout'?",
+                "correcta": "Boxeo.",
+                "erroneas": [
+                    "Tenis.",
+                    "Golf.",
+                    "Béisbol."
+                ],
+                "dato": "Knockout significa que un peleador no puede continuar tras un golpe o serie de golpes. Es una forma técnica de decir: se apagó el sistema."
+            },
+            {
+                "pregunta": "¿Qué deporte tiene una posición llamada quarterback?",
+                "correcta": "Fútbol americano.",
+                "erroneas": [
+                    "Rugby.",
+                    "Béisbol.",
+                    "Críquet."
+                ],
+                "dato": "El quarterback dirige la ofensiva en el fútbol americano. Es líder, lanzador y blanco humano con casco."
+            },
+            {
+                "pregunta": "¿En qué deporte se usa una tabla y olas para competir?",
+                "correcta": "Surf.",
+                "erroneas": [
+                    "Remo.",
+                    "Vela.",
+                    "Waterpolo."
+                ],
+                "dato": "El surf convierte una ola en pista temporal. La naturaleza pone el escenario y el atleta intenta no parecer accidente turístico."
+            },
+            {
+                "pregunta": "¿Qué deporte se juega en una cancha de hielo con discos llamados puck?",
+                "correcta": "Hockey sobre hielo.",
+                "erroneas": [
+                    "Curling.",
+                    "Patinaje de velocidad.",
+                    "Lacrosse."
+                ],
+                "dato": "El hockey sobre hielo mezcla velocidad, fuerza y un disco negro que viaja como problema legal. Es elegante hasta que alguien choca contra la barrera."
+            },
+            {
+                "pregunta": "¿Qué deporte tiene pruebas como 100 metros planos, salto largo y lanzamiento de bala?",
+                "correcta": "Atletismo.",
+                "erroneas": [
+                    "Gimnasia.",
+                    "Natación.",
+                    "Pentatlón ecuestre."
+                ],
+                "dato": "El atletismo reúne carreras, saltos, lanzamientos y pruebas combinadas. Básicamente: correr, brincar y aventar cosas, pero con cronómetro y gloria olímpica."
+            },
+            {
+                "pregunta": "¿Qué nadador estadounidense ganó ocho medallas de oro en Beijing 2008?",
+                "correcta": "Michael Phelps.",
+                "erroneas": [
+                    "Ryan Lochte.",
+                    "Mark Spitz.",
+                    "Ian Thorpe."
+                ],
+                "dato": "Michael Phelps ganó ocho oros en Beijing 2008. Una actuación tan absurda que parecía que la piscina era su oficina."
+            },
+            {
+                "pregunta": "¿Qué atleta jamaiquino es famoso por dominar los 100 y 200 metros planos?",
+                "correcta": "Usain Bolt.",
+                "erroneas": [
+                    "Carl Lewis.",
+                    "Mo Farah.",
+                    "Jesse Owens."
+                ],
+                "dato": "Usain Bolt convirtió la velocidad en espectáculo. Además tenía tiempo de mirar a los lados antes de ganar, lo cual es innecesariamente humillante."
+            },
+            {
+                "pregunta": "¿Qué gimnasta estadounidense es considerada una de las mejores de la historia y tiene movimientos nombrados en su honor?",
+                "correcta": "Simone Biles.",
+                "erroneas": [
+                    "Nadia Comăneci.",
+                    "Mary Lou Retton.",
+                    "Shawn Johnson."
+                ],
+                "dato": "Simone Biles tiene habilidades tan difíciles que varias llevan su nombre. Cuando el deporte necesita nombrar lo que haces, ya no estás compitiendo: estás actualizando el manual."
+            },
+            {
+                "pregunta": "¿Qué gimnasta rumana fue la primera en recibir un 10 perfecto en Juegos Olímpicos?",
+                "correcta": "Nadia Comăneci.",
+                "erroneas": [
+                    "Simone Biles.",
+                    "Olga Korbut.",
+                    "Larisa Latynina."
+                ],
+                "dato": "Nadia Comăneci recibió el primer 10 perfecto olímpico en gimnasia en Montreal 1976. El marcador ni siquiera estaba preparado para mostrarlo bien. Bonito cuando la excelencia rompe el display."
+            },
+            {
+                "pregunta": "¿Qué deporte usa una pelota ovalada y tiene variantes como rugby union y rugby league?",
+                "correcta": "Rugby.",
+                "erroneas": [
+                    "Críquet.",
+                    "Lacrosse.",
+                    "Bádminton."
+                ],
+                "dato": "El rugby usa una pelota ovalada y mucho contacto físico. Es como fútbol americano, pero con menos armadura y más confianza temeraria en las costillas."
+            },
+            {
+                "pregunta": "¿Qué deporte es especialmente popular en India, Pakistán, Australia e Inglaterra, y usa bate, wickets y overs?",
+                "correcta": "Críquet.",
+                "erroneas": [
+                    "Rugby.",
+                    "Béisbol.",
+                    "Squash."
+                ],
+                "dato": "El críquet puede durar horas o días, dependiendo del formato. Es el deporte que miras cinco minutos y sospechas que hay una constitución escondida."
+            },
+            {
+                "pregunta": "¿Qué deporte de raqueta se juega golpeando una pelota contra paredes dentro de una cancha cerrada?",
+                "correcta": "Squash.",
+                "erroneas": [
+                    "Tenis de mesa.",
+                    "Bádminton.",
+                    "Pickleball."
+                ],
+                "dato": "El squash es rápido, cerrado y demandante. Una cancha pequeña diseñada para que dos personas respiren fuerte y casi se estorben legalmente."
+            },
+            {
+                "pregunta": "¿Qué deporte usa una pelota blanca pequeña, palos y hoyos en campos enormes?",
+                "correcta": "Golf.",
+                "erroneas": [
+                    "Polo.",
+                    "Críquet.",
+                    "Lacrosse."
+                ],
+                "dato": "El golf parece tranquilo hasta que fallas un golpe de medio metro y entiendes por qué tanta gente envejece peleando con pasto."
+            },
+            {
+                "pregunta": "¿Qué deporte ecuestre se juega con mazos largos y una pelota?",
+                "correcta": "Polo.",
+                "erroneas": [
+                    "Rodeo.",
+                    "Doma clásica.",
+                    "Pentatlón."
+                ],
+                "dato": "El polo combina caballo, velocidad, coordinación y dinero suficiente para no preguntar cuánto cuesta el caballo."
+            },
+            {
+                "pregunta": "¿Qué disciplina olímpica mexicana ganó bronce en París 1900 dentro de un equipo mixto norteamericano/mexicano?",
+                "correcta": "Polo.",
+                "erroneas": [
+                    "Tiro deportivo.",
+                    "Clavados.",
+                    "Boxeo."
+                ],
+                "dato": "Mexicanos participaron en polo en París 1900 dentro de un equipo mixto. Es una medalla rara de explicar, como muchas cosas de los primeros Juegos Olímpicos modernos."
+            },
+            {
+                "pregunta": "¿Qué deporte tiene una jugada llamada 'hat-trick' cuando un jugador anota tres veces en un partido?",
+                "correcta": "Fútbol.",
+                "erroneas": [
+                    "Golf.",
+                    "Boxeo.",
+                    "Natación."
+                ],
+                "dato": "Hat-trick se usa en varios deportes, pero en fútbol se volvió frase común para tres goles de un mismo jugador. Tres goles: suficiente para que el narrador pierda la voz y la defensa pierda dignidad."
+            },
+            {
+                "pregunta": "¿Qué deporte usa tarjetas amarilla y roja para sancionar jugadores?",
+                "correcta": "Fútbol.",
+                "erroneas": [
+                    "Béisbol.",
+                    "Golf.",
+                    "Natación."
+                ],
+                "dato": "La amarilla advierte y la roja expulsa. El fútbol convirtió la disciplina en semáforo emocional."
+            },
+            {
+                "pregunta": "¿Qué deporte mexicano tradicional combina charrería, caballos y suertes como la cala de caballo?",
+                "correcta": "Charrería.",
+                "erroneas": [
+                    "Frontón.",
+                    "Pelota purépecha.",
+                    "Lucha libre."
+                ],
+                "dato": "La charrería es una tradición ecuestre mexicana con suertes reglamentadas. No es solo 'andar a caballo bonito'; tiene técnica, competencia y sombreros con autoridad."
+            },
+            {
+                "pregunta": "¿Qué deporte-espectáculo mexicano es famoso por máscaras, llaves y personajes casi mitológicos?",
+                "correcta": "Lucha libre.",
+                "erroneas": [
+                    "Boxeo.",
+                    "Charrería.",
+                    "Frontenis."
+                ],
+                "dato": "La lucha libre mexicana mezcla deporte, teatro, identidad y máscaras. A veces parece exagerada, pero al menos acepta lo que es. Ya quisieran muchas instituciones."
+            },
+            {
+                "pregunta": "¿Qué luchador mexicano es conocido como 'El Enmascarado de Plata'?",
+                "correcta": "El Santo.",
+                "erroneas": [
+                    "Blue Demon.",
+                    "Mil Máscaras.",
+                    "Tinieblas."
+                ],
+                "dato": "El Santo se volvió ícono popular: luchador, héroe de cine y símbolo cultural. Un hombre con máscara logró más presencia pública que muchos políticos sin máscara. Bueno, sin máscara literal."
+            },
+            {
+                "pregunta": "¿Qué luchador fue uno de los grandes rivales y aliados históricos de El Santo?",
+                "correcta": "Blue Demon.",
+                "erroneas": [
+                    "Huracán Ramírez.",
+                    "Octagón.",
+                    "Místico."
+                ],
+                "dato": "Blue Demon y El Santo forman parte del panteón básico de la lucha libre mexicana. Rivalidad, alianza y cine de monstruos: currículum difícil de mejorar."
+            },
+            {
+                "pregunta": "¿Qué deporte de frontón es muy popular en México y se juega con raqueta y pelota contra una pared?",
+                "correcta": "Frontenis.",
+                "erroneas": [
+                    "Críquet.",
+                    "Curling.",
+                    "Lacrosse."
+                ],
+                "dato": "El frontenis mezcla elementos del tenis y la pelota vasca. Una pared, una pelota rápida y reflejos suficientes para no terminar humillado."
+            },
+            {
+                "pregunta": "¿Qué deporte tradicional mesoamericano usaba una pelota pesada y tenía fuerte carga ritual?",
+                "correcta": "Juego de pelota.",
+                "erroneas": [
+                    "Charrería.",
+                    "Frontenis.",
+                    "Béisbol olmeca."
+                ],
+                "dato": "El juego de pelota mesoamericano era deporte, rito y espectáculo. Mucho antes de estadios modernos, ya había canchas, público y presión social. La humanidad nunca fue tranquila."
+            }
+        ]
+    },
+    {
+        "id": "capitalismo-raro",
+        "nombre": "Capitalismo raro",
+        "descripcion": "Marcas, negocios, productos, dinero y decisiones comerciales extrañas.",
+        "preguntas": [
+            {
+                "pregunta": "Antes de Mario, Zelda y Pokémon, ¿qué vendía Nintendo originalmente?",
+                "correcta": "Cartas japonesas hanafuda.",
+                "erroneas": [
+                    "Radios portátiles.",
+                    "Relojes de pared.",
+                    "Máquinas de coser."
+                ],
+                "dato": "Nintendo empezó en 1889 vendiendo cartas hanafuda en Kioto. De cartas tradicionales a plomeros peleando con tortugas: evolución empresarial perfectamente sobria."
+            },
+            {
+                "pregunta": "¿Qué empresa famosa por celulares comenzó en 1865 como una fábrica de papel?",
+                "correcta": "Nokia.",
+                "erroneas": [
+                    "Motorola.",
+                    "Samsung.",
+                    "BlackBerry."
+                ],
+                "dato": "Nokia empezó como una fábrica de pulpa de madera y papel antes de pasar por caucho, cables y telecomunicaciones. El capitalismo: hoy haces papel, mañana haces teléfonos indestructibles."
+            },
+            {
+                "pregunta": "La Guía Michelin no nació para premiar chefs intensos con pinzas miniatura. ¿Qué empresa la creó?",
+                "correcta": "Una empresa de llantas.",
+                "erroneas": [
+                    "Una cadena de hoteles.",
+                    "Una escuela de cocina francesa.",
+                    "Una aerolínea de lujo."
+                ],
+                "dato": "Michelin creó su guía para animar a la gente a viajar más en auto. Más viajes, más desgaste de llantas. La alta cocina nació, en parte, de vender caucho. Poético y descarado."
+            },
+            {
+                "pregunta": "¿Qué producto de Coca-Cola es recordado como uno de los fracasos de marketing más famosos de la historia?",
+                "correcta": "New Coke.",
+                "erroneas": [
+                    "Coke Black.",
+                    "Coca-Cola Light.",
+                    "Coca-Cola Zero."
+                ],
+                "dato": "New Coke salió en 1985 y la reacción fue tan mala que Coca-Cola regresó la fórmula clásica 79 días después. Lección: no le cambies la infancia líquida a la gente."
+            },
+            {
+                "pregunta": "El Pet Rock fue un producto de los años 70 que hizo rico a su creador. ¿Qué era?",
+                "correcta": "Una piedra vendida como mascota.",
+                "erroneas": [
+                    "Un robot de juguete con forma de perro.",
+                    "Una planta que parecía animal.",
+                    "Un pez de plástico que nadaba solo."
+                ],
+                "dato": "Gary Dahl vendió piedras lisas en cajas con manual de instrucciones. No vendió una piedra: vendió el chiste. Y el chiste pagó mejor que muchas carreras universitarias."
+            },
+            {
+                "pregunta": "Listerine no empezó exactamente como enjuague bucal de supermercado. ¿Para qué se formuló originalmente?",
+                "correcta": "Como antiséptico quirúrgico.",
+                "erroneas": [
+                    "Como perfume masculino.",
+                    "Como limpiador de lentes.",
+                    "Como jarabe para la tos."
+                ],
+                "dato": "Listerine fue formulado como antiséptico y después se posicionó como producto de higiene oral. El capitalismo vio una botella médica y pensó: esto también puede oler a menta y culpa social."
+            },
+            {
+                "pregunta": "¿Qué empresa hizo famoso el eslogan 'A diamond is forever'?",
+                "correcta": "De Beers.",
+                "erroneas": [
+                    "Tiffany & Co.",
+                    "Cartier.",
+                    "Swarovski."
+                ],
+                "dato": "De Beers popularizó la idea moderna del diamante como símbolo romántico eterno. Traducción: una piedra cara se volvió prueba de amor porque la publicidad hizo pesas."
+            },
+            {
+                "pregunta": "Nutella nació como solución comercial a la escasez de ¿qué ingrediente?",
+                "correcta": "Cacao.",
+                "erroneas": [
+                    "Azúcar.",
+                    "Leche.",
+                    "Vainilla."
+                ],
+                "dato": "Tras la Segunda Guerra Mundial, el cacao era escaso, así que Ferrero mezcló avellanas, azúcar y poco cacao. Crisis alimentaria convertida en crema untable. Bastante italiano todo."
+            },
+            {
+                "pregunta": "Toyota no empezó directamente haciendo autos. ¿Qué fabricaba en sus orígenes industriales?",
+                "correcta": "Telares automáticos.",
+                "erroneas": [
+                    "Bicicletas.",
+                    "Radios militares.",
+                    "Motores de avión."
+                ],
+                "dato": "Sakichi Toyoda fue clave en el desarrollo de telares automáticos. De maquinaria textil a autos: al menos seguían moviendo cosas, solo que más rápido y con financiamiento."
+            },
+            {
+                "pregunta": "¿Qué significa LEGO según su origen danés?",
+                "correcta": "Juega bien.",
+                "erroneas": [
+                    "Construye alto.",
+                    "Pieza feliz.",
+                    "Casa pequeña."
+                ],
+                "dato": "LEGO viene de 'leg godt', que significa 'juega bien'. También significa, en la práctica doméstica, 'dolor agudo al pisar una pieza a las 3 a.m.'."
+            },
+            {
+                "pregunta": "En Japón, KFC logró convertir su pollo en tradición de ¿qué fecha?",
+                "correcta": "Navidad.",
+                "erroneas": [
+                    "Año Nuevo.",
+                    "San Valentín.",
+                    "Día del Niño."
+                ],
+                "dato": "KFC Japón convirtió el pollo frito navideño en tradición mediante marketing desde los años 70. Un país miró el pavo occidental y dijo: pollo de cadena, entendido."
+            },
+            {
+                "pregunta": "Ferruccio Lamborghini era exitoso antes de fabricar autos deportivos. ¿Qué fabricaba?",
+                "correcta": "Tractores.",
+                "erroneas": [
+                    "Helicópteros.",
+                    "Motocicletas.",
+                    "Máquinas de café."
+                ],
+                "dato": "Lamborghini venía del negocio de tractores antes de fundar su marca de autos deportivos. Del campo al superdeportivo: mismo ego mecánico, diferente estacionamiento."
+            },
+            {
+                "pregunta": "Barbie fue nombrada en honor a una persona real. ¿Quién era?",
+                "correcta": "La hija de Ruth Handler.",
+                "erroneas": [
+                    "Una actriz de Hollywood.",
+                    "Una diseñadora de Mattel.",
+                    "Una modelo alemana."
+                ],
+                "dato": "Ruth Handler nombró a Barbie por su hija Barbara. Luego Mattel nombró a Ken por su hijo Kenneth. Nepotismo juguetero, pero con impacto global."
+            },
+            {
+                "pregunta": "¿Qué marca de comida enlatada terminó prestando su nombre al correo basura de internet?",
+                "correcta": "SPAM.",
+                "erroneas": [
+                    "Campbell's.",
+                    "Heinz.",
+                    "Hormiga."
+                ],
+                "dato": "El término spam para mensajes no deseados se asoció al sketch repetitivo de Monty Python sobre SPAM. El internet tomó carne enlatada y la convirtió en sufrimiento digital."
+            },
+            {
+                "pregunta": "La primera versión de Mr. Potato Head tenía una característica bastante absurda. ¿Cuál?",
+                "correcta": "No incluía papa de plástico.",
+                "erroneas": [
+                    "Venía con papas fritas reales.",
+                    "Solo tenía bigotes y sombreros.",
+                    "Funcionaba con baterías."
+                ],
+                "dato": "El juguete original traía piezas para clavarlas en una papa real. Es decir: Hasbro vendía accesorios y tú ponías el cadáver vegetal. Minimalismo empresarial."
+            },
+            {
+                "pregunta": "¿Qué empresa de videojuegos tuvo un producto llamado Virtual Boy que prometía futuro y entregó dolor de cabeza?",
+                "correcta": "Nintendo.",
+                "erroneas": [
+                    "Sega.",
+                    "Sony.",
+                    "Atari."
+                ],
+                "dato": "Virtual Boy fue un fracaso comercial de Nintendo con gráficos rojos y negros. A veces innovar significa descubrir exactamente qué no quería la humanidad."
+            },
+            {
+                "pregunta": "¿Qué marca lanzó un reproductor llamado Zune para competir contra el iPod?",
+                "correcta": "Microsoft.",
+                "erroneas": [
+                    "Google.",
+                    "Samsung.",
+                    "Sony."
+                ],
+                "dato": "Zune no era el peor producto del mundo, pero llegó tarde contra el iPod. En negocios, llegar después con algo decente también puede ser una forma elegante de perder."
+            },
+            {
+                "pregunta": "¿Qué producto de Google prometía lentes inteligentes y terminó generando incomodidad social masiva?",
+                "correcta": "Google Glass.",
+                "erroneas": [
+                    "Google Lens.",
+                    "Google Cardboard.",
+                    "Google Pixel."
+                ],
+                "dato": "Google Glass era técnicamente interesante, pero socialmente raro. La pregunta no era si podíamos llevar una cámara en la cara; era si todos iban a odiarnos por hacerlo. Spoiler: sí."
+            },
+            {
+                "pregunta": "El Segway fue presentado como revolución del transporte personal. ¿En qué terminó siendo más visible?",
+                "correcta": "Tours turísticos y seguridad de centros comerciales.",
+                "erroneas": [
+                    "Carreras de Fórmula 1.",
+                    "Transporte escolar masivo.",
+                    "Exploración submarina."
+                ],
+                "dato": "El Segway prometía rediseñar las ciudades. Terminó rediseñando la dignidad de turistas en fila. No todo fracaso es inútil; algunos son fotogénicos."
+            },
+            {
+                "pregunta": "¿Qué empresa casi convirtió su marca en sinónimo de 'descargar otro navegador'?",
+                "correcta": "Microsoft con Internet Explorer.",
+                "erroneas": [
+                    "Apple con Safari.",
+                    "Mozilla con Firefox.",
+                    "Google con Chrome."
+                ],
+                "dato": "Internet Explorer dominó durante años, pero terminó asociado con lentitud y memes. Pasó de rey de internet a escalón para instalar Chrome. Trágico, pero eficiente."
+            },
+            {
+                "pregunta": "¿Qué servicio de Google era querido por lectores de RSS y fue cerrado en 2013, causando duelo nerd?",
+                "correcta": "Google Reader.",
+                "erroneas": [
+                    "Google Wave.",
+                    "Google Buzz.",
+                    "Google Duo."
+                ],
+                "dato": "Google Reader era útil, limpio y querido. Naturalmente, Google lo mató. En Silicon Valley, a veces la utilidad no alcanza contra una hoja de ruta con complejo de dios."
+            },
+            {
+                "pregunta": "¿Qué servicio de Google intentó mezclar email, chat y colaboración, pero casi nadie entendió qué demonios era?",
+                "correcta": "Google Wave.",
+                "erroneas": [
+                    "Google Reader.",
+                    "Google Photos.",
+                    "Google Earth."
+                ],
+                "dato": "Google Wave tenía ideas adelantadas, pero era confuso. Fue como recibir el futuro en una caja sin instrucciones y con tres botones que decían colaborar."
+            },
+            {
+                "pregunta": "¿Qué plataforma de videos cortos cerró antes de que TikTok demostrara que el formato sí podía dominar cerebros?",
+                "correcta": "Vine.",
+                "erroneas": [
+                    "Flickr.",
+                    "Tumblr.",
+                    "Periscope."
+                ],
+                "dato": "Vine limitaba los videos a seis segundos y creó humor rapidísimo. Cerró antes de que el mundo aceptara que seis segundos bastan para perder una tarde."
+            },
+            {
+                "pregunta": "¿Qué empresa popularizó una tienda digital donde podías comprar canciones sueltas legalmente?",
+                "correcta": "Apple con iTunes Store.",
+                "erroneas": [
+                    "Microsoft con Zune Market.",
+                    "Sony con Walkman Shop.",
+                    "Yahoo con Music Mail."
+                ],
+                "dato": "iTunes Store ayudó a vender canciones individuales en vez de álbumes completos. La industria musical tuvo que aceptar que la gente solo quería la canción buena. Qué sorpresa."
+            },
+            {
+                "pregunta": "¿Qué programa de intercambio de archivos puso nerviosa a la industria musical a finales de los 90?",
+                "correcta": "Napster.",
+                "erroneas": [
+                    "Winamp.",
+                    "QuickTime.",
+                    "Photoshop."
+                ],
+                "dato": "Napster hizo masivo el intercambio de MP3 y sacudió el negocio musical. Fue menos una app y más una patada con módem."
+            },
+            {
+                "pregunta": "¿Qué marca de cámaras no supo adaptarse bien a la fotografía digital, a pesar de haber sido gigante del sector?",
+                "correcta": "Kodak.",
+                "erroneas": [
+                    "Canon.",
+                    "Nikon.",
+                    "GoPro."
+                ],
+                "dato": "Kodak es el ejemplo clásico de empresa atrapada por su propio modelo de negocio. Ver venir el futuro no sirve de mucho si tus ganancias viven en el pasado."
+            },
+            {
+                "pregunta": "¿Qué empresa de videoclubes se volvió símbolo de no adaptarse al streaming?",
+                "correcta": "Blockbuster.",
+                "erroneas": [
+                    "Netflix.",
+                    "Hulu.",
+                    "Redbox."
+                ],
+                "dato": "Blockbuster dominó el alquiler físico de películas, pero no sobrevivió al cambio digital. El recargo por entregar tarde tuvo su venganza histórica."
+            },
+            {
+                "pregunta": "¿Qué empresa pasó de vender DVDs por correo a convertirse en gigante del streaming?",
+                "correcta": "Netflix.",
+                "erroneas": [
+                    "HBO.",
+                    "Disney.",
+                    "Paramount."
+                ],
+                "dato": "Netflix empezó enviando DVDs por correo antes de transformarse en streaming. El negocio cambió de buzón a algoritmo, y luego a cancelar series que te gustaban."
+            },
+            {
+                "pregunta": "¿Qué marca hizo famoso un oso de peluche como producto masivo inspirado por el presidente Theodore Roosevelt?",
+                "correcta": "Teddy bear.",
+                "erroneas": [
+                    "Barbie.",
+                    "Hot Wheels.",
+                    "Care Bears."
+                ],
+                "dato": "El teddy bear tomó su nombre de Theodore Roosevelt tras una anécdota de cacería. El capitalismo vio una historia política y dijo: perfecto, hagamos peluches."
+            },
+            {
+                "pregunta": "¿Qué cereal nació como parte de ideas de salud bastante estrictas y terminó cubierto de azúcar en supermercados?",
+                "correcta": "Corn Flakes.",
+                "erroneas": [
+                    "Doritos.",
+                    "Cheetos.",
+                    "Pringles."
+                ],
+                "dato": "Los cereales tipo Corn Flakes nacieron en un contexto de salud, dieta y moral bastante intensa. Luego llegó la industria alimentaria y dijo: ¿y si le ponemos azúcar hasta que parezca postre?"
+            },
+            {
+                "pregunta": "¿Qué marca de papas tiene una lata tan icónica que su creador pidió ser enterrado en una?",
+                "correcta": "Pringles.",
+                "erroneas": [
+                    "Lay's.",
+                    "Doritos.",
+                    "Ruffles."
+                ],
+                "dato": "Fredric Baur diseñó el envase cilíndrico de Pringles y parte de sus cenizas fueron colocadas en una lata. Pocas personas logran convertirse en su propio empaque funerario."
+            },
+            {
+                "pregunta": "¿Qué empresa de juguetes creó Hot Wheels para competir con los carritos Matchbox?",
+                "correcta": "Mattel.",
+                "erroneas": [
+                    "Hasbro.",
+                    "LEGO.",
+                    "Bandai."
+                ],
+                "dato": "Hot Wheels apostó por autos miniatura más llamativos, rápidos y exagerados. La infancia descubrió que hasta un carrito de metal puede tener estrategia de mercado."
+            },
+            {
+                "pregunta": "¿Qué empresa japonesa convirtió una mascota amarilla eléctrica en una de las franquicias más rentables del planeta?",
+                "correcta": "The Pokémon Company.",
+                "erroneas": [
+                    "Sega.",
+                    "Capcom.",
+                    "Konami."
+                ],
+                "dato": "Pokémon pasó de videojuego portátil a cartas, anime, peluches, cine y mercancía infinita. Una rata eléctrica financiando imperios. La economía es absurda."
+            },
+            {
+                "pregunta": "¿Qué marca convirtió el concepto de 'edición limitada' en deporte psicológico para comprar tenis?",
+                "correcta": "Nike.",
+                "erroneas": [
+                    "Crocs.",
+                    "Skechers.",
+                    "Fila."
+                ],
+                "dato": "Nike y otras marcas usan escasez, colaboraciones y lanzamientos limitados para crear deseo. No compras tenis: compites contra bots, ansiedad y adolescentes con mejor internet."
+            },
+            {
+                "pregunta": "¿Qué producto tecnológico de Apple eliminó el teclado físico del teléfono como estándar cultural?",
+                "correcta": "IPhone.",
+                "erroneas": [
+                    "IPod Classic.",
+                    "Apple Lisa.",
+                    "Macintosh SE."
+                ],
+                "dato": "El iPhone no inventó el smartphone, pero redefinió lo que la gente esperaba de uno. Después de eso, el teclado físico pasó de herramienta profesional a nostalgia con botones."
+            },
+            {
+                "pregunta": "¿Qué empresa hizo popular el modelo de vender una consola relativamente barata y ganar con juegos/licencias?",
+                "correcta": "Las empresas de videojuegos.",
+                "erroneas": [
+                    "Las panaderías.",
+                    "Las aerolíneas.",
+                    "Los bancos centrales."
+                ],
+                "dato": "En consolas, muchas veces el negocio no está solo en la máquina, sino en juegos, servicios y licencias. El hardware es la puerta; el ecosistema es la trampa elegante."
+            },
+            {
+                "pregunta": "¿Qué empresa hizo famosa la idea de vender café como 'experiencia' y no solo como líquido para sobrevivir?",
+                "correcta": "Starbucks.",
+                "erroneas": [
+                    "Subway.",
+                    "Burger King.",
+                    "Pizza Hut."
+                ],
+                "dato": "Starbucks convirtió una bebida cotidiana en ritual, espacio social y ticket con nombre mal escrito. No vendió café: vendió permiso para sentarte con una laptop."
+            },
+            {
+                "pregunta": "¿Qué cadena de comida rápida convirtió el juguete infantil en parte central de una comida?",
+                "correcta": "McDonald's.",
+                "erroneas": [
+                    "Domino's.",
+                    "Subway.",
+                    "Taco Bell."
+                ],
+                "dato": "La Cajita Feliz convirtió comida rápida, juguete y marketing infantil en una sola unidad de combate comercial. Nutricionalmente discutible; empresarialmente quirúrgico."
+            },
+            {
+                "pregunta": "¿Qué empresa de muebles hizo famoso vender productos en cajas planas para que el cliente los armara en casa?",
+                "correcta": "IKEA.",
+                "erroneas": [
+                    "Zara.",
+                    "Rolex.",
+                    "Lego."
+                ],
+                "dato": "IKEA redujo costos de transporte y almacenamiento con muebles planos. La empresa ahorra logística; tú pagas con una tarde, una llave Allen y una discusión de pareja."
+            },
+            {
+                "pregunta": "¿Qué marca de cámaras de acción vendió la idea de que todos vivimos aventuras extremas, aunque solo grabemos al perro?",
+                "correcta": "GoPro.",
+                "erroneas": [
+                    "Polaroid.",
+                    "Nikon.",
+                    "Epson."
+                ],
+                "dato": "GoPro convirtió cámaras pequeñas y resistentes en símbolo de aventura. La publicidad muestra montañas; el usuario real graba la parrillada. Ambas cosas cuentan, supongo."
+            },
+            {
+                "pregunta": "¿Qué empresa convirtió bloques de plástico en sets licenciados de Star Wars, Marvel, Harry Potter y básicamente todo lo que respire marca?",
+                "correcta": "LEGO.",
+                "erroneas": [
+                    "Mattel.",
+                    "Hasbro.",
+                    "Fisher-Price."
+                ],
+                "dato": "LEGO pasó de construcción abierta a un imperio de licencias. Antes hacías una casa; ahora compras una nave específica con 1,284 piezas y una deuda emocional."
+            },
+            {
+                "pregunta": "¿Qué bebida energética creó todo un ecosistema de deportes extremos, escuderías y eventos alrededor de una lata?",
+                "correcta": "Red Bull.",
+                "erroneas": [
+                    "Gatorade.",
+                    "Pepsi.",
+                    "Sprite."
+                ],
+                "dato": "Red Bull no vende solo bebida: vende velocidad, riesgo y gente saltando desde lugares donde nadie debería estar. Marketing con cafeína y seguro médico dudoso."
+            },
+            {
+                "pregunta": "¿Qué empresa convirtió las subastas en línea entre desconocidos en un negocio global?",
+                "correcta": "EBay.",
+                "erroneas": [
+                    "PayPal.",
+                    "Amazon Prime.",
+                    "Craigslist."
+                ],
+                "dato": "eBay popularizó comprar y vender objetos entre usuarios comunes. El sueño de mercado libre global: una persona vendiendo reliquias raras y otra comprándolas a las 2 a.m."
+            },
+            {
+                "pregunta": "¿Qué empresa empezó vendiendo libros en línea y terminó vendiendo casi todo lo legalmente transportable?",
+                "correcta": "Amazon.",
+                "erroneas": [
+                    "Netflix.",
+                    "Yahoo.",
+                    "Spotify."
+                ],
+                "dato": "Amazon comenzó como librería en línea y se expandió a comercio, nube, dispositivos y entretenimiento. Una librería que se comió el centro comercial. Final normal."
+            }
+        ]
+    },
+    {
+        "id": "planeta-absurdo",
+        "nombre": "Planeta absurdo",
+        "descripcion": "Animales, lugares, fenómenos y rarezas del mundo real.",
+        "preguntas": [
+            {
+                "pregunta": "¿Cuál es el país más pequeño del mundo, tan pequeño que parece DLC de Roma?",
+                "correcta": "Ciudad del Vaticano.",
+                "erroneas": [
+                    "Mónaco.",
+                    "San Marino.",
+                    "Liechtenstein."
+                ],
+                "dato": "Ciudad del Vaticano mide apenas 0.44 km². Es un país completo con gobierno, bandera y sistema postal, pero más chico que muchos estacionamientos con complejo de grandeza."
+            },
+            {
+                "pregunta": "¿Qué país africano está completamente rodeado por Sudáfrica?",
+                "correcta": "Lesoto.",
+                "erroneas": [
+                    "Botsuana.",
+                    "Esuatini.",
+                    "Malaui."
+                ],
+                "dato": "Lesoto es un enclave soberano dentro de Sudáfrica. Es decir: un país metido dentro de otro país, como muñeca rusa geopolítica."
+            },
+            {
+                "pregunta": "¿Qué pequeño país europeo está completamente rodeado por Italia?",
+                "correcta": "San Marino.",
+                "erroneas": [
+                    "Andorra.",
+                    "Malta.",
+                    "Mónaco."
+                ],
+                "dato": "San Marino está rodeado por Italia y presume ser una de las repúblicas más antiguas del mundo. Pequeño, montañoso y tercamente independiente. Respeto."
+            },
+            {
+                "pregunta": "En Europa existe una frontera tan absurda que atraviesa calles, casas y hasta negocios. ¿Qué zona belga-neerlandesa es famosa por eso?",
+                "correcta": "Baarle-Hertog y Baarle-Nassau.",
+                "erroneas": [
+                    "Luxemburgo y Metz.",
+                    "Andorra la Vieja y Foix.",
+                    "Mónaco y Niza."
+                ],
+                "dato": "Baarle-Hertog tiene enclaves belgas dentro de Países Bajos, con pedazos neerlandeses dentro de esos pedazos. Es geografía escrita por alguien que dejó caer espagueti sobre un mapa."
+            },
+            {
+                "pregunta": "¿Qué ciudad turca es famosa por estar entre Europa y Asia?",
+                "correcta": "Estambul.",
+                "erroneas": [
+                    "Ankara.",
+                    "Esmirna.",
+                    "Antalya."
+                ],
+                "dato": "Estambul está partida por el Bósforo y funciona como puente histórico entre Europa y Asia. Una ciudad con crisis de identidad continental, pero con excelente currículum."
+            },
+            {
+                "pregunta": "¿Qué estrecho separa Europa de África y conecta el Mediterráneo con el Atlántico?",
+                "correcta": "El estrecho de Gibraltar.",
+                "erroneas": [
+                    "El canal de Suez.",
+                    "El estrecho de Bering.",
+                    "El canal de Panamá."
+                ],
+                "dato": "El estrecho de Gibraltar separa el sur de España del noroeste de África. Es una puerta marítima tan importante que parece cuello de botella diseñado por un dios logístico."
+            },
+            {
+                "pregunta": "¿Qué punto del océano es famoso por estar más lejos de cualquier tierra firme?",
+                "correcta": "Point Nemo.",
+                "erroneas": [
+                    "Isla Sentinel del Norte.",
+                    "Triángulo de las Bermudas.",
+                    "Cabo de Hornos."
+                ],
+                "dato": "Point Nemo está en el Pacífico Sur, a unos 2,688 km de la tierra más cercana. Es tan remoto que a veces los astronautas en órbita están más cerca que cualquier humano en tierra. Bonito lugar para no recibir visitas."
+            },
+            {
+                "pregunta": "Si medimos desde el centro de la Tierra, ¿qué montaña tiene la cima más alejada, aunque no sea la más alta sobre el nivel del mar?",
+                "correcta": "Chimborazo.",
+                "erroneas": [
+                    "Everest.",
+                    "K2.",
+                    "Aconcagua."
+                ],
+                "dato": "Por el abultamiento ecuatorial de la Tierra, el Chimborazo en Ecuador queda más lejos del centro del planeta que el Everest. La Tierra ni siquiera es esfera perfecta; claro que iba a complicar la trivia."
+            },
+            {
+                "pregunta": "¿Cuál es la montaña más alta del mundo medida sobre el nivel del mar?",
+                "correcta": "Everest.",
+                "erroneas": [
+                    "Chimborazo.",
+                    "Kilimanjaro.",
+                    "Mauna Kea."
+                ],
+                "dato": "El Everest sigue siendo el campeón si medimos altura sobre el nivel del mar. Pero si cambias el criterio, el planeta empieza a discutir como abogado."
+            },
+            {
+                "pregunta": "¿Qué lago salado es famoso por ser el punto más bajo de la superficie terrestre expuesta?",
+                "correcta": "El Mar Muerto.",
+                "erroneas": [
+                    "El lago Titicaca.",
+                    "El lago Baikal.",
+                    "El mar Caspio."
+                ],
+                "dato": "El Mar Muerto está cientos de metros bajo el nivel del mar. Se llama mar, pero es lago; se llama muerto, pero genera turismo. Branding confuso, pero efectivo."
+            },
+            {
+                "pregunta": "¿Cuál es el lago más profundo del mundo?",
+                "correcta": "El lago Baikal.",
+                "erroneas": [
+                    "El lago Victoria.",
+                    "El lago Superior.",
+                    "El lago Titicaca."
+                ],
+                "dato": "El Baikal, en Siberia, es el lago más profundo y uno de los más antiguos del planeta. Básicamente una grieta gigante llena de agua y misterio ruso."
+            },
+            {
+                "pregunta": "¿Cuál es la parte más profunda conocida del océano?",
+                "correcta": "Challenger Deep.",
+                "erroneas": [
+                    "Point Nemo.",
+                    "Fosa de Puerto Rico.",
+                    "Abismo de Java."
+                ],
+                "dato": "Challenger Deep está en la fosa de las Marianas y alcanza aproximadamente 10,935 metros de profundidad. Ahí abajo la presión no te abraza: te edita."
+            },
+            {
+                "pregunta": "¿Cuál es el salar más grande del mundo, famoso por convertirse en un espejo gigante cuando llueve?",
+                "correcta": "Salar de Uyuni.",
+                "erroneas": [
+                    "Salar de Atacama.",
+                    "Bonneville Salt Flats.",
+                    "Salinas Grandes."
+                ],
+                "dato": "El Salar de Uyuni, en Bolivia, es una planicie de sal enorme. Con una capa de agua encima se vuelve espejo natural, porque aparentemente el planeta también sabe hacer fondo de pantalla."
+            },
+            {
+                "pregunta": "¿Qué país es famoso por tener tres capitales: una administrativa, una legislativa y una judicial?",
+                "correcta": "Sudáfrica.",
+                "erroneas": [
+                    "Australia.",
+                    "Canadá.",
+                    "India."
+                ],
+                "dato": "Sudáfrica reparte funciones entre Pretoria, Ciudad del Cabo y Bloemfontein. Una capital era demasiado sencillo; mejor tres, para que el mapa también haga papeleo."
+            },
+            {
+                "pregunta": "¿Qué país sudamericano tiene una capital constitucional y una sede de gobierno en ciudades distintas?",
+                "correcta": "Bolivia.",
+                "erroneas": [
+                    "Chile.",
+                    "Paraguay.",
+                    "Uruguay."
+                ],
+                "dato": "Bolivia reconoce a Sucre como capital constitucional, mientras La Paz funciona como sede de gobierno. Geografía política: porque una respuesta simple habría sido demasiado humana."
+            },
+            {
+                "pregunta": "¿Qué país tiene territorio en Europa y Asia?",
+                "correcta": "Turquía.",
+                "erroneas": [
+                    "Portugal.",
+                    "Marruecos.",
+                    "Irlanda."
+                ],
+                "dato": "Turquía ocupa una posición entre Asia y Europa. Es puente, frontera, mezcla cultural y dolor de cabeza para quien quería estudiar continentes en modo fácil."
+            },
+            {
+                "pregunta": "¿Qué país es famoso por tener enclaves africanos llamados Ceuta y Melilla?",
+                "correcta": "España.",
+                "erroneas": [
+                    "Francia.",
+                    "Portugal.",
+                    "Italia."
+                ],
+                "dato": "Ceuta y Melilla son ciudades autónomas españolas en el norte de África. El mapa las ve y dice: esto va a necesitar explicación."
+            },
+            {
+                "pregunta": "¿Cuál es la isla más grande del mundo que no se considera continente?",
+                "correcta": "Groenlandia.",
+                "erroneas": [
+                    "Madagascar.",
+                    "Borneo.",
+                    "Nueva Guinea."
+                ],
+                "dato": "Groenlandia es la isla más grande del mundo si no cuentas Australia como isla sino como continente. La geografía: siempre poniendo asteriscos para molestar."
+            },
+            {
+                "pregunta": "¿Qué país es también un continente completo, porque aparentemente quería todo el paquete?",
+                "correcta": "Australia.",
+                "erroneas": [
+                    "Islandia.",
+                    "Madagascar.",
+                    "Nueva Zelanda."
+                ],
+                "dato": "Australia funciona como país y como masa continental. No es solo isla grande; es continente con canguros, desiertos y animales que parecen diseñados para advertirte algo."
+            },
+            {
+                "pregunta": "¿Qué país tiene la costa más larga del mundo?",
+                "correcta": "Canadá.",
+                "erroneas": [
+                    "Brasil.",
+                    "Rusia.",
+                    "Australia."
+                ],
+                "dato": "Canadá tiene una costa monstruosa por sus islas, bahías y territorio ártico. Mucho mapa azul, poca gente diciendo 'vamos a la playa' en febrero."
+            },
+            {
+                "pregunta": "¿Qué país asiático está formado por miles de islas y es uno de los archipiélagos más grandes del mundo?",
+                "correcta": "Indonesia.",
+                "erroneas": [
+                    "Mongolia.",
+                    "Nepal.",
+                    "Laos."
+                ],
+                "dato": "Indonesia está formada por miles de islas. Administrar eso debe ser como organizar un grupo de WhatsApp, pero con volcanes."
+            },
+            {
+                "pregunta": "¿Qué país africano es una gran isla famosa por lémures y especies que no viven en casi ningún otro lugar?",
+                "correcta": "Madagascar.",
+                "erroneas": [
+                    "Seychelles.",
+                    "Mauricio.",
+                    "Cabo Verde."
+                ],
+                "dato": "Madagascar se separó hace millones de años y desarrolló una biodiversidad rarísima. Es como un laboratorio evolutivo al que nadie supervisó."
+            },
+            {
+                "pregunta": "¿Qué lugar imaginario de los mapas digitales está en la coordenada 0° latitud, 0° longitud?",
+                "correcta": "Null Island.",
+                "erroneas": [
+                    "Pixel City.",
+                    "Isla Meridian.",
+                    "Errorlandia."
+                ],
+                "dato": "Null Island no es una isla real; es un punto usado como chiste/cartografía digital en la intersección del ecuador y el meridiano cero. El hogar espiritual de los datos mal capturados."
+            },
+            {
+                "pregunta": "¿Qué meridiano se usa tradicionalmente como referencia de longitud cero?",
+                "correcta": "El meridiano de Greenwich.",
+                "erroneas": [
+                    "El meridiano de París.",
+                    "El trópico de Cáncer.",
+                    "La línea internacional de cambio de fecha."
+                ],
+                "dato": "El meridiano de Greenwich marca la longitud 0°. La humanidad miró el planeta y dijo: necesitamos una línea imaginaria oficial. Y la hizo británica, claro."
+            },
+            {
+                "pregunta": "¿Qué línea imaginaria divide la Tierra en hemisferio norte y hemisferio sur?",
+                "correcta": "El ecuador.",
+                "erroneas": [
+                    "El trópico de Capricornio.",
+                    "El meridiano de Greenwich.",
+                    "El círculo polar ártico."
+                ],
+                "dato": "El ecuador divide el planeta en norte y sur. Es una línea imaginaria, pero sus consecuencias climáticas son bastante reales. Como muchas cosas inventadas por humanos."
+            },
+            {
+                "pregunta": "¿Qué país sudamericano recibe su nombre de una línea geográfica imaginaria?",
+                "correcta": "Ecuador.",
+                "erroneas": [
+                    "Perú.",
+                    "Colombia.",
+                    "Chile."
+                ],
+                "dato": "Ecuador toma su nombre del ecuador terrestre. Pocos países pueden presumir que su nombre es literalmente una referencia geométrica planetaria."
+            },
+            {
+                "pregunta": "¿Qué país tiene la ciudad de Ushuaia, famosa por promocionarse como una de las ciudades más australes del mundo?",
+                "correcta": "Argentina.",
+                "erroneas": [
+                    "Chile.",
+                    "Nueva Zelanda.",
+                    "Sudáfrica."
+                ],
+                "dato": "Ushuaia está en Tierra del Fuego y se vende como 'el fin del mundo'. Marketing turístico efectivo: si ya estás lejísimos, al menos ponlo en una playera."
+            },
+            {
+                "pregunta": "¿Qué país tiene la ciudad de Oymyakon, famosa por temperaturas brutalmente bajas en una zona habitada?",
+                "correcta": "Rusia.",
+                "erroneas": [
+                    "Canadá.",
+                    "Noruega.",
+                    "Finlandia."
+                ],
+                "dato": "Oymyakon, en Siberia, es uno de los lugares habitados más fríos del planeta. Ahí 'hace fresco' debe ser una forma de negar la realidad."
+            },
+            {
+                "pregunta": "¿Qué desierto sudamericano es conocido por ser uno de los lugares más secos del mundo?",
+                "correcta": "Atacama.",
+                "erroneas": [
+                    "Sahara.",
+                    "Gobi.",
+                    "Kalahari."
+                ],
+                "dato": "El desierto de Atacama tiene zonas extremadamente áridas. Es tan seco que parece que el cielo olvidó cómo llover y nadie le abrió ticket de soporte."
+            },
+            {
+                "pregunta": "¿Qué desierto es el más grande del mundo si contamos los desiertos fríos?",
+                "correcta": "La Antártida.",
+                "erroneas": [
+                    "El Sahara.",
+                    "El Gobi.",
+                    "El Kalahari."
+                ],
+                "dato": "La Antártida es un desierto porque recibe muy poca precipitación, aunque esté llena de hielo. Desierto no siempre significa arena y camello; a veces significa congelarte con precisión."
+            },
+            {
+                "pregunta": "¿Cuál es el desierto cálido más grande del mundo?",
+                "correcta": "El Sahara.",
+                "erroneas": [
+                    "El Atacama.",
+                    "El Gobi.",
+                    "El Mojave."
+                ],
+                "dato": "El Sahara domina el norte de África como una extensión enorme de calor, arena, roca y malas ideas para caminar sin agua."
+            },
+            {
+                "pregunta": "¿Qué país tiene una isla llamada Borneo compartida con Malasia y Brunéi?",
+                "correcta": "Indonesia.",
+                "erroneas": [
+                    "Filipinas.",
+                    "Tailandia.",
+                    "Vietnam."
+                ],
+                "dato": "Borneo está dividida entre Indonesia, Malasia y Brunéi. Una isla, tres administraciones. Porque hasta las islas pueden tener problemas de convivencia."
+            },
+            {
+                "pregunta": "¿Qué isla es compartida por Haití y República Dominicana?",
+                "correcta": "La Española.",
+                "erroneas": [
+                    "Jamaica.",
+                    "Puerto Rico.",
+                    "Cuba."
+                ],
+                "dato": "La Española contiene dos países: Haití y República Dominicana. Una isla con dos historias, dos idiomas predominantes y muchas capas de colonialismo. Ligera no quedó, pero importante sí."
+            },
+            {
+                "pregunta": "¿Qué península mexicana separa el Golfo de México del mar Caribe?",
+                "correcta": "La península de Yucatán.",
+                "erroneas": [
+                    "La península de Baja California.",
+                    "La península de Florida.",
+                    "La península de Kamchatka."
+                ],
+                "dato": "La península de Yucatán es clave para entender geografía mexicana, Caribe, cenotes, mayas y turismo con bloqueador insuficiente."
+            },
+            {
+                "pregunta": "¿Qué península mexicana es una larga franja de tierra entre el océano Pacífico y el golfo de California?",
+                "correcta": "Baja California.",
+                "erroneas": [
+                    "Yucatán.",
+                    "Florida.",
+                    "Iberia."
+                ],
+                "dato": "Baja California parece un brazo geográfico queriendo despegarse del continente. Y tectónicamente, bueno, no está tan lejos del chisme."
+            },
+            {
+                "pregunta": "¿Qué estado mexicano tiene frontera con Estados Unidos y también costa en el golfo de California?",
+                "correcta": "Sonora.",
+                "erroneas": [
+                    "Jalisco.",
+                    "Puebla.",
+                    "Yucatán."
+                ],
+                "dato": "Sonora combina frontera, desierto, costa y calor suficiente para que el aire parezca tener mala intención."
+            },
+            {
+                "pregunta": "¿Qué país tiene forma de bota, según el cliché geográfico más usado del planeta?",
+                "correcta": "Italia.",
+                "erroneas": [
+                    "Grecia.",
+                    "Portugal.",
+                    "Croacia."
+                ],
+                "dato": "Italia es famosa por su forma de bota. Es probablemente el único país cuyo mapa parece diseñado por alguien pensando en calzado."
+            },
+            {
+                "pregunta": "¿Qué país tiene forma alargada y estrecha a lo largo de la costa occidental de Sudamérica?",
+                "correcta": "Chile.",
+                "erroneas": [
+                    "Bolivia.",
+                    "Ecuador.",
+                    "Uruguay."
+                ],
+                "dato": "Chile es tan largo y angosto que parece una barra de carga geográfica. Tiene desierto, glaciares, costa y cordillera en modo extremo."
+            },
+            {
+                "pregunta": "¿Qué país está entre España y Francia, metido en los Pirineos como secreto fiscal con montañas?",
+                "correcta": "Andorra.",
+                "erroneas": [
+                    "Malta.",
+                    "Mónaco.",
+                    "Liechtenstein."
+                ],
+                "dato": "Andorra es un microestado en los Pirineos. Pequeño, montañoso y excelente recordatorio de que Europa guardó países entre los pliegues del mapa."
+            },
+            {
+                "pregunta": "¿Qué microestado europeo está en la Riviera francesa y es famoso por casinos, yates y Fórmula 1?",
+                "correcta": "Mónaco.",
+                "erroneas": [
+                    "San Marino.",
+                    "Malta.",
+                    "Luxemburgo."
+                ],
+                "dato": "Mónaco es diminuto, rico y absurdamente denso. Es como si alguien comprimiera lujo, puerto y evasión fiscal estética en pocos kilómetros cuadrados."
+            },
+            {
+                "pregunta": "¿Qué país europeo está entre Suiza y Austria y suele desaparecer de la memoria de la gente hasta que sale en una trivia?",
+                "correcta": "Liechtenstein.",
+                "erroneas": [
+                    "Luxemburgo.",
+                    "Eslovenia.",
+                    "Moldavia."
+                ],
+                "dato": "Liechtenstein es pequeño, alpino y fácil de olvidar si no eres mapa político. No es culpa tuya: Europa tiene demasiados países en modo miniatura."
+            },
+            {
+                "pregunta": "¿Qué país no tiene ejército permanente y es conocido por su neutralidad y relojes caros?",
+                "correcta": "Suiza.",
+                "erroneas": [
+                    "Islandia.",
+                    "Canadá.",
+                    "Bélgica."
+                ],
+                "dato": "Suiza sí tiene fuerzas armadas; la trampa está en la frase. El país famoso por no tener ejército permanente es Costa Rica. Si contestaste Suiza, caíste en el cliché con precisión relojera."
+            },
+            {
+                "pregunta": "¿Qué país abolió su ejército en 1948 y suele presumirlo como parte de su identidad nacional?",
+                "correcta": "Costa Rica.",
+                "erroneas": [
+                    "México.",
+                    "Panamá.",
+                    "Uruguay."
+                ],
+                "dato": "Costa Rica abolió su ejército y redirigió recursos a educación y salud. Una decisión rarísima en un planeta que suele resolver inseguridades comprando tanques."
+            },
+            {
+                "pregunta": "¿Qué país tiene una línea internacional de cambio de fecha tan importante que puede brincar de 'hoy' a 'mañana' con solo cruzarla?",
+                "correcta": "Kiribati.",
+                "erroneas": [
+                    "Islandia.",
+                    "Marruecos.",
+                    "Paraguay."
+                ],
+                "dato": "Kiribati reorganizó su relación con la línea internacional de cambio de fecha para estar en el mismo día en todo su territorio. Nada dice 'administración territorial' como mover el calendario."
+            },
+            {
+                "pregunta": "¿Qué par de islas en el estrecho de Bering están separadas por pocos kilómetros pero por casi un día en el calendario?",
+                "correcta": "Las islas Diómedes.",
+                "erroneas": [
+                    "Las islas Malvinas.",
+                    "Las islas Galápagos.",
+                    "Las islas Canarias."
+                ],
+                "dato": "La Gran Diómedes pertenece a Rusia y la Pequeña Diómedes a Estados Unidos; entre ellas pasa la línea internacional de cambio de fecha. Son vecinas, pero una vive en el mañana. Cero cómodo para cumpleaños."
+            },
+            {
+                "pregunta": "¿Qué país es famoso por una línea de cambio de fecha tan rara que algunas de sus islas fueron de las primeras en recibir el año nuevo?",
+                "correcta": "Kiribati.",
+                "erroneas": [
+                    "Portugal.",
+                    "Noruega.",
+                    "Egipto."
+                ],
+                "dato": "Kiribati se volvió famoso por sus islas en husos horarios extremos. Si el planeta tuviera botón de 'siguiente día', estaría por ahí."
+            },
+            {
+                "pregunta": "¿Qué isla fluvial entre España y Francia cambia de soberanía cada seis meses?",
+                "correcta": "Isla de los Faisanes.",
+                "erroneas": [
+                    "Isla de Pascua.",
+                    "Isla de Man.",
+                    "Isla de Skye."
+                ],
+                "dato": "La Isla de los Faisanes es un condominio internacional: España y Francia se alternan su administración. Una isla tan pequeña que resolvió la diplomacia con custodia compartida."
+            },
+            {
+                "pregunta": "¿Qué país tiene una región llamada Kaliningrado separada físicamente del resto de su territorio?",
+                "correcta": "Rusia.",
+                "erroneas": [
+                    "Polonia.",
+                    "Alemania.",
+                    "Lituania."
+                ],
+                "dato": "Kaliningrado es un exclave ruso entre Polonia y Lituania. Es el tipo de pedazo de mapa que hace que un estudiante pregunte '¿y este qué hace aquí?'."
+            },
+            {
+                "pregunta": "¿Qué ciudad estadounidense marca el punto donde se tocan Arizona, Utah, Colorado y Nuevo México?",
+                "correcta": "Four Corners.",
+                "erroneas": [
+                    "Twin Peaks.",
+                    "Triple Point.",
+                    "Cross City."
+                ],
+                "dato": "Four Corners es el único punto en Estados Unidos donde se encuentran cuatro estados. Perfecto para poner una mano en un lugar, una pierna en otro y sentir que lograste algo cartográfico."
+            },
+            {
+                "pregunta": "¿Qué país es famoso por tener más pirámides antiguas que Egipto?",
+                "correcta": "Sudán.",
+                "erroneas": [
+                    "México.",
+                    "Perú.",
+                    "Grecia."
+                ],
+                "dato": "Sudán conserva numerosas pirámides nubias, muchas menos famosas que las egipcias. La historia del marketing arqueológico no ha sido justa."
+            },
+            {
+                "pregunta": "¿Qué lago sudamericano es famoso por ser el lago navegable más alto del mundo para embarcaciones grandes?",
+                "correcta": "El lago Titicaca.",
+                "erroneas": [
+                    "El lago Maracaibo.",
+                    "El lago Nahuel Huapi.",
+                    "El lago Poopó."
+                ],
+                "dato": "El lago Titicaca está entre Perú y Bolivia, a más de 3,800 metros sobre el nivel del mar. Navegar ahí es básicamente hacer turismo con hipoxia elegante."
+            },
+            {
+                "pregunta": "¿Qué monte sudamericano parece una mesa gigante y marca la zona donde se encuentran Venezuela, Brasil y Guyana?",
+                "correcta": "Monte Roraima.",
+                "erroneas": [
+                    "Aconcagua.",
+                    "Pico Bolívar.",
+                    "Cerro Torre."
+                ],
+                "dato": "El Roraima es un tepuy: una montaña de cima plana y paredes abruptas. Parece escenario de videojuego donde claramente hay un jefe final o una planta venenosa."
+            },
+            {
+                "pregunta": "¿Qué mar es famoso por no tener costas terrestres claras, sino estar delimitado por corrientes oceánicas?",
+                "correcta": "Mar de los Sargazos.",
+                "erroneas": [
+                    "Mar Rojo.",
+                    "Mar Negro.",
+                    "Mar de Japón."
+                ],
+                "dato": "El mar de los Sargazos está en el Atlántico Norte y se asocia con algas flotantes del género Sargassum. Es un mar sin playa: la versión oceánica de 'soy complicado'."
+            },
+            {
+                "pregunta": "¿Qué depresión africana es famosa por calor extremo, salares, volcanes y paisajes que parecen de otro planeta?",
+                "correcta": "Depresión de Danakil.",
+                "erroneas": [
+                    "Delta del Nilo.",
+                    "Valle del Rift de Kenia.",
+                    "Cuenca del Congo."
+                ],
+                "dato": "La depresión de Danakil, en Etiopía y zonas cercanas, es uno de los lugares más extremos de la Tierra. Ahí el planeta no está decorando: está amenazando."
+            },
+            {
+                "pregunta": "¿Qué formación circular de Mauritania es conocida como el 'Ojo del Sahara'?",
+                "correcta": "La estructura de Richat.",
+                "erroneas": [
+                    "El cráter de Vredefort.",
+                    "El valle de los Reyes.",
+                    "La caldera de Ngorongoro."
+                ],
+                "dato": "La estructura de Richat parece un ojo gigante visto desde el espacio, pero no es una base alienígena ni una puerta secreta. Es geología haciendo cosplay de conspiración."
+            },
+            {
+                "pregunta": "¿Qué delta africano es raro porque el río no desemboca en el mar, sino que se pierde en el desierto del Kalahari?",
+                "correcta": "Delta del Okavango.",
+                "erroneas": [
+                    "Delta del Nilo.",
+                    "Delta del Níger.",
+                    "Delta del Zambeze."
+                ],
+                "dato": "El Okavango forma un enorme delta interior en Botsuana. Un río hizo todo el trámite de viajar y al final dijo: aquí me disuelvo, gracias."
+            },
+            {
+                "pregunta": "¿Qué isla de Yemen es famosa por sus árboles de sangre de dragón y paisajes que parecen diseñados por un extraterrestre botánico?",
+                "correcta": "Socotra.",
+                "erroneas": [
+                    "Zanzíbar.",
+                    "Bali.",
+                    "Sicilia."
+                ],
+                "dato": "Socotra tiene flora muy distintiva, incluyendo el árbol de sangre de dragón. No es otro planeta, pero entiende perfectamente la confusión."
+            },
+            {
+                "pregunta": "En 1986, un lago en Camerún liberó una nube mortal de dióxido de carbono. ¿Qué lago fue?",
+                "correcta": "Lago Nyos.",
+                "erroneas": [
+                    "Lago Victoria.",
+                    "Lago Chad.",
+                    "Lago Tanganica."
+                ],
+                "dato": "El lago Nyos liberó una nube de CO₂ que desplazó el oxígeno y causó una tragedia masiva. Es un recordatorio horrible de que hasta un lago puede tener fase de villano."
+            },
+            {
+                "pregunta": "¿Qué lago australiano es famoso por su color rosa intenso?",
+                "correcta": "Lago Hillier.",
+                "erroneas": [
+                    "Lago Eyre.",
+                    "Lago Taupo.",
+                    "Lago Superior."
+                ],
+                "dato": "El lago Hillier, en Australia Occidental, es conocido por su tono rosado, asociado a microorganismos y salinidad. Parece bebida de fresa, pero no conviene probar la geografía."
+            },
+            {
+                "pregunta": "¿Cuál es la cascada más alta del mundo?",
+                "correcta": "Salto Ángel.",
+                "erroneas": [
+                    "Cataratas del Niágara.",
+                    "Cataratas Victoria.",
+                    "Iguazú."
+                ],
+                "dato": "El Salto Ángel, en Venezuela, cae desde el Auyán-tepuy. Es tan alto que parte del agua se vuelve niebla antes de tocar el suelo. La gravedad haciendo show."
+            },
+            {
+                "pregunta": "¿Qué cuevas de Nueva Zelanda son famosas por parecer un cielo estrellado subterráneo gracias a organismos luminosos?",
+                "correcta": "Cuevas de Waitomo.",
+                "erroneas": [
+                    "Cuevas de Altamira.",
+                    "Cuevas de Lascaux.",
+                    "Cuevas de Batu."
+                ],
+                "dato": "Las cuevas de Waitomo son famosas por sus glowworms, larvas luminosas que iluminan el techo como estrellas. Muy bonito, hasta que recuerdas que son larvas con hambre."
+            },
+            {
+                "pregunta": "¿Qué país tiene una isla llamada Svalbard, tan al norte que parece dirección de villano polar?",
+                "correcta": "Noruega.",
+                "erroneas": [
+                    "Canadá.",
+                    "Islandia.",
+                    "Finlandia."
+                ],
+                "dato": "Svalbard pertenece a Noruega y está en el Ártico. También alberga la famosa bóveda global de semillas. Porque si el mundo se rompe, al menos habrá respaldo botánico."
+            },
+            {
+                "pregunta": "¿Qué archipiélago ecuatoriano es famoso por inspirar ideas clave de Darwin sobre evolución?",
+                "correcta": "Galápagos.",
+                "erroneas": [
+                    "Canarias.",
+                    "Maldivas.",
+                    "Azores."
+                ],
+                "dato": "Las Galápagos tienen especies muy particulares y fueron importantes para el pensamiento evolutivo de Darwin. Básicamente, unas islas le dijeron a la ciencia: mira bien estos pinzones."
+            },
+            {
+                "pregunta": "¿Qué país tiene una isla remota llamada Tristán de Acuña, considerada una de las comunidades habitadas más aisladas del mundo?",
+                "correcta": "Reino Unido.",
+                "erroneas": [
+                    "Portugal.",
+                    "Sudáfrica.",
+                    "Argentina."
+                ],
+                "dato": "Tristán de Acuña está en el Atlántico Sur y pertenece al territorio británico de ultramar de Santa Elena, Ascensión y Tristán de Acuña. Está tan aislada que 'voy al súper' suena a expedición."
+            },
+            {
+                "pregunta": "¿Qué isla del Pacífico es famosa por sus enormes estatuas moái?",
+                "correcta": "Isla de Pascua.",
+                "erroneas": [
+                    "Isla de Man.",
+                    "Isla de Skye.",
+                    "Isla Mauricio."
+                ],
+                "dato": "La Isla de Pascua, o Rapa Nui, pertenece a Chile y es famosa por los moái. La isla miró al océano y decidió decorar con cabezas gigantes. Muy razonable."
+            },
+            {
+                "pregunta": "¿Qué país tiene una ciudad llamada Llanfairpwllgwyngyll, famosa por su nombre larguísimo?",
+                "correcta": "Gales.",
+                "erroneas": [
+                    "Islandia.",
+                    "Irlanda.",
+                    "Noruega."
+                ],
+                "dato": "El nombre completo del pueblo galés es mucho más largo y se usa como atractivo turístico. A veces una estrategia económica consiste en hacer sufrir al letrero."
+            },
+            {
+                "pregunta": "¿Qué país tiene una localidad llamada Taumatawhakatangihangakoauauotamateaturipukakapikimaungahoronukupokaiwhenuakitanatahu?",
+                "correcta": "Nueva Zelanda.",
+                "erroneas": [
+                    "Australia.",
+                    "Papúa Nueva Guinea.",
+                    "Samoa."
+                ],
+                "dato": "Es uno de los topónimos más largos del mundo. Es menos un nombre y más un examen oral de resistencia."
+            },
+            {
+                "pregunta": "¿Qué ciudad italiana está construida sobre una laguna y es famosa por canales en lugar de calles normales?",
+                "correcta": "Venecia.",
+                "erroneas": [
+                    "Florencia.",
+                    "Milán.",
+                    "Nápoles."
+                ],
+                "dato": "Venecia se construyó sobre islas en una laguna. Es una ciudad hermosa, histórica y logísticamente absurda: el tráfico tiene góndolas."
+            },
+            {
+                "pregunta": "¿Qué ciudad egipcia fue fundada por Alejandro Magno y se volvió famosa por su antigua biblioteca?",
+                "correcta": "Alejandría.",
+                "erroneas": [
+                    "Luxor.",
+                    "Asuán.",
+                    "Menfis."
+                ],
+                "dato": "Alejandría fue un gran centro intelectual del mundo antiguo. La biblioteca se volvió símbolo del conocimiento perdido, o sea, el archivo que nadie respaldó."
+            },
+            {
+                "pregunta": "¿Qué país tiene una ciudad llamada Timbuktu, cuyo nombre se usa en muchos idiomas como símbolo de lugar lejísimos?",
+                "correcta": "Malí.",
+                "erroneas": [
+                    "Marruecos.",
+                    "Egipto.",
+                    "Etiopía."
+                ],
+                "dato": "Timbuktu fue un importante centro de comercio y saber en África occidental. No era 'la nada'; era una ciudad histórica. Europa solo la convirtió en chiste de distancia."
+            },
+            {
+                "pregunta": "¿Qué canal artificial conecta el mar Mediterráneo con el mar Rojo?",
+                "correcta": "Canal de Suez.",
+                "erroneas": [
+                    "Canal de Panamá.",
+                    "Canal de Kiel.",
+                    "Canal de Corinto."
+                ],
+                "dato": "El canal de Suez evita rodear África para viajar entre Europa y Asia. Es un atajo marítimo tan importante que cuando se bloquea, medio comercio mundial empieza a sudar."
+            },
+            {
+                "pregunta": "¿Qué canal artificial conecta el océano Atlántico con el Pacífico atravesando Centroamérica?",
+                "correcta": "Canal de Panamá.",
+                "erroneas": [
+                    "Canal de Suez.",
+                    "Canal de Corinto.",
+                    "Canal de la Mancha."
+                ],
+                "dato": "El canal de Panamá es una de las obras de ingeniería más importantes del comercio mundial. Básicamente le abrió una puerta al continente para que los barcos dejaran de dar vueltas absurdas."
+            },
+            {
+                "pregunta": "¿Qué país tiene una región llamada Transilvania, famosa por castillos, montañas y vampiros de exportación cultural?",
+                "correcta": "Rumania.",
+                "erroneas": [
+                    "Hungría.",
+                    "Bulgaria.",
+                    "Eslovaquia."
+                ],
+                "dato": "Transilvania es una región histórica de Rumania. Tiene historia real, pero el turismo entendió que Drácula vende más que administración medieval."
+            },
+            {
+                "pregunta": "¿Qué país tiene una ciudad llamada Casablanca, aunque no sea solo una película clásica?",
+                "correcta": "Marruecos.",
+                "erroneas": [
+                    "Argelia.",
+                    "Túnez.",
+                    "Egipto."
+                ],
+                "dato": "Casablanca es una ciudad importante de Marruecos. Mucha gente la ubica por la película, aunque la película ni siquiera se filmó ahí. El cine haciendo geografía emocional."
+            },
+            {
+                "pregunta": "¿Qué lago africano es tan grande que participa en la geografía de Uganda, Tanzania y Kenia?",
+                "correcta": "Lago Victoria.",
+                "erroneas": [
+                    "Lago Chad.",
+                    "Lago Nyos.",
+                    "Lago Malawi."
+                ],
+                "dato": "El lago Victoria es uno de los grandes lagos africanos y toca varios países. Es menos lago y más evento territorial con agua."
+            },
+            {
+                "pregunta": "¿Qué río es considerado tradicionalmente el más largo de África?",
+                "correcta": "Nilo.",
+                "erroneas": [
+                    "Congo.",
+                    "Níger.",
+                    "Zambeze."
+                ],
+                "dato": "El Nilo atraviesa o influye en varios países del noreste africano y fue central para el Antiguo Egipto. Sin Nilo, las pirámides tendrían mucho menos contexto y más arena."
+            },
+            {
+                "pregunta": "¿Qué río sudamericano tiene la cuenca hidrográfica más grande del mundo?",
+                "correcta": "Amazonas.",
+                "erroneas": [
+                    "Paraná.",
+                    "Orinoco.",
+                    "Magdalena."
+                ],
+                "dato": "La cuenca del Amazonas es gigantesca y sostiene una biodiversidad brutal. Es el tipo de río que no necesita presumir; el mapa lo hace por él."
+            },
+            {
+                "pregunta": "¿Qué país sudamericano no tiene salida al mar y perdió acceso costero tras la Guerra del Pacífico?",
+                "correcta": "Bolivia.",
+                "erroneas": [
+                    "Paraguay.",
+                    "Ecuador.",
+                    "Uruguay."
+                ],
+                "dato": "Bolivia quedó sin litoral tras conflictos del siglo XIX. Su relación con el mar es uno de esos temas donde la geografía todavía duele."
+            },
+            {
+                "pregunta": "¿Qué otro país sudamericano, además de Bolivia, no tiene salida al mar?",
+                "correcta": "Paraguay.",
+                "erroneas": [
+                    "Ecuador.",
+                    "Surinam.",
+                    "Uruguay."
+                ],
+                "dato": "Paraguay no tiene costa marítima, pero usa ríos como vías comerciales importantes. No tener mar no significa no moverse; significa hacerle caso al río."
+            },
+            {
+                "pregunta": "¿Qué país tiene el punto llamado Cabo de Hornos, famoso por mares difíciles y navegación peligrosa?",
+                "correcta": "Chile.",
+                "erroneas": [
+                    "Argentina.",
+                    "Uruguay.",
+                    "Sudáfrica."
+                ],
+                "dato": "El Cabo de Hornos está en el extremo austral de Chile y fue temido por navegantes. Es donde el mapa básicamente dice: buena suerte, humano."
+            },
+            {
+                "pregunta": "¿Qué país tiene el monte Kilimanjaro, la montaña más alta de África?",
+                "correcta": "Tanzania.",
+                "erroneas": [
+                    "Kenia.",
+                    "Uganda.",
+                    "Etiopía."
+                ],
+                "dato": "El Kilimanjaro está en Tanzania y es la cima más alta de África. Es volcán, montaña icónica y fondo de pantalla para sueños de senderismo demasiado optimistas."
+            },
+            {
+                "pregunta": "¿Qué país tiene el monte Fuji, volcán icónico y símbolo nacional?",
+                "correcta": "Japón.",
+                "erroneas": [
+                    "Corea del Sur.",
+                    "China.",
+                    "Filipinas."
+                ],
+                "dato": "El Fuji es volcán, montaña sagrada y símbolo cultural japonés. Tiene mejor branding que muchas marcas multinacionales."
+            },
+            {
+                "pregunta": "¿Qué país tiene el volcán Krakatoa, famoso por una erupción explosiva en 1883?",
+                "correcta": "Indonesia.",
+                "erroneas": [
+                    "Filipinas.",
+                    "Japón.",
+                    "Papúa Nueva Guinea."
+                ],
+                "dato": "Krakatoa está entre Java y Sumatra. Su erupción de 1883 fue tan violenta que afectó cielos y clima en distintas partes del mundo. Un volcán con alcance internacional."
+            },
+            {
+                "pregunta": "¿Qué país tiene el volcán Eyjafjallajökull, famoso por paralizar vuelos europeos en 2010 y destruir locutores?",
+                "correcta": "Islandia.",
+                "erroneas": [
+                    "Noruega.",
+                    "Suecia.",
+                    "Finlandia."
+                ],
+                "dato": "El Eyjafjallajökull lanzó ceniza que complicó el tráfico aéreo europeo. También dejó claro que Islandia tiene volcanes y nombres diseñados contra periodistas."
+            },
+            {
+                "pregunta": "¿Qué país está cubierto en gran parte por hielo, aunque su nombre en inglés suene sospechosamente verde?",
+                "correcta": "Groenlandia.",
+                "erroneas": [
+                    "Islandia.",
+                    "Noruega.",
+                    "Finlandia."
+                ],
+                "dato": "Groenlandia significa 'tierra verde' en inglés, pero está cubierta en gran parte por hielo. Excelente ejemplo de marketing medieval con expectativas poco realistas."
+            },
+            {
+                "pregunta": "¿Qué país tiene el nombre 'Islandia', aunque no está cubierto totalmente por hielo?",
+                "correcta": "Islandia.",
+                "erroneas": [
+                    "Groenlandia.",
+                    "Noruega.",
+                    "Canadá."
+                ],
+                "dato": "Islandia tiene glaciares, sí, pero también volcanes, campos geotérmicos y paisajes verdes. Groenlandia suena verde y es helada; Islandia suena helada y tiene volcanes. El naming nórdico fue una broma larga."
+            },
+            {
+                "pregunta": "¿Qué país europeo tiene una costa tan recortada por fiordos que parece mordida por un monstruo cartográfico?",
+                "correcta": "Noruega.",
+                "erroneas": [
+                    "Polonia.",
+                    "Bélgica.",
+                    "Hungría."
+                ],
+                "dato": "Noruega es famosa por sus fiordos, entradas profundas del mar talladas por glaciares. El mapa noruego parece que alguien no sabía usar la herramienta de línea recta."
+            },
+            {
+                "pregunta": "¿Qué país tiene la región de Capadocia, famosa por formaciones rocosas y ciudades subterráneas?",
+                "correcta": "Turquía.",
+                "erroneas": [
+                    "Grecia.",
+                    "Georgia.",
+                    "Irán."
+                ],
+                "dato": "Capadocia tiene chimeneas de hadas, cuevas y ciudades subterráneas. Es geología con complejo de arquitectura."
+            },
+            {
+                "pregunta": "¿Qué país tiene Petra, la ciudad antigua tallada en roca rosada?",
+                "correcta": "Jordania.",
+                "erroneas": [
+                    "Egipto.",
+                    "Líbano.",
+                    "Omán."
+                ],
+                "dato": "Petra fue una ciudad nabatea tallada en roca. Es de esos lugares donde la arquitectura mira una montaña y dice: me meto ahí."
+            },
+            {
+                "pregunta": "¿Qué país tiene Machu Picchu, ciudad inca construida en lo alto de los Andes?",
+                "correcta": "Perú.",
+                "erroneas": [
+                    "Bolivia.",
+                    "Ecuador.",
+                    "Colombia."
+                ],
+                "dato": "Machu Picchu está en Perú y es uno de los sitios arqueológicos más famosos del mundo. Los incas miraron una montaña difícil y dijeron: perfecto, urbanicemos."
+            },
+            {
+                "pregunta": "¿Qué país tiene Chichén Itzá, una de las zonas arqueológicas mayas más famosas?",
+                "correcta": "México.",
+                "erroneas": [
+                    "Guatemala.",
+                    "Honduras.",
+                    "Belice."
+                ],
+                "dato": "Chichén Itzá está en Yucatán. Es arquitectura, astronomía, turismo masivo y sombreros comprados con calor extremo."
+            },
+            {
+                "pregunta": "¿Qué país tiene Tikal, una gran ciudad maya rodeada por selva?",
+                "correcta": "Guatemala.",
+                "erroneas": [
+                    "México.",
+                    "El Salvador.",
+                    "Costa Rica."
+                ],
+                "dato": "Tikal fue una ciudad maya enorme en la selva guatemalteca. Ruinas, pirámides y monos gritando: ambientación histórica con sonido envolvente."
+            },
+            {
+                "pregunta": "¿Qué país tiene las Líneas de Nazca, enormes figuras trazadas en el desierto visibles mejor desde el aire?",
+                "correcta": "Perú.",
+                "erroneas": [
+                    "Chile.",
+                    "México.",
+                    "Argentina."
+                ],
+                "dato": "Las Líneas de Nazca incluyen figuras geométricas y animales. No necesitas aliens para explicarlas; necesitas paciencia, desierto y ganas de dibujar en escala ridícula."
+            },
+            {
+                "pregunta": "¿Qué país tiene Pamukkale, terrazas blancas naturales formadas por depósitos minerales?",
+                "correcta": "Turquía.",
+                "erroneas": [
+                    "Italia.",
+                    "Grecia.",
+                    "Croacia."
+                ],
+                "dato": "Pamukkale significa algo como 'castillo de algodón' y sus terrazas blancas son depósitos de travertino. Parece nieve, pero es geología calcificada con buen departamento de imagen."
+            },
+            {
+                "pregunta": "¿Qué país tiene la Calzada del Gigante, columnas de basalto que parecen escalones hechos por una criatura enorme?",
+                "correcta": "Irlanda del Norte.",
+                "erroneas": [
+                    "Escocia.",
+                    "Islandia.",
+                    "Noruega."
+                ],
+                "dato": "La Calzada del Gigante se formó por actividad volcánica y enfriamiento de lava. La leyenda prefirió decir que la hizo un gigante, porque 'basalto columnar' vende menos camisetas."
+            },
+            {
+                "pregunta": "¿Qué país tiene el parque Yellowstone, famoso por géiseres y una gran caldera volcánica?",
+                "correcta": "Estados Unidos.",
+                "erroneas": [
+                    "Canadá.",
+                    "Islandia.",
+                    "Nueva Zelanda."
+                ],
+                "dato": "Yellowstone tiene actividad geotérmica, géiseres y una caldera enorme. Es parque nacional y recordatorio de que la corteza terrestre no está tan tranquila como aparenta."
+            },
+            {
+                "pregunta": "¿Qué géiser de Yellowstone es famoso por sus erupciones relativamente predecibles?",
+                "correcta": "Old Faithful.",
+                "erroneas": [
+                    "Big Reliable.",
+                    "Steam Daddy.",
+                    "Yellow Jet."
+                ],
+                "dato": "Old Faithful es famoso por erupciones frecuentes y predecibles en comparación con otros géiseres. Es de las pocas cosas en turismo que llega más o menos a tiempo."
+            },
+            {
+                "pregunta": "¿Qué país tiene Rotorua, ciudad famosa por actividad geotérmica y olor a azufre?",
+                "correcta": "Nueva Zelanda.",
+                "erroneas": [
+                    "Australia.",
+                    "Islandia.",
+                    "Fiyi."
+                ],
+                "dato": "Rotorua tiene géiseres, aguas termales y olor a azufre. Es turismo natural con aroma a huevo que se rindió."
+            },
+            {
+                "pregunta": "¿Qué país tiene la laguna geotérmica turística conocida como Blue Lagoon?",
+                "correcta": "Islandia.",
+                "erroneas": [
+                    "Noruega.",
+                    "Finlandia.",
+                    "Canadá."
+                ],
+                "dato": "La Blue Lagoon islandesa es famosa por sus aguas geotérmicas azuladas. Es de esos lugares donde bañarte en agua caliente se vuelve identidad nacional y negocio."
+            },
+            {
+                "pregunta": "¿Qué país tiene el llamado 'Door to Hell', un cráter de gas que ardió durante décadas en el desierto de Karakum?",
+                "correcta": "Turkmenistán.",
+                "erroneas": [
+                    "Kazajistán.",
+                    "Uzbekistán.",
+                    "Irán."
+                ],
+                "dato": "El cráter de Darvaza se volvió famoso como la 'Puerta al Infierno'. No es portal demoníaco: es gas ardiendo en un cráter. Aun así, el nombre hizo todo el marketing."
+            },
+            {
+                "pregunta": "¿Qué país tiene la ciudad de Coober Pedy, famosa porque muchas personas viven bajo tierra por el calor?",
+                "correcta": "Australia.",
+                "erroneas": [
+                    "Sudáfrica.",
+                    "Chile.",
+                    "Marruecos."
+                ],
+                "dato": "Coober Pedy es famosa por minas de ópalo y viviendas subterráneas. Cuando el clima te quiere cocinar, la arquitectura responde: me voy bajo tierra."
+            },
+            {
+                "pregunta": "¿Qué país tiene Derinkuyu, una antigua ciudad subterránea de varios niveles?",
+                "correcta": "Turquía.",
+                "erroneas": [
+                    "Egipto.",
+                    "Irán.",
+                    "Armenia."
+                ],
+                "dato": "Derinkuyu, en Capadocia, podía albergar a miles de personas bajo tierra. Es como si la humanidad antigua hubiera inventado el modo búnker antes de que fuera tendencia."
+            },
+            {
+                "pregunta": "¿Qué país tiene la ciudad de Matera, famosa por antiguas viviendas excavadas en roca llamadas Sassi?",
+                "correcta": "Italia.",
+                "erroneas": [
+                    "España.",
+                    "Grecia.",
+                    "Croacia."
+                ],
+                "dato": "Matera tiene viviendas antiguas excavadas en roca y cuevas. Es una ciudad donde la frase 'vivir en una piedra' puede sonar histórica y elegante."
+            },
+            {
+                "pregunta": "¿Qué país tiene el Valle de la Luna, paisaje desértico famoso cerca de San Pedro de Atacama?",
+                "correcta": "Chile.",
+                "erroneas": [
+                    "Perú.",
+                    "Bolivia.",
+                    "Argentina."
+                ],
+                "dato": "El Valle de la Luna tiene formas erosionadas y salares que parecen paisaje lunar. Se llama así porque 'Valle de la Tierra pero rara' no tenía impacto turístico."
+            },
+            {
+                "pregunta": "¿Qué país tiene Wadi Rum, desierto famoso por paisajes rojizos usados en películas de Marte?",
+                "correcta": "Jordania.",
+                "erroneas": [
+                    "Marruecos.",
+                    "Egipto.",
+                    "Arabia Saudita."
+                ],
+                "dato": "Wadi Rum ha servido como escenario para películas de ciencia ficción por su paisaje marciano. Marte queda lejos; Jordania cobra menos por logística."
+            },
+            {
+                "pregunta": "¿Qué país tiene el desierto de Namib, famoso por dunas enormes junto al Atlántico?",
+                "correcta": "Namibia.",
+                "erroneas": [
+                    "Sudáfrica.",
+                    "Angola.",
+                    "Botsuana."
+                ],
+                "dato": "El Namib es uno de los desiertos más antiguos del mundo y tiene dunas gigantes. Arena, océano y silencio: minimalismo hostil."
+            },
+            {
+                "pregunta": "¿Qué país tiene Sossusvlei, famoso por dunas rojizas y árboles secos fotografiados hasta el cansancio?",
+                "correcta": "Namibia.",
+                "erroneas": [
+                    "Marruecos.",
+                    "Egipto.",
+                    "Argelia."
+                ],
+                "dato": "Sossusvlei y Deadvlei parecen un cuadro surrealista: dunas rojas, suelo claro y árboles muertos. El planeta haciendo fotografía editorial sin pedir permiso."
+            },
+            {
+                "pregunta": "¿Qué país tiene el monte Erebus, un volcán activo en la Antártida?",
+                "correcta": "Antártida no es país.",
+                "erroneas": [
+                    "Nueva Zelanda.",
+                    "Chile.",
+                    "Australia."
+                ],
+                "dato": "El monte Erebus está en la Antártida, que no pertenece a un solo país. Pregunta trampa: el planeta todavía conserva algunos lugares donde los mapas políticos no mandan del todo."
+            },
+            {
+                "pregunta": "¿Qué continente no tiene población permanente nativa ni países soberanos propios?",
+                "correcta": "Antártida.",
+                "erroneas": [
+                    "Oceanía.",
+                    "Europa.",
+                    "África."
+                ],
+                "dato": "La Antártida está regulada por tratados internacionales y ocupada por bases científicas. Es el continente donde la gente va a investigar, congelarse y respetar pingüinos."
+            },
+            {
+                "pregunta": "¿Qué país tiene Nuuk como capital?",
+                "correcta": "Groenlandia.",
+                "erroneas": [
+                    "Islandia.",
+                    "Noruega.",
+                    "Dinamarca."
+                ],
+                "dato": "Nuuk es la capital de Groenlandia, territorio autónomo dentro del Reino de Dinamarca. Groenlandia no es país soberano completo, pero en trivia funciona como jefe final de mapas."
+            },
+            {
+                "pregunta": "¿Qué país tiene la ciudad de Longyearbyen, en Svalbard, famosa por restricciones raras relacionadas con entierros por el permafrost?",
+                "correcta": "Noruega.",
+                "erroneas": [
+                    "Rusia.",
+                    "Canadá.",
+                    "Islandia."
+                ],
+                "dato": "Longyearbyen está en Svalbard, donde el frío extremo y el permafrost hacen que incluso morir implique logística rara. La geografía no deja descansar ni en paz."
+            }
+        ]
+    },
+    {
+        "id": "arte",
+        "nombre": "Arte",
+        "descripcion": "Pintura, escultura, museos, artistas y cultura visual.",
+        "preguntas": [
+            {
+                "pregunta": "¿Quién pintó la Mona Lisa, esa señora que parece saber algo de ti y no piensa decirlo?",
+                "correcta": "Leonardo da Vinci.",
+                "erroneas": [
+                    "Miguel Ángel.",
+                    "Rafael Sanzio.",
+                    "Sandro Botticelli."
+                ],
+                "dato": "La Mona Lisa fue pintada por Leonardo da Vinci y también se conoce como La Gioconda. Su sonrisa ha generado más teorías que varios expedientes de conspiración."
+            },
+            {
+                "pregunta": "¿En qué museo se exhibe la Mona Lisa?",
+                "correcta": "Museo del Louvre.",
+                "erroneas": [
+                    "Museo del Prado.",
+                    "Museo Reina Sofía.",
+                    "Galería Uffizi."
+                ],
+                "dato": "La Mona Lisa vive en el Louvre de París, detrás de vidrio y rodeada de celulares. Es probablemente la pintura más famosa del mundo y también una de las más fotografiadas por gente que apenas la alcanza a ver."
+            },
+            {
+                "pregunta": "¿Quién pintó 'La noche estrellada'?",
+                "correcta": "Vincent van Gogh.",
+                "erroneas": [
+                    "Claude Monet.",
+                    "Paul Cézanne.",
+                    "Edvard Munch."
+                ],
+                "dato": "Van Gogh pintó La noche estrellada en 1889, durante su estancia en Saint-Rémy. Miró el cielo y decidió que las estrellas necesitaban más drama."
+            },
+            {
+                "pregunta": "¿Dónde se encuentra 'La noche estrellada' de Van Gogh?",
+                "correcta": "En el MoMA de Nueva York.",
+                "erroneas": [
+                    "En el Louvre de París.",
+                    "En el Museo del Prado.",
+                    "En la Galería Nacional de Londres."
+                ],
+                "dato": "La noche estrellada forma parte de la colección del Museum of Modern Art de Nueva York. El cielo más turbulento del arte terminó viviendo en Manhattan. Bastante lógico, de hecho."
+            },
+            {
+                "pregunta": "¿Quién pintó 'Guernica', el mural antibélico que parece gritar sin sonido?",
+                "correcta": "Pablo Picasso.",
+                "erroneas": [
+                    "Salvador Dalí.",
+                    "Joan Miró.",
+                    "Francisco de Goya."
+                ],
+                "dato": "Picasso pintó Guernica en 1937 como respuesta al bombardeo de la ciudad vasca de Guernica. Es una obra enorme, en blanco, negro y gris, porque a veces el color sobra cuando todo está mal."
+            },
+            {
+                "pregunta": "¿En qué museo está actualmente 'Guernica'?",
+                "correcta": "Museo Reina Sofía.",
+                "erroneas": [
+                    "Museo del Prado.",
+                    "Louvre.",
+                    "MoMA."
+                ],
+                "dato": "Guernica está en el Museo Reina Sofía, en Madrid. Durante años estuvo bajo custodia del MoMA hasta que pudo regresar a España. El cuadro tuvo más exilio que muchos personajes literarios."
+            },
+            {
+                "pregunta": "¿Qué artista noruego creó 'El grito'?",
+                "correcta": "Edvard Munch.",
+                "erroneas": [
+                    "Gustav Klimt.",
+                    "Egon Schiele.",
+                    "Henri Matisse."
+                ],
+                "dato": "Edvard Munch hizo varias versiones de El grito. Es una imagen tan potente que terminó representando ansiedad existencial, o sea, lunes pero con fiordo."
+            },
+            {
+                "pregunta": "¿Cuántas versiones coloridas principales de 'El grito' produjo Edvard Munch?",
+                "correcta": "Cuatro.",
+                "erroneas": [
+                    "Una.",
+                    "Dos.",
+                    "Doce."
+                ],
+                "dato": "Munch produjo cuatro versiones coloridas de El grito: dos pinturas y dos dibujos en pastel/crayón. Cuando la angustia funciona, haces franquicia."
+            },
+            {
+                "pregunta": "¿Quién pintó 'La joven de la perla'?",
+                "correcta": "Johannes Vermeer.",
+                "erroneas": [
+                    "Rembrandt.",
+                    "Caravaggio.",
+                    "Rubens."
+                ],
+                "dato": "La joven de la perla es una de las obras más famosas de Vermeer. No sabemos con certeza quién fue la modelo, lo cual ayuda mucho a que el misterio siga vendiendo pósters."
+            },
+            {
+                "pregunta": "¿Quién pintó 'El nacimiento de Venus'?",
+                "correcta": "Sandro Botticelli.",
+                "erroneas": [
+                    "Leonardo da Vinci.",
+                    "Tiziano.",
+                    "Donatello."
+                ],
+                "dato": "Botticelli pintó a Venus emergiendo del mar sobre una concha. Es mitología, belleza renacentista y una prueba de que el viento en el arte siempre tiene agenda estética."
+            },
+            {
+                "pregunta": "¿Quién pintó 'La última cena'?",
+                "correcta": "Leonardo da Vinci.",
+                "erroneas": [
+                    "Miguel Ángel.",
+                    "Caravaggio.",
+                    "Rafael Sanzio."
+                ],
+                "dato": "La última cena fue pintada por Leonardo en Milán. Técnicamente es una escena religiosa, pero también parece la primera junta donde alguien acaba de decir algo gravísimo."
+            },
+            {
+                "pregunta": "¿Quién pintó el techo de la Capilla Sixtina?",
+                "correcta": "Miguel Ángel.",
+                "erroneas": [
+                    "Leonardo da Vinci.",
+                    "Donatello.",
+                    "Botticelli."
+                ],
+                "dato": "Miguel Ángel pintó el techo de la Capilla Sixtina entre 1508 y 1512. No era principalmente pintor, pero aceptó el encargo y dejó una obra maestra. Molesto cuando alguien es bueno en varias cosas."
+            },
+            {
+                "pregunta": "La escena de Dios casi tocando el dedo de Adán pertenece a ¿qué obra?",
+                "correcta": "El techo de la Capilla Sixtina.",
+                "erroneas": [
+                    "La última cena.",
+                    "La escuela de Atenas.",
+                    "El juicio de Paris."
+                ],
+                "dato": "La creación de Adán es una de las escenas más famosas del techo de la Capilla Sixtina. Dos dedos casi tocándose: el máximo suspenso de la historia del arte."
+            },
+            {
+                "pregunta": "¿Qué escultor hizo el famoso 'David' de mármol que está en Florencia?",
+                "correcta": "Miguel Ángel.",
+                "erroneas": [
+                    "Donatello.",
+                    "Bernini.",
+                    "Rodin."
+                ],
+                "dato": "El David de Miguel Ángel fue tallado a inicios del siglo XVI. Es mármol, anatomía perfecta y presión estética imposible para cualquier gimnasio moderno."
+            },
+            {
+                "pregunta": "¿Dónde se exhibe el 'David' de Miguel Ángel?",
+                "correcta": "Galería de la Academia de Florencia.",
+                "erroneas": [
+                    "Museo del Louvre.",
+                    "Museo Británico.",
+                    "Museo del Prado."
+                ],
+                "dato": "El David está en la Galleria dell'Accademia de Florencia. Originalmente estaba pensado para otro contexto público, pero ahora vive protegido de turistas, humedad y selfies agresivas."
+            },
+            {
+                "pregunta": "La Venus de Milo es famosa por una característica bastante obvia. ¿Cuál?",
+                "correcta": "Le faltan los brazos.",
+                "erroneas": [
+                    "No tiene cabeza.",
+                    "Está hecha de madera.",
+                    "Tiene alas."
+                ],
+                "dato": "La Venus de Milo fue encontrada en la isla griega de Milos y hoy está en el Louvre. Le faltan los brazos, pero aparentemente no los necesita para ser una celebridad."
+            },
+            {
+                "pregunta": "La Victoria de Samotracia representa a ¿qué figura de la mitología griega?",
+                "correcta": "Nike, la diosa de la victoria.",
+                "erroneas": [
+                    "Atenea, diosa de la sabiduría.",
+                    "Artemisa, diosa de la caza.",
+                    "Afrodita, diosa del amor."
+                ],
+                "dato": "La Victoria de Samotracia, o Nike de Samotracia, es una escultura helenística famosa por sus alas y movimiento. Sí: Nike no empezó como marca de tenis."
+            },
+            {
+                "pregunta": "¿Quién esculpió 'El pensador'?",
+                "correcta": "Auguste Rodin.",
+                "erroneas": [
+                    "Miguel Ángel.",
+                    "Donatello.",
+                    "Gian Lorenzo Bernini."
+                ],
+                "dato": "El pensador de Rodin parece reflexionar profundamente, aunque también podría estar preguntándose si dejó prendida la estufa. El arte permite ambas lecturas."
+            },
+            {
+                "pregunta": "¿Qué artista presentó un urinario firmado como obra de arte bajo el título 'Fountain'?",
+                "correcta": "Marcel Duchamp.",
+                "erroneas": [
+                    "Andy Warhol.",
+                    "Pablo Picasso.",
+                    "Jackson Pollock."
+                ],
+                "dato": "Duchamp presentó Fountain en 1917 como readymade. El arte moderno empezó a preguntar: ¿qué es arte? Y mucha gente contestó: aparentemente también esto."
+            },
+            {
+                "pregunta": "¿Qué artista hizo famosa la serie de latas de sopa Campbell's?",
+                "correcta": "Andy Warhol.",
+                "erroneas": [
+                    "Roy Lichtenstein.",
+                    "Keith Haring.",
+                    "Jean-Michel Basquiat."
+                ],
+                "dato": "Warhol convirtió objetos comerciales en arte pop. Una lata de sopa pasó de supermercado a museo. Ascenso social líquido."
+            },
+            {
+                "pregunta": "¿Quién pintó los relojes derretidos de 'La persistencia de la memoria'?",
+                "correcta": "Salvador Dalí.",
+                "erroneas": [
+                    "René Magritte.",
+                    "Joan Miró.",
+                    "Max Ernst."
+                ],
+                "dato": "Dalí pintó relojes blandos en un paisaje surrealista. Es una gran imagen para representar el tiempo, la memoria o cualquier turno que se alarga demasiado."
+            },
+            {
+                "pregunta": "¿Qué artista pintó una pipa y escribió debajo 'Esto no es una pipa'?",
+                "correcta": "René Magritte.",
+                "erroneas": [
+                    "Salvador Dalí.",
+                    "Pablo Picasso.",
+                    "Henri Rousseau."
+                ],
+                "dato": "La obra de Magritte se llama La traición de las imágenes. No es una pipa: es una representación de una pipa. Filosofía visual para arruinar conversaciones simples."
+            },
+            {
+                "pregunta": "¿Qué artista mexicano es famoso por autorretratos intensos, cejas inolvidables y dolor muy bien pintado?",
+                "correcta": "Frida Kahlo.",
+                "erroneas": [
+                    "Remedios Varo.",
+                    "Leonora Carrington.",
+                    "María Izquierdo."
+                ],
+                "dato": "Frida Kahlo convirtió su cuerpo, su dolor y su identidad en pintura. No hacía 'selfies antiguas'; hacía radiografías emocionales con flores."
+            },
+            {
+                "pregunta": "¿Cómo se llama la casa-museo más famosa de Frida Kahlo en Coyoacán?",
+                "correcta": "La Casa Azul.",
+                "erroneas": [
+                    "La Casa Roja.",
+                    "La Casa de los Murales.",
+                    "La Casa de las Espinas."
+                ],
+                "dato": "La Casa Azul fue hogar de Frida Kahlo y hoy funciona como museo. Es uno de esos lugares donde la biografía pesa casi tanto como la obra."
+            },
+            {
+                "pregunta": "¿Qué muralista mexicano pintó enormes obras públicas con obreros, historia y política por todas partes?",
+                "correcta": "Diego Rivera.",
+                "erroneas": [
+                    "Rufino Tamayo.",
+                    "José Clemente Orozco.",
+                    "David Alfaro Siqueiros."
+                ],
+                "dato": "Diego Rivera fue uno de los grandes muralistas mexicanos. Su obra tenía historia, ideología, drama social y suficiente pared como para intimidar a cualquier departamento."
+            },
+            {
+                "pregunta": "¿Qué artista mexicano creó la imagen original que luego evolucionó en la famosa Catrina?",
+                "correcta": "José Guadalupe Posada.",
+                "erroneas": [
+                    "Diego Rivera.",
+                    "Rufino Tamayo.",
+                    "Manuel Álvarez Bravo."
+                ],
+                "dato": "Posada creó la Calavera Garbancera, antecedente de La Catrina. Una crítica social terminó convertida en ícono visual del Día de Muertos. México sabe reciclar sátira."
+            },
+            {
+                "pregunta": "¿Qué artista británico vio cómo su obra 'Girl with Balloon' se trituraba parcialmente justo después de ser subastada?",
+                "correcta": "Banksy.",
+                "erroneas": [
+                    "Damien Hirst.",
+                    "Tracey Emin.",
+                    "Anish Kapoor."
+                ],
+                "dato": "Banksy instaló un mecanismo que trituró parcialmente la obra tras la venta. El mercado del arte respondió de la forma más mercado del arte posible: la obra se volvió todavía más valiosa."
+            },
+            {
+                "pregunta": "¿Qué artista japonés creó 'La gran ola de Kanagawa'?",
+                "correcta": "Katsushika Hokusai.",
+                "erroneas": [
+                    "Yayoi Kusama.",
+                    "Takashi Murakami.",
+                    "Utagawa Hiroshige."
+                ],
+                "dato": "La gran ola de Kanagawa es una xilografía icónica del ukiyo-e. La ola se volvió tan famosa que probablemente tiene más presencia cultural que muchas playas reales."
+            },
+            {
+                "pregunta": "¿Qué movimiento artístico toma su nombre de la obra 'Impresión, sol naciente' de Monet?",
+                "correcta": "Impresionismo.",
+                "erroneas": [
+                    "Cubismo.",
+                    "Surrealismo.",
+                    "Futurismo."
+                ],
+                "dato": "El término impresionismo nació como crítica, pero el nombre se quedó. A veces un insulto mal lanzado termina fundando un movimiento artístico entero."
+            },
+            {
+                "pregunta": "¿Qué pintor es famoso por sus series de nenúfares?",
+                "correcta": "Claude Monet.",
+                "erroneas": [
+                    "Vincent van Gogh.",
+                    "Paul Gauguin.",
+                    "Edgar Degas."
+                ],
+                "dato": "Monet pintó muchas versiones de sus nenúfares. Básicamente miró un estanque y dijo: esto alcanza para años de carrera."
+            },
+            {
+                "pregunta": "¿Quién pintó 'American Gothic', la famosa imagen del hombre con horca y la mujer seria?",
+                "correcta": "Grant Wood.",
+                "erroneas": [
+                    "Edward Hopper.",
+                    "Norman Rockwell.",
+                    "Jackson Pollock."
+                ],
+                "dato": "American Gothic se volvió una imagen clásica de Estados Unidos rural. Dos personas, una horca y una tensión social que no necesita subtítulos."
+            },
+            {
+                "pregunta": "¿Quién pintó 'Nighthawks', la escena nocturna de un diner con clientes aislados?",
+                "correcta": "Edward Hopper.",
+                "erroneas": [
+                    "Grant Wood.",
+                    "Mark Rothko.",
+                    "Andrew Wyeth."
+                ],
+                "dato": "Nighthawks captura soledad urbana con luces de cafetería. Es una pintura que parece decir: abierto 24 horas, emociones no incluidas."
+            },
+            {
+                "pregunta": "¿Qué artista es famoso por lanzar o gotear pintura sobre el lienzo en el expresionismo abstracto?",
+                "correcta": "Jackson Pollock.",
+                "erroneas": [
+                    "Mark Rothko.",
+                    "Willem de Kooning.",
+                    "Piet Mondrian."
+                ],
+                "dato": "Pollock hizo del dripping una técnica reconocible. Para algunos es caos; para otros, energía gestual. Para muchos niños: permiso malinterpretado."
+            },
+            {
+                "pregunta": "¿Qué artista neerlandés es famoso por composiciones geométricas con líneas negras y colores primarios?",
+                "correcta": "Piet Mondrian.",
+                "erroneas": [
+                    "Kazimir Malévich.",
+                    "Paul Klee.",
+                    "Joan Miró."
+                ],
+                "dato": "Mondrian redujo la pintura a líneas, rectángulos y colores primarios. Parece fácil hasta que intentas hacerlo y solo obtienes presentación de PowerPoint."
+            },
+            {
+                "pregunta": "¿Qué artista austriaco pintó 'El beso', lleno de dorado y ornamentos?",
+                "correcta": "Gustav Klimt.",
+                "erroneas": [
+                    "Egon Schiele.",
+                    "Alphonse Mucha.",
+                    "Edvard Munch."
+                ],
+                "dato": "El beso de Klimt es una obra icónica del modernismo vienés. Mucho oro, mucha sensualidad y suficiente decoración como para que un minimalista se desmaye."
+            },
+            {
+                "pregunta": "¿Qué artista mexicana surrealista pintó mundos extraños y vivió buena parte de su vida en México?",
+                "correcta": "Remedios Varo.",
+                "erroneas": [
+                    "Georgia O'Keeffe.",
+                    "Tamara de Lempicka.",
+                    "Berthe Morisot."
+                ],
+                "dato": "Remedios Varo creó escenas misteriosas, alquímicas y oníricas. Su obra parece manual técnico de sueños que no deberías abrir de noche."
+            },
+            {
+                "pregunta": "¿Qué artista británica-mexicana escribió y pintó mundos surrealistas con criaturas extrañas y humor oscuro?",
+                "correcta": "Leonora Carrington.",
+                "erroneas": [
+                    "Mary Cassatt.",
+                    "Frida Kahlo.",
+                    "Artemisia Gentileschi."
+                ],
+                "dato": "Leonora Carrington fue figura clave del surrealismo y vivió en México. Su obra tiene magia, monstruos, mitología y cero intención de explicarse demasiado."
+            },
+            {
+                "pregunta": "¿Qué artista italiana barroca es famosa por pinturas fuertes de heroínas bíblicas y mitológicas?",
+                "correcta": "Artemisia Gentileschi.",
+                "erroneas": [
+                    "Sofonisba Anguissola.",
+                    "Berthe Morisot.",
+                    "Camille Claudel."
+                ],
+                "dato": "Artemisia Gentileschi destacó en una época dominada por hombres. Sus escenas no piden permiso: entran, iluminan y hacen justicia con cuchillo si hace falta."
+            },
+            {
+                "pregunta": "¿Qué escultora francesa fue colaboradora y pareja de Rodin, y durante mucho tiempo quedó injustamente a su sombra?",
+                "correcta": "Camille Claudel.",
+                "erroneas": [
+                    "Louise Bourgeois.",
+                    "Barbara Hepworth.",
+                    "Niki de Saint Phalle."
+                ],
+                "dato": "Camille Claudel fue una escultora enorme por derecho propio. La historia del arte, como de costumbre, tardó bastante en dejar de escribirla como nota al pie de un hombre famoso."
+            },
+            {
+                "pregunta": "¿Qué artista creó la escultura 'Cloud Gate' de Chicago, mejor conocida como 'The Bean'?",
+                "correcta": "Anish Kapoor.",
+                "erroneas": [
+                    "Jeff Koons.",
+                    "Richard Serra.",
+                    "Damien Hirst."
+                ],
+                "dato": "Cloud Gate es una escultura pública reflectante en Chicago. Todos la llaman The Bean porque a veces el público derrota al título oficial con una palabra más honesta."
+            },
+            {
+                "pregunta": "¿Qué escultor y arquitecto barroco creó 'El éxtasis de Santa Teresa'?",
+                "correcta": "Gian Lorenzo Bernini.",
+                "erroneas": [
+                    "Miguel Ángel.",
+                    "Donatello.",
+                    "Antonio Canova."
+                ],
+                "dato": "Bernini llevó el mármol barroco a un nivel teatral impresionante. Sus esculturas parecen congelar una escena justo cuando está a punto de volverse escandalosa."
+            },
+            {
+                "pregunta": "¿Qué ejército escultórico fue enterrado para acompañar al primer emperador de China en el más allá?",
+                "correcta": "El ejército de terracota.",
+                "erroneas": [
+                    "Los moái.",
+                    "Los colosos de Memnón.",
+                    "Los guardianes de Petra."
+                ],
+                "dato": "El ejército de terracota fue hecho para acompañar a Qin Shi Huang. Miles de soldados de barro para el más allá: logística funeraria con presupuesto imperial."
+            },
+            {
+                "pregunta": "¿Qué esculturas gigantes de Rapa Nui son famosas por sus cabezas enormes?",
+                "correcta": "Los moái.",
+                "erroneas": [
+                    "Los tótems haida.",
+                    "Las cariátides.",
+                    "Los colosos de Rodas."
+                ],
+                "dato": "Los moái de Rapa Nui son figuras monumentales talladas en piedra. Muchos tienen cuerpo completo, aunque la cultura pop los redujo a cabezones serios."
+            },
+            {
+                "pregunta": "¿Qué piedra ayudó a descifrar los jeroglíficos egipcios porque tenía el mismo texto en varios sistemas de escritura?",
+                "correcta": "La Piedra de Rosetta.",
+                "erroneas": [
+                    "El Disco de Festo.",
+                    "El Código de Hammurabi.",
+                    "La Piedra del Sol."
+                ],
+                "dato": "La Piedra de Rosetta contiene textos en jeroglífico, demótico y griego antiguo. Fue como encontrar subtítulos para el Antiguo Egipto."
+            },
+            {
+                "pregunta": "¿Qué autor escribió 'Don Quijote de la Mancha'?",
+                "correcta": "Miguel de Cervantes.",
+                "erroneas": [
+                    "Lope de Vega.",
+                    "Francisco de Quevedo.",
+                    "Calderón de la Barca."
+                ],
+                "dato": "Don Quijote es una de las obras más importantes de la literatura en español. También demuestra que pelear contra molinos puede ser tontería, metáfora o ambas."
+            },
+            {
+                "pregunta": "¿Cómo se llama el escudero de Don Quijote?",
+                "correcta": "Sancho Panza.",
+                "erroneas": [
+                    "Lázaro de Tormes.",
+                    "Rocinante.",
+                    "Fortunato."
+                ],
+                "dato": "Sancho Panza es el contrapunto práctico de Don Quijote. Uno sueña caballerías; el otro intenta que no los maten. Relación laboral complicada."
+            },
+            {
+                "pregunta": "¿Qué autor creó Macondo en 'Cien años de soledad'?",
+                "correcta": "Gabriel García Márquez.",
+                "erroneas": [
+                    "Mario Vargas Llosa.",
+                    "Julio Cortázar.",
+                    "Carlos Fuentes."
+                ],
+                "dato": "Macondo es el pueblo ficticio central de Cien años de soledad. Es tan literario que parece tener clima propio, genealogía imposible y servicio pésimo de estabilidad familiar."
+            },
+            {
+                "pregunta": "¿Qué familia protagoniza 'Cien años de soledad'?",
+                "correcta": "La familia Buendía.",
+                "erroneas": [
+                    "La familia Trueba.",
+                    "La familia Compson.",
+                    "La familia Karamázov."
+                ],
+                "dato": "Los Buendía son el centro de una saga llena de repeticiones, soledad y nombres reciclados. Leerla sin árbol genealógico es deporte extremo."
+            },
+            {
+                "pregunta": "¿Quién escribió 'Pedro Páramo'?",
+                "correcta": "Juan Rulfo.",
+                "erroneas": [
+                    "Octavio Paz.",
+                    "Carlos Fuentes.",
+                    "José Emilio Pacheco."
+                ],
+                "dato": "Pedro Páramo es una novela mexicana breve, densa y fantasmal. Dura poco en páginas, pero se queda haciendo ruido como pueblo abandonado."
+            },
+            {
+                "pregunta": "¿Qué escritora mexicana del Siglo de Oro escribió 'Respuesta a Sor Filotea de la Cruz'?",
+                "correcta": "Sor Juana Inés de la Cruz.",
+                "erroneas": [
+                    "Rosario Castellanos.",
+                    "Elena Garro.",
+                    "Elena Poniatowska."
+                ],
+                "dato": "Sor Juana defendió el derecho de las mujeres al conocimiento con una inteligencia feroz. Básicamente dejó a varios señores intelectualmente en el suelo, pero con métrica."
+            },
+            {
+                "pregunta": "¿Qué escritor mexicano ganó el Premio Nobel de Literatura en 1990?",
+                "correcta": "Octavio Paz.",
+                "erroneas": [
+                    "Juan Rulfo.",
+                    "Carlos Fuentes.",
+                    "José Emilio Pacheco."
+                ],
+                "dato": "Octavio Paz ganó el Nobel de Literatura en 1990. Su obra mezcla poesía, ensayo, identidad mexicana y frases que suenan a que necesitas café para entenderlas bien."
+            },
+            {
+                "pregunta": "¿Quién escribió 'Frankenstein'?",
+                "correcta": "Mary Shelley.",
+                "erroneas": [
+                    "Bram Stoker.",
+                    "Jane Austen.",
+                    "Emily Brontë."
+                ],
+                "dato": "Mary Shelley escribió Frankenstein siendo muy joven. La novela no solo inventó un monstruo: también inventó una advertencia eterna para científicos con ego y poca supervisión."
+            },
+            {
+                "pregunta": "En 'Frankenstein', ¿quién es realmente Frankenstein?",
+                "correcta": "El científico que crea a la criatura.",
+                "erroneas": [
+                    "La criatura.",
+                    "El castillo.",
+                    "El ayudante jorobado."
+                ],
+                "dato": "Frankenstein es Victor Frankenstein, el creador. La criatura no tiene nombre propio en la novela. La cultura pop se equivocó tan fuerte que ya casi ganó."
+            },
+            {
+                "pregunta": "¿Quién escribió 'Drácula'?",
+                "correcta": "Bram Stoker.",
+                "erroneas": [
+                    "Mary Shelley.",
+                    "Oscar Wilde.",
+                    "Edgar Allan Poe."
+                ],
+                "dato": "Bram Stoker publicó Drácula en 1897. El vampiro aristócrata terminó dominando terror, cine, disfraces y el mercado eterno de capas negras."
+            },
+            {
+                "pregunta": "¿Quién creó a Sherlock Holmes?",
+                "correcta": "Arthur Conan Doyle.",
+                "erroneas": [
+                    "Agatha Christie.",
+                    "Edgar Allan Poe.",
+                    "G. K. Chesterton."
+                ],
+                "dato": "Sherlock Holmes fue creado por Arthur Conan Doyle. El detective se volvió tan famoso que mucha gente ha creído que vivió de verdad. Buen problema para un personaje ficticio."
+            },
+            {
+                "pregunta": "¿Cómo se llama el fiel compañero y narrador habitual de Sherlock Holmes?",
+                "correcta": "Dr. Watson.",
+                "erroneas": [
+                    "Hercule Poirot.",
+                    "Inspector Lestrade.",
+                    "Moriarty."
+                ],
+                "dato": "Watson no solo acompaña: también traduce el genio insoportable de Holmes para el lector. Sin Watson, Sherlock sería básicamente un hilo arrogante de Twitter."
+            },
+            {
+                "pregunta": "¿Qué autora creó al detective Hercule Poirot?",
+                "correcta": "Agatha Christie.",
+                "erroneas": [
+                    "Dorothy L. Sayers.",
+                    "Patricia Highsmith.",
+                    "P. D. James."
+                ],
+                "dato": "Agatha Christie creó a Poirot, detective belga obsesivo y brillante. Bigote, orden y crimen resuelto antes de que todos terminen el té."
+            },
+            {
+                "pregunta": "¿Quién escribió el poema 'El cuervo'?",
+                "correcta": "Edgar Allan Poe.",
+                "erroneas": [
+                    "Walt Whitman.",
+                    "Robert Frost.",
+                    "Lord Byron."
+                ],
+                "dato": "El cuervo es famoso por su repetición de 'Nevermore'. Poe convirtió un pájaro en símbolo de duelo, obsesión y pésimo ambiente en una sala."
+            },
+            {
+                "pregunta": "¿Quién escribió '1984'?",
+                "correcta": "George Orwell.",
+                "erroneas": [
+                    "Aldous Huxley.",
+                    "Ray Bradbury.",
+                    "Isaac Asimov."
+                ],
+                "dato": "1984 es una distopía sobre vigilancia, propaganda y control. Cada generación la lee y dice: qué exagerado. Luego revisa las noticias y baja la voz."
+            },
+            {
+                "pregunta": "¿Qué autor escribió 'Rebelión en la granja'?",
+                "correcta": "George Orwell.",
+                "erroneas": [
+                    "Franz Kafka.",
+                    "William Golding.",
+                    "J. R. R. Tolkien."
+                ],
+                "dato": "Rebelión en la granja usa animales para hablar de poder y revolución. La fábula demuestra que un cerdo político sigue siendo político."
+            },
+            {
+                "pregunta": "¿Quién escribió 'El hobbit' y 'El señor de los anillos'?",
+                "correcta": "J. R. R. Tolkien.",
+                "erroneas": [
+                    "C. S. Lewis.",
+                    "George R. R. Martin.",
+                    "Terry Pratchett."
+                ],
+                "dato": "Tolkien creó la Tierra Media con idiomas, mitología y mapas. Algunos autores escriben novelas; Tolkien levantó una oficina completa de geografía ficticia."
+            },
+            {
+                "pregunta": "¿Qué criatura dice 'Mi tesoro' en 'El señor de los anillos'?",
+                "correcta": "Gollum.",
+                "erroneas": [
+                    "Sauron.",
+                    "Saruman.",
+                    "Bilbo."
+                ],
+                "dato": "Gollum es una de las figuras más memorables de Tolkien. Su relación con el anillo es básicamente apego tóxico con joyería."
+            },
+            {
+                "pregunta": "¿Quién escribió 'El principito'?",
+                "correcta": "Antoine de Saint-Exupéry.",
+                "erroneas": [
+                    "Jules Verne.",
+                    "Victor Hugo.",
+                    "Albert Camus."
+                ],
+                "dato": "El principito parece cuento infantil, pero viene cargado de soledad, amistad y frases que los adultos subrayan cuando ya les dolió la vida."
+            },
+            {
+                "pregunta": "¿Quién escribió 'La metamorfosis'?",
+                "correcta": "Franz Kafka.",
+                "erroneas": [
+                    "Albert Camus.",
+                    "Hermann Hesse.",
+                    "Thomas Mann."
+                ],
+                "dato": "En La metamorfosis, Gregor Samsa despierta convertido en un insecto monstruoso. Kafka entendió el lunes laboral antes que Recursos Humanos."
+            },
+            {
+                "pregunta": "¿Quién escribió 'La Odisea' y 'La Ilíada', según la tradición clásica?",
+                "correcta": "Homero.",
+                "erroneas": [
+                    "Sófocles.",
+                    "Virgilio.",
+                    "Eurípides."
+                ],
+                "dato": "Homero es el nombre tradicional asociado a esas epopeyas griegas. Si existió como individuo o representa una tradición oral más compleja, ahí empieza el pleito académico."
+            },
+            {
+                "pregunta": "¿Qué poema épico narra el regreso de Odiseo a casa después de la guerra de Troya?",
+                "correcta": "La Odisea.",
+                "erroneas": [
+                    "La Ilíada.",
+                    "La Eneida.",
+                    "La Divina Comedia."
+                ],
+                "dato": "La Odisea es básicamente un viaje de regreso que se sale de control durante años. Mal clima, monstruos, dioses caprichosos y cero atención al cliente."
+            },
+            {
+                "pregunta": "¿Quién escribió 'La Divina Comedia'?",
+                "correcta": "Dante Alighieri.",
+                "erroneas": [
+                    "Petrarca.",
+                    "Boccaccio.",
+                    "Maquiavelo."
+                ],
+                "dato": "Dante escribió un viaje por Infierno, Purgatorio y Paraíso. También inventó una forma muy elegante de meter enemigos personales en el infierno literario."
+            },
+            {
+                "pregunta": "¿Cuál es la primera parte de 'La Divina Comedia'?",
+                "correcta": "Infierno.",
+                "erroneas": [
+                    "Purgatorio.",
+                    "Paraíso.",
+                    "Limbo."
+                ],
+                "dato": "La Divina Comedia inicia en el Infierno. Narrativamente es una excelente entrada: nada engancha como empezar con condenados."
+            },
+            {
+                "pregunta": "¿Qué dramaturgo escribió 'Hamlet', 'Macbeth' y 'Romeo y Julieta'?",
+                "correcta": "William Shakespeare.",
+                "erroneas": [
+                    "Christopher Marlowe.",
+                    "Molière.",
+                    "Oscar Wilde."
+                ],
+                "dato": "Shakespeare escribió tragedias, comedias e historias que siguen montándose siglos después. También dejó frases que la gente cita sin saber que eran de él."
+            },
+            {
+                "pregunta": "¿De qué obra viene la frase 'ser o no ser'?",
+                "correcta": "Hamlet.",
+                "erroneas": [
+                    "Macbeth.",
+                    "Otelo.",
+                    "El rey Lear."
+                ],
+                "dato": "La frase aparece en Hamlet. Es probablemente la pregunta existencial más famosa del teatro, aunque en la vida real casi siempre se resuelve con café."
+            },
+            {
+                "pregunta": "¿Quién escribió 'Alicia en el país de las maravillas'?",
+                "correcta": "Lewis Carroll.",
+                "erroneas": [
+                    "J. M. Barrie.",
+                    "Roald Dahl.",
+                    "Oscar Wilde."
+                ],
+                "dato": "Lewis Carroll creó un mundo de lógica absurda, juegos de lenguaje y criaturas extrañas. Es literatura infantil solo si ignoras que parece sueño febril con matemáticas."
+            },
+            {
+                "pregunta": "¿Quién escribió 'El retrato de Dorian Gray'?",
+                "correcta": "Oscar Wilde.",
+                "erroneas": [
+                    "Bram Stoker.",
+                    "Charles Dickens.",
+                    "Henry James."
+                ],
+                "dato": "Dorian Gray conserva su juventud mientras su retrato envejece y se corrompe. Una novela sobre belleza, vanidad y la versión victoriana de editar fotos."
+            },
+            {
+                "pregunta": "¿Quién escribió 'Los miserables'?",
+                "correcta": "Victor Hugo.",
+                "erroneas": [
+                    "Gustave Flaubert.",
+                    "Émile Zola.",
+                    "Alexandre Dumas."
+                ],
+                "dato": "Los miserables mezcla justicia, pobreza, redención y barricadas. También demuestra que una novela puede ser épica y aun así detenerse a explicar alcantarillas con intensidad."
+            },
+            {
+                "pregunta": "¿Quién escribió 'Moby-Dick'?",
+                "correcta": "Herman Melville.",
+                "erroneas": [
+                    "Mark Twain.",
+                    "Nathaniel Hawthorne.",
+                    "Walt Whitman."
+                ],
+                "dato": "Moby-Dick es la historia de una obsesión contra una ballena blanca. En resumen: un hombre necesita terapia y decide ir al mar."
+            },
+            {
+                "pregunta": "¿Quién escribió 'Orgullo y prejuicio'?",
+                "correcta": "Jane Austen.",
+                "erroneas": [
+                    "Charlotte Brontë.",
+                    "Emily Brontë.",
+                    "Virginia Woolf."
+                ],
+                "dato": "Orgullo y prejuicio combina romance, clase social e ironía. Austen tenía una precisión quirúrgica para exhibir gente insoportable con buenos modales."
+            },
+            {
+                "pregunta": "¿Quién escribió 'Jane Eyre'?",
+                "correcta": "Charlotte Brontë.",
+                "erroneas": [
+                    "Emily Brontë.",
+                    "Jane Austen.",
+                    "Mary Shelley."
+                ],
+                "dato": "Jane Eyre es una novela gótica, romántica y de formación. Tiene mansión, secretos y suficiente intensidad emocional para justificar varias velas."
+            },
+            {
+                "pregunta": "¿Quién escribió 'Cumbres borrascosas'?",
+                "correcta": "Emily Brontë.",
+                "erroneas": [
+                    "Charlotte Brontë.",
+                    "Anne Brontë.",
+                    "George Eliot."
+                ],
+                "dato": "Cumbres borrascosas es intensa, oscura y nada saludable emocionalmente. Una gran novela y pésimo modelo de relación."
+            },
+            {
+                "pregunta": "¿Quién escribió 'El viejo y el mar'?",
+                "correcta": "Ernest Hemingway.",
+                "erroneas": [
+                    "John Steinbeck.",
+                    "William Faulkner.",
+                    "F. Scott Fitzgerald."
+                ],
+                "dato": "El viejo y el mar es breve, sobria y brutal. Un hombre, un pez y suficiente dignidad como para llenar una novela."
+            },
+            {
+                "pregunta": "¿Quién escribió 'Fahrenheit 451'?",
+                "correcta": "Ray Bradbury.",
+                "erroneas": [
+                    "George Orwell.",
+                    "Aldous Huxley.",
+                    "Isaac Asimov."
+                ],
+                "dato": "Fahrenheit 451 imagina una sociedad donde se queman libros. Es distopía, advertencia y pesadilla de cualquier bibliotecario con encendedor cerca."
+            },
+            {
+                "pregunta": "¿Quién escribió 'Un mundo feliz'?",
+                "correcta": "Aldous Huxley.",
+                "erroneas": [
+                    "George Orwell.",
+                    "Ray Bradbury.",
+                    "Philip K. Dick."
+                ],
+                "dato": "Un mundo feliz muestra una sociedad controlada por placer, consumo y condicionamiento. Orwell te vigila; Huxley te entretiene hasta que se te olvida pensar."
+            },
+            {
+                "pregunta": "¿Quién escribió 'Crimen y castigo'?",
+                "correcta": "Fiódor Dostoyevski.",
+                "erroneas": [
+                    "León Tolstói.",
+                    "Antón Chéjov.",
+                    "Nikolái Gógol."
+                ],
+                "dato": "Crimen y castigo es una novela sobre culpa, moral y tormento psicológico. Básicamente: cometer un crimen y luego descubrir que tu propia cabeza es la peor cárcel."
+            },
+            {
+                "pregunta": "¿Quién escribió 'Guerra y paz'?",
+                "correcta": "León Tolstói.",
+                "erroneas": [
+                    "Dostoyevski.",
+                    "Chéjov.",
+                    "Pushkin."
+                ],
+                "dato": "Guerra y paz es una novela enorme sobre familias, historia y Napoleón. Es tan larga que terminarla también cuenta como logro físico."
+            },
+            {
+                "pregunta": "¿Qué autora fue la primera mujer en ganar el Premio Nobel de Literatura?",
+                "correcta": "Selma Lagerlöf.",
+                "erroneas": [
+                    "Virginia Woolf.",
+                    "Gabriela Mistral.",
+                    "Toni Morrison."
+                ],
+                "dato": "Selma Lagerlöf ganó el Nobel de Literatura en 1909. Fue la primera mujer en recibirlo, porque la historia literaria también tenía pésima distribución de micrófono."
+            },
+            {
+                "pregunta": "¿Qué poeta chilena fue la primera persona latinoamericana en ganar el Nobel de Literatura?",
+                "correcta": "Gabriela Mistral.",
+                "erroneas": [
+                    "Pablo Neruda.",
+                    "Isabel Allende.",
+                    "Alfonsina Storni."
+                ],
+                "dato": "Gabriela Mistral ganó el Nobel de Literatura en 1945. América Latina entró al Nobel literario con una poeta, profesora y diplomática. Nada mal para abrir la puerta."
+            },
+            {
+                "pregunta": "¿Qué escritor chileno ganó el Nobel de Literatura en 1971?",
+                "correcta": "Pablo Neruda.",
+                "erroneas": [
+                    "Gabriela Mistral.",
+                    "Nicanor Parra.",
+                    "Roberto Bolaño."
+                ],
+                "dato": "Pablo Neruda ganó el Nobel en 1971. Es famoso por poesía amorosa, política y una cantidad de metáforas que podrían llenar una bodega."
+            },
+            {
+                "pregunta": "¿Quién escribió 'Rayuela'?",
+                "correcta": "Julio Cortázar.",
+                "erroneas": [
+                    "Jorge Luis Borges.",
+                    "Mario Vargas Llosa.",
+                    "Gabriel García Márquez."
+                ],
+                "dato": "Rayuela puede leerse en orden convencional o siguiendo una ruta alternativa. Cortázar miró la novela y dijo: ¿y si también fuera un rompecabezas?"
+            },
+            {
+                "pregunta": "¿Qué escritor argentino es famoso por cuentos de laberintos, espejos, bibliotecas infinitas y tigres?",
+                "correcta": "Jorge Luis Borges.",
+                "erroneas": [
+                    "Julio Cortázar.",
+                    "Adolfo Bioy Casares.",
+                    "Ernesto Sabato."
+                ],
+                "dato": "Borges hizo de la biblioteca y el laberinto una forma de pensar el universo. Leerlo es bonito hasta que sospechas que tú también eres una nota al pie."
+            },
+            {
+                "pregunta": "¿Quién escribió 'La casa de los espíritus'?",
+                "correcta": "Isabel Allende.",
+                "erroneas": [
+                    "Laura Esquivel.",
+                    "Elena Garro.",
+                    "Rosario Castellanos."
+                ],
+                "dato": "La casa de los espíritus mezcla saga familiar, política y elementos sobrenaturales. América Latina nunca ha tenido problemas para meter fantasmas en asuntos domésticos."
+            },
+            {
+                "pregunta": "¿Quién escribió 'Como agua para chocolate'?",
+                "correcta": "Laura Esquivel.",
+                "erroneas": [
+                    "Isabel Allende.",
+                    "Elena Poniatowska.",
+                    "Margo Glantz."
+                ],
+                "dato": "Como agua para chocolate mezcla cocina, deseo y realismo mágico. Es literatura donde una receta puede tener más carga emocional que una confesión."
+            },
+            {
+                "pregunta": "¿Quién escribió 'Los recuerdos del porvenir'?",
+                "correcta": "Elena Garro.",
+                "erroneas": [
+                    "Rosario Castellanos.",
+                    "Elena Poniatowska.",
+                    "Inés Arredondo."
+                ],
+                "dato": "Los recuerdos del porvenir es una novela clave de Elena Garro. Tiene pueblo, memoria, tiempo raro y una voz narrativa que no se comporta como debe. Bien."
+            },
+            {
+                "pregunta": "¿Qué escritora mexicana escribió 'Balún Canán'?",
+                "correcta": "Rosario Castellanos.",
+                "erroneas": [
+                    "Elena Garro.",
+                    "Sor Juana Inés de la Cruz.",
+                    "Pita Amor."
+                ],
+                "dato": "Balún Canán aborda poder, infancia, racismo y mundo indígena en Chiapas. Rosario Castellanos no escribía para decorar: escribía para incomodar con precisión."
+            },
+            {
+                "pregunta": "¿Qué escritor francés escribió 'El extranjero'?",
+                "correcta": "Albert Camus.",
+                "erroneas": [
+                    "Jean-Paul Sartre.",
+                    "Marcel Proust.",
+                    "Victor Hugo."
+                ],
+                "dato": "El extranjero es una novela asociada al absurdo y la alienación. El protagonista parece emocionalmente desconectado de todo, como app gubernamental."
+            },
+            {
+                "pregunta": "¿Quién escribió 'En busca del tiempo perdido'?",
+                "correcta": "Marcel Proust.",
+                "erroneas": [
+                    "Albert Camus.",
+                    "Gustave Flaubert.",
+                    "Émile Zola."
+                ],
+                "dato": "Proust convirtió memoria, tiempo y sensibilidad en una obra monumental. Una magdalena le hizo más a la literatura que muchos manifiestos."
+            },
+            {
+                "pregunta": "¿Quién escribió 'Madame Bovary'?",
+                "correcta": "Gustave Flaubert.",
+                "erroneas": [
+                    "Émile Zola.",
+                    "Victor Hugo.",
+                    "Stendhal."
+                ],
+                "dato": "Madame Bovary disecciona deseo, aburrimiento y fantasías románticas. Flaubert tenía una puntería clínica para mostrar gente arruinándose con estilo."
+            },
+            {
+                "pregunta": "¿Qué autor escribió 'La isla del tesoro'?",
+                "correcta": "Robert Louis Stevenson.",
+                "erroneas": [
+                    "Jules Verne.",
+                    "Daniel Defoe.",
+                    "H. G. Wells."
+                ],
+                "dato": "La isla del tesoro ayudó a fijar muchas imágenes clásicas de piratas: mapa, tesoro, loro y pata de palo cultural. La piratería moderna le debe mucho marketing."
+            },
+            {
+                "pregunta": "¿Quién escribió 'Veinte mil leguas de viaje submarino'?",
+                "correcta": "Jules Verne.",
+                "erroneas": [
+                    "H. G. Wells.",
+                    "Robert Louis Stevenson.",
+                    "Arthur Conan Doyle."
+                ],
+                "dato": "Jules Verne imaginó aventuras científicas antes de que muchas tecnologías fueran comunes. El Capitán Nemo básicamente dijo: me voy al mar con mi submarino y mis problemas."
+            },
+            {
+                "pregunta": "¿Quién escribió 'La guerra de los mundos'?",
+                "correcta": "H. G. Wells.",
+                "erroneas": [
+                    "Jules Verne.",
+                    "Isaac Asimov.",
+                    "Arthur C. Clarke."
+                ],
+                "dato": "La guerra de los mundos es una invasión marciana clásica. Wells entendió que los extraterrestres daban miedo, pero el colonialismo humano ya había dejado el manual."
+            },
+            {
+                "pregunta": "¿Qué autor es famoso por las 'Tres leyes de la robótica'?",
+                "correcta": "Isaac Asimov.",
+                "erroneas": [
+                    "Ray Bradbury.",
+                    "Philip K. Dick.",
+                    "Arthur C. Clarke."
+                ],
+                "dato": "Asimov formuló las Tres Leyes de la Robótica en sus relatos. Buen intento de regular robots, aunque la humanidad apenas regula grupos de WhatsApp."
+            },
+            {
+                "pregunta": "¿Quién escribió '¿Sueñan los androides con ovejas eléctricas?', obra que inspiró 'Blade Runner'?",
+                "correcta": "Philip K. Dick.",
+                "erroneas": [
+                    "Isaac Asimov.",
+                    "William Gibson.",
+                    "Ray Bradbury."
+                ],
+                "dato": "Philip K. Dick escribió sobre identidad, realidad y paranoia tecnológica. Sus libros parecen preguntar: ¿y si todo es falso? Muy relajante, claramente."
+            },
+            {
+                "pregunta": "¿Quién escribió 'Neuromante', novela clave del cyberpunk?",
+                "correcta": "William Gibson.",
+                "erroneas": [
+                    "Neal Stephenson.",
+                    "Philip K. Dick.",
+                    "Arthur C. Clarke."
+                ],
+                "dato": "Neuromante ayudó a definir la estética cyberpunk: redes, corporaciones, hackers y futuros sucios. Básicamente capitalismo raro con luces de neón."
+            },
+            {
+                "pregunta": "¿Qué autora escribió 'Los juegos del hambre'?",
+                "correcta": "Suzanne Collins.",
+                "erroneas": [
+                    "J. K. Rowling.",
+                    "Veronica Roth.",
+                    "Stephenie Meyer."
+                ],
+                "dato": "Los juegos del hambre mezcla espectáculo, violencia mediática y desigualdad. Panem descubrió que la televisión puede volver todo peor. Qué sorpresa."
+            },
+            {
+                "pregunta": "¿Qué autora escribió la saga de Harry Potter?",
+                "correcta": "J. K. Rowling.",
+                "erroneas": [
+                    "Suzanne Collins.",
+                    "Ursula K. Le Guin.",
+                    "Diana Wynne Jones."
+                ],
+                "dato": "Harry Potter convirtió una escuela de magia en fenómeno editorial global. También demostró que los niños sí leen mucho si hay varitas, dragones y trauma familiar."
+            },
+            {
+                "pregunta": "¿Quién escribió 'El cuento de la criada'?",
+                "correcta": "Margaret Atwood.",
+                "erroneas": [
+                    "Ursula K. Le Guin.",
+                    "Toni Morrison.",
+                    "Doris Lessing."
+                ],
+                "dato": "El cuento de la criada es una distopía sobre control del cuerpo y poder. Es ficción, pero con esa incómoda costumbre de sonar demasiado posible."
+            },
+            {
+                "pregunta": "¿Qué autora escribió 'Beloved', novela ganadora del Pulitzer?",
+                "correcta": "Toni Morrison.",
+                "erroneas": [
+                    "Alice Walker.",
+                    "Maya Angelou.",
+                    "Zora Neale Hurston."
+                ],
+                "dato": "Beloved aborda esclavitud, memoria y trauma con una potencia brutal. Toni Morrison no escribía para que el lector saliera intacto."
+            },
+            {
+                "pregunta": "¿Qué pintor español hizo una serie oscura conocida como 'Pinturas negras'?",
+                "correcta": "Francisco de Goya.",
+                "erroneas": [
+                    "Diego Velázquez.",
+                    "El Greco.",
+                    "Joaquín Sorolla."
+                ],
+                "dato": "Goya pintó las Pinturas negras en las paredes de su casa. Cuando tu decoración interior incluye Saturno devorando a su hijo, quizá la terapia llegó tarde."
+            },
+            {
+                "pregunta": "¿Quién pintó 'Las meninas'?",
+                "correcta": "Diego Velázquez.",
+                "erroneas": [
+                    "Francisco de Goya.",
+                    "El Greco.",
+                    "Bartolomé Esteban Murillo."
+                ],
+                "dato": "Las meninas es una obra maestra del Siglo de Oro español. Es pintura, espejo, poder, perspectiva y un pintor metiéndose en la escena con toda la confianza del mundo."
+            },
+            {
+                "pregunta": "¿Qué museo español alberga 'Las meninas'?",
+                "correcta": "Museo del Prado.",
+                "erroneas": [
+                    "Museo Reina Sofía.",
+                    "Museo Guggenheim Bilbao.",
+                    "Museo Thyssen-Bornemisza."
+                ],
+                "dato": "Las meninas está en el Museo del Prado, en Madrid. Es uno de esos cuadros que parece simple hasta que alguien empieza a explicarlo y ya no sales igual."
+            },
+            {
+                "pregunta": "¿Qué pintor cretense-español es conocido como 'El Greco'?",
+                "correcta": "Doménikos Theotokópoulos.",
+                "erroneas": [
+                    "Diego Rodríguez de Silva.",
+                    "Francisco de Zurbarán.",
+                    "José de Ribera."
+                ],
+                "dato": "El Greco tenía un nombre completo que la historia decidió simplificar por supervivencia. Su estilo alargado y espiritual es imposible de confundir."
+            },
+            {
+                "pregunta": "¿Qué artista creó la enorme araña escultórica llamada 'Maman'?",
+                "correcta": "Louise Bourgeois.",
+                "erroneas": [
+                    "Camille Claudel.",
+                    "Barbara Hepworth.",
+                    "Niki de Saint Phalle."
+                ],
+                "dato": "Maman es una araña monumental de Louise Bourgeois. Es homenaje materno, escultura pública y pesadilla elegante para aracnofóbicos."
+            }
+        ]
     }
 ];
 
+    function textoPregunta(valor) {
+        return String(valor || "").trim();
+    }
+
+    function obtenerCorrecta(pregunta) {
+        return textoPregunta(pregunta.correcta || pregunta.respuestaCorrecta || pregunta.respuesta);
+    }
+
+    function obtenerErroneas(pregunta, correcta) {
+        const fuente = Array.isArray(pregunta.erroneas)
+            ? pregunta.erroneas
+            : Array.isArray(pregunta.incorrectas)
+                ? pregunta.incorrectas
+                : Array.isArray(pregunta.opciones)
+                    ? pregunta.opciones.filter(opcion => textoPregunta(opcion).toLowerCase() !== correcta.toLowerCase())
+                    : [];
+
+        return [0, 1, 2].map(indice => textoPregunta(fuente[indice]));
+    }
+
+    function obtenerDato(pregunta) {
+        return textoPregunta(pregunta.dato || pregunta.datoCurioso || pregunta.explicacion || pregunta.explanation);
+    }
+
     const categoriasNormalizadas = Object.freeze(QUESTION_CATEGORIES.map(categoria => {
-        const preguntas = Object.freeze(categoria.preguntas.map(pregunta => {
-            const opcionesIncorrectas = [
-                pregunta.erroneas && pregunta.erroneas[0] ? pregunta.erroneas[0] : "",
-                pregunta.erroneas && pregunta.erroneas[1] ? pregunta.erroneas[1] : "",
-                pregunta.erroneas && pregunta.erroneas[2] ? pregunta.erroneas[2] : ""
-            ];
+        const preguntasFuente = Array.isArray(categoria.preguntas) ? categoria.preguntas : [];
+        const preguntas = Object.freeze(preguntasFuente.map(pregunta => {
+            const correcta = obtenerCorrecta(pregunta);
+            const opcionesIncorrectas = obtenerErroneas(pregunta, correcta);
+            const datoCurioso = obtenerDato(pregunta);
+
             return Object.freeze({
-                pregunta: String(pregunta.pregunta || "").trim(),
-                opciones: Object.freeze([...opcionesIncorrectas, String(pregunta.correcta || "").trim()]),
-                correcta: String(pregunta.correcta || "").trim(),
-                erroneas: Object.freeze(opcionesIncorrectas.map(opcion => String(opcion).trim())),
-                datoCurioso: pregunta.dato ? String(pregunta.dato).trim() : null,
-                categoria: categoria.nombre,
-                categoriaId: categoria.id
+                pregunta: textoPregunta(pregunta.pregunta),
+                opciones: Object.freeze([...opcionesIncorrectas, correcta]),
+                correcta,
+                erroneas: Object.freeze(opcionesIncorrectas),
+                datoCurioso: datoCurioso || null,
+                categoria: textoPregunta(categoria.nombre || categoria.id),
+                categoriaId: textoPregunta(categoria.id)
             });
-        }));
+        }).filter(pregunta => pregunta.pregunta && pregunta.correcta && pregunta.erroneas.every(Boolean)));
 
         return Object.freeze({
-            id: categoria.id,
-            nombre: categoria.nombre,
-            descripcion: categoria.descripcion,
+            id: textoPregunta(categoria.id),
+            nombre: textoPregunta(categoria.nombre || categoria.id),
+            descripcion: textoPregunta(categoria.descripcion),
             preguntas
         });
-    }));
+    }).filter(categoria => categoria.id && categoria.preguntas.length > 0));
 
     function obtenerCategoriasPreguntas() {
         return categoriasNormalizadas.map(({ id, nombre, descripcion, preguntas }) => ({

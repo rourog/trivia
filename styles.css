@@ -389,6 +389,8 @@
             border-radius: 24px; 
             width: 85%;
             max-width: 350px;
+            max-height: calc(100dvh - 48px);
+            overflow-y: auto;
             text-align: center;
             box-shadow: var(--shadow-panel);
         }
@@ -1066,6 +1068,90 @@
             white-space: nowrap;
             overflow: hidden;
             text-overflow: ellipsis;
+        }
+
+        .category-settings {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            padding: 14px;
+            border-radius: 16px;
+            background: color-mix(in srgb, var(--bg-base) 84%, var(--accent-color));
+            box-shadow: var(--shadow-raised-soft);
+        }
+
+        .settings-section-title {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            color: var(--text-main);
+            font-size: 0.78rem;
+            font-weight: 800;
+            letter-spacing: 0;
+            text-transform: uppercase;
+        }
+
+        .settings-section-title .material-symbols-outlined {
+            color: var(--accent-color);
+            font-size: 20px;
+        }
+
+        .category-options {
+            display: grid;
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+            gap: 8px;
+        }
+
+        .category-option {
+            min-width: 0;
+            min-height: 42px;
+            display: grid;
+            grid-template-columns: minmax(0, 1fr) auto;
+            align-items: center;
+            gap: 8px;
+            padding: 8px 10px;
+            border: 1px solid color-mix(in srgb, var(--accent-color) 18%, transparent);
+            border-radius: 12px;
+            background: color-mix(in srgb, var(--bg-panel) 84%, transparent);
+            color: var(--text-muted);
+            cursor: pointer;
+            box-shadow: none;
+            transition: border-color 0.18s ease, color 0.18s ease, background-color 0.18s ease, transform 0.12s ease;
+        }
+
+        .category-option[aria-pressed="true"] {
+            color: var(--text-main);
+            border-color: color-mix(in srgb, var(--accent-color) 54%, transparent);
+            background: color-mix(in srgb, var(--accent-color) 14%, var(--bg-panel));
+        }
+
+        .category-option:active,
+        .category-option.is-pressed {
+            transform: translateY(1px) scale(0.985);
+        }
+
+        .category-option-name {
+            min-width: 0;
+            overflow: hidden;
+            font-size: 0.78rem;
+            font-weight: 700;
+            line-height: 1.15;
+            text-align: left;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
+
+        .category-option-count {
+            min-width: 26px;
+            padding: 4px 6px;
+            border-radius: 999px;
+            background: color-mix(in srgb, var(--accent-color) 18%, transparent);
+            color: var(--accent-color);
+            font-size: 0.72rem;
+            font-weight: 900;
+            line-height: 1;
+            text-align: center;
         }
 
         .current-player-banner {
@@ -1806,6 +1892,29 @@
 
             .mode-btn {
                 min-height: 66px;
+            }
+
+            .modal-content {
+                width: calc(100vw - 28px);
+                max-height: calc(100svh - 34px);
+                padding: 22px;
+            }
+
+            .category-settings {
+                padding: 12px;
+            }
+
+            .category-options {
+                gap: 7px;
+            }
+
+            .category-option {
+                min-height: 40px;
+                padding: 7px 8px;
+            }
+
+            .category-option-name {
+                font-size: 0.74rem;
             }
 
             .setup-main {

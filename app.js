@@ -17,7 +17,8 @@
             sound: "trivia.soundEnabled",
             theme: "trivia.theme",
             fontScale: "trivia.fontScale",
-            players: "trivia.players"
+            players: "trivia.players",
+            activeCategories: "trivia.activeCategories"
         }),
         fontScale: Object.freeze({
             default: 1,
@@ -62,6 +63,9 @@
             colorModalPalette: "color-modal-palette",
             emojiModalPalette: "emoji-modal-palette",
             themeOptions: "theme-options"
+        },
+        settings: {
+            categoryOptions: "category-options"
         },
         buttons: {
             start: "btn-start",
@@ -292,7 +296,7 @@
     const DOM = createDomMap();
 
     const state = {
-        activeCategories: QUESTION_BANK.obtenerIdsCategorias(),
+        activeCategories: getSavedActiveCategories(),
         gameMode: "classic",
         players: [],
         currentQuestionIndex: 0,
@@ -348,10 +352,10 @@
         { id: "plum-gold", name: "Ciruela / Dorado", colors: ["#2d1b3d", "#d6b45f"], brandMetal: "gold" },
         { id: "slate-copper", name: "Pizarra / Cobre", colors: ["#25313d", "#d69f6c"], brandMetal: "copper" },
         { id: "rose-cream", name: "Rosa / Crema", colors: ["#f7e7ea", "#b76e79"], brandMetal: "copper" },
-        { id: "burgundy-gold", name: "BorgoÃ±a / Oro", colors: ["#3b0f1f", "#d6b25e"], brandMetal: "gold" },
+        { id: "burgundy-gold", name: "Borgoña / Oro", colors: ["#3b0f1f", "#d6b25e"], brandMetal: "gold" },
         { id: "forest-bronze", name: "Bosque / Bronce", colors: ["#18362c", "#b9824a"], brandMetal: "copper" },
         { id: "ivory-navy", name: "Marfil / Azul Marino", colors: ["#f3ead8", "#18365f"], brandMetal: "gold" },
-        { id: "obsidian-neon-rose", name: "Obsidiana / Rosa NeÃ³n", colors: ["#111014", "#ff6fb1"], brandMetal: "copper" }
+        { id: "obsidian-neon-rose", name: "Obsidiana / Rosa Neón", colors: ["#111014", "#ff6fb1"], brandMetal: "copper" }
     ]);
 
     const HOME_TAGLINES = Object.freeze([
@@ -421,6 +425,9 @@
                 emojiModalPalette: byId(SELECTORS.multiplayer.emojiModalPalette),
                 themeOptions: byId(SELECTORS.multiplayer.themeOptions)
             },
+            settings: {
+                categoryOptions: byId(SELECTORS.settings.categoryOptions)
+            },
             buttons: {
                 start: byId(SELECTORS.buttons.start),
                 timeAttack: byId(SELECTORS.buttons.timeAttack),
@@ -472,6 +479,95 @@
         return QUESTION_BANK.obtenerPreguntas(state.activeCategories);
     }
 
+    function getQuestionCategories() {
+        if (typeof QUESTION_BANK.obtenerCategorias !== "function") {
+            return QUESTION_BANK.obtenerIdsCategorias().map(id => ({
+                id,
+                nombre: id,
+                descripcion: "",
+                total: 0
+            }));
+        }
+
+        return QUESTION_BANK.obtenerCategorias();
+    }
+
+    function getAllCategoryIds() {
+        return getQuestionCategories().map(category => category.id);
+    }
+
+    function getSavedActiveCategories() {
+        const availableIds = getAllCategoryIds();
+        if (availableIds.length === 0) return [];
+
+        try {
+            const savedIds = JSON.parse(STORAGE.get(CONFIG.storageKeys.activeCategories, "[]"));
+            if (!Array.isArray(savedIds)) return availableIds;
+
+            const validIds = savedIds.filter(id => availableIds.includes(id));
+            return validIds.length > 0 ? validIds : availableIds;
+        } catch {
+            return availableIds;
+        }
+    }
+
+    function saveActiveCategories() {
+        STORAGE.set(CONFIG.storageKeys.activeCategories, JSON.stringify(state.activeCategories));
+    }
+
+    function renderCategoryOptions() {
+        const categories = getQuestionCategories();
+        const fragment = document.createDocumentFragment();
+
+        categories.forEach(category => {
+            const button = document.createElement("button");
+            const name = document.createElement("span");
+            const count = document.createElement("span");
+
+            button.className = "category-option";
+            button.type = "button";
+            button.dataset.categoryId = category.id;
+            button.setAttribute("aria-pressed", String(state.activeCategories.includes(category.id)));
+            button.setAttribute("title", category.descripcion || category.nombre);
+
+            name.className = "category-option-name";
+            name.textContent = category.nombre;
+
+            count.className = "category-option-count";
+            count.textContent = String(category.total);
+
+            button.append(name, count);
+            fragment.appendChild(button);
+        });
+
+        DOM.settings.categoryOptions.replaceChildren(fragment);
+    }
+
+    function updateCategoryOptions() {
+        DOM.settings.categoryOptions.querySelectorAll(".category-option").forEach(button => {
+            button.setAttribute("aria-pressed", String(state.activeCategories.includes(button.dataset.categoryId)));
+        });
+    }
+
+    function toggleCategory(categoryId) {
+        const availableIds = getAllCategoryIds();
+        if (!availableIds.includes(categoryId)) return;
+
+        const nextCategories = state.activeCategories.includes(categoryId)
+            ? state.activeCategories.filter(id => id !== categoryId)
+            : [...state.activeCategories, categoryId];
+
+        if (nextCategories.length === 0) {
+            AudioEngine.play("wrong");
+            return;
+        }
+
+        state.activeCategories = nextCategories;
+        saveActiveCategories();
+        updateCategoryOptions();
+        AudioEngine.play("tap");
+    }
+
     function rotateHomeTagline() {
         const availableTaglines = HOME_TAGLINES.filter(tagline => tagline !== currentHomeTagline);
         const taglinePool = availableTaglines.length > 0 ? availableTaglines : HOME_TAGLINES;
@@ -496,7 +592,7 @@
     }
 
     function bindPressFeedback() {
-        const pressableSelector = ".btn, .btn-icon, .option-btn, .font-size-step, .theme-option, .player-color-trigger, .player-color-choice, .player-emoji-choice, .player-reset-btn, .home-footer";
+        const pressableSelector = ".btn, .btn-icon, .option-btn, .font-size-step, .theme-option, .category-option, .player-color-trigger, .player-color-choice, .player-emoji-choice, .player-reset-btn, .home-footer";
         let activePressTarget = null;
 
         function clearPressedState() {
@@ -1471,6 +1567,12 @@
         DOM.buttons.testSound?.addEventListener("click", testSoundPack);
         DOM.buttons.fontDecrease.addEventListener("click", () => adjustFontScale(-1));
         DOM.buttons.fontIncrease.addEventListener("click", () => adjustFontScale(1));
+        DOM.settings.categoryOptions.addEventListener("click", event => {
+            const categoryButton = event.target.closest(".category-option");
+            if (!categoryButton) return;
+
+            toggleCategory(categoryButton.dataset.categoryId);
+        });
         DOM.multiplayer.themeOptions.addEventListener("click", event => {
             const themeButton = event.target.closest(".theme-option");
             if (!themeButton) return;
@@ -1523,6 +1625,7 @@
             DOM.multiplayer.playerCount.value = String(Math.min(state.players.length, PLAYER_COLOR_PALETTE.length));
         }
         renderPlayerForm();
+        renderCategoryOptions();
         renderThemeOptions();
         applySavedTheme();
         rotateHomeTagline();
